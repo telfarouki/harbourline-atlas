@@ -7,11 +7,11 @@ Built for business-development work at a global port operator. Wave 1 (Sept 2026
 ## Layout
 
 ```
-data/       one JSON file per country (ISO2 lowercase), see docs/SCHEMA.md
-src/        template.html — the application (HTML/CSS/JS, no dependencies)
-docs/       SCHEMA.md — data schema and research rules
-build.py    merges data/*.json into src/template.html → index.html
-index.html  the built, self-contained application
+<iso2>.json     one JSON file per country (ma.json, eg.json, …), see SCHEMA.md
+template.html   the application (HTML/CSS/JS, no dependencies)
+SCHEMA.md       data schema and research rules
+build.py        merges the country JSON files into template.html → index.html
+index.html      the built, self-contained application (this is what gets hosted)
 ```
 
 ## Build
@@ -28,9 +28,9 @@ Any static host works (GitHub Pages, Cloudflare Pages, Netlify): publish `index.
 
 ## Adding countries
 
-1. Research the country following `docs/SCHEMA.md`; save as `data/<iso2>.json`.
-2. Run `build.py`; commit `data/`, and `index.html`.
-3. Remove the country from the "coming in later waves" list in `src/template.html` (`SOON` constant) if present.
+1. Research the country following `SCHEMA.md`; save as `<iso2>.json` at the repository root.
+2. Run `build.py`; commit the new JSON and the rebuilt `index.html`.
+3. Remove the country from the "coming in later waves" list in `template.html` (`SOON` constant) if present.
 
 ## Data provenance
 
