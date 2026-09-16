@@ -1,0 +1,570 @@
+{
+  "country": {
+    "code": "MA",
+    "name": "Morocco",
+    "region": "North Africa",
+    "capital": "Rabat",
+    "coastline": "Atlantic and Mediterranean",
+    "summary": "Morocco is Africa's leading container gateway: Tanger Med handled 11.1m TEU and 161m tonnes in 2025 (up 8.4% and 13.3%), anchoring a 3,000 ha industrial platform of 1,500+ companies. The national system is run by two authorities (ANP for the commercial ports incl. Casablanca, Jorf Lasfar, Agadir, Safi, Mohammedia; Tanger Med Port Authority for Tanger Med) with Marsa Maroc (listed, 67m tonnes and 3m+ TEU in 2025) as the dominant domestic terminal operator alongside APM Terminals, Eurogate/Contship, Hapag-Lloyd, MSC/TIL and CMA CGM. Headline projects are Nador West Med (first commercial calls Q4 2026; ~5m TEU and 35m t at full build), Dakhla Atlantique (MAD 12-15bn, ~62-65% built mid-2026, opening 2028-29) and Marsa Maroc's MAD 21bn 2025-2030 expansion plan, backed by a MAD 96bn rail programme (Kenitra-Marrakech LGV, Nador West Med link). DP World has no terminal concession in Morocco; the competitive landscape is APM Terminals, Eurogate, MSC/TIL, CMA CGM and Marsa Maroc.",
+    "key_operators": ["Marsa Maroc", "Tanger Med Port Authority (TMPA)", "Agence Nationale des Ports (ANP)", "APM Terminals", "Eurogate / Contship", "Hapag-Lloyd (Tanger Alliance)", "MSC / Terminal Investment Ltd", "CMA CGM / CMA Terminals", "OCP Group", "ONCF"],
+    "sources": [
+      "https://www.tangermed.ma/wp-content/uploads/press-releases/2026/CP-TMPA-PORT-ACTIVITY-REPORT-IN-2025.pdf",
+      "https://www.maroc.ma/en/news/tanger-med-port-exceeds-11-mln-containers-2025-84-2024",
+      "https://www.moroccoworldnews.com/2026/03/283731/marsa-maroc-to-invest-2-1-billion-in-port-expansion-through-2030/",
+      "https://www.moroccoworldnews.com/2025/12/271218/morocco-to-open-major-deepwater-ports-nador-west-med-in-2026-dakhla-atlantique-in-2028/",
+      "https://www.moroccoworldnews.com/2026/04/286542/oncf-posts-record-mad-5-billion-revenue-as-passengers-hit-55-6-million/"
+    ]
+  },
+  "ports": [
+    {
+      "id": "ma-tanger-med",
+      "name": "Tanger Med",
+      "type": "container",
+      "location": {"city": "Tangier (Ksar Sghir)", "lat": 35.875, "lng": -5.521},
+      "operator": "Tanger Med Port Authority (TMPA, Tanger Med Group); container terminals: TC1 APM Terminals Tangier, TC2 Eurogate Tanger, TC3 Tanger Alliance (Marsa Maroc with Hapag-Lloyd, Eurogate/Contship), TC4 APM Terminals MedPort Tangier; Marsa Maroc general-cargo terminal",
+      "concession": "Four container terminals under long-term concessions from TMPA: TC1 APM Terminals (since 2007), TC2 Eurogate (since 2008), TC4 APM Terminals MedPort Tangier (since 2019), TC3 Tanger Alliance (since 2021); terms n/a",
+      "capacity": "9m TEU/year across 4 container terminals (TC1 1.5m/800 m, TC2 1.5m/800 m, TC3 1.5m/800 m, TC4 5m/2,000 m); hydrocarbon terminal 500,000 t storage; passenger/ro-ro port with 8 berths; 2 car terminals (20 ha)",
+      "throughput": "11,106,164 TEU (2025, +8.4%); 161m tonnes; 535,203 TIR trucks; 526,862 vehicles; 3.22m passengers; 8.64m t hydrocarbons; 16,686 ship calls (2025)",
+      "status": "operational",
+      "opened": "2007",
+      "projects": "TC4 latest extension commissioned 2025; APM Terminals announced a 2m TEU expansion of MedPort Tangier (Dec 2024) taking the terminal well beyond nominal capacity; port already operating above 9m TEU nominal capacity",
+      "notes": "Africa's and the Mediterranean's largest container port; transhipment-dominated with strong gateway traffic from the Tangier automotive cluster (Renault, Stellantis supply chain). Rail freight link to the ONCF network and A4/A1 motorways to Casablanca. Competitor concessions: APM Terminals (Maersk), Eurogate/Contship, Hapag-Lloyd, Marsa Maroc. No DP World presence.",
+      "sources": [
+        "https://www.tangermedport.com/en/activities/containers/",
+        "https://www.maroc.ma/en/news/tanger-med-port-exceeds-11-mln-containers-2025-84-2024",
+        "https://www.worldcargonews.com/ports-terminals/2026/02/tanger-med-surpasses-11m-teu-in-2025/",
+        "https://www.apmterminals.com/en/news/news-releases/2024/241216-tangier-two-million-teu-expansion",
+        "https://en.wikipedia.org/wiki/Tanger_Med"
+      ]
+    },
+    {
+      "id": "ma-casablanca",
+      "name": "Port of Casablanca",
+      "type": "multipurpose",
+      "location": {"city": "Casablanca", "lat": 33.606, "lng": -7.612},
+      "operator": "ANP (port authority); Marsa Maroc operates the East container terminal, ro-ro, multipurpose and minerals terminals, plus the TC3PC container terminal via subsidiary; Somaport (CMA CGM) operates a second container terminal",
+      "concession": "Marsa Maroc terminals under ANP concessions (Marsa Maroc created 2006 from ODEP); TC3PC concession to Marsa Maroc subsidiary; Somaport concession to CMA CGM group; terms n/a",
+      "capacity": "Marsa Maroc: 700,000 TEU domestic capacity, 1.3m TEU incl. TC3PC; container quay 600 m, draft 12 m, ~60 ha yard; general cargo 1,545 m of quay (12 berths); ro-ro 5,000-vehicle multi-storey park; multipurpose terminal deepened to -12 m (2026)",
+      "throughput": "c. 21.3m tonnes/year, ~38% of national (non-Tanger Med) traffic; Marsa Maroc terminals ~10m t/year and ~800,000 TEU incl. TC3PC (2019, latest published breakdown); Marsa Maroc group 3m+ TEU (2025)",
+      "status": "operational",
+      "opened": "1906",
+      "projects": "Marsa Maroc MAD 475m deepening/upgrade of the multipurpose terminal (230 m of -12 m quay commissioned April 2026, 530 m by 2028, >8m t/year capacity, vessels up to 60,000 dwt); container capacity expansion toward 2m TEU (~US$320m) within Marsa Maroc's MAD 21bn 2025-2030 plan; ANP/government ~US$300m Casablanca port expansion (2026); cruise terminal (450,000 pax) opened 2022",
+      "notes": "Main import/export gateway for the Casablanca-Settat industrial hinterland; land-constrained urban port. Competitor concessions: Marsa Maroc, CMA CGM (Somaport). Rail-connected (ONCF) and on the A1/A3/A7 motorway hub.",
+      "sources": [
+        "https://www.marsamaroc.co.ma/en/ports-and-terminals/casablanca-port",
+        "https://www.moroccoworldnews.com/2026/04/285523/marsa-maroc-expands-casablanca-port-capacity-to-handle-60000-ton-vessels/",
+        "https://northafricapost.com/98643-morocco-to-invest-300-mln-for-expansion-of-casablanca-port.html",
+        "https://en.wikipedia.org/wiki/Port_of_Casablanca"
+      ]
+    },
+    {
+      "id": "ma-nador-west-med",
+      "name": "Nador West Med",
+      "type": "container",
+      "location": {"city": "Nador (Betoya Bay)", "lat": 35.23, "lng": -3.25},
+      "operator": "Nador West Med SA (state port company); East terminal (WMCT) JV Marsa Maroc 50%+1 / Terminal Investment Ltd (MSC) 50%-1; West terminal JV Marsa Maroc 51% / CMA Terminals 49%",
+      "concession": "East container terminal: Marsa Maroc–TIL/MSC JV finalised Jan 2026; West container terminal: Marsa Maroc–CMA CGM agreement (2025), progressively operational from 2027; terms n/a",
+      "capacity": "East terminal 3.4m TEU, 1,520 m quay, 18 m draft, ~70 ha yard; West terminal 1.8m TEU, 900 m quay, 18 m draft, 60 ha, 8 STS cranes; full complex ~5m TEU and 35m t bulk; 5.4 km breakwaters, 4 km of quay; hydrocarbons and Morocco's first LNG (FSU) terminal planned",
+      "throughput": "n/a (first commercial calls scheduled Q4 2026)",
+      "status": "under construction",
+      "opened": "2026 (planned, phase 1)",
+      "projects": "Combined public/private investment cited at MAD 51bn (~US$5.1bn) incl. >EUR 300m European financing; 800 ha industrial zone (expandable to 5,000 ha); Selouane–NWM rail link (52 km) and Guercif–Nador motorway (104 km, MAD 5.5bn, 2028) as hinterland links; operational trials completed Sept 2026",
+      "notes": "Second Mediterranean transhipment hub after Tanger Med, aimed at eastern Med/Algeria-adjacent and Oriental-region cargo. Competitor concessions: MSC/TIL and CMA CGM with Marsa Maroc. No DP World role.",
+      "sources": [
+        "https://www.moroccoworldnews.com/2026/09/337870/nador-west-med-east-terminal-ready-for-first-commercial-calls/",
+        "https://www.cmacgm-group.com/en/news-media/marsa-maroc-and-cma-cgm-finalize-agreement-operation-container-terminal-port-nador-west-med",
+        "https://www.moroccoworldnews.com/2025/12/271218/morocco-to-open-major-deepwater-ports-nador-west-med-in-2026-dakhla-atlantique-in-2028/",
+        "https://en.7news.ma/oncf-advances-key-rail-link-to-nador-west-med-port-with-new-tender/"
+      ]
+    },
+    {
+      "id": "ma-jorf-lasfar",
+      "name": "Jorf Lasfar",
+      "type": "bulk",
+      "location": {"city": "El Jadida", "lat": 33.12, "lng": -8.63},
+      "operator": "ANP (authority); OCP Group (phosphate/phosphoric acid and fertiliser terminals); Marsa Maroc (multipurpose/bulk terminal); Taqa Morocco coal import terminal",
+      "concession": "OCP and Marsa Maroc operate under ANP concessions; terms n/a",
+      "capacity": "Morocco's main mineral/industrial bulk port serving the OCP Jorf Lasfar platform (world's largest phosphoric acid complex) and the Jorf Lasfar coal power station",
+      "throughput": "n/a (ANP does not publish a recent figure in sources consulted)",
+      "status": "operational",
+      "opened": "1982",
+      "projects": "'Green Basin' expansion led by ANP: >3,500 linear m of new quays, >1,000 m of breakwater and deepening of 1,000 m of existing quay to serve battery-materials and green-fuel exports (Cobco NMC precursors, Fluoralpha, Falcon Energy graphite, Tinci electrolytes); geotechnical studies under way (2026). OCP's PMP fifth phosphoric acid line inaugurated 2026",
+      "notes": "Strategic for OCP export logistics; hinterland battery gigafactory cluster (Jorf Lasfar/El Jadida) creates new container and project-cargo demand. Competitor concession: Marsa Maroc.",
+      "sources": [
+        "https://medias24.com/2026/07/16/green-basin-a-strategic-project-to-transform-the-port-of-jorf-lasfar-into-a-hub-for-green-batteries-and-fuels-1716615/",
+        "https://casainvest.ma/en/projets/port-de-jorf-lasfar",
+        "https://www.bcinsight.crugroup.com/2026/04/08/pmp-inaugurates-fifth-phosphoric-acid-line-at-jorf-lasfar/"
+      ]
+    },
+    {
+      "id": "ma-agadir",
+      "name": "Port of Agadir",
+      "type": "multipurpose",
+      "location": {"city": "Agadir", "lat": 30.42, "lng": -9.63},
+      "operator": "ANP (authority); Marsa Maroc (2 terminals incl. container/bulk West quay); SMA (Marsa Maroc subsidiary) at North quay terminal",
+      "concession": "Marsa Maroc / SMA under ANP concessions; terms n/a",
+      "capacity": "Container capacity >150,000 TEU/year; West quay 670 m, draft 10.5 m; oil quay draft 8.5 m; reefer plugs for 900 containers",
+      "throughput": "c. 3m tonnes/year (Marsa Maroc terminals, latest published)",
+      "status": "operational",
+      "opened": "1988 (current commercial port)",
+      "projects": "Included in Marsa Maroc's MAD 21bn 2025-2030 investment programme; details n/a",
+      "notes": "Cold-chain gateway for Souss-Massa citrus, vegetables and fish exports; hinterland zones Haliopolis/Agropole. Competitor concession: Marsa Maroc.",
+      "sources": [
+        "https://www.marsamaroc.co.ma/en/ports-and-terminals/agadir-port",
+        "https://www.marsamaroc.co.ma/en/ports-and-terminals/sma",
+        "https://www.moroccoworldnews.com/2026/03/283731/marsa-maroc-to-invest-2-1-billion-in-port-expansion-through-2030/"
+      ]
+    },
+    {
+      "id": "ma-mohammedia",
+      "name": "Port of Mohammedia",
+      "type": "oil & gas",
+      "location": {"city": "Mohammedia", "lat": 33.71, "lng": -7.39},
+      "operator": "ANP (authority); Marsa Maroc (oil terminal stations A/B and inner-port terminal)",
+      "concession": "Marsa Maroc under ANP concession; terms n/a",
+      "capacity": "Oil terminal capacity >20m t/year, 580 m quay, draft 17 m; inner port 330 m quay, draft 6-6.7 m; 47,000 m2 yards",
+      "throughput": "c. 5m tonnes/year (crude, refined products, LPG, chemicals)",
+      "status": "operational",
+      "opened": "1913",
+      "projects": "ANP has studied siting Morocco's first LNG import terminal at Mohammedia (not confirmed; Nador West Med FSU now favoured)",
+      "notes": "Morocco's main hydrocarbon import port, historically linked to the idle SAMIR refinery (in liquidation since 2015-16). Competitor concession: Marsa Maroc.",
+      "sources": [
+        "https://www.marsamaroc.co.ma/en/ports-and-terminals/mohammedia-port",
+        "https://www.africa-energy.com/news-centre/article/ports-agency-plan-mohammedia-host-moroccos-first-lng-terminal",
+        "https://en.hespress.com/85486-samir-the-rise-and-fall-of-moroccos-energy-independence-dream.html"
+      ]
+    },
+    {
+      "id": "ma-safi-new-port",
+      "name": "New Port of Safi (Safi Atlantique)",
+      "type": "bulk",
+      "location": {"city": "Safi", "lat": 32.20, "lng": -9.26},
+      "operator": "ANP (authority); OCP Group (phosphate export terminal, ZPMC-equipped); Safi Energy coal power plant import terminal",
+      "concession": "OCP phosphate terminal (ZPMC equipment contract MAD 2bn); terms n/a",
+      "capacity": "Deep-water bulk port built south of Safi for coal (Safi thermal plant) and OCP phosphate/fertiliser exports from the Safi industrial platform",
+      "throughput": "n/a; first phosphate cargo handled by OCP at the new port (2024-25)",
+      "status": "operational",
+      "opened": "2018 (coal); phosphate terminal 2024-25",
+      "projects": "ANP study on optimising roles of old and new Safi ports (2025); OCP Safi industrial platform expansion",
+      "notes": "Complements Jorf Lasfar as OCP's second Atlantic export outlet. Old Safi port remains for fishing/general cargo (Marsa Maroc).",
+      "sources": [
+        "https://www.ocpgroup.ma/en/arrival-first-load-phosphate-new-port-safi",
+        "https://www.equipement.gov.ma/ports/Grands-Projets/Pages/Nouveau-port-Safi.aspx",
+        "https://ledesk.ma/encontinu/ocp-et-lentreprise-chinoise-zpmc-signent-un-contrat-de-2-mmdh-pour-le-port-de-safi/",
+        "https://www.communesmaroc.com/en/ville/safi/articles/view/2025/01/safi-l-anp-planche-sur-l-optimisation-du-role-des-ports-de-safi"
+      ]
+    },
+    {
+      "id": "ma-dakhla-atlantique",
+      "name": "Dakhla Atlantique",
+      "type": "multipurpose",
+      "location": {"city": "Dakhla (Ntireft)", "lat": 24.13, "lng": -15.65},
+      "operator": "Ministry of Equipment and Water / ANP (developer); terminal operators not yet awarded (Marsa Maroc has signalled interest)",
+      "concession": "n/a (terminal concessions not yet tendered as of 2026)",
+      "capacity": "Deepest Moroccan port at -23 m; ~2.2m t/year initially (long-run figure of 35m t cited); 950,000 t/year seafood; 1,650 ha industrial-logistics zone; 1,600 ha industrial and 5,200 ha desalinated-irrigation farmland planned",
+      "throughput": "n/a (under construction)",
+      "status": "under construction",
+      "opened": "2028-2029 (planned)",
+      "projects": "MAD 12-15bn (US$1.3-1.6bn) build; 60% complete Jan 2026, ~62-65% mid-2026; linked El Argoub logistics zone (AMDL studies tendered Sept 2026) and Guerguerat trade zone; green hydrogen, shipbuilding and fish-processing components; part of the Royal Atlantic Initiative to give Sahel states Atlantic access",
+      "notes": "Positioned to compete with Abidjan, Lomé, Lekki and Ndayane for Sahel cargo via the Guerguerat–Nouadhibou road corridor. Located in Western Sahara: political-risk and legal context to be assessed.",
+      "sources": [
+        "https://barlamantoday.com/2026/06/10/moroccos-dakhla-atlantic-port-nears-two-thirds-completion/",
+        "https://www.moroccoworldnews.com/2025/12/271218/morocco-to-open-major-deepwater-ports-nador-west-med-in-2026-dakhla-atlantique-in-2028/",
+        "https://www.ecofinagency.com/news-infrastructures/0209-58551-moroccos-dakhla-strengthens-logistics-push-amid-regional-hub-competition",
+        "https://northafricapost.com/98100-moroccos-dakhla-atlantique-port-reaches-62-completion.html"
+      ]
+    },
+    {
+      "id": "ma-kenitra-atlantique",
+      "name": "Kenitra Atlantique (new port)",
+      "type": "multipurpose",
+      "location": {"city": "Kenitra", "lat": 34.35, "lng": -6.65},
+      "operator": "Ministry of Equipment and Water / ANP (planned)",
+      "concession": "n/a",
+      "capacity": "n/a (planned deep-water port to serve the Kenitra–Rabat industrial corridor and relieve Casablanca)",
+      "throughput": "n/a",
+      "status": "planned",
+      "opened": "n/a",
+      "projects": "Studied with JICA support (environmental category B); listed in the national port strategy 2030; no construction start confirmed as of 2026",
+      "notes": "Would serve Atlantic Free Zone (Stellantis cluster) exports currently routed via Tanger Med and Casablanca. Existing Kenitra river port is minor.",
+      "sources": [
+        "https://www.jica.go.jp/english/our_work/social_environmental/id/middle_east/morocco/c8h0vm0000bfr765.html",
+        "https://www.equipement.gov.ma/Actualites/Pages/Actualites.aspx?IdNews=1514",
+        "https://www.porttechnology.org/news/pti-insight-moroccos-maritime-master-plan/"
+      ]
+    }
+  ],
+  "zones": [
+    {
+      "id": "ma-tanger-free-zone",
+      "name": "Tanger Free Zone",
+      "type": "free zone",
+      "location": {"city": "Tangier (Gzenaya)", "lat": 35.72, "lng": -5.90},
+      "authority": "Tanger Med Zones (Tanger Med Group)",
+      "area": "720 ha (extensions 2024-2025)",
+      "sectors": ["automotive", "aerospace", "textile", "logistics", "electronics"],
+      "incentives": "Free-zone customs regime (duty/VAT exemption on inputs), reduced corporate tax under Moroccan industrial-acceleration-zone status, one-stop shop",
+      "tenants": "Part of the Tanger Med industrial platform: >1,500 companies, ~145,000 jobs, MAD 188bn (US$18.8bn) business volume (2025)",
+      "status": "operational",
+      "opened": "1999",
+      "projects": "84 new industrial projects approved across Tanger Med Zones in 2025 (MAD 4.9bn, 11,776 jobs); further extensions",
+      "notes": "Adjacent to Tangier Ibn Battouta airport; ~45 km from Tanger Med port.",
+      "sources": [
+        "https://www.tangermed.ma/en/industrial-clusters/",
+        "https://www.moroccoworldnews.com/2026/04/286977/tanger-med-industrial-activity-hits-18-8-billion-in-2025/",
+        "https://en.wikipedia.org/wiki/Tangier_Exportation_Free_Zone"
+      ]
+    },
+    {
+      "id": "ma-tanger-automotive-city",
+      "name": "Tanger Automotive City",
+      "type": "free zone",
+      "location": {"city": "Tangier (Jouamaa)", "lat": 35.62, "lng": -5.75},
+      "authority": "Tanger Med Zones (Tanger Med Group)",
+      "area": "720 ha",
+      "sectors": ["automotive"],
+      "incentives": "Free-zone customs and tax regime (industrial acceleration zone)",
+      "tenants": "Tier 1-3 automotive suppliers to Renault Tanger Med (300 ha plant, 400,000 vehicles/year capacity) and Stellantis Kenitra",
+      "status": "operational",
+      "opened": "2012",
+      "projects": "Automotive exports from the Tanger Med platform reached MAD 125bn in 2025 (+6.8%)",
+      "notes": "Located between Tanger Med port and Renault plant on the Tanger Med–Tangier motorway.",
+      "sources": [
+        "https://www.tangermed.ma/en/industrial-clusters/",
+        "https://www.moroccoworldnews.com/2026/04/286977/tanger-med-industrial-activity-hits-18-8-billion-in-2025/"
+      ]
+    },
+    {
+      "id": "ma-medhub",
+      "name": "Medhub (Tanger Med logistics free zone)",
+      "type": "port-linked zone",
+      "location": {"city": "Tanger Med", "lat": 35.87, "lng": -5.53},
+      "authority": "Medhub SA (100% Tanger Med Group)",
+      "area": "n/a",
+      "sectors": ["logistics", "distribution", "e-commerce"],
+      "incentives": "Bonded customs zone adjacent to the port; free-zone fiscal regime; value-added logistics (kitting, labelling, QC) for re-export",
+      "tenants": "9 of the world's top-25 3PLs incl. DHL, DB Schenker, Dachser, Nippon Express; industrial distributors",
+      "status": "operational",
+      "opened": "2008",
+      "projects": "Logistics business volume of the Tanger Med platform MAD 50.4bn in 2025 (+9.6%)",
+      "notes": "Direct competitor benchmark for DP World's Jebel Ali Free Zone model in the western Med.",
+      "sources": [
+        "https://www.tangermedport.com/en/logistics/medhub/",
+        "https://www.tangermed.ma/en/medhub-destination-of-choice-for-logistics-operators/"
+      ]
+    },
+    {
+      "id": "ma-atlantic-free-zone-kenitra",
+      "name": "Atlantic Free Zone Kenitra",
+      "type": "free zone",
+      "location": {"city": "Kenitra (Ameur Seflia)", "lat": 34.20, "lng": -6.68},
+      "authority": "MEDZ (CDG Group) with Edonia World",
+      "area": "600 ha total, of which 350 ha free zone; phase 1 2012, phase 2 2018 (60% occupied); 100 ha extension under negotiation",
+      "sectors": ["automotive", "logistics", "industrial"],
+      "incentives": "Free-zone tax and customs measures; on-site 3.5 GWh solar farm; one-stop shop",
+      "tenants": "Stellantis Kenitra plant nearby; Coficab, Dicastal, Fujikura, Hirschmann, Nexteer, Saint-Gobain, Simoldes, AGC, Tuyauto; 36,000 jobs",
+      "status": "operational",
+      "opened": "2012",
+      "projects": "100 ha extension in negotiation (MEDZ)",
+      "notes": "12 km from Kenitra, 48 km from Rabat, 134 km from Casablanca; on A1 motorway and ONCF main line.",
+      "sources": [
+        "https://www.medz.ma/en/atlantic-free-zone",
+        "https://www.medz.ma/ils-parlent-de-nous/atlantic-free-zone-une-nouvelle-extension-de-100-ha-en-negociation"
+      ]
+    },
+    {
+      "id": "ma-midparc",
+      "name": "Midparc (Nouaceur aerospace free zone)",
+      "type": "free zone",
+      "location": {"city": "Nouaceur (Casablanca)", "lat": 33.38, "lng": -7.57},
+      "authority": "MEDZ (CDG Group) / Midparc SA",
+      "area": "n/a",
+      "sectors": ["aerospace", "MRO", "electronics"],
+      "incentives": "Free-zone regime adjacent to Mohammed V airport; export-oriented fiscal incentives",
+      "tenants": "Safran engine complex, Pratt & Whitney (MAD 715m plant), Aciturri, Spirit/Bombardier heritage site; Safran new engine plant announced 2025-26",
+      "status": "operational",
+      "opened": "2013",
+      "projects": "Safran expansion (new engine plant at MEDZ park near Casablanca)",
+      "notes": "Core of Morocco's aerospace cluster; air-cargo oriented rather than port-linked.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Midparc",
+        "https://en.7news.ma/safran-to-expand-in-morocco-with-new-engine-plant-at-medz-industrial-park-near-casablanca/"
+      ]
+    },
+    {
+      "id": "ma-haliopolis-agropole-souss",
+      "name": "Haliopolis / Agropole Souss-Massa (Agadir)",
+      "type": "industrial zone",
+      "location": {"city": "Agadir (Drarga)", "lat": 30.39, "lng": -9.48},
+      "authority": "Parc Haliopolis SA (CDG Développement / MEDZ)",
+      "area": "n/a (Haliopolis + Agropole; third tranche of Agropole launched)",
+      "sectors": ["seafood processing", "agri-food", "logistics"],
+      "incentives": "Industrial-park pricing, CRI one-stop shop annex on site; Zone Franche Souss-Massa free-zone regime within the complex",
+      "tenants": "Seafood and agri-food processors; number n/a",
+      "status": "operational",
+      "opened": "2010",
+      "projects": "Third tranche of Agropole Souss-Massa launched; Al Omrane phase III of the Agadir integrated industrial park; new Lqliaa industrial zone approved",
+      "notes": "Feeds reefer exports through the Port of Agadir.",
+      "sources": [
+        "https://cdgdev.ma/fr/filiales/parc-haliopolis-sa",
+        "https://www.medz.ma/fr/ils-parlent-de-nous/parc-industriel-haliopolis-dagadir-ouverture-dune-nouvelle-annexe-du-cri-et",
+        "https://leseco.ma/maroc/parc-industriel-integre-dagadir-al-omrane-souss-massa-deploie-la-phase-iii.html"
+      ]
+    },
+    {
+      "id": "ma-oujda-technopole",
+      "name": "Oujda Technopole",
+      "type": "industrial zone",
+      "location": {"city": "Oujda", "lat": 34.72, "lng": -1.83},
+      "authority": "MEDZ (CDG Group)",
+      "area": "107 ha incl. 40 ha free zone",
+      "sectors": ["automotive", "industrial", "offshoring", "retail"],
+      "incentives": "Free-zone regime in the 40 ha zone; MED-EST regional industrial plan support",
+      "tenants": "Aptiv (ex-Delphi), Atlas Paints, Auto Hall, Imperial Tobacco, Synergy Cables, Europerfil; ~3,500 jobs",
+      "status": "operational",
+      "opened": "2011",
+      "projects": "n/a",
+      "notes": "Oriental region hub near the closed Algerian border; future hinterland to Nador West Med via the Oujda–Nador road/rail links.",
+      "sources": [
+        "https://www.medz.ma/en/technopole-doujda",
+        "https://www.medz.ma/en/actualites/after-atlantic-free-zone-and-agropolis-automotive-supplier-aptiv-ex-delphi-moving-oujda"
+      ]
+    },
+    {
+      "id": "ma-dakhla-el-argoub-logistics-zone",
+      "name": "Dakhla Atlantique industrial zone / El Argoub logistics zone",
+      "type": "logistics zone",
+      "location": {"city": "Dakhla", "lat": 23.90, "lng": -15.80},
+      "authority": "Ministry of Equipment and Water (port zone); AMDL (El Argoub logistics zone); Guerguerat trade zone",
+      "area": "1,650 ha port industrial-logistics zone; El Argoub zone size n/a",
+      "sectors": ["logistics", "seafood processing", "green hydrogen", "shipbuilding"],
+      "incentives": "n/a (expected to align with southern-provinces investment incentives)",
+      "tenants": "n/a",
+      "status": "planned",
+      "opened": "n/a",
+      "projects": "AMDL launched technical studies for El Argoub zone (tender Sept 2026); integrated port–zone–Guerguerat corridor aimed at Sahel markets",
+      "notes": "Located in Western Sahara; assess legal/political-risk context.",
+      "sources": [
+        "https://www.ecofinagency.com/news-infrastructures/0209-58551-moroccos-dakhla-strengthens-logistics-push-amid-regional-hub-competition",
+        "https://barlamantoday.com/2026/06/10/moroccos-dakhla-atlantic-port-nears-two-thirds-completion/"
+      ]
+    },
+    {
+      "id": "ma-mohammed-vi-tanger-tech",
+      "name": "Mohammed VI Tanger Tech City",
+      "type": "special economic zone",
+      "location": {"city": "Tangier (Ain Dalia)", "lat": 35.68, "lng": -5.97},
+      "authority": "Tanger Med Group / BMCE Bank of Africa / CCCC (China Communications Construction)",
+      "area": "n/a (2,000 ha announced at launch)",
+      "sectors": ["automotive", "electronics", "renewables", "logistics"],
+      "incentives": "Free-zone regime under Tanger Med Zones",
+      "tenants": "11 projects approved in 2025 worth MAD 12.22bn (US$1.22bn), 3,882 jobs",
+      "status": "under construction",
+      "opened": "n/a",
+      "projects": "Chinese-partnered industrial city; first phases marketed 2023-2026",
+      "notes": "Part of the Tanger Med industrial platform statistics.",
+      "sources": [
+        "https://www.moroccoworldnews.com/2026/04/286977/tanger-med-industrial-activity-hits-18-8-billion-in-2025/",
+        "https://www.tangermed.ma/en/industrial-clusters/"
+      ]
+    }
+  ],
+  "corridors": [
+    {
+      "id": "ma-tanger-med-casablanca-rail",
+      "name": "Tanger Med – Kenitra – Casablanca rail freight corridor",
+      "modes": ["rail", "road", "multimodal"],
+      "route": "Tanger Med port → Tangier → Kenitra (Atlantic Free Zone) → Rabat → Casablanca / Jorf Lasfar → Marrakech",
+      "countries": ["MA"],
+      "length": "c. 350 km Tanger Med–Casablanca",
+      "operator": "ONCF (rail); Autoroutes du Maroc (A1/A4 motorways)",
+      "status": "operational",
+      "capacity_or_traffic": "ONCF general freight 9m t (2025, +6%, driven by containers and energy products); phosphate 14.2m t (2025); Renault Tanger Med freight rail shuttle operational",
+      "projects": "MAD 96bn national rail programme launched April 2025; Kenitra–Marrakech LGV (430 km, 350 km/h, opening ~2029) will free conventional-line capacity for freight; 168 new trainsets ordered",
+      "notes": "Backbone of the Moroccan automotive export chain; road (TIR) still dominant with 535,203 trucks via Tanger Med in 2025.",
+      "sources": [
+        "https://www.moroccoworldnews.com/2026/04/286542/oncf-posts-record-mad-5-billion-revenue-as-passengers-hit-55-6-million/",
+        "https://en.wikipedia.org/wiki/Rail_transport_in_Morocco",
+        "https://www.moroccoworldnews.com/2025/09/257795/oncf-begins-upgrades-in-casablanca-region-for-kenitra-marrakech-high-speed-rail/"
+      ]
+    },
+    {
+      "id": "ma-nador-west-med-hinterland",
+      "name": "Nador West Med hinterland corridor (Selouane rail link + Guercif–Nador motorway)",
+      "modes": ["rail", "road", "multimodal"],
+      "route": "Nador West Med port → Selouane → Taourirt (ONCF main line) / Guercif (A2 motorway) → Fès–Casablanca",
+      "countries": ["MA"],
+      "length": "52 km rail link; 104 km motorway",
+      "operator": "ONCF (rail); Autoroutes du Maroc (road)",
+      "status": "under construction",
+      "capacity_or_traffic": "Single-track 160 km/h rail line with marshalling yard at the port; n/a traffic",
+      "projects": "Selouane–NWM rail: three road bridges, two rail bridges, port marshalling yard; delivery slipped from end-2024 to 2027; Guercif–Nador motorway MAD 5.5bn, Driouch–NWM section ~80% built, completion 2028",
+      "notes": "Critical path for NWM's gateway (non-transhipment) volumes into the Oriental and Fès–Meknès regions.",
+      "sources": [
+        "https://en.7news.ma/oncf-advances-key-rail-link-to-nador-west-med-port-with-new-tender/",
+        "https://www.portseurope.com/tender-for-key-rail-link-to-moroccos-future-nador-west-med-port/",
+        "https://en.bladi.net/morocco-highways-expansion-2025-2030-major-projects.html"
+      ]
+    },
+    {
+      "id": "ma-atlantic-sahel-road-corridor",
+      "name": "Atlantic road corridor Tangier – Agadir – Laayoune – Dakhla – Guerguerat (Morocco–Mauritania–Sahel)",
+      "modes": ["road"],
+      "route": "Tanger Med / Casablanca → Agadir (A7) → Tiznit–Dakhla expressway (N1) → Guerguerat → Nouadhibou → Nouakchott → Mali/Senegal",
+      "countries": ["MA", "MR", "SN", "ML"],
+      "length": "c. 2,400 km Tangier–Guerguerat",
+      "operator": "Ministry of Equipment and Water / Autoroutes du Maroc (1,800 km motorway network)",
+      "status": "operational",
+      "capacity_or_traffic": "n/a (main land route for Moroccan fresh-produce exports to Mauritania and West Africa)",
+      "projects": "Royal Atlantic Initiative for Sahel access (2023-); Dakhla Atlantique port (2028-29) and El Argoub logistics zone; new Amgala–Bir Moghrein crossing (2025); Tiznit–Dakhla expressway completed",
+      "notes": "Only open land border to sub-Saharan Africa; passes through Western Sahara (buffer strip at Guerguerat, 2020 incident).",
+      "sources": [
+        "https://www.policycenter.ma/sites/default/files/2025-09/RP_09-25%20(Rida%20Lyammouri%20&%20Fadoua%20Ammari)%20EN.pdf",
+        "https://www.ecofinagency.com/news-infrastructures/0209-58551-moroccos-dakhla-strengthens-logistics-push-amid-regional-hub-competition",
+        "https://en.wikipedia.org/wiki/Guerguerat"
+      ]
+    },
+    {
+      "id": "ma-nigeria-morocco-atlantic-gas-pipeline",
+      "name": "Nigeria–Morocco Atlantic Gas Pipeline (African Atlantic Gas Pipeline)",
+      "modes": ["pipeline"],
+      "route": "Nigeria → Benin → Togo → Ghana → Côte d'Ivoire → Liberia → Sierra Leone → Guinea → Guinea-Bissau → Gambia → Senegal → Mauritania → Morocco (→ Europe via Maghreb-Europe pipeline)",
+      "countries": ["NG", "BJ", "TG", "GH", "CI", "LR", "SL", "GN", "GW", "GM", "SN", "MR", "MA"],
+      "length": "c. 6,900 km",
+      "operator": "NNPC / ONHYM (project sponsors)",
+      "status": "planned",
+      "capacity_or_traffic": "Up to 30 bcm/year (planned)",
+      "projects": "Estimated cost ~US$25bn; preliminary technical studies completed; intergovernmental agreement targeted Q4 2026; Nigeria and Morocco seeking US financing (2026)",
+      "notes": "Would land on the Moroccan Atlantic coast (Dakhla/Nador West Med LNG links discussed); long-dated, FID not taken.",
+      "sources": [
+        "https://en.hespress.com/138025-morocco-nigeria-target-late-2026-deal-for-atlantic-gas-pipeline.html",
+        "https://african.business/2026/05/energy-resources/nigeria-and-morocco-seek-us-funding-for-atlantic-gas-pipeline"
+      ]
+    },
+    {
+      "id": "ma-casablanca-rabat-continental-highway",
+      "name": "Casablanca metropolitan motorway upgrades (Continental Rabat–Casablanca, Tit Mellil–Berrechid)",
+      "modes": ["road"],
+      "route": "Rabat → Casablanca (Continental highway, 60 km) ; Tit Mellil → Berrechid (30 km) linking Casablanca bypass to A7 Marrakech and Béni Mellal routes",
+      "countries": ["MA"],
+      "length": "60 km + 30 km",
+      "operator": "Autoroutes du Maroc (ADM)",
+      "status": "under construction",
+      "capacity_or_traffic": "Relieves the Casablanca–Rabat A1, the country's busiest motorway; n/a AADT",
+      "projects": "Continental highway MAD 6.5bn (under construction, 2030 World Cup horizon); Tit Mellil–Berrechid MAD 2.5bn opened 27 Nov 2025; ADM ~MAD 8bn investment to 2027; Fès–Marrakech motorway (420 km, MAD 28bn) in study",
+      "notes": "Improves truck access to Casablanca port and Jorf Lasfar from the northern corridor.",
+      "sources": [
+        "https://en.bladi.net/morocco-highways-expansion-2025-2030-major-projects.html",
+        "https://fnh.ma/article/alaune/adm-investissements-2027"
+      ]
+    },
+    {
+      "id": "ma-kenitra-marrakech-lgv",
+      "name": "Kenitra – Casablanca – Marrakech high-speed rail line (LGV extension)",
+      "modes": ["rail"],
+      "route": "Kenitra → Rabat → Casablanca (Mohammed V airport) → Marrakech",
+      "countries": ["MA"],
+      "length": "430 km",
+      "operator": "ONCF",
+      "status": "under construction",
+      "capacity_or_traffic": "Passenger line (350 km/h); indirect freight benefit by releasing capacity on the conventional Kenitra–Casablanca–Marrakech line",
+      "projects": "Civil works launched April 2025 (GCF among contractors); opening targeted 2029 within the MAD 96bn rail programme",
+      "notes": "Extends the Tangier–Kenitra Al Boraq line (5.6m passengers in 2025).",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kenitra-Marrakesh_high-speed_rail_line",
+        "https://www.ecofinagency.com/news-infrastructures/0409-48400-morocco-prepares-heavy-construction-for-kenitra-marrakech-fast-rail-link",
+        "https://www.moroccoworldnews.com/2026/04/288601/one-year-after-launch-what-has-oncf-delivered-on-its-high-speed-rail-program/"
+      ]
+    }
+  ],
+  "border_crossings": [
+    {
+      "id": "ma-bab-sebta",
+      "name": "Bab Sebta / Tarajal (Ceuta)",
+      "with_country": "ES",
+      "with_country_name": "Spain (Ceuta)",
+      "type": "road",
+      "location": {"city": "Fnideq", "lat": 35.87, "lng": -5.33},
+      "traffic": "Mainly passengers and cross-border workers; commercial customs opened for the first time in January 2025 with limited, pre-agreed goods flows",
+      "status": "operational",
+      "hours": "n/a",
+      "projects": "Commercial customs office opened 16 Jan 2025 (first truck); Spanish 'smart border' technology being deployed (2025); Fnideq economic activity zone developed by Tanger Med Zones to replace informal trade",
+      "notes": "Historically a hub of informal 'atypical' trade (estimated MAD 4bn/year customs shortfall) shut down by Morocco in 2019-2020; early 2025 crossings hampered by documentation problems.",
+      "sources": [
+        "https://telquel.ma/2025/02/28/reopening-of-commercial-customs-at-sebta-and-melilia-the-end-of-the-tunnel-at-last_1919475",
+        "https://www.atalayar.com/en/articulo/politics/morocco-and-spain-finalise-the-opening-of-customs-in-ceuta-and-melilla/20250103111416209544.html"
+      ]
+    },
+    {
+      "id": "ma-beni-ensar",
+      "name": "Beni Ensar (Melilla)",
+      "with_country": "ES",
+      "with_country_name": "Spain (Melilla)",
+      "type": "road",
+      "location": {"city": "Beni Ensar (Nador)", "lat": 35.27, "lng": -2.94},
+      "traffic": "Passengers; commercial customs closed 2018-2025, reopened 15 Jan 2025 with first ~600 kg consignment",
+      "status": "operational",
+      "hours": "n/a",
+      "projects": "Reopening of commercial customs (Jan 2025) under Spain–Morocco 2022 roadmap; smart-border inspection (2025)",
+      "notes": "Adjacent to Beni Ensar port (Marsa Maroc) and ~30 km from Nador West Med; 2022 Melilla fence incident underlines security sensitivity.",
+      "sources": [
+        "https://www.atalayar.com/en/articulo/politics/first-commercial-shipment-between-melilla-and-beni-ansar-since-2018/20250108161128209652.html",
+        "https://telquel.ma/2025/02/28/reopening-of-commercial-customs-at-sebta-and-melilia-the-end-of-the-tunnel-at-last_1919475",
+        "https://www.moroccoworldnews.com/2025/05/197283/spains-interior-minister-to-inspect-new-smart-border-technology-in-melilla/"
+      ]
+    },
+    {
+      "id": "ma-guerguerat",
+      "name": "Guerguerat (El Guerguerat)",
+      "with_country": "MR",
+      "with_country_name": "Mauritania",
+      "type": "road",
+      "location": {"city": "Guerguerat (Dakhla-Oued Ed-Dahab)", "lat": 21.426, "lng": -16.959},
+      "traffic": "Main and until 2025 sole land trade gateway from Morocco to Mauritania and West Africa (fresh produce, consumer goods); truck counts n/a",
+      "status": "operational",
+      "hours": "n/a",
+      "projects": "Planned El Guerguerat trade and distribution zone linked to Dakhla Atlantique port; desalination plant (2023) and services added",
+      "notes": "Crossing passes a UN-monitored buffer strip; Morocco's Nov 2020 operation reopened the road after a Polisario blockade. Located in Western Sahara.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Guerguerat",
+        "https://www.ecofinagency.com/news-infrastructures/0209-58551-moroccos-dakhla-strengthens-logistics-push-amid-regional-hub-competition",
+        "https://www.policycenter.ma/sites/default/files/2025-09/RP_09-25%20(Rida%20Lyammouri%20&%20Fadoua%20Ammari)%20EN.pdf"
+      ]
+    },
+    {
+      "id": "ma-amgala",
+      "name": "Amgala – Bir Moghrein",
+      "with_country": "MR",
+      "with_country_name": "Mauritania",
+      "type": "road",
+      "location": {"city": "Amgala (Smara)", "lat": 26.45, "lng": -11.66},
+      "traffic": "n/a (new inland crossing intended to divert Sahel-bound traffic from Guerguerat)",
+      "status": "operational",
+      "hours": "n/a",
+      "projects": "93 km Smara–Amgala–Tifariti road (MAD 49.7m, >95% complete Feb 2025); 3,600 m2 roadside station; Mauritania designated Bir Moghrein/Aïn Ben Tili crossings by decree (Feb 2025); inaugurated Sept 2025",
+      "notes": "Second Morocco–Mauritania crossing; lies in Western Sahara near the berm.",
+      "sources": [
+        "https://www.moroccoworldnews.com/2025/02/175158/morocco-opens-new-border-crossing-with-mauritania-at-amgala/",
+        "https://en.expresstv.ma/2025/09/morocco-and-mauritania-inaugurate-the-amgala-crossing-to-enhance-cooperation-and-connectivity-with-the-african-sahel/"
+      ]
+    },
+    {
+      "id": "ma-zouj-beghal",
+      "name": "Zouj Beghal – Akid Lotfi",
+      "with_country": "DZ",
+      "with_country_name": "Algeria",
+      "type": "road",
+      "location": {"city": "Oujda", "lat": 34.71, "lng": -1.78},
+      "traffic": "None; the 1,559 km land border has been closed since 1994",
+      "status": "closed",
+      "hours": "n/a",
+      "projects": "n/a",
+      "notes": "Opened only exceptionally for repatriations of bodies and returned migrants (2024-2026). Morocco–Algeria trade must move by sea or air; reopening would transform Oujda Technopole and Nador West Med hinterlands.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Algeria%E2%80%93Morocco_border",
+        "https://www.moroccoworldnews.com/2026/08/335518/algeria-returns-49-moroccan-migrants-through-oujda-border-crossing/",
+        "https://en.yabiladi.com/articles/details/173265/zouj-beghal-border-opens-return.html"
+      ]
+    }
+  ]
+}

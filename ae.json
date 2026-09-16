@@ -1,0 +1,620 @@
+{
+  "country": {
+    "code": "AE",
+    "name": "United Arab Emirates",
+    "region": "Gulf",
+    "capital": "Abu Dhabi",
+    "coastline": "Arabian Gulf (west coast) and Gulf of Oman (east coast, outside the Strait of Hormuz)",
+    "summary": "The UAE is the Gulf's dominant transhipment and re-export hub, anchored by DP World's Jebel Ali (15.5m TEU in 2024, 19.4m TEU capacity) and AD Ports Group's Khalifa Port (group throughput 7.7m TEU in 2025), with Gulftainer's Khor Fakkan and the Port of Fujairah providing the only deep-sea gateways on the Gulf of Oman side. The 2026 Strait of Hormuz crisis (closure from 28 February 2026) cut Jebel Ali volumes by 90% in Q2 2026 and triggered a structural pivot to the east coast: DP World signed a 50-year concession for two new Fujairah terminals (Al Rugaylat and Dibba, July 2026), Gulftainer launched a US$2bn plan to lift Khor Fakkan to 10m TEU, and Etihad Rail's 900 km freight network became the domestic landbridge from Fujairah/Khalifa Port to the Gulf coast. Free zones (JAFZA, KEZAD, Dubai South, DMCC, RAKEZ, Hamriyah, SAIF) host tens of thousands of trading and manufacturing firms, while road crossings to Saudi Arabia (Al Ghuweifat) and Oman (Hatta, Khatmat Malaha, Mezyad) carry the Gulf's land trade and were heavily congested during the 2026 crisis.",
+    "key_operators": ["DP World", "AD Ports Group", "Gulftainer (Crescent Enterprises)", "Fujairah Ports Authority", "RAK Ports", "COSCO Shipping Ports (CSP Abu Dhabi)", "CMA CGM / CMA Terminals", "Etihad Rail", "ADNOC"],
+    "sources": [
+      "https://www.dpworld.com/en/news/dp-world-to-expand-uae-gateway-network-with-new-fujairah-terminals",
+      "https://www.adportsgroup.com/en/news-and-media/2026/02/12/ad-ports-group-reports-record-2025-revenue",
+      "https://www.worldcargonews.com/business/2026/08/dp-world-h1-profit-throughput-hit-by-hormuz-impact-at-jebel-ali/",
+      "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis",
+      "https://www.worldcargonews.com/news/2026/08/gulftainer-targets-10m-teu-at-khorfakkan/"
+    ]
+  },
+  "ports": [
+    {
+      "id": "ae-jebel-ali",
+      "name": "Jebel Ali Port",
+      "type": "container",
+      "location": {"city": "Dubai (Jebel Ali)", "lat": 25.011, "lng": 55.061},
+      "operator": "DP World (owner-operator; Terminals 1–4)",
+      "concession": "DP World flagship, wholly owned and operated; no third-party concession (DP World is majority-owned by Dubai World / Port & Free Zone World)",
+      "capacity": "19.4m TEU/year across 4 container terminals (T1–T4); 27 berths, c.5,000 m quay, 101 quay cranes; 75,000 CEU vehicle storage after Aug 2025 ro-ro expansion (800 m ro-ro quay)",
+      "throughput": "15.5m TEU (2024, 9th in Lloyd's List Top 100); O&D volumes +9% in 2025; breakbulk 5.67m t (2025); 1.5m vehicles across Dubai terminals (2025). H1 2026: 3.1m TEU (−59.5% YoY), Q2 2026: 374,000 TEU (−90.1% YoY) due to Hormuz closure",
+      "status": "operational",
+      "opened": "1979",
+      "projects": "Jebel Ali expansion is a named priority in DP World's ~US$3bn 2026 capex (Feb 2026); Aug 2025 vehicle-capacity expansion (+13,000 CEU, 2.6m sq ft yard, 800 m ro-ro quay); integration with new Fujairah terminals via DP World inland network (Fujairah terminals due 24–30 months from July 2026, c.2028)",
+      "notes": "DP WORLD FLAGSHIP ASSET. Hormuz closure from 28 Feb 2026 collapsed vessel calls; March 2026 debris from an intercepted Iranian missile/drone caused a berth fire and temporary suspension but no lasting infrastructure damage; port 'remains fully operational'. Splash247 estimated the slump costs DP World ~US$100m/month; DP World H1 2026 profit −39.1% to US$585m. Connected to JAFZA, Al Maktoum Airport (Dubai Logistics Corridor) and an Etihad Rail freight terminal.",
+      "sources": [
+        "https://www.dpworld.com/en/uae/ports-and-terminals/jebel-ali-port",
+        "https://en.portnews.ru/news/392811/",
+        "https://www.dpworld.com/en/news/releases/uae/dp-world-reports-record-244-bn-revenue-and-64bn-ebitda-for-2025",
+        "https://www.dpworld.com/uae/news/releases/dp-world-expands-vehicle-capacity-at-jebel-ali-to-meet-surging-demand/",
+        "https://www.seatrade-maritime.com/ports-logistics/jebel-ali-volumes-plummet-90-1-in-second-quarter",
+        "https://www.worldcargonews.com/business/2026/08/dp-world-h1-profit-throughput-hit-by-hormuz-impact-at-jebel-ali/",
+        "https://splash247.com/jebel-ali-traffic-slump-costing-dp-world-100m-a-month/"
+      ]
+    },
+    {
+      "id": "ae-mina-rashid",
+      "name": "Mina Rashid (Port Rashid)",
+      "type": "multipurpose",
+      "location": {"city": "Dubai", "lat": 25.272, "lng": 55.279},
+      "operator": "DP World (cargo/ro-ro and cruise terminals); P&O Marinas (DP World) for marina",
+      "concession": "DP World owned/operated; n/a",
+      "capacity": "Cargo & ro-ro terminal: 15 berths, 2,757 m quay, 10.5 m draft; coastal terminal: 5 berths, 900 m quay, 5 m draft; Hamdan bin Mohammed Cruise Terminal handles 7 mega-cruise vessels / 27,000 passengers simultaneously",
+      "throughput": "c.1m cruise passengers/year (DP World, current); cargo tonnage n/a",
+      "status": "operational",
+      "opened": "1972",
+      "projects": "n/a",
+      "notes": "DP WORLD ASSET. Dubai's original port; container operations moved to Jebel Ali in 2008 and Mina Rashid is now the Middle East's leading cruise homeport (World Travel Awards, 15 consecutive years) with break-bulk, ro-ro, coastal/dhow and yacht-marina business.",
+      "sources": [
+        "https://www.dpworld.com/en/uae/ports-and-terminals/mina-rashid",
+        "https://www.pnomarinas.com/cruise-terminal/"
+      ]
+    },
+    {
+      "id": "ae-khalifa-port",
+      "name": "Khalifa Port",
+      "type": "container",
+      "location": {"city": "Abu Dhabi (Taweelah)", "lat": 24.807, "lng": 54.641},
+      "operator": "AD Ports Group (landlord); terminals: Abu Dhabi Terminals (ADT), CSP Abu Dhabi (COSCO Shipping Ports), CMA Terminals Khalifa Port (CMA CGM 70% / AD Ports 30%), Khalifa Port Logistics, Abu Dhabi Maritime",
+      "concession": "ADT container terminal 30-year concession to 2042; CSP Abu Dhabi concession with COSCO Shipping Ports (opened 2018); CMA Terminals JV (CMA CGM 70%/AD Ports 30%) opened Dec 2024",
+      "capacity": "Container capacity to reach 10.5m TEU/year after CMA Terminals expansion (2028); CSP Abu Dhabi 2.5m TEU, 1,200 m quay, 18.5 m draft, 3 berths, 11 STS cranes; CMA Terminals 1.8m TEU (to 2.7m TEU)",
+      "throughput": "AD Ports Group total 7.7m TEU (2025, +23%); CMA Terminals Khalifa Port 1.3m TEU in first full year (2025, 74% utilisation); general cargo c.60m t group-wide (2025)",
+      "status": "operational",
+      "opened": "2012",
+      "projects": "CMA Terminals expansion +0.9m TEU to 2.7m TEU, AED 420m (US$115m), completion early 2028 (signed Nov 2025); LNG/LPG terminal hubs >AED 30bn announced 2025; bonded Etihad Rail corridor Khalifa Port–Fujairah (pilot late 2025)",
+      "notes": "COMPETITOR TO JEBEL ALI. Semi-automated terminal with direct Etihad Rail freight terminal and KEZAD hinterland. COSCO and CMA CGM concessions make it the main carrier-backed alternative in the UAE. 2012 Phase 1 masterplan targeted 15m TEU by 2030.",
+      "sources": [
+        "https://www.adportsgroup.com/en/news-and-media/2025/11/18/ad-ports-group-signs-agreement-with-cma-cgm-group-to-expand-terminal-at-khalifa-port",
+        "https://www.adportsgroup.com/en/news-and-media/2026/02/12/ad-ports-group-reports-record-2025-revenue",
+        "https://www.adports.ae/ports-terminals/terminals/csp-abu-dhabi-terminal/",
+        "https://en.wikipedia.org/wiki/Khalifa_Port"
+      ]
+    },
+    {
+      "id": "ae-zayed-port",
+      "name": "Zayed Port (Mina Zayed)",
+      "type": "multipurpose",
+      "location": {"city": "Abu Dhabi", "lat": 24.523, "lng": 54.375},
+      "operator": "AD Ports Group",
+      "concession": "n/a (AD Ports Group owned/operated)",
+      "capacity": "21 berths, 3,450 m quay, 13–14 m depth alongside, 5.3 km2 area; handles up to 10 ocean-going vessels simultaneously; general cargo capacity 7.5m FT (AD Ports)",
+      "throughput": "n/a (part of AD Ports Group c.60m t general cargo, 2025)",
+      "status": "operational",
+      "opened": "1968",
+      "projects": "Abu Dhabi Cruise Terminal development; port area being progressively redeveloped as container handling moved to Khalifa Port",
+      "notes": "Abu Dhabi's main gateway for bulk, break-bulk and general cargo, plus cruise hub; 5 minutes from E11 highway in downtown Abu Dhabi.",
+      "sources": [
+        "https://www.adports.ae/ports-terminals/commercial-ports/zayed-port/",
+        "https://www.adports.ae/ports-terminals/cruise-terminals/abu-dhabi-cruise-terminal/"
+      ]
+    },
+    {
+      "id": "ae-khor-fakkan",
+      "name": "Khor Fakkan (Khorfakkan Container Terminal)",
+      "type": "container",
+      "location": {"city": "Khor Fakkan (Sharjah, east coast)", "lat": 25.353, "lng": 56.357},
+      "operator": "Gulftainer (Crescent Enterprises) under Sharjah Ports Authority",
+      "concession": "Gulftainer has managed the terminal since 1976 for the Government of Sharjah; term n/a",
+      "capacity": "Being raised from 3.5m to 5m TEU/year (mid-2026); 6 deep-sea berths, 18 STS cranes (post- and super-post-Panamax), 450,000 m2 yard",
+      "throughput": "Weekly throughput rose from c.8,000 TEU pre-crisis to c.65,000 TEU (July 2026); truck traffic from c.100 to 7,000/day; annual figure n/a",
+      "status": "operational",
+      "opened": "1979",
+      "projects": "Gulftainer US$2bn expansion (announced July 2026): 5m TEU within 3 months, 7m TEU in 24 months, >10m TEU in 36 months; new berth; Al Dhaid dry port (1.5m TEU) and Sajaa logistics park, 2.3m TEU inland capacity; agreement to connect Khor Fakkan to Etihad Rail",
+      "notes": "COMPETITOR (Gulftainer). Only major container port outside Hormuz before DP World's Fujairah build; shifted from transhipment to UAE gateway role in 2026. Gulftainer CEO claims ability to absorb 80–90% of UAE container demand if Hormuz shuts again; GT Maritime feeder fleet >10,000 boxes/week. Congestion/waiting times doubled Aug 2026 (nautica-shipping).",
+      "sources": [
+        "https://www.worldcargonews.com/news/2026/08/gulftainer-targets-10m-teu-at-khorfakkan/",
+        "https://www.thenationalnews.com/business/energy/2026/07/07/khor-fakkan-port-terminal-capacity-to-be-doubled-amid-hormuz-disruption/",
+        "https://www.agbi.com/logistics/2026/07/gulftainer-accelerates-expansion-of-sharjahs-khor-fakkan-port/",
+        "https://www.businesstoday.in/world/story/how-the-gulf-is-redrawing-its-logistics-network-to-bypass-hormuz-531417-2026-05-14",
+        "https://en.wikipedia.org/wiki/Gulftainer"
+      ]
+    },
+    {
+      "id": "ae-fujairah",
+      "name": "Port of Fujairah",
+      "type": "oil & gas",
+      "location": {"city": "Fujairah", "lat": 25.170, "lng": 56.360},
+      "operator": "Fujairah Ports Authority (Government of Fujairah); Fujairah Oil Tanker Terminals (FOTT) for liquid bulk; Vopak Horizon, ADNOC and others in FOIZ",
+      "concession": "Government port; FOTT operates oil berths; DP World 50-year concession (July 2026) for new Al Rugaylat and Dibba terminals",
+      "capacity": "FOTT: 9 main or 14 wing berths (up to 200,000 dwt) plus VLCC jetty (330,000 dwt, since 2016); c.18m m3 crude/product storage in FOIZ; Habshan–Fujairah pipeline delivers 1.5m bpd",
+      "throughput": "7.4m m3 marine fuel bunkers (2025, 4th globally); >1.7m bpd crude and products exported (2025/26); container volumes n/a",
+      "status": "operational",
+      "opened": "1982",
+      "projects": "DP World Al Rugaylat container/multipurpose terminal (2.5m TEU, 1.7m t general cargo, 190,000 CEU) and Dibba general-cargo terminal (3.6m t), 50-year concession, 24–30 months build from July 2026; ADNOC underground crude storage cavern (three crude grades); Etihad Rail freight terminal and bonded rail corridor to Khalifa Port",
+      "notes": "DP WORLD ENTRY (July 2026). World's top-4 bunkering hub and the UAE's Hormuz-bypass crude outlet; drone strikes on 14–15 March 2026 disrupted loadings. New terminals lift DP World UAE capacity from 19.4m to c.22m TEU; Fujairah waiting times doubled in Aug 2026 amid Hormuz stalemate.",
+      "sources": [
+        "https://fujairahport.ae/business-activities/oil/",
+        "https://www.dpworld.com/en/news/dp-world-to-expand-uae-gateway-network-with-new-fujairah-terminals",
+        "https://www.malaymail.com/news/money/2026/03/18/drone-strikes-expose-reliance-on-uaes-fujairah-port-as-a-critical-middle-east-oil-bypass/213052",
+        "https://www.porttechnology.org/dp-world-signs-50-year-deal-for-new-fujairah-terminals/",
+        "https://nautica-shipping.com/post/2026-08-14-hormuz-deal-stalls-fujairah-khor-fakkan-congestion"
+      ]
+    },
+    {
+      "id": "ae-mina-khalid-sharjah",
+      "name": "Port Khalid (Sharjah Container Terminal)",
+      "type": "multipurpose",
+      "location": {"city": "Sharjah", "lat": 25.362, "lng": 55.378},
+      "operator": "Gulftainer (Sharjah Container Terminal) under Sharjah Ports Authority",
+      "concession": "Gulftainer-managed since 1976; term n/a",
+      "capacity": "n/a",
+      "throughput": "n/a",
+      "status": "operational",
+      "opened": "1976",
+      "projects": "Sharjah ports upgrade programme (MEED); Gulftainer US$2bn Sharjah strategy (2026) including Sharjah Dry Port and Sajaa Dry Port",
+      "notes": "COMPETITOR (Gulftainer). Sharjah's city-centre multipurpose/container port on the Gulf side; Gulftainer's original terminal. Limited recent public volume data.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Gulftainer",
+        "https://www.gulftainer.com/",
+        "https://gulfnews.com/business/markets/gulftainer-launches-2-billion-strategy-to-expand-khorfakkan-port-capacity-1.500601207"
+      ]
+    },
+    {
+      "id": "ae-hamriyah-port",
+      "name": "Hamriyah Port",
+      "type": "multipurpose",
+      "location": {"city": "Sharjah (Hamriyah)", "lat": 25.468, "lng": 55.500},
+      "operator": "Hamriyah Free Zone Authority (port); Gulftainer historically operated the container facility",
+      "concession": "n/a",
+      "capacity": "14 m deep outer port and 7 m inner harbour (HFZA); liquid bulk, general cargo, container",
+      "throughput": "n/a",
+      "status": "operational",
+      "opened": "1995",
+      "projects": "n/a",
+      "notes": "Port-linked to the 24 km2 Hamriyah Free Zone; oil & gas services, petrochemical storage and steel/industrial cargo. Not to be confused with DP World's Mina Al Hamriya in Dubai (expanded 2024).",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Hamriyah_Free_Zone",
+        "https://en.wikipedia.org/wiki/Gulftainer"
+      ]
+    },
+    {
+      "id": "ae-saqr-port",
+      "name": "Saqr Port",
+      "type": "bulk",
+      "location": {"city": "Ras Al Khaimah (Khor Khwair)", "lat": 25.985, "lng": 56.045},
+      "operator": "RAK Ports (Government of Ras Al Khaimah); Stevin Rock is the anchor quarry exporter",
+      "concession": "n/a (government port authority)",
+      "capacity": "RAK Ports operates c.60 berths across Saqr Port, RAK Port, Al Jazeera Port and RAK Maritime City (2025); Saqr is the Middle East's largest bulk (aggregates/cement/clinker) port",
+      "throughput": "n/a (tonnage not published in accessed sources)",
+      "status": "operational",
+      "opened": "1977",
+      "projects": "Saqr 2.0 greenfield port and free zone: 72 berths in phase 1, 17–18 m depth, 5m m2 free-zone land (to 14m m2), liquid bulk/project cargo/ship repair/recycling; phase 1 operational by 2027 (RAK Ports, 2025)",
+      "notes": "Main outlet for Stevin Rock/RAK quarries supplying aggregates across the Gulf; Etihad Rail's busiest freight stations include Ras Al Khaimah (aggregate trains). Deep-water Saqr 2.0 would be the region's deepest port.",
+      "sources": [
+        "https://www.themaritimestandard.com/rak-ports-promotes-saqr-2-0-project/",
+        "https://www.heavyliftpfi.com/sectors/rak-ports-to-build-saqr-20/33358.article",
+        "https://www.rakports.ae/marine/",
+        "https://rakports.ae/wp-content/uploads/2025/09/RDUKC.pdf"
+      ]
+    }
+  ],
+  "zones": [
+    {
+      "id": "ae-jafza",
+      "name": "Jebel Ali Free Zone (JAFZA)",
+      "type": "port-linked zone",
+      "location": {"city": "Dubai (Jebel Ali)", "lat": 24.98, "lng": 55.06},
+      "authority": "DP World (Jafza / Ports, Customs and Free Zone Corporation)",
+      "area": "n/a (c.57 km2 widely cited; not confirmed in accessed sources)",
+      "sectors": ["logistics", "electronics", "automotive", "pharmaceuticals", "food", "petrochemicals", "advanced manufacturing"],
+      "incentives": "100% foreign ownership, 0% customs duty within zone, corporate tax relief for qualifying free-zone income, full repatriation of capital and profits",
+      "tenants": ">11,000 companies; US$190bn trade in 12 months to May 2025 (+15%); c.75% of Dubai's FDI in manufacturing, trade and transport",
+      "status": "operational",
+      "opened": "1985",
+      "projects": "Integration with Dubai Logistics Corridor (Jebel Ali–Dubai South–Al Maktoum airport); DP World to link new Fujairah terminals to Jafza via inland network (2026)",
+      "notes": "DP WORLD ASSET; Middle East's first free zone, contiguous with Jebel Ali Port.",
+      "sources": [
+        "https://www.dpworld.com/en/news/jafza-turns-40-with-record-190bn-in-trade",
+        "https://www.jafza.ae/"
+      ]
+    },
+    {
+      "id": "ae-kezad",
+      "name": "Khalifa Economic Zones Abu Dhabi (KEZAD, formerly KIZAD)",
+      "type": "port-linked zone",
+      "location": {"city": "Abu Dhabi (Taweelah)", "lat": 24.75, "lng": 54.63},
+      "authority": "KEZAD Group (AD Ports Group)",
+      "area": ">550 km2 across 12 economic zones, of which 100 km2 free zone",
+      "sectors": ["automotive", "food processing", "life sciences", "logistics", "metals", "polymers", "speciality chemicals"],
+      "incentives": "Choice of free-zone or domestic (onshore) jurisdiction; 100% foreign ownership in free zone; customs-bonded status; long-term land leases; direct Khalifa Port and Etihad Rail access",
+      "tenants": ">2,300 clients (>400 free-zone); 540,000+ m2 warehouses; 164,000+ jobs; hosts EGA aluminium smelter",
+      "status": "operational",
+      "opened": "2010",
+      "projects": "KEZAD Business District announced June 2025; ongoing expansion of warehousing and staff accommodation; Etihad Rail freight terminal at ICAD/Khalifa Port",
+      "notes": "COMPETITOR hinterland (AD Ports Group); claims 55% of UAE industrial area.",
+      "sources": [
+        "https://www.kezadgroup.com/about-us/",
+        "https://www.adportsgroup.com/en/news-and-media/2025/06/11/kezad-group-announces-the-development-of-kezad-business-district"
+      ]
+    },
+    {
+      "id": "ae-dubai-south",
+      "name": "Dubai South (Dubai World Central) – Logistics District",
+      "type": "logistics zone",
+      "location": {"city": "Dubai (Al Maktoum International Airport)", "lat": 24.90, "lng": 55.15},
+      "authority": "Dubai South (Government of Dubai) / Dubai Aviation City Corporation",
+      "area": "c.145 km2 master development (Dubai South); logistics district n/a",
+      "sectors": ["logistics", "air cargo", "e-commerce", "aviation", "light manufacturing"],
+      "incentives": "Free-zone licensing, bonded Dubai Logistics Corridor linking Jebel Ali Port to Al Maktoum airport (sea–air in hours), 100% foreign ownership",
+      "tenants": ">4,200 operating businesses (2025), 653 new companies in 2025 (+65% licences)",
+      "status": "operational",
+      "opened": "2006",
+      "projects": "AED 128bn Al Maktoum International Airport expansion: 260m passengers and 12m t cargo ultimate capacity, five runways, first phase c.150m passengers (announced 2024)",
+      "notes": "Adjacent to DP World's Jebel Ali; core of the Dubai Logistics Corridor.",
+      "sources": [
+        "https://www.zawya.com/en/press-release/research-studies/aed-128bln-al-maktoum-airport-expansion-reshapes-dubais-next-real-estate-growth-zone-405900",
+        "https://en.wikipedia.org/wiki/Dubai_South"
+      ]
+    },
+    {
+      "id": "ae-dmcc",
+      "name": "Dubai Multi Commodities Centre (DMCC)",
+      "type": "free zone",
+      "location": {"city": "Dubai (Jumeirah Lakes Towers)", "lat": 25.07, "lng": 55.14},
+      "authority": "DMCC Authority (Government of Dubai)",
+      "area": "200 ha (JLT)",
+      "sectors": ["commodities trading", "gold and diamonds", "energy", "metals", "agri-commodities", "crypto/fintech"],
+      "incentives": "100% foreign ownership, 0% personal income tax, free-zone corporate-tax regime, commodity exchanges (DGCX, Dubai Diamond Exchange)",
+      "tenants": ">21,000 member companies (2022)",
+      "status": "operational",
+      "opened": "2002",
+      "projects": "n/a",
+      "notes": "Trading (not port-side) zone; world's third-largest diamond trading hub. Relevant for commodity-flow origination rather than physical logistics.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Dubai_Multi_Commodities_Centre"
+      ]
+    },
+    {
+      "id": "ae-dubai-industrial-city",
+      "name": "Dubai Industrial City",
+      "type": "industrial zone",
+      "location": {"city": "Dubai (near Al Maktoum airport)", "lat": 24.92, "lng": 55.24},
+      "authority": "TECOM Group (Dubai Holding)",
+      "area": "52 km2",
+      "sectors": ["food and beverage", "transport equipment", "machinery", "mineral products", "base metals", "chemicals"],
+      "incentives": "Onshore (non-free-zone) industrial land and warehouses with dual licensing options; proximity to Jebel Ali and Al Maktoum airport",
+      "tenants": "n/a (six sector zones; >20 companies in F&B zone per Wikipedia)",
+      "status": "operational",
+      "opened": "2004",
+      "projects": "Hosts one of Etihad Rail's seven freight terminals",
+      "notes": "Etihad Rail freight terminal makes it Dubai's inland rail-served industrial hub.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Dubai_Industrial_City",
+        "https://en.wikipedia.org/wiki/Etihad_Rail"
+      ]
+    },
+    {
+      "id": "ae-hamriyah-free-zone",
+      "name": "Hamriyah Free Zone",
+      "type": "port-linked zone",
+      "location": {"city": "Sharjah (Hamriyah)", "lat": 25.47, "lng": 55.51},
+      "authority": "Hamriyah Free Zone Authority (Government of Sharjah)",
+      "area": "24 km2",
+      "sectors": ["oil and gas services", "petrochemicals", "steel", "maritime", "general trading"],
+      "incentives": "100% foreign ownership, 100% repatriation, no import/export duties within zone, own 14 m deep port",
+      "tenants": "n/a",
+      "status": "operational",
+      "opened": "1995",
+      "projects": "n/a",
+      "notes": "Largest industrial free zone in Sharjah; integral port.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Hamriyah_Free_Zone"
+      ]
+    },
+    {
+      "id": "ae-saif-zone",
+      "name": "Sharjah Airport International Free Zone (SAIF Zone)",
+      "type": "free zone",
+      "location": {"city": "Sharjah (Sharjah International Airport)", "lat": 25.33, "lng": 55.52},
+      "authority": "SAIF Zone Authority (Government of Sharjah)",
+      "area": "n/a",
+      "sectors": ["air cargo", "logistics", "jewellery", "light manufacturing", "trading"],
+      "incentives": "100% foreign ownership, tax exemptions, licence in as little as one hour (SAIF Zone)",
+      "tenants": "n/a",
+      "status": "operational",
+      "opened": "1995",
+      "projects": "n/a",
+      "notes": "Airport-side zone; Sharjah International is the UAE's main dedicated air-cargo hub for regional freighters.",
+      "sources": [
+        "https://www.saif-zone.com/en/"
+      ]
+    },
+    {
+      "id": "ae-rakez",
+      "name": "Ras Al Khaimah Economic Zone (RAKEZ)",
+      "type": "special economic zone",
+      "location": {"city": "Ras Al Khaimah (Al Hamra / Al Ghail)", "lat": 25.70, "lng": 55.80},
+      "authority": "RAKEZ (Government of Ras Al Khaimah)",
+      "area": "n/a",
+      "sectors": ["manufacturing", "building materials", "logistics", "SMEs", "trading"],
+      "incentives": "Free-zone and non-free-zone licences, 100% ownership, low-cost industrial land",
+      "tenants": "c.14,000 companies (2020) across 50 industries",
+      "status": "operational",
+      "opened": "2017",
+      "projects": "Saqr 2.0 port-linked free zone (5m m2 phase 1, to 14m m2) by 2027 (RAK Ports)",
+      "notes": "Formed by merging RAK Free Trade Zone and RAK Investment Authority; Etihad Rail freight terminal at Al Ghayl.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ras_Al_Khaimah_Economic_Zone",
+        "https://www.themaritimestandard.com/rak-ports-promotes-saqr-2-0-project/"
+      ]
+    },
+    {
+      "id": "ae-fujairah-free-zone-foiz",
+      "name": "Fujairah Free Zone and Fujairah Oil Industry Zone (FOIZ)",
+      "type": "port-linked zone",
+      "location": {"city": "Fujairah", "lat": 25.18, "lng": 56.35},
+      "authority": "Fujairah Free Zone Authority (FFZA); FOIZ Authority (Government of Fujairah)",
+      "area": "n/a",
+      "sectors": ["oil storage and trading", "bunkering", "refining", "logistics", "trading"],
+      "incentives": "Tax-free environment, 100% foreign ownership, direct access to Port of Fujairah oil berths and Habshan–Fujairah pipeline",
+      "tenants": "FOIZ hosts multiple independent liquid-bulk terminals (Vopak Horizon, ADNOC, etc.), a refinery and processing units; c.18m m3 storage",
+      "status": "operational",
+      "opened": "1987",
+      "projects": "ADNOC underground crude storage; DP World Al Rugaylat/Dibba terminals adjacent (2026–28)",
+      "notes": "FOIZ is the Middle East's largest commercial refined-product storage hub; Fujairah is the world's 4th-largest bunkering port (2025).",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Fujairah_Free_Zone",
+        "https://fujairahport.ae/business-activities/oil/",
+        "https://www.malaymail.com/news/money/2026/03/18/drone-strikes-expose-reliance-on-uaes-fujairah-port-as-a-critical-middle-east-oil-bypass/213052"
+      ]
+    },
+    {
+      "id": "ae-dafza",
+      "name": "Dubai Airport Free Zone (DAFZA)",
+      "type": "free zone",
+      "location": {"city": "Dubai (Dubai International Airport)", "lat": 25.26, "lng": 55.36},
+      "authority": "Dubai Airport Free Zone Authority (Dubai Integrated Economic Zones Authority)",
+      "area": "696,000 m2; 18 buildings, 256 warehouses",
+      "sectors": ["aviation", "IT and telecoms", "pharmaceuticals", "logistics and freight", "luxury goods", "engineering"],
+      "incentives": "100% foreign ownership, 0% import/export duties, free-zone tax regime, airside access to DXB cargo",
+      "tenants": ">2,000 registered businesses; c.4.7% of Dubai GDP",
+      "status": "operational",
+      "opened": "1996",
+      "projects": "n/a",
+      "notes": "Air-cargo oriented; high-value/time-sensitive goods.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Dubai_Airport_Freezone"
+      ]
+    }
+  ],
+  "corridors": [
+    {
+      "id": "ae-etihad-rail-freight-network",
+      "name": "Etihad Rail national freight network (Al Ghuweifat – Ruwais – Abu Dhabi – Dubai – Sharjah – Fujairah)",
+      "modes": ["rail", "multimodal"],
+      "route": "Al Ghuweifat (Saudi border) → Ruwais/Habshan/Shah → ICAD & Khalifa Port (Abu Dhabi) → Dubai Industrial City & Jebel Ali → Sharjah/Al Ghayl (RAK) → Fujairah Port (and Khor Fakkan link agreed 2026)",
+      "countries": ["AE"],
+      "length": "c.900 km (Stage 1 264 km opened 2016; Stage 2 605 km completed Feb 2023)",
+      "operator": "Etihad Rail (federal, Government of Abu Dhabi / UAE)",
+      "status": "operational",
+      "capacity_or_traffic": "2025: >10m t aggregates, 6.5m t sulphur, 148,000 containers; aggregate line at 100% capacity (up to 60,000 t/day); target 60m t/year by 2030; each train replaces c.300 trucks",
+      "projects": "Aggregate-line capacity expansion (2025); bonded rail corridor Khalifa Port–Fujairah (pilot late 2025); Khor Fakkan connection agreement with Gulftainer (2026); passenger service launched 30 June 2026 (Abu Dhabi–Fujairah); 38 additional locomotives ordered",
+      "notes": "Seven freight terminals (Ruwais, ICAD, Khalifa Port, Dubai Industrial City, Jebel Ali Port, Al Ghayl, Fujairah). Became the domestic Hormuz-bypass landbridge in 2026, including the first vehicle train (Nissan cars Fujairah→Abu Dhabi). Serves both DP World (Jebel Ali) and AD Ports (Khalifa) terminals.",
+      "sources": [
+        "https://gulfnews.com/uae/etihad-rail-progress-report-on-track-for-a-2026-launch-1.500425732",
+        "https://www.thenationalnews.com/news/uae/2025/10/01/uae-expanding-etihad-rails-freight-capacity-as-business-grows/",
+        "https://en.wikipedia.org/wiki/Etihad_Rail",
+        "https://www.businesstoday.in/world/story/how-the-gulf-is-redrawing-its-logistics-network-to-bypass-hormuz-531417-2026-05-14"
+      ]
+    },
+    {
+      "id": "ae-dp-world-fujairah-jebel-ali-landbridge",
+      "name": "DP World east-coast landbridge: Fujairah (Al Rugaylat/Dibba) – Jebel Ali/Jafza",
+      "modes": ["road", "rail", "multimodal"],
+      "route": "Al Rugaylat & Dibba terminals (Gulf of Oman) → E89/E99 east-coast highways and Etihad Rail Fujairah terminal → Sharjah/Dubai → Jebel Ali Port & Jafza",
+      "countries": ["AE"],
+      "length": "c.130–150 km road (Fujairah–Jebel Ali)",
+      "operator": "DP World (inland logistics network) with Etihad Rail",
+      "status": "under construction",
+      "capacity_or_traffic": "Planned: 2.5m TEU, 1.7m t general cargo, 190,000 CEU at Al Rugaylat; 3.6m t at Dibba; lifts DP World UAE capacity from 19.4m to c.22m TEU",
+      "projects": "50-year concession signed 22 July 2026 with Fujairah Ports Authority; construction 24–30 months (commercial availability c.2028); part of DP World's ~US$3bn 2026 capex",
+      "notes": "DP WORLD PROJECT. Strategic response to the 2026 Hormuz closure that cut Jebel Ali volumes 90% in Q2 2026; designed for ULCVs so mainline calls can stay outside Hormuz with cargo trucked/railed to Dubai.",
+      "sources": [
+        "https://www.dpworld.com/en/news/dp-world-to-expand-uae-gateway-network-with-new-fujairah-terminals",
+        "https://maritime-executive.com/article/dubai-and-dp-world-confirm-plans-to-expand-fujairah-port-to-bypass-hormuz",
+        "https://blog.gettransport.com/trends-in-logistic/strait-of-hormuz-bypass-2026-uae-shipper-guide/"
+      ]
+    },
+    {
+      "id": "ae-khor-fakkan-sharjah-inland-corridor",
+      "name": "Khor Fakkan – Al Dhaid – Sajaa – Sharjah/Dubai road & rail corridor (Gulftainer)",
+      "modes": ["road", "rail", "multimodal"],
+      "route": "Khor Fakkan Container Terminal → Sharjah–Khor Fakkan highway (E89 via Al Dhaid) → Al Dhaid dry port → Sajaa dry port → Sharjah/Dubai consumption centres and Jebel Ali",
+      "countries": ["AE"],
+      "length": "c.120 km road (Khor Fakkan–Sharjah)",
+      "operator": "Gulftainer (terminals, dry ports, GT Maritime feeders); Etihad Rail for rail leg",
+      "status": "operational",
+      "capacity_or_traffic": "Truck traffic 7,000/day (2026) vs 100 pre-crisis; 65,000 TEU/week through Khor Fakkan (July 2026); planned 2.3m TEU/year inland capacity (Al Dhaid 1.5m TEU + Sajaa)",
+      "projects": "US$2bn Gulftainer masterplan (July 2026): Al Dhaid dry port phase 1 (500,000 TEU within 45 days, 1.5m TEU in 6 months), new truck marshalling yard, Khor Fakkan–Etihad Rail connection agreement",
+      "notes": "COMPETITOR corridor to DP World's Fujairah landbridge; absorbed the bulk of UAE imports during the Hormuz closure.",
+      "sources": [
+        "https://www.thenationalnews.com/business/energy/2026/07/07/khor-fakkan-port-terminal-capacity-to-be-doubled-amid-hormuz-disruption/",
+        "https://www.agbi.com/logistics/2026/07/gulftainer-accelerates-expansion-of-sharjahs-khor-fakkan-port/",
+        "https://www.businesstoday.in/world/story/how-the-gulf-is-redrawing-its-logistics-network-to-bypass-hormuz-531417-2026-05-14"
+      ]
+    },
+    {
+      "id": "ae-habshan-fujairah-pipeline",
+      "name": "Habshan – Fujairah crude oil pipeline (ADCOP)",
+      "modes": ["pipeline"],
+      "route": "Habshan (Bab field, Al Dhafra, Abu Dhabi) → Hajar mountains → Fujairah oil terminal / FOIZ",
+      "countries": ["AE"],
+      "length": "360 km",
+      "operator": "ADNOC Onshore (owned by IPIC/ADNOC group)",
+      "status": "operational",
+      "capacity_or_traffic": "1.5m bpd design capacity; carried the bulk of UAE crude exports (>1.7m bpd crude and products loaded at Fujairah) during the 2026 Hormuz closure",
+      "projects": "ADNOC underground crude storage caverns at Fujairah (three crude grades) under construction",
+      "notes": "Built 2012 at c.US$4.2bn specifically to bypass Hormuz; Fujairah loadings disrupted by drone strikes 14–15 March 2026.",
+      "sources": [
+        "https://www.gem.wiki/Habshan%E2%80%93Fujairah_Oil_Pipeline",
+        "https://www.malaymail.com/news/money/2026/03/18/drone-strikes-expose-reliance-on-uaes-fujairah-port-as-a-critical-middle-east-oil-bypass/213052",
+        "https://fujairahport.ae/business-activities/oil/"
+      ]
+    },
+    {
+      "id": "ae-hafeet-rail-oman",
+      "name": "Hafeet Rail (Etihad Rail – Oman link, Abu Dhabi/Al Ain – Sohar)",
+      "modes": ["rail"],
+      "route": "Etihad Rail network at Abu Dhabi → Al Ain → Hafeet/Buraimi border → Sohar Port (Oman)",
+      "countries": ["AE", "OM"],
+      "length": "238 km new line (c.300 km including UAE links)",
+      "operator": "Hafeet Rail (JV of Etihad Rail, Oman Rail/Asyad Group and Mubadala)",
+      "status": "under construction",
+      "capacity_or_traffic": "Planned freight trains >15,000 t (c.270 containers) per journey; passenger up to 200 km/h",
+      "projects": "AED 5.5bn (US$1.5bn) civil-works contracts awarded April 2024; construction 50–70% complete (Oct 2025); testing/commissioning from early 2026; first cross-border link of the GCC Railway",
+      "notes": "Would give Abu Dhabi/KEZAD and Dubai a rail outlet to Sohar outside Hormuz, complementing the Fujairah/Khor Fakkan routes; Sohar was named primary gateway of the Dubai–Oman green corridor (Mar 2026).",
+      "sources": [
+        "https://www.gccrailway.com/uae-oman-238-kms-hafeet-rail-project-nears-completion-connecting-sohar-port-and-abu-dhabi-world-news/",
+        "https://en.wikipedia.org/wiki/Etihad_Rail",
+        "https://www.agbi.com/transport/2026/03/etihad-rail-freight-going-the-distance-through-iran-strikes/"
+      ]
+    },
+    {
+      "id": "ae-dubai-oman-green-corridor-hatta",
+      "name": "Dubai – Oman 'Green Corridor' road route (Sohar – Al Wajajah/Hatta – Dubai)",
+      "modes": ["road", "multimodal"],
+      "route": "Sohar Port (also Salalah, Duqm) → Oman Route 7 → Al Wajajah (OM) / Hatta (AE) → E44 Hatta–Dubai road → Jebel Ali, Dubai airports, local market",
+      "countries": ["AE", "OM"],
+      "length": "c.240 km Sohar–Dubai by road",
+      "operator": "Dubai Customs and Oman customs (Dubai Customs Notice 04/2026); commercial truckers",
+      "status": "operational",
+      "capacity_or_traffic": "Transit planning: Oman clearance same day–48 h, road leg several hours, Hatta to final destination same day; Hatta crossing 3,500–4,500 crossings/day (all traffic); Hatta trade 'rises sharply' in 2026 (AGBI, Sep 2026)",
+      "projects": "Green corridor launched 13–14 March 2026 for sealed containers bound for Jebel Ali/Dubai and re-exports via Omani ports; bidirectional",
+      "notes": "Created within weeks of the Hormuz closure; carriers (e.g. ONE) redirected empties to Sohar. Alternative road corridors via Khatmat Malaha (Sohar–Fujairah/Kalba) and Mezyad (Al Ain).",
+      "sources": [
+        "https://theloadstar.com/dubai-and-oman-open-green-corridor-for-smoother-cargo-flows/",
+        "https://blog.gettransport.com/trends-in-logistic/strait-of-hormuz-bypass-2026-uae-shipper-guide/",
+        "https://www.agbi.com/trade/2026/09/uae-and-oman-trade-through-hatta-gateway-rises-sharply/"
+      ]
+    },
+    {
+      "id": "ae-uae-saudi-road-corridor-ghuweifat",
+      "name": "UAE – Saudi Arabia road corridor (Abu Dhabi – Al Ghuweifat/Al Batha – Riyadh/Dammam)",
+      "modes": ["road"],
+      "route": "Jebel Ali/Dubai → E11 Sheikh Zayed Rd → Abu Dhabi → E11 Al Dhafra → Al Ghuweifat (AE) / Al Batha (SA) → Saudi Highway 95/10 → Riyadh, Dammam, Jeddah",
+      "countries": ["AE", "SA"],
+      "length": "c.370 km Dubai–Ghuweifat; c.900 km Dubai–Riyadh",
+      "operator": "Federal/Emirate road authorities; Etihad Rail line to Ghuweifat parallels it (future GCC Railway link to Saudi)",
+      "status": "operational",
+      "capacity_or_traffic": "Bilateral trade >US$20bn/year; truck volumes elevated in 2026 as Hormuz closure pushed cargo to road; delays of hours to more than a week reported June–Aug 2026",
+      "projects": "GCC Railway Saudi–UAE link via Ghuweifat (Etihad Rail track already reaches the border; Saudi side not built)",
+      "notes": "Land route used for Europe–Gulf overland trucking during the crisis (e.g. Spinneys 16-day Kent–Dubai run). Saudi–UAE political tensions in 2026 added unexplained holds at Al Batha.",
+      "sources": [
+        "https://www.semafor.com/article/07/09/2026/saudi-uae-border-trade-slows-amid-tensions",
+        "https://khaleejcargo.com/uae-saudi-border-delays/",
+        "https://www.businesstoday.in/world/story/how-the-gulf-is-redrawing-its-logistics-network-to-bypass-hormuz-531417-2026-05-14"
+      ]
+    }
+  ],
+  "border_crossings": [
+    {
+      "id": "ae-al-ghuweifat",
+      "name": "Al Ghuweifat (UAE) / Al Batha (Saudi Arabia)",
+      "with_country": "SA",
+      "with_country_name": "Saudi Arabia",
+      "type": "road",
+      "location": {"city": "Al Ghuweifat, Al Dhafra (Abu Dhabi)", "lat": 24.11, "lng": 51.62},
+      "traffic": "The UAE's only land crossing with Saudi Arabia and the main truck gateway for Gulf land trade (>US$20bn bilateral trade/year); truck queues historically up to 22 km; volumes elevated summer 2026",
+      "status": "operational",
+      "hours": "24/7",
+      "projects": "Etihad Rail freight line terminates at Ghuweifat awaiting Saudi-side GCC Railway connection; past clearance-acceleration measures at Al Ghuwaifat post",
+      "notes": "June–Aug 2026: waits from hours to more than a week, goods 'held up without explanation' amid Saudi–UAE tensions and Hormuz-driven road surge; Saudi customs deny systematic delays.",
+      "sources": [
+        "https://www.semafor.com/article/07/09/2026/saudi-uae-border-trade-slows-amid-tensions",
+        "https://khaleejcargo.com/uae-saudi-border-delays/",
+        "https://gulfnews.com/uae/transport/al-ghuwaifat-border-post-speeds-up-clearance-for-trucks-1.1479637"
+      ]
+    },
+    {
+      "id": "ae-hatta-al-wajajah",
+      "name": "Hatta (UAE) / Al Wajajah (Oman)",
+      "with_country": "OM",
+      "with_country_name": "Oman",
+      "type": "road",
+      "location": {"city": "Hatta (Dubai)", "lat": 24.807, "lng": 56.205},
+      "traffic": "3,500–4,500 crossings/day (all traffic); primary Dubai–Muscat/Sohar truck route; trade through Hatta 'rises sharply' in 2026",
+      "status": "operational",
+      "hours": "24/7",
+      "projects": "Dubai–Oman green corridor for sealed containers (Dubai Customs Notice 04/2026, March 2026)",
+      "notes": "Typical wait 30–60 min, 3–4 h at peaks; became the key Hormuz-bypass road gateway from Sohar into Dubai in 2026.",
+      "sources": [
+        "https://bordercrossinghub.com/hatta-al-wajajah-hatta-al-wajajah-oman-border-crossing/",
+        "https://theloadstar.com/dubai-and-oman-open-green-corridor-for-smoother-cargo-flows/",
+        "https://www.agbi.com/trade/2026/09/uae-and-oman-trade-through-hatta-gateway-rises-sharply/"
+      ]
+    },
+    {
+      "id": "ae-khatmat-malaha",
+      "name": "Khatmat Malaha (Oman) / Kalba–Wadi Al Helo (UAE)",
+      "with_country": "OM",
+      "with_country_name": "Oman",
+      "type": "road",
+      "location": {"city": "Kalba (Sharjah), east coast", "lat": 24.93, "lng": 56.34},
+      "traffic": "Handles vehicles and commercial trucks; shortest link between Sohar and Fujairah/Khor Fakkan/Kalba; volumes n/a",
+      "status": "operational",
+      "hours": "n/a",
+      "projects": "n/a",
+      "notes": "East-coast alternative to Hatta for Sohar–Fujairah traffic; c.25 km from the Hatta crossing per border guides.",
+      "sources": [
+        "https://bordercrossinghub.com/hatta-al-wajajah-hatta-al-wajajah-oman-border-crossing/"
+      ]
+    },
+    {
+      "id": "ae-mezyad-hafeet",
+      "name": "Mezyad (UAE) / Hafeet (Oman)",
+      "with_country": "OM",
+      "with_country_name": "Oman",
+      "type": "road",
+      "location": {"city": "Al Ain (Abu Dhabi)", "lat": 24.03, "lng": 55.84},
+      "traffic": "Main Abu Dhabi/Al Ain–Buraimi–Ibri–Nizwa/Muscat road crossing; volumes n/a",
+      "status": "operational",
+      "hours": "n/a",
+      "projects": "Hafeet Rail (238 km Abu Dhabi–Al Ain–Sohar) crosses the border near here; construction 50–70% complete Oct 2025, commissioning from 2026",
+      "notes": "Historic Buraimi oasis crossing; passport controls imposed since Nov 2006. Future road+rail gateway once Hafeet Rail opens.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Al_Ain",
+        "https://www.gccrailway.com/uae-oman-238-kms-hafeet-rail-project-nears-completion-connecting-sohar-port-and-abu-dhabi-world-news/"
+      ]
+    },
+    {
+      "id": "ae-al-dara-musandam",
+      "name": "Al Dara (Ras Al Khaimah) / Tibat (Oman, Musandam)",
+      "with_country": "OM",
+      "with_country_name": "Oman (Musandam exclave)",
+      "type": "road",
+      "location": {"city": "Sha'am, Ras Al Khaimah", "lat": 26.05, "lng": 56.08},
+      "traffic": "Only road access to Musandam (Khasab); light commercial and passenger traffic; volumes n/a",
+      "status": "operational",
+      "hours": "n/a",
+      "projects": "n/a",
+      "notes": "Minor freight relevance; Musandam is supplied largely via this crossing and by sea from Khasab. Detail not confirmed in accessed sources beyond general border guides.",
+      "sources": [
+        "https://bordercrossinghub.com/hatta-al-wajajah-hatta-al-wajajah-oman-border-crossing/"
+      ]
+    },
+    {
+      "id": "ae-dibba",
+      "name": "Dibba Al Fujairah / Dibba Al Hisn (UAE) – Dibba Al Baya (Oman, Musandam)",
+      "with_country": "OM",
+      "with_country_name": "Oman (Musandam exclave)",
+      "type": "road",
+      "location": {"city": "Dibba (Fujairah/Sharjah)", "lat": 25.62, "lng": 56.27},
+      "traffic": "Local passenger and light goods traffic to Dibba Al Baya; not a trucking gateway; volumes n/a",
+      "status": "operational",
+      "hours": "n/a",
+      "projects": "DP World Dibba general-cargo terminal (3.6m t/year) under 50-year concession signed July 2026, adjacent to the border town",
+      "notes": "Freight relevance is the new DP World Dibba terminal rather than the crossing itself.",
+      "sources": [
+        "https://www.dpworld.com/en/news/dp-world-to-expand-uae-gateway-network-with-new-fujairah-terminals",
+        "https://bordercrossinghub.com/hatta-al-wajajah-hatta-al-wajajah-oman-border-crossing/"
+      ]
+    }
+  ]
+}

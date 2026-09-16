@@ -1,0 +1,713 @@
+{
+  "country": {
+    "code": "SA",
+    "name": "Saudi Arabia",
+    "region": "Gulf",
+    "capital": "Riyadh",
+    "coastline": "Red Sea (west) and Arabian Gulf (east)",
+    "summary": "Saudi Arabia is the Gulf's largest economy and the only GCC state with deep-water gateways on both the Red Sea and the Arabian Gulf, which made it the region's fallback corridor when Strait of Hormuz traffic was disrupted in 2026. Mawani (Saudi Ports Authority) ports handled 8.32m TEU in 2025 (+10.6%) with a 2030 target of 40m TEU under the National Transport and Logistics Strategy; Jeddah Islamic Port (DP World South Container Terminal and Red Sea Gateway Terminal), King Abdullah Port (privately owned by Ports Development Company) and King Abdulaziz Port Dammam (Saudi Global Ports, PIF/PSA) are the main container gateways. Mawani privatised multipurpose terminals at eight ports in June 2025 (SAR 2.2bn, 20-year concessions to Saudi Global Ports on the Gulf coast and RSGT on the Red Sea), while SAR is delivering the ~SAR 100bn Saudi Landbridge rail (Jeddah-Riyadh-Dammam) targeted for 2034 and the 672 km Saudi section of the GCC Railway. New capacity is coming from CMA CGM/RSGT's Terminal 4 at Jeddah (2.6m TEU, US$434m, signed Aug 2026), Port of NEOM's automated T1 (1.5m TEU, 2026-27), Jubail Commercial Port (2.4m TEU) and Hutchison's JCPDI port in Jazan.",
+    "key_operators": ["DP World (Jeddah South Container Terminal)", "Red Sea Gateway Terminal (RSGT; SISCO/PIF/COSCO Shipping Ports)", "Saudi Global Ports (PIF / PSA International / Al Blagha)", "Ports Development Company (King Abdullah Port)", "Hutchison Ports (JCPDI Jazan)", "CMA CGM (Jeddah Terminal 4 JV)", "APM Terminals (37.5% of Jeddah SCT, reported 2026)", "Saudi Aramco (Ras Tanura, Yanbu, SPARK)", "Saudi Arabia Railways (SAR)", "Mawani (Saudi Ports Authority)"],
+    "sources": [
+      "https://container-news.com/mawani-reports-10-58-growth-in-container-throughput-in-2025/",
+      "https://www.prnewswire.com/news-releases/mawani-signs-privatization-contracts-for-multipurpose-cargo-terminals-at-eight-saudi-ports-with-over-sar-2-2-billion-in-private-sector-investments-302492392.html",
+      "https://www.arabnews.com/node/2638772/amp",
+      "https://guest.meed.com/contract-award-nears-for-saudi-landbridge-riyadh-section/",
+      "https://www.arabnews.com/node/2644172/business-economy"
+    ]
+  },
+  "ports": [
+    {
+      "id": "sa-jeddah-islamic-port",
+      "name": "Jeddah Islamic Port",
+      "type": "container",
+      "location": {"city": "Jeddah", "lat": 21.47, "lng": 39.16},
+      "operator": "Mawani (landlord); terminals: DP World Jeddah (South Container Terminal), Red Sea Gateway Terminal (North Container Terminal + Terminal 4 JV with CMA CGM), RSGT multipurpose terminal (2025 privatisation)",
+      "concession": "DP World: 30-year BOT for South Container Terminal (renewed 2020, modernised 2022-2025); RSGT: existing concession for North terminal, extended to Terminal 4 (definitive JV agreements with CMA CGM signed 25 Aug 2026); RSGT also awarded 20-year multipurpose cargo terminal concession (June 2025)",
+      "capacity": "Port: 130m tonnes/year, 62 berths, 12.5 km2 (Saudipedia). DP World SCT: 4m TEU (target 5m), 2,150 m quay, 18 m draft, 14 STS cranes rising to 17 (end-2025) and 22 at full build. Terminal 4: up to 2.6m TEU, 10 STS cranes (planned)",
+      "throughput": "RSGT alone 3.38m TEU (2025, up from 3.19m in 2024); Jeddah handles the majority of Saudi container traffic (Mawani system total 8.32m TEU in 2025); DP World SCT throughput not disclosed",
+      "status": "operational",
+      "opened": "1976",
+      "projects": "DP World SCT SAR 3bn (US$800m) modernisation inaugurated 7 Mar 2025; adjacent 415,000 m2 Jeddah Logistics Park due Q2 2026; RSGT/CMA CGM Terminal 4, US$434m, term sheet Oct 2025, definitive agreements Aug 2026; new short-sea services Jeddah-Salalah-Djibouti (1,730 TEU) and Red Sea Express to Ain Sokhna/Aqaba (2026)",
+      "notes": "DP WORLD ASSET (South Container Terminal). Arab News reported (Apr 2026) that APM Terminals acquired a 37.5% stake in the South Container Terminal in Feb 2026, integrating it into the Maersk network. Competitors on-site: RSGT (COSCO Shipping Ports/PIF/SISCO shareholders) and CMA CGM via Terminal 4. Western end of the 1,300 km Jeddah-Riyadh-Dammam trucking landbridge used by MSC and others to bypass Hormuz in 2026.",
+      "sources": [
+        "https://www.dpworld.com/en/news/dp-world-and-mawani-inaugurate-800-million-state-of-the-art-terminal-in-jeddah",
+        "https://www.portseurope.com/red-sea-gateway-terminal-posts-higher-teu-throughput-in-2025-cosco/",
+        "https://www.worldcargonews.com/business/2026/08/cma-cgm-rsgt-seal-us434m-jeddah-terminal-deal/",
+        "https://www.cmacgm-group.com/en/news-media/rsgt-cma-cgm-sign-term-sheet-joint-venture-development-operation-terminal-4-jeddah",
+        "https://saudipedia.com/en/saudi-ports-authority",
+        "https://www.arabnews.com/node/2638772/amp",
+        "https://trans.info/en/saudi-arabia-red-sea-478762"
+      ]
+    },
+    {
+      "id": "sa-king-abdullah-port",
+      "name": "King Abdullah Port (KAEC)",
+      "type": "container",
+      "location": {"city": "King Abdullah Economic City (Rabigh)", "lat": 22.51, "lng": 39.09},
+      "operator": "Ports Development Company (PDC) - owner, developer and operator; first privately owned/funded commercial port in Saudi Arabia",
+      "concession": "Private ownership/development by PDC under KAEC master concession (Emaar The Economic City / PIF ecosystem); n/a for third-party terminal concessions",
+      "capacity": "Container: 6.5m TEU current design (Saudipedia; PDC site cites 5.5m current / 25m ultimate); draft 18 m; dry bulk 3m t, agri bulk 4m t, general cargo 2m t, ro-ro 200,000 CEU; 17.4 km2; ultimate plan 20m+ TEU, 1.5m CEU, 15m t bulk",
+      "throughput": "2,929,807 TEU (2023); 2.3m TEU (2018)",
+      "status": "operational",
+      "opened": "2014 (first operations); officially inaugurated 11 Feb 2019",
+      "projects": "Ongoing crane and yard expansion (28 Liebherr cranes delivered to lift capacity toward 5m TEU); planned rail connection via Saudi Landbridge (Jeddah-KAP-Riyadh line and KAP-Yanbu link); KAEC King Salman Automotive Cluster phase 1 (SAR 547m contract, May 2026) will add ro-ro/auto volumes",
+      "notes": "Ranked most efficient port in World Bank CPPI 2022; Lloyd's List rank 70 (2024). Handles MSC's largest vessels (MSC Irina, 23,500+ TEU) and is the second handover port for MSC's 2026 Europe-Red Sea-Saudi landbridge service. Competitor to DP World Jeddah for Red Sea transshipment and Western Region imports; PDC/KAEC has explored an IPO or private placement.",
+      "sources": [
+        "https://www.kingabdullahport.com.sa/",
+        "https://saudipedia.com/en/king-abdullah-port",
+        "https://www.seatrade-maritime.com/containers/king-abdullah-port-to-boost-annual-capacity-to-5m-teu-with-new-cranes",
+        "https://ecza.gov.sa/en/media-center/news-press/economic-cities-and-special-zones-authority-unveils-four-new-special",
+        "https://trans.info/en/msc-saudi-landbridge-472744"
+      ]
+    },
+    {
+      "id": "sa-king-abdulaziz-port-dammam",
+      "name": "King Abdulaziz Port, Dammam",
+      "type": "container",
+      "location": {"city": "Dammam", "lat": 26.44, "lng": 50.11},
+      "operator": "Mawani (landlord); Saudi Global Ports (SGP: PIF, PSA International, Al Blagha Holding) operates the container terminals and, from July 2025, the multipurpose terminal",
+      "concession": "SGP container terminal concession since 2015 (formerly Hutchison-linked International Ports Services); 20-year multipurpose cargo terminal concession awarded to SGP June 2025 (part of SAR 2.2bn eight-port privatisation package)",
+      "capacity": "105m tonnes/year, 42 berths, 19 km2 (Saudipedia); largest container terminal on Saudi Gulf coast",
+      "throughput": "3.2m TEU (2024, record); 15m TEU cumulative since 2015 (Oct 2025); monthly record 215,179 TEU (Jan 2024)",
+      "status": "operational",
+      "opened": "1974",
+      "projects": "US$613m package of five projects at Dammam and Jubail Commercial Port (2025); SGP-operated Dammam Integrated Logistics Zone under development; three rail-linked intermodal terminals (Riyadh/Dammam) operated by SGP; automation/digitisation programme",
+      "notes": "Competitor concession (PSA/PIF). Primary gateway for Riyadh and Eastern Province; rail-linked to Riyadh dry port. Eastern terminus of the 2026 Red Sea-Gulf trucking landbridge (containers trucked from Jeddah and fed to Gulf ports); exposed to Hormuz disruption and Mawani re-routed Eastern Region cargo to Jeddah in 2026.",
+      "sources": [
+        "https://www.globalpsa.com/wp-content/uploads/2025/10/nr251027.pdf",
+        "https://www.arabnews.com/node/2454966/business-economy",
+        "https://www.prnewswire.com/news-releases/mawani-signs-privatization-contracts-for-multipurpose-cargo-terminals-at-eight-saudi-ports-with-over-sar-2-2-billion-in-private-sector-investments-302492392.html",
+        "https://www.transportandlogisticsme.com/smart-sea-freight/saudi-arabia-unveils-us613-million-dammam-port-expansion-plan-to-boost-logistics-capacity",
+        "https://saudipedia.com/en/saudi-ports-authority"
+      ]
+    },
+    {
+      "id": "sa-jubail-commercial-port",
+      "name": "Jubail Commercial Port",
+      "type": "multipurpose",
+      "location": {"city": "Jubail", "lat": 27.03, "lng": 49.66},
+      "operator": "Mawani (landlord); Saudi Global Ports (container terminal and multipurpose terminal)",
+      "concession": "SGP container terminal concession (~US$580m, 2025) plus 20-year multipurpose terminal concession (June 2025)",
+      "capacity": "36m tonnes/year, 16 berths, 4 km2; container terminal expanded from 1.5m to 2.4m TEU, berth 1,000 m to 1,400 m, depth 14 m to 18 m, STS cranes 6 to 10, RTGs 13 to 29, 460,000 m2 (2025-26)",
+      "throughput": "n/a (port-level container figures not published)",
+      "status": "operational",
+      "opened": "1970s (Royal Commission era); container terminal relaunched under SGP 2025-26",
+      "projects": "SGP committed over SAR 2bn private capital across Dammam, Jubail and Ras Al Khair terminals (2025); Mawani 'doubling down' on Jubail expansion despite 2026 Gulf shipping instability",
+      "notes": "Competitor concession (PSA/PIF). Serves Jubail Industrial City (SABIC, Sadara petrochemicals). Jubail-Al Batha 284 km regional road links the port to the UAE border crossing.",
+      "sources": [
+        "https://enterpriseam.com/ksa/2026/04/02/mawani-doubles-down-on-jubail-under-pressure/",
+        "https://www.transportandlogisticsme.com/smart-sea-freight/saudi-arabia-unveils-us613-million-dammam-port-expansion-plan-to-boost-logistics-capacity",
+        "https://saudipedia.com/en/saudi-ports-authority",
+        "https://www.zawya.com/en/projects/industry/mawani-launches-container-terminal-operations-at-jubail-commercial-port-352792"
+      ]
+    },
+    {
+      "id": "sa-king-fahd-industrial-port-jubail",
+      "name": "King Fahd Industrial Port, Jubail",
+      "type": "oil & gas",
+      "location": {"city": "Jubail Industrial City", "lat": 27.05, "lng": 49.58},
+      "operator": "Mawani; multipurpose terminal concession to Saudi Global Ports (June 2025)",
+      "concession": "20-year multipurpose cargo terminal concession to SGP (June 2025)",
+      "capacity": "70m tonnes/year, 34 berths, 6.8 km2 (Saudipedia)",
+      "throughput": "n/a (included in Mawani liquid/solid bulk totals: 176m t liquid bulk and 53.7m t solid bulk nationally in 2025)",
+      "status": "operational",
+      "opened": "1982",
+      "projects": "Part of the 2025 eight-port multipurpose terminal privatisation; Jubail port complex expansion programme (Mawani, 2025-26)",
+      "notes": "Petrochemical, refined product and bulk export port for Jubail Industrial City (SABIC, Sadara, SATORP); Gulf-side and therefore exposed to Hormuz disruption.",
+      "sources": [
+        "https://saudipedia.com/en/saudi-ports-authority",
+        "https://www.prnewswire.com/news-releases/mawani-signs-privatization-contracts-for-multipurpose-cargo-terminals-at-eight-saudi-ports-with-over-sar-2-2-billion-in-private-sector-investments-302492392.html",
+        "https://en.wikipedia.org/wiki/King_Fahd_Industrial_Port_(Jubail)"
+      ]
+    },
+    {
+      "id": "sa-yanbu-commercial-port",
+      "name": "Yanbu Commercial Port",
+      "type": "multipurpose",
+      "location": {"city": "Yanbu", "lat": 24.09, "lng": 38.05},
+      "operator": "Mawani; multipurpose terminal concession to Red Sea Gateway Terminal (June 2025)",
+      "concession": "20-year multipurpose cargo terminal concession to RSGT (June 2025)",
+      "capacity": "13.5m tonnes/year, 12 berths, 4.2 km2 (Saudipedia)",
+      "throughput": "n/a",
+      "status": "operational",
+      "opened": "n/a",
+      "projects": "Mawani-Petrotank bunkering hub agreement at Yanbu; Saudi Landbridge plan includes a King Abdullah Port-Yanbu rail link (2034 horizon)",
+      "notes": "General cargo/ro-ro gateway for Madinah region; RSGT (COSCO/PIF/SISCO) is the concessionaire, a DP World competitor.",
+      "sources": [
+        "https://saudipedia.com/en/saudi-ports-authority",
+        "https://www.prnewswire.com/news-releases/mawani-signs-privatization-contracts-for-multipurpose-cargo-terminals-at-eight-saudi-ports-with-over-sar-2-2-billion-in-private-sector-investments-302492392.html",
+        "https://bunkermarket.com/mawani-and-petrotank-ink-deal-for-bunkering-hub-at-yanbu-port-saudi-arabia/",
+        "https://guest.meed.com/contract-award-nears-for-saudi-landbridge-riyadh-section/"
+      ]
+    },
+    {
+      "id": "sa-king-fahd-industrial-port-yanbu",
+      "name": "King Fahd Industrial Port, Yanbu",
+      "type": "oil & gas",
+      "location": {"city": "Yanbu Al Sinaiyah", "lat": 23.95, "lng": 38.25},
+      "operator": "Mawani; Saudi Aramco operates the crude terminals (Yanbu South/Yanbu Crude Oil Terminal); RSGT holds the multipurpose terminal concession (2025)",
+      "concession": "20-year multipurpose cargo terminal concession to RSGT (June 2025); Aramco terminals under Aramco (Citigroup mandated Nov 2025 to explore a terminal stake sale)",
+      "capacity": "210m tonnes/year, 34 berths - largest port in the Kingdom by capacity (Saudipedia/Mawani); Yanbu crude export capacity ~7m bpd via East-West Pipeline",
+      "throughput": "Crude loadings ramped from 1.1m bpd (Feb 2026) to 5.9m bpd (9 Mar 2026, IEA) after Ras Tanura's precautionary shutdown; container throughput n/a",
+      "status": "operational",
+      "opened": "1980s",
+      "projects": "Red Sea Express container service (1,100 TEU, Mawani/Folk Maritime/SABIC) linking Yanbu with Ain Sokhna and Aqaba launched May 2026",
+      "notes": "Strategic Hormuz bypass: western terminus of the 1,200 km East-West Pipeline. Largest Red Sea crude and petrochemical loading facility. Serves Yanbu Industrial City refineries (Aramco, SAMREF, YASREF).",
+      "sources": [
+        "https://www.arabnews.com/node/2644172/business-economy",
+        "https://oilgasstoragenews.com/saudi-aramco-terminals-ras-tanura-yanbu-2026/",
+        "https://saudipedia.com/en/saudi-ports-authority",
+        "https://en.wikipedia.org/wiki/King_Fahd_Industrial_Port_(Yanbu)"
+      ]
+    },
+    {
+      "id": "sa-ras-al-khair-port",
+      "name": "Ras Al Khair Port",
+      "type": "bulk",
+      "location": {"city": "Ras Al Khair Industrial City", "lat": 27.53, "lng": 49.19},
+      "operator": "Mawani; multipurpose terminal concession to Saudi Global Ports (June 2025)",
+      "concession": "20-year multipurpose cargo terminal concession to SGP (June 2025)",
+      "capacity": "35m tonnes/year, 14 berths totalling 3,711 m, 19.2-23 km2",
+      "throughput": "n/a (phosphate fertiliser and aluminium exports for Ma'aden)",
+      "status": "operational",
+      "opened": "2011",
+      "projects": "SAR 139m Singatac Arabia offshore-structures fabrication centre (100,000 m2, Jan 2026); SAR 375m Chinese-partner plant agreement (Nov 2025); Ras Al Khair SEZ maritime cluster (IMI shipyard)",
+      "notes": "Rail-linked terminus of SAR's 1,392 km North-South minerals line from Al Jalamid/Waad Al Shamal phosphate mines; adjacent to Ras Al Khair SEZ and International Maritime Industries shipyard. Gulf-side.",
+      "sources": [
+        "https://saudipedia.com/en/ras-al-khair-port",
+        "https://www.spa.gov.sa/en/N2495750",
+        "https://enterpriseam.com/logistics/2025/11/03/mawani-inks-sar-375-mn-agreement-with-china-for-plant-at-ras-al-khair-port/",
+        "https://www.prnewswire.com/news-releases/mawani-signs-privatization-contracts-for-multipurpose-cargo-terminals-at-eight-saudi-ports-with-over-sar-2-2-billion-in-private-sector-investments-302492392.html"
+      ]
+    },
+    {
+      "id": "sa-jazan-port",
+      "name": "Jazan Port",
+      "type": "multipurpose",
+      "location": {"city": "Jazan", "lat": 16.89, "lng": 42.55},
+      "operator": "Mawani; multipurpose terminal concession to Red Sea Gateway Terminal (June 2025)",
+      "concession": "20-year multipurpose cargo terminal concession to RSGT (June 2025)",
+      "capacity": "5m tonnes/year, 12 berths, 4.2 km2 (Saudipedia)",
+      "throughput": "n/a",
+      "status": "operational",
+      "opened": "1976",
+      "projects": "Part of 2025 eight-port privatisation; complements the new JCPDI port 30 km north",
+      "notes": "Southern Red Sea gateway near Yemen; general cargo, livestock and food imports for Jazan region.",
+      "sources": [
+        "https://saudipedia.com/en/saudi-ports-authority",
+        "https://www.prnewswire.com/news-releases/mawani-signs-privatization-contracts-for-multipurpose-cargo-terminals-at-eight-saudi-ports-with-over-sar-2-2-billion-in-private-sector-investments-302492392.html"
+      ]
+    },
+    {
+      "id": "sa-jcpdi-port-jazan",
+      "name": "Port of Jazan City for Primary and Downstream Industries (JCPDI Port)",
+      "type": "multipurpose",
+      "location": {"city": "Jazan City for Primary and Downstream Industries (Baish)", "lat": 17.15, "lng": 42.35},
+      "operator": "Hutchison Ports (Investment and Operations Agreement with Royal Commission for Jubail and Yanbu, Feb 2021)",
+      "concession": "Hutchison Ports investment and operations agreement signed Feb 2021; term n/a",
+      "capacity": "1m TEU/year and ~4m tonnes cargo; 1,250 m of berths (3 industrial, 3 commercial), SPM for Aramco Jazan refinery, 16.5 m draft (21,000+ TEU vessels)",
+      "throughput": "n/a",
+      "status": "operational",
+      "opened": "2022 (inaugurated Sept/Oct 2022)",
+      "projects": "JCPDI industrial city build-out (alumina refinery SAR 4bn, Saudi Silk Road Company Chinese industrial park); Jazan SEZ (24.6 km2) incentives apply",
+      "notes": "Competitor concession (Hutchison Ports). Serves the 400,000 bpd Aramco Jazan refinery and Jazan SEZ; pitched as trade hub for East Africa. Close to Yemen border (security context).",
+      "sources": [
+        "https://www.hellenicshippingnews.com/his-royal-highness-prince-mohammed-bin-nasser-inaugurates-the-port-of-jazan-city-for-primary-and-downstream-industries-jcpdi-port/",
+        "https://www.themaritimestandard.com/new-port-opened-in-jazan/",
+        "https://saudipedia.com/en/special-economic-zones-in-saudi-arabia"
+      ]
+    },
+    {
+      "id": "sa-port-of-neom-duba",
+      "name": "Port of NEOM (formerly Duba Port)",
+      "type": "container",
+      "location": {"city": "Duba / Oxagon", "lat": 27.35, "lng": 35.72},
+      "operator": "Port of NEOM (NEOM company); handed from Mawani to NEOM as an independent entity in 2022",
+      "concession": "NEOM-owned; terminal operator for T1 n/a",
+      "capacity": "Legacy Duba port: 10m tonnes/year, 6 berths, 11.2 km2 (Saudipedia); current container capacity 250,000 TEU; T1 container terminal 1.5m TEU at full build, 900 m quay, 18.5 m draft, 10 automated STS cranes and 30 eRTGs (ZPMC)",
+      "throughput": "n/a",
+      "status": "under construction",
+      "opened": "Duba port pre-existing; T1 phased opening 2026, first full year 2027",
+      "projects": "US$1.9bn Port of NEOM/Oxagon port programme; T1 automation targeted end-2028; BESIX marine works milestone Nov 2025; next Oxagon port phase tendered by NEOM",
+      "notes": "First fully automated, remote-controlled STS/eRTG terminal in Saudi Arabia, renewable-powered. Gateway for Oxagon industrial city and NEOM giga-project construction cargo. Potential partner/competitor opportunity: no international terminal operator publicly announced for T1.",
+      "sources": [
+        "https://www.neom.com/en-us/our-business/port-of-neom",
+        "https://www.neom.com/en-us/regions/oxagon",
+        "https://www.worldcargonews.com/ict-automation/2025/08/neom-saudi-arabias-leap-into-terminal-automation/",
+        "https://www.constructionweekonline.com/projects-tenders/saudis-port-of-neom-to-become-first-advanced-terminal-by-2025",
+        "https://saudipedia.com/en/saudi-ports-authority"
+      ]
+    },
+    {
+      "id": "sa-ras-tanura",
+      "name": "Ras Tanura Terminal",
+      "type": "oil & gas",
+      "location": {"city": "Ras Tanura", "lat": 26.64, "lng": 50.16},
+      "operator": "Saudi Aramco",
+      "concession": "Aramco-owned; Citigroup mandated Nov 2025 to explore multibillion-dollar terminal stake sale",
+      "capacity": "World's largest crude export terminal complex (Ras Tanura + Ju'aymah); refinery 550,000 bpd; export capacity n/a",
+      "throughput": "n/a; precautionarily shut on 2 Mar 2026 amid regional hostilities, with crude flows redirected to Yanbu",
+      "status": "operational",
+      "opened": "1939",
+      "projects": "Potential minority stake sale in Aramco export terminals (2025-26 process)",
+      "notes": "Gulf-side; Hormuz-exposed. The March 2026 shutdown and re-routing via the East-West Pipeline is the clearest demonstration of Saudi Arabia's two-coast redundancy.",
+      "sources": [
+        "https://oilgasstoragenews.com/saudi-aramco-terminals-ras-tanura-yanbu-2026/",
+        "https://www.yahoo.com/news/articles/saudi-aramcos-ras-tanura-refinery-110119708.html"
+      ]
+    }
+  ],
+  "zones": [
+    {
+      "id": "sa-kaec-sez",
+      "name": "King Abdullah Economic City (KAEC) and KAEC Special Economic Zone",
+      "type": "special economic zone",
+      "location": {"city": "King Abdullah Economic City (Rabigh)", "lat": 22.40, "lng": 39.10},
+      "authority": "Regulator: Economic Cities and Special Zones Authority (ECZA); developer: Emaar The Economic City (PIF 55.5%); port: Ports Development Company",
+      "area": "KAEC 185 km2; SEZ 60 km2 (Industrial Valley)",
+      "sectors": ["automotive", "advanced manufacturing", "logistics", "consumer goods", "ICT", "medical technology"],
+      "incentives": "SEZ package (Apr 2023): 5% corporate income tax for up to 20 years, 0% withholding on profit repatriation, customs duty deferral/exemption on capital equipment and inputs, 100% foreign ownership, flexible foreign-labour rules",
+      "tenants": "Lucid Motors (150,000 EV/yr anchor), Ceer, Hyundai, Pirelli; 100+ Saudi and multinational firms",
+      "status": "operational",
+      "opened": "2006 (city); SEZ designated April 2023",
+      "projects": "King Salman Automotive Cluster phase 1 (SAR 547m / US$146m contract to Nesma & Partners, May 2026); Saudi Landbridge rail link to King Abdullah Port (2034 horizon)",
+      "notes": "Port-linked zone anchored by King Abdullah Port (PDC), a DP World Jeddah competitor. PIF-controlled since 2022 recapitalisation.",
+      "sources": [
+        "https://ecza.gov.sa/en/media-center/news-press/economic-cities-and-special-zones-authority-unveils-four-new-special",
+        "https://www.agbi.com/infrastructure/2026/05/150m-contract-awarded-to-develop-king-abdullah-economic-city/",
+        "https://saudipedia.com/en/special-economic-zones-in-saudi-arabia"
+      ]
+    },
+    {
+      "id": "sa-jazan-sez-jcpdi",
+      "name": "Jazan Special Economic Zone / Jazan City for Primary and Downstream Industries (JCPDI)",
+      "type": "special economic zone",
+      "location": {"city": "Baish, Jazan Province", "lat": 17.15, "lng": 42.35},
+      "authority": "ECZA (SEZ regulator); Royal Commission for Jubail and Yanbu (JCPDI developer)",
+      "area": "SEZ 24.6 km2 within the wider JCPDI industrial city",
+      "sectors": ["food processing", "mineral transformation (alumina, steel)", "logistics", "petrochemicals", "industrial manufacturing"],
+      "incentives": "SEZ package (Apr 2023): reduced corporate tax, duty-free machinery and raw-material imports, 100% foreign ownership, flexible labour rules",
+      "tenants": "Aramco Jazan refinery, alumina refinery (SAR 4bn), Saudi Silk Road Company (Chinese industrial investors), pasta plant; ~SAR 88bn of existing investment at inauguration (2022)",
+      "status": "operational",
+      "opened": "SEZ designated April 2023; JCPDI port inaugurated 2022",
+      "projects": "Ongoing city build-out (Parsons/IDOM urban centre), Hutchison-operated port expansion phases",
+      "notes": "Positioned as trade hub toward East Africa and Asia; port concession held by Hutchison Ports (competitor).",
+      "sources": [
+        "https://ecza.gov.sa/en/media-center/news-press/economic-cities-and-special-zones-authority-unveils-four-new-special",
+        "https://saudipedia.com/en/special-economic-zones-in-saudi-arabia",
+        "https://www.hellenicshippingnews.com/his-royal-highness-prince-mohammed-bin-nasser-inaugurates-the-port-of-jazan-city-for-primary-and-downstream-industries-jcpdi-port/"
+      ]
+    },
+    {
+      "id": "sa-riyadh-integrated-rilz",
+      "name": "Riyadh Integrated Special Logistics Zone (RILZ / SILZ)",
+      "type": "logistics zone",
+      "location": {"city": "Riyadh (King Khalid International Airport)", "lat": 24.93, "lng": 46.72},
+      "authority": "General Authority of Civil Aviation (GACA) / SILZ Company; ECZA-regulated SEZ",
+      "area": "3m m2 total, 2m m2 leasable; Phase 1 1.5m m2 (1m m2 leasable); Phase 2 1.6m m2 planned",
+      "sectors": ["e-commerce", "ICT", "pharmaceuticals", "luxury goods", "aerospace", "automotive parts", "3PL"],
+      "incentives": "50-year 0% corporate income tax, VAT and withholding tax exemptions, customs duty suspension for zone-bound goods, 100% foreign ownership, relaxed Saudisation (5-year deferral)",
+      "tenants": "Apple (regional distribution via Unipart), Shein, Lenovo, iHerb, Sapphire (SoftBank-Alat), Chalhoub Group; Phase 1 55% leased",
+      "status": "operational",
+      "opened": "31 Oct 2022",
+      "projects": "Phase 2 (1.6m m2) planning under way (2025-26)",
+      "notes": "First airport-adjacent bonded logistics zone in Saudi Arabia; located 8 km from KKIA and will connect to King Salman International Airport; potential DP World logistics/3PL play.",
+      "sources": [
+        "https://www.zawya.com/en/projects/industry/saudis-first-airport-logistics-zone-hits-55-leasing-as-phase-2-planning-begins-coo-e2vpdj3p",
+        "https://www.trade.gov/market-intelligence/saudi-arabia-logistics-riyadhs-special-integrated-logistic-zone",
+        "https://silz.com.sa/en/riyadh-integrated"
+      ]
+    },
+    {
+      "id": "sa-ras-al-khair-sez",
+      "name": "Ras Al Khair Special Economic Zone",
+      "type": "special economic zone",
+      "location": {"city": "Ras Al Khair Industrial City", "lat": 27.50, "lng": 49.20},
+      "authority": "ECZA (regulator); Royal Commission for Jubail and Yanbu (industrial city)",
+      "area": "20 km2",
+      "sectors": ["shipbuilding and repair", "offshore rigs and platforms", "maritime value chain", "mining and metals (adjacent Ma'aden)"],
+      "incentives": "SEZ package (Apr 2023): reduced corporate tax, customs exemptions on inputs, 100% foreign ownership, flexible labour rules",
+      "tenants": "International Maritime Industries (Aramco/Lamprell/Bahri/HHI shipyard); 40% of zone committed at launch (2023); Singatac Arabia offshore fabrication (2026)",
+      "status": "operational",
+      "opened": "SEZ designated April 2023",
+      "projects": "SAR 139m Singatac offshore fabrication centre (Jan 2026); SAR 375m plant with Chinese partner at Ras Al Khair Port (Nov 2025)",
+      "notes": "Port-linked to Ras Al Khair Port and SAR minerals railway; 100 km from Jubail.",
+      "sources": [
+        "https://ecza.gov.sa/en/media-center/news-press/economic-cities-and-special-zones-authority-unveils-four-new-special",
+        "https://saudipedia.com/en/special-economic-zones-in-saudi-arabia",
+        "https://www.spa.gov.sa/en/N2495750"
+      ]
+    },
+    {
+      "id": "sa-cloud-computing-sez",
+      "name": "Cloud Computing Special Economic Zone",
+      "type": "special economic zone",
+      "location": {"city": "Riyadh (KACST Innovation Tower; hybrid multi-site model)", "lat": 24.71, "lng": 46.64},
+      "authority": "ECZA; hosted by King Abdulaziz City for Science and Technology (KACST) with the Communications, Space and Technology Commission",
+      "area": "n/a (hybrid zone allowing data centres anywhere in the Kingdom under one licence)",
+      "sectors": ["cloud computing", "data centres", "AI and emerging technologies"],
+      "incentives": "SEZ package (Apr 2023): reduced corporate tax, customs exemptions, 100% foreign ownership; aligned with the 'Cloud First' policy",
+      "tenants": "n/a",
+      "status": "operational",
+      "opened": "April 2023",
+      "projects": "n/a",
+      "notes": "Not a logistics zone, but relevant for data-centre equipment project cargo through Jeddah/Dammam.",
+      "sources": [
+        "https://ecza.gov.sa/en/media-center/news-press/economic-cities-and-special-zones-authority-unveils-four-new-special",
+        "https://saudipedia.com/en/special-economic-zones-in-saudi-arabia"
+      ]
+    },
+    {
+      "id": "sa-spark-king-salman-energy-park",
+      "name": "King Salman Energy Park (SPARK)",
+      "type": "industrial zone",
+      "location": {"city": "Between Dammam and Al Ahsa (Buqayq/Abqaiq area)", "lat": 25.93, "lng": 49.65},
+      "authority": "Saudi Aramco (developer, operator); ECZA-designated special zone",
+      "area": "50 km2 (three phases; phase 1 completed 2021)",
+      "sectors": ["oil & gas services", "energy equipment manufacturing", "logistics", "petrochemicals"],
+      "incentives": "Special zone status with bonded dry port and logistics zone; Aramco in-Kingdom (IKTVA) localisation pull",
+      "tenants": "Aramco Drilling and Workover HQ plus energy-sector manufacturers (specific tenant count n/a)",
+      "status": "under construction",
+      "opened": "Founded Dec 2018; phase 1 operational 2021; full completion targeted 2035",
+      "projects": "Dry port and logistics zone with 8m tonnes/year capacity; projected 100,000 jobs and US$6bn/yr GDP contribution at completion",
+      "notes": "Includes a bonded dry port and logistics zone - a natural fit for a rail/inland-terminal operator; adjacent to Dammam-Riyadh rail corridor.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/King_Salman_Energy_Park"
+      ]
+    },
+    {
+      "id": "sa-jubail-industrial-city",
+      "name": "Jubail Industrial City (Jubail I & II)",
+      "type": "industrial zone",
+      "location": {"city": "Jubail", "lat": 27.05, "lng": 49.60},
+      "authority": "Royal Commission for Jubail and Yanbu (RCJY)",
+      "area": "1,016 km2",
+      "sectors": ["petrochemicals", "refining", "steel", "aluminium", "fertilisers"],
+      "incentives": "RCJY industrial land leases and utilities; standard Saudi investment incentives (MISA); no SEZ tax package",
+      "tenants": "SABIC (HQ), Sadara (Aramco/Dow), SATORP (Aramco/TotalEnergies), Hadeed steel; contributes ~7% of Saudi GDP",
+      "status": "operational",
+      "opened": "1975",
+      "projects": "Jubail II expansion (US$3.8bn, Bechtel-managed from 2004); Jubail Commercial Port container terminal upgrade to 2.4m TEU (SGP, 2025-26); Sadara 54 km rail network (design)",
+      "notes": "World's largest industrial city; served by Jubail Commercial Port and King Fahd Industrial Port; GCC Railway Saudi section will pass through the Jubail-Ras Al Khair corridor.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Jubail",
+        "https://enterpriseam.com/ksa/2026/04/02/mawani-doubles-down-on-jubail-under-pressure/",
+        "https://www.railjournal.com/in_depth/opening-up-the-desert-sar-pushes-ahead-with-ambitious-plans/"
+      ]
+    },
+    {
+      "id": "sa-yanbu-industrial-city",
+      "name": "Yanbu Industrial City (Yanbu Al Sinaiyah)",
+      "type": "industrial zone",
+      "location": {"city": "Yanbu", "lat": 23.97, "lng": 38.22},
+      "authority": "Royal Commission for Jubail and Yanbu (RCJY)",
+      "area": "n/a (part of 10,340 km2 Yanbu governorate)",
+      "sectors": ["refining", "petrochemicals", "plastics", "crude export"],
+      "incentives": "RCJY industrial land leases and utilities; standard Saudi incentives",
+      "tenants": "Three refineries (Aramco Yanbu, SAMREF, YASREF), plastics facility and several petrochemical plants",
+      "status": "operational",
+      "opened": "1975 (royal decree)",
+      "projects": "Red Sea Express short-sea container service from King Fahd Industrial Port Yanbu (May 2026); Landbridge KAP-Yanbu rail link (planned)",
+      "notes": "Western terminus of the East-West crude pipeline; the Kingdom's Hormuz-bypass export hub.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Yanbu",
+        "https://www.arabnews.com/node/2644172/business-economy"
+      ]
+    },
+    {
+      "id": "sa-oxagon-neom",
+      "name": "Oxagon (NEOM)",
+      "type": "port-linked zone",
+      "location": {"city": "Duba / NEOM", "lat": 27.35, "lng": 35.75},
+      "authority": "NEOM Company (PIF)",
+      "area": "48 km2 core development area",
+      "sectors": ["renewable energy manufacturing", "green hydrogen (NEOM Green Hydrogen Co.)", "AI and advanced industries", "biotech", "food", "construction technology"],
+      "incentives": "NEOM special regulatory regime under development; n/a for published tax package",
+      "tenants": "Oxagon Hive residential/commercial community (2,400 people); NEOM Green Hydrogen Company; manufacturing tenants not itemised",
+      "status": "under construction",
+      "opened": "Port of NEOM operational since 2022; industrial city phased from 2026",
+      "projects": "Port of NEOM T1 container terminal (1.5m TEU by 2030, phased from 2026); next Oxagon port phase tendered (MEED)",
+      "notes": "Port-linked zone on the Gulf of Aqaba approach; positioned between Suez Canal and Red Sea trade lanes; also site of the proposed Saudi-Egypt Red Sea bridge landing (Ras Alsheikh Hamid).",
+      "sources": [
+        "https://www.neom.com/en-us/regions/oxagon",
+        "https://www.neom.com/en-us/our-business/port-of-neom",
+        "https://guest.meed.com/neom-tenders-next-phase-of-oxagon-port/"
+      ]
+    }
+  ],
+  "corridors": [
+    {
+      "id": "sa-saudi-landbridge-rail",
+      "name": "Saudi Landbridge (Jeddah - King Abdullah Port - Riyadh - Dammam rail)",
+      "modes": ["rail"],
+      "route": "Jeddah Islamic Port / King Abdullah Port → Riyadh (Riyadh Link bypass) → Dammam (upgraded existing line); branch King Abdullah Port → Yanbu",
+      "countries": ["SA"],
+      "length": "1,500+ km of new track (900-950 km Riyadh-Jeddah new build; 35 km Riyadh Link; Riyadh-Dammam upgrades)",
+      "operator": "Saudi Arabia Railways (SAR)",
+      "status": "under construction",
+      "capacity_or_traffic": "n/a (design capacity not published)",
+      "projects": "~SAR 100bn (US$26.6bn) programme targeted for delivery by 2034; Sener design contract; Riyadh Link 35 km double-track tender issued 29 Jan 2026, bids 30 Jun 2026, award pending (bidders: CCECC/Al-Ayuni, Nesma/CHEC, Al-Rashid/IC Ictas/Saipem, Saudi Binladin); earlier Chinese-consortium negotiations failed",
+      "notes": "Would cut Red Sea-Gulf container transit from ~1,300 km trucking to rail and is the backbone for Saudi transshipment ambitions; DP World Jeddah and KAP are the western railheads.",
+      "sources": [
+        "https://guest.meed.com/contract-award-nears-for-saudi-landbridge-riyadh-section/",
+        "https://www.cbnme.com/news/spains-sener-wins-design-contract-for-26-6b-saudi-landbridge-rail-megaproject/",
+        "https://www.railjournal.com/in_depth/opening-up-the-desert-sar-pushes-ahead-with-ambitious-plans/"
+      ]
+    },
+    {
+      "id": "sa-sar-north-south-minerals-rail",
+      "name": "SAR North-South Railway (minerals and freight line, Ras Al Khair - Al Jalamid / Al Haditha)",
+      "modes": ["rail"],
+      "route": "Ras Al Khair Port → Jubail → Al Zabirah junction (Riyadh branch) → Hail → Al Jouf → Al Jalamid phosphate mines / Waad Al Shamal → Al Haditha (Jordan border)",
+      "countries": ["SA"],
+      "length": "2,750 km network; 1,392 km freight line operational since 2011-2015",
+      "operator": "Saudi Arabia Railways (SAR)",
+      "status": "operational",
+      "capacity_or_traffic": "Phosphate and bauxite unit trains up to 3.2 km / 155 wagons / 16,000 t; 4.5m t phosphate carried 2011-2015 (later annual figures n/a)",
+      "projects": "Extension to Al Haditha (Jordan border) forms the Saudi leg of IMEC's northern corridor; Riyadh-Al Zabirah passenger/freight branch",
+      "notes": "Feeds Ma'aden exports through Ras Al Khair Port; connects to Riyadh dry port network operated with SGP.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/North%E2%80%93South_railway_(Saudi_Arabia)",
+        "https://www.railjournal.com/in_depth/opening-up-the-desert-sar-pushes-ahead-with-ambitious-plans/",
+        "https://www.meed.com/saudi-minerals-railway/"
+      ]
+    },
+    {
+      "id": "sa-gcc-railway-saudi-section",
+      "name": "GCC Railway - Saudi section (Al Khafji - Jubail - Dammam - Al Batha)",
+      "modes": ["rail"],
+      "route": "Kuwait border (Al Khafji / KNRR link) → Ras Al Khair → Jubail → Dammam → Al Batha (UAE border, Etihad Rail link)",
+      "countries": ["SA", "KW", "AE"],
+      "length": "672 km (Saudi section); 2,186 km GCC network",
+      "operator": "Saudi Arabia Railways (SAR); GCC Railways Authority",
+      "status": "planned",
+      "capacity_or_traffic": "n/a",
+      "projects": "SAR design consultancy tender issued 7 May 2026 (bids 30 Jun 2026); concept-to-construction design; Kuwait side design awarded; UAE 684 km section by Etihad Rail",
+      "notes": "Would give Dammam/Jubail rail access to Jebel Ali/Khalifa Port and Kuwait; Ras Al Khair-Jubail segment already under SAR. Long-delayed (original 2018/2021 targets missed).",
+      "sources": [
+        "https://www.meed.com/saudi-arabia-tenders-gcc-rail-link-from-kuwait-to-uae-border",
+        "https://constructionreviewonline.com/15-billion-saudi-arabia-gcc-railway-project-advances-with-672km-kuwait-uae-border-tender/"
+      ]
+    },
+    {
+      "id": "sa-red-sea-gulf-trucking-landbridge",
+      "name": "Red Sea - Gulf trucking landbridge (Jeddah/KAP - Riyadh - Dammam) during the 2026 Hormuz disruption",
+      "modes": ["road", "multimodal"],
+      "route": "Jeddah Islamic Port / King Abdullah Port → Riyadh → Dammam (feeder to Jebel Ali, Abu Dhabi, Kuwait, Bahrain, Qatar)",
+      "countries": ["SA"],
+      "length": "~1,300 km",
+      "operator": "Mawani-coordinated logistics corridors; carriers incl. MSC (Europe-Red Sea-Saudi landbridge service launched May 2026), DSV and other road hauliers",
+      "status": "operational",
+      "capacity_or_traffic": "n/a; cross-border trucking rates escalated sharply in 2026 (fuel, war-risk surcharges, container shortages, border queues)",
+      "projects": "Mawani set up logistics corridors redirecting Eastern Region cargo to Jeddah and Red Sea ports (2026); MSC hybrid sea-land service from Antwerp/German/Italian/Spanish/Lithuanian ports via Suez to Jeddah/KAP then truck to Dammam",
+      "notes": "Demonstrates Saudi Arabia's two-coast redundancy; supports the business case for the Saudi Landbridge rail and for logistics parks at Jeddah (DP World Jeddah Logistics Park, Agility 82,000 m2 Jeddah warehouses 2026).",
+      "sources": [
+        "https://trans.info/en/msc-saudi-landbridge-472744",
+        "https://ti-insight.com/briefs/gulf-logistics-monitor-may-2026/",
+        "https://www.arabnews.com/node/2638772/amp"
+      ]
+    },
+    {
+      "id": "sa-east-west-pipeline",
+      "name": "East-West Pipeline (Petroline, Abqaiq - Yanbu)",
+      "modes": ["pipeline"],
+      "route": "Abqaiq processing hub (Eastern Province) → Yanbu (King Fahd Industrial Port / Yanbu South Terminal)",
+      "countries": ["SA"],
+      "length": "1,200 km (750 miles)",
+      "operator": "Saudi Aramco",
+      "status": "operational",
+      "capacity_or_traffic": "Up to 7m bpd capacity; flows rose from 1.1m bpd (Feb 2026) to 5.9m bpd (9 Mar 2026) after Ras Tanura shut",
+      "projects": "Capacity expanded to 7m bpd (2018-2019 upgrades); further debottlenecking n/a",
+      "notes": "The Kingdom's primary Hormuz bypass; underpins Yanbu's role as strategic export hub.",
+      "sources": [
+        "https://oilgasstoragenews.com/saudi-aramco-terminals-ras-tanura-yanbu-2026/",
+        "https://trans.info/en/saudi-arabia-red-sea-478762"
+      ]
+    },
+    {
+      "id": "sa-imec-corridor",
+      "name": "India - Middle East - Europe Economic Corridor (IMEC), Saudi segment",
+      "modes": ["rail", "multimodal"],
+      "route": "Indian ports → Gulf ports (Jebel Ali/Fujairah, Dammam) → rail across Saudi Arabia (Riyadh / SAR North-South line) → Al Haditha (Jordan) → Haifa → Europe",
+      "countries": ["IN", "AE", "SA", "JO", "IL", "EU"],
+      "length": "n/a (Saudi leg would use SAR network + new links)",
+      "operator": "n/a (MoU signatories: India, US, UAE, Saudi Arabia, EU, France, Germany, Italy; Sept 2023)",
+      "status": "planned",
+      "capacity_or_traffic": "n/a",
+      "projects": "Al Haditha-Jezreel Valley (Jordan-Israel) rail link estimated US$2.09-2.5bn; no firm funding or construction timeline as of May 2026",
+      "notes": "Stalled by Gaza and Iran conflicts and Saudi conditionality on Palestinian statehood; Saudi Landbridge and GCC Railway would be the de-facto IMEC spine if revived.",
+      "sources": [
+        "https://mei.edu/backgrounder/the-india-middle-east-europe-economic-corridor/",
+        "https://www.atlanticcouncil.org/in-depth-research-reports/report/the-india-middle-east-europe-economic-corridor-connectivity-in-an-era-of-geopolitical-uncertainty/"
+      ]
+    },
+    {
+      "id": "sa-saudi-egypt-red-sea-bridge",
+      "name": "Saudi - Egypt Red Sea bridge (King Salman / 'Moses' Bridge)",
+      "modes": ["road", "rail"],
+      "route": "Ras Alsheikh Hamid (Tabuk/NEOM) → Tiran Island → Sharm El-Sheikh (Sinai, Egypt)",
+      "countries": ["SA", "EG"],
+      "length": "n/a (crossing of the Straits of Tiran)",
+      "operator": "n/a (Saudi-financed; Egyptian Ministry of Transport co-sponsor)",
+      "status": "planned",
+      "capacity_or_traffic": "n/a",
+      "projects": "~US$4bn, announced 2016; Egypt says planning complete and 'ready to implement at any time, whether a bridge or a tunnel' (June 2025); designed with a cargo high-speed rail component",
+      "notes": "Would create an Asia-Africa land link via NEOM; no construction start as of 2026.",
+      "sources": [
+        "https://www.dezeen.com/2025/06/05/egypt-saudi-arabia-red-sea-bridge/"
+      ]
+    }
+  ],
+  "border_crossings": [
+    {
+      "id": "sa-al-batha",
+      "name": "Al Batha (Al Batha - Al Ghuwaifat)",
+      "with_country": "AE",
+      "with_country_name": "United Arab Emirates",
+      "type": "road",
+      "location": {"city": "Al Udayd Governorate, Eastern Province", "lat": 24.13, "lng": 51.62},
+      "traffic": "Sole land crossing on the 682 km Saudi-UAE border; SAR 117bn imports from UAE and SAR 105bn Saudi exports over 2019-2021; main truck route Jebel Ali - Riyadh",
+      "status": "operational",
+      "hours": "24/7",
+      "projects": "New freight/shipping port facility to absorb transit traffic; 284 km Jubail-Al Batha regional road; ZATCA modernisation from 2018; future GCC Railway crossing point",
+      "notes": "Queues and rate spikes reported in 2026 as Gulf cargo shifted to road; critical for DP World Jebel Ali hinterland flows into Saudi Arabia.",
+      "sources": [
+        "https://saudipedia.com/en/al-batha-port",
+        "https://www.meed.com/saudi-arabia-tenders-gcc-rail-link-from-kuwait-to-uae-border",
+        "https://ti-insight.com/briefs/gulf-logistics-monitor-may-2026/"
+      ]
+    },
+    {
+      "id": "sa-salwa",
+      "name": "Salwa (Salwa - Abu Samra)",
+      "with_country": "QA",
+      "with_country_name": "Qatar",
+      "type": "road",
+      "location": {"city": "Salwa, Eastern Province", "lat": 24.72, "lng": 50.83},
+      "traffic": "Qatar's only land border; main road route for Qatar imports via Saudi Arabia and the UAE",
+      "status": "operational",
+      "hours": "n/a",
+      "projects": "n/a",
+      "notes": "Closed June 2017 during the Gulf blockade, reopened 4 Jan 2021 after the Al-Ula agreement; border demarcation finalised Nov 2021.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Qatar%E2%80%93Saudi_Arabia_border"
+      ]
+    },
+    {
+      "id": "sa-king-fahd-causeway",
+      "name": "King Fahd Causeway",
+      "with_country": "BH",
+      "with_country_name": "Bahrain",
+      "type": "road",
+      "location": {"city": "Al Khobar", "lat": 26.18, "lng": 50.34},
+      "traffic": "~25,000 vehicles/day (2010); record 136,498 passengers on 4 Mar 2023; 382m cumulative passengers 1986-2018; truck figures n/a",
+      "status": "operational",
+      "hours": "24/7",
+      "projects": "Short-term plan (2018-2024) to raise capacity to 50,000 vehicles/day; medium-term island and transit-area expansion to 2030 (King Fahd Causeway Authority)",
+      "notes": "25 km causeway opened 26 Nov 1986; operated by the King Fahd Causeway Authority. Key route for Bahrain's import/export trucks via Dammam.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/King_Fahd_Causeway",
+        "https://saudipedia.com/en/king-fahd-causeway"
+      ]
+    },
+    {
+      "id": "sa-al-khafji",
+      "name": "Al Khafji (Al Khafji - Nuwaiseeb)",
+      "with_country": "KW",
+      "with_country_name": "Kuwait",
+      "type": "road",
+      "location": {"city": "Al Khafji, Eastern Province", "lat": 28.53, "lng": 48.42},
+      "traffic": "One of two main Saudi-Kuwait crossings (coastal); main truck route Dammam/Jubail - Kuwait",
+      "status": "operational",
+      "hours": "n/a",
+      "projects": "Northern terminus of the planned 672 km Saudi GCC Railway section, linking to the Kuwait National Rail Road",
+      "notes": "n/a",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kuwait%E2%80%93Saudi_Arabia_border",
+        "https://www.meed.com/saudi-arabia-tenders-gcc-rail-link-from-kuwait-to-uae-border"
+      ]
+    },
+    {
+      "id": "sa-al-ruqi",
+      "name": "Al Ruqi (Al Ruqi - Al Salmi)",
+      "with_country": "KW",
+      "with_country_name": "Kuwait",
+      "type": "road",
+      "location": {"city": "Al Ruqi, Eastern Province (Hafar Al Batin area)", "lat": 29.15, "lng": 46.62},
+      "traffic": "Second main Saudi-Kuwait crossing (inland, Jahra Governorate side); serves Riyadh - Kuwait traffic",
+      "status": "operational",
+      "hours": "n/a",
+      "projects": "n/a",
+      "notes": "n/a",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kuwait%E2%80%93Saudi_Arabia_border"
+      ]
+    },
+    {
+      "id": "sa-jadidat-arar",
+      "name": "Jadidat Arar (Arar border crossing)",
+      "with_country": "IQ",
+      "with_country_name": "Iraq",
+      "type": "road",
+      "location": {"city": "Arar, Northern Borders Province", "lat": 31.36, "lng": 41.44},
+      "traffic": "Main Saudi-Iraq trade and pilgrim crossing; heavy Hajj-season traffic; truck volumes n/a",
+      "status": "operational",
+      "hours": "n/a",
+      "projects": "Reopened 18 Nov 2020 after 30-year closure (trial opening Oct 2019); Saudi-Iraq road and trade-zone plans linked to the crossing",
+      "notes": "Security context: ISIL attack on the checkpoint in Jan 2015; the Al Jumaimah crossing (Iraq-Saudi) is a second planned/secondary crossing but no verified source was found.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Arar_border_crossing",
+        "https://en.wikipedia.org/wiki/Iraq%E2%80%93Saudi_Arabia_border"
+      ]
+    },
+    {
+      "id": "sa-al-haditha-omari",
+      "name": "Al Haditha (Al Haditha - Al Omari)",
+      "with_country": "JO",
+      "with_country_name": "Jordan",
+      "type": "road",
+      "location": {"city": "Al Haditha, Al Jouf Province", "lat": 31.52, "lng": 37.17},
+      "traffic": "Principal Saudi-Jordan freight crossing (Riyadh/Dammam - Amman - Levant/Turkey trucking); volumes n/a",
+      "status": "operational",
+      "hours": "n/a",
+      "projects": "Planned SAR North-South rail extension to Al Haditha; designated IMEC rail crossing point toward Jordan/Israel (US$2.09bn Jordan link, unfunded as of 2026)",
+      "notes": "One of three official Jordan-Saudi crossings (Umari, Mudawwara/Halat Ammar, Durra).",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Jordan%E2%80%93Saudi_Arabia_border",
+        "https://mei.edu/backgrounder/the-india-middle-east-europe-economic-corridor/"
+      ]
+    },
+    {
+      "id": "sa-durra",
+      "name": "Al Durra (Durra - Aqaba)",
+      "with_country": "JO",
+      "with_country_name": "Jordan",
+      "type": "road",
+      "location": {"city": "Haql, Tabuk Province", "lat": 29.35, "lng": 34.98},
+      "traffic": "Coastal crossing linking Aqaba with Haql/NEOM and the Saudi Red Sea coast road; volumes n/a",
+      "status": "operational",
+      "hours": "n/a",
+      "projects": "n/a (NEOM development raising relevance)",
+      "notes": "Southern-most of the three official Jordan-Saudi crossings; closest to Aqaba port and NEOM.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Jordan%E2%80%93Saudi_Arabia_border"
+      ]
+    },
+    {
+      "id": "sa-empty-quarter-oman",
+      "name": "Empty Quarter (Rub' al Khali - Ramlat Khaliya) crossing",
+      "with_country": "OM",
+      "with_country_name": "Oman",
+      "type": "road",
+      "location": {"city": "Rub' al Khali, Eastern Province (approximate)", "lat": 22.6, "lng": 55.2},
+      "traffic": "Direct Saudi-Oman road (Al Ahsa - Ibri) avoiding UAE transit; volumes n/a",
+      "status": "operational",
+      "hours": "n/a",
+      "projects": "n/a",
+      "notes": "Wikipedia records the first official Saudi-Oman crossing at Ramlat Khaliya opened in 2006; the direct desert highway was formally opened in Dec 2021 (not independently verified here). Coordinates approximate.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Oman%E2%80%93Saudi_Arabia_border"
+      ]
+    }
+  ]
+}

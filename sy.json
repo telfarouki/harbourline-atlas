@@ -1,0 +1,575 @@
+{
+  "country": {
+    "code": "SY",
+    "name": "Syria",
+    "region": "Levant",
+    "capital": "Damascus",
+    "coastline": "Eastern Mediterranean (approx. 180 km, Latakia and Tartus governorates)",
+    "summary": "Since the December 2024 political transition and the lifting of most US sanctions in June 2025, Syria is being repositioned as a land bridge between Türkiye/Europe, the Gulf, Iraq and Lebanon. The two commercial gateways are Latakia (CMA CGM's LICT container terminal, 30-year concession amended May 2025, AD Ports 20% stake) and Tartus (DP World, 30-year BOT concession signed July 2025, USD 800m, operations from November 2025), with Baniyas serving as the oil/gas terminal that since April 2026 has been re-exporting Iraqi fuel trucked across the reopened Rabia/Yaarubiyah and Bukamal/Qaim crossings. Free zones (Adra, Damascus Airport, Latakia, Tartus) and industrial cities (Adra, Sheikh Najjar, Hasya) are refilling, Chinese, Turkish, Gulf and Qatari investors are active, and Türkiye–Syria–Jordan transit, the Hejaz railway and the Kirkuk–Baniyas pipeline are the headline corridor projects. Caveats: residual EU/UN/Caesar-related compliance checks, damaged roads and rail, unexploded ordnance, localized security incidents (north-east, south, coast) and Israeli strikes near the Lebanese border remain material risks.",
+    "key_operators": ["DP World", "CMA CGM / CMA Terminals", "AD Ports Group", "General Authority for Land and Sea Ports (GALSP)", "General Establishment of Free Zones", "Chemins de fer syriens (CFS)", "Syrian Petroleum Company", "Fidi Contracting (China)"],
+    "sources": [
+      "https://www.dpworld.com/en/news/dp-world-to-develop-syrias-tartus-port-under-landmark-30-year-deal",
+      "https://www.adportsgroup.com/en/news-and-media/2025/11/06/ad-ports-group-signs-agreement-with-cma-cgm-group-to-acquire-minority-stake-in-latakia-terminal",
+      "https://sana.sy/en/economic/2334608/",
+      "https://www.arabnews.com/node/2641485/amp",
+      "https://sana.sy/en/syria/2318993/"
+    ]
+  },
+  "ports": [
+    {
+      "id": "sy-tartus",
+      "name": "Port of Tartus (Tartous)",
+      "type": "multipurpose",
+      "location": {"city": "Tartus", "lat": 34.895, "lng": 35.865},
+      "operator": "DP World (concessionaire, since November 2025); landlord: General Authority for Land and Sea Ports (GALSP)",
+      "concession": "30-year build-operate-transfer concession signed 13 July 2025 between DP World and GALSP, witnessed by President al-Sharaa; USD 800m investment over the term. DP World formally commenced operations 12 November 2025 (CEO Fahad Al Banna). Replaced the Russian Stroytransgaz management contract terminated by the interim government in early 2025.",
+      "capacity": "n/a (multipurpose: containers, general cargo, bulk, breakbulk, ro-ro; phosphate export outlet); three new mobile harbour cranes (2026) expected to raise cargo-handling capacity by ~40%",
+      "throughput": "551 vessels and ~5m tonnes in H1 2026 (3.9m t imports, 1.1m t exports; 33 container vessels)",
+      "status": "operational",
+      "opened": "n/a",
+      "projects": "USD 800m modernisation: dredging of access channel and berths, quay-wall refurbishment, replacement of handling equipment, digital port systems, expanded storage and bulk-handling systems; 3 mobile harbour cranes installed by September 2026, 9 further light-duty mobile harbour cranes due 2027–early 2028, 1 new quay crane due 2028; new 50-t bollard-pull tug 'Al Fath' commissioned 2025; DP World also exploring free zones, inland logistics hubs and transit corridors (MoU stage, 2025).",
+      "notes": "DP WORLD ASSET. Syria's second-largest port and main dry/general-cargo gateway; historic outlet for phosphate (rail link from Khneifis/Palmyra mines flagged as priority rehabilitation by transport ministry, 2025). Adjacent Russian naval facility status remains a political sensitivity. Sanctions: US sanctions largely lifted June 2025; EU sanctions eased 2025; residual designations require KYC screening.",
+      "sources": [
+        "https://www.dpworld.com/en/news/dp-world-to-develop-syrias-tartus-port-under-landmark-30-year-deal",
+        "https://www.dpworld.com/en/news/dp-world-commences-operations-at-tartus-port",
+        "https://www.enr.com/articles/63645-dp-world-installs-harbor-cranes-under-800mn-tartus-port-modernization",
+        "https://sana.sy/en/economic/2334608/",
+        "https://www.iiss.org/online-analysis/online-analysis/2025/07/tartus-port-and-syrias-new-geo-economic-strategy/"
+      ]
+    },
+    {
+      "id": "sy-latakia",
+      "name": "Port of Latakia / Latakia International Container Terminal (LICT)",
+      "type": "container",
+      "location": {"city": "Latakia", "lat": 35.520, "lng": 35.780},
+      "operator": "CMA Terminals (CMA CGM Group) operates LICT since 2009; AD Ports Group acquiring 20% stake (agreement 6 Nov 2025, AED 81m / USD 22m); general-cargo berths under GALSP / Latakia Port General Company",
+      "concession": "Amended 30-year concession for LICT signed 1 May 2025 between CMA CGM and GALSP (original concession dates from 2009).",
+      "capacity": "250,000 TEU/year (2025); target 625,000 TEU/year by end-2026; long-term >1m TEU/year with 16 m draft after phase 2",
+      "throughput": "~171,000 TEU and 2.86m tonnes in H1 2026 (394 vessels, of which 186 container vessels); LICT handles ~95% of Syria's containerised trade",
+      "status": "operational",
+      "opened": "1950s (port); LICT concession 2009",
+      "projects": "Phase 1 EUR 30m upgrade under way (2025); phase 2 EUR 200m (~USD 231m) expansion accelerated after August 2025 Damascus meeting: new quay/deepening to 16 m, modern cargo-handling equipment, digitalised operations; MoU between Syrian Railways (CFS) and LICT (2025) to move containers by rail to inland dry ports at Adra, Homs and Aleppo.",
+      "notes": "COMPETITOR CONCESSION (CMA CGM + AD Ports). Syria's primary container gateway and the country's largest port by container volume; hinterland via M4/M1 highways to Aleppo and Homs. Coastal region saw sectarian violence in March 2025; security has since stabilised but remains a monitoring item.",
+      "sources": [
+        "https://www.porttechnology.org/news/cma-cgm-accelerates-e200-million-expansion-at-latakia-port/",
+        "https://www.adportsgroup.com/en/news-and-media/2025/11/06/ad-ports-group-signs-agreement-with-cma-cgm-group-to-acquire-minority-stake-in-latakia-terminal",
+        "https://sana.sy/en/economic/2334608/",
+        "https://sana.sy/en/syria/2318993/"
+      ]
+    },
+    {
+      "id": "sy-baniyas",
+      "name": "Baniyas Oil Terminal and Refinery",
+      "type": "oil & gas",
+      "location": {"city": "Baniyas", "lat": 35.180, "lng": 35.940},
+      "operator": "Syrian Petroleum Company / Baniyas Refinery Company (Ministry of Energy); terminal operated with GALSP",
+      "concession": "n/a (state-owned)",
+      "capacity": "Refinery nameplate ~130,000 b/d (returned to full production May 2026 per Enab Baladi); marine terminal loads Aframax-class tankers; truck offloading ~900 tankers/day (July 2026)",
+      "throughput": "Over 2m tonnes of Iraqi petroleum products transited since January 2026 (as of August 2026); Iraqi fuel-oil contracts ~650,000 t/month (Apr–Jun 2026); first Iraqi cargo (~500,000 t) loaded 15 April 2026; three Aframax cargoes (~1.42m bbl) shipped to US Gulf by July 2026",
+      "status": "operational",
+      "opened": "1979 (refinery); terminal originally the Kirkuk–Baniyas pipeline outlet (1952)",
+      "projects": "Kirkuk–Baniyas crude pipeline revival: two MoUs signed 17–18 July 2026 (Syrian Petroleum Co.–Basra Oil Co.; and with a Chevron / UCC Holding / TI Capital consortium for technical and financial studies), witnessed by the Iraqi PM and US energy secretary; Iraq cabinet (25 July 2026) authorised Basra Oil Co. to pursue the Mediterranean pipeline. Plans to add crude and naphtha to fuel-oil re-exports (not yet commercial as of July 2026).",
+      "notes": "Syria's primary import terminal for crude and refined products; became the Mediterranean outlet for Iraqi fuel after Strait of Hormuz disruptions in early 2026, with tanker-truck queues of 30+ km on the Tartus–Baniyas highway. Consolidation pace one marine tanker every 7–10 days (July 2026). Relevant to DP World's Tartus liquid-bulk/energy-logistics ambitions.",
+      "sources": [
+        "https://english.aawsat.com/business/5262888-syria%E2%80%99s-baniyas-begins-loading-iraqi-oil-shipments-re-export",
+        "https://tanktransport.com/2026/07/iraq-syria-fuel-corridor/",
+        "https://shafaq.com/en/Economy/Energy-transit-drives-recovery-in-Syria-Iraq-trade",
+        "https://sana.sy/en/economic/2330203/",
+        "https://english.enabbaladi.net/archives/2026/05/baniyas-refinery-resumes-full-production/amp/"
+      ]
+    },
+    {
+      "id": "sy-arwad",
+      "name": "Arwad Island harbour",
+      "type": "fishing",
+      "location": {"city": "Arwad (Tartus)", "lat": 34.856, "lng": 35.858},
+      "operator": "Tartus governorate / GALSP (small craft harbour; ferries from Tartus)",
+      "concession": "n/a",
+      "capacity": "n/a (small fishing and passenger-boat harbour; traditional wooden boat-building)",
+      "throughput": "n/a",
+      "status": "operational",
+      "opened": "n/a (ancient Phoenician port)",
+      "projects": "President al-Sharaa's first-ever presidential visit (7 June 2026) framed Arwad as part of the Tartus/Latakia coastal-investment platform; tourism and access upgrades announced for the 2026 season; a Qatari-Syrian company unveiled coastal tourism/real-estate projects (September 2026). No commercial-port project identified.",
+      "notes": "Not a commercial cargo port; included for completeness as the only inhabited Syrian island, 3 km off Tartus. Relevance to DP World is limited to marine-tourism/ferry links from the Tartus waterfront.",
+      "sources": [
+        "https://sana.sy/en/presidency/2321937/",
+        "https://english.enabbaladi.net/archives/2026/09/qatari-syrian-company-unveils-tourism-energy-real-estate-projects/"
+      ]
+    }
+  ],
+  "zones": [
+    {
+      "id": "sy-adra-free-zone",
+      "name": "Adra Free Zone",
+      "type": "free zone",
+      "location": {"city": "Adra (Rif Dimashq)", "lat": 33.600, "lng": 36.520},
+      "authority": "General Establishment of Free Zones, under the General Authority for Land and Sea Ports (GALSP)",
+      "area": "n/a (300,000 m² allocated to China's Fidi Contracting for commercial/service development, May 2025)",
+      "sectors": ["vehicle and spare-parts trading", "customs clearance and commercial representation", "food production", "gold manufacturing", "fibre-optic cable manufacturing", "engineering services"],
+      "incentives": "Tax exemptions, streamlined customs, one-stop service, competitive fees; foreign-currency transactions allowed; new customs law (May 2026)",
+      "tenants": "~400 local, Arab and foreign investors; occupancy >80% (2026); ~15% industrial",
+      "status": "operational",
+      "opened": "n/a",
+      "projects": "20-year Fidi Contracting (China) MoU (22 May 2025) for 300,000 m² commercial/service development; fibre-optic network and 'zero-paper' digital operations under way (2026); free-zone system-wide 800 contracts signed with 1,000+ investors targeted by end-2026.",
+      "notes": "North of Damascus next to Damascus International Airport and the M5 Damascus–Aleppo motorway; designated inland dry-port node in the CFS–LICT rail MoU (2025). Exports to Gulf (Qatar, UAE), Jordan and Türkiye.",
+      "sources": [
+        "https://sana.sy/en/economic/2340074/",
+        "https://www.turkiyetoday.com/region/china-secures-strategic-investment-rights-in-syrias-hassia-adra-3201845",
+        "https://english.enabbaladi.net/archives/2026/09/free-zones-sign-800-contracts-expect-1000-investors-by-end-of-2026/"
+      ]
+    },
+    {
+      "id": "sy-adra-industrial-city",
+      "name": "Adra Industrial City",
+      "type": "industrial zone",
+      "location": {"city": "Adra (Rif Dimashq)", "lat": 33.620, "lng": 36.560},
+      "authority": "Ministry of Economy and Industry (Directorate of Industrial Cities) / Adra Industrial City administration",
+      "area": "7,000 ha (expandable)",
+      "sectors": ["food", "textiles", "chemicals", "engineering", "construction materials", "pharmaceuticals"],
+      "incentives": "Customs exemptions on imported machinery for industrial cities; simplified electronic licensing; foreign-currency transactions permitted (2025)",
+      "tenants": "Over 1,000 operating factories, ~72,000 jobs (SANA, 2025)",
+      "status": "operational",
+      "opened": "2004 (Syria's first industrial city)",
+      "projects": "Expansion under way in response to investor demand (2026); planned inland dry port linked by rail to Latakia (CFS–LICT MoU, 2025).",
+      "notes": "Largest industrial city serving Damascus; sits on the M5 and near the Adra Free Zone and Damascus airport.",
+      "sources": [
+        "https://sana.sy/en/economic/2339895/",
+        "https://sana.sy/en/syria/2278329/"
+      ]
+    },
+    {
+      "id": "sy-sheikh-najjar",
+      "name": "Sheikh Najjar Industrial City (Aleppo)",
+      "type": "industrial zone",
+      "location": {"city": "Aleppo", "lat": 36.270, "lng": 37.300},
+      "authority": "Ministry of Economy and Industry / Sheikh Najjar Industrial City administration (Aleppo governorate)",
+      "area": "4,400–4,500 ha",
+      "sectors": ["textiles", "chemicals", "pharmaceuticals", "construction materials", "food"],
+      "incentives": "Customs exemptions on machinery imports; 90-day develop-or-forfeit rule on idle plots (2025); reserved plot offered to Saudi/Gulf investors",
+      "tenants": "~1,500 factories operating and ~900 under repair (Dec 2025); previously >50,000 jobs",
+      "status": "operational",
+      "opened": "2005",
+      "projects": "1.5m m² under contract with a real-estate developer with a similar area expected (2026); Turkish and Qatari power-supply deals to cut electricity costs; Turkish investor land commitments; Nas Tex 2026 textile fair signalling sector revival.",
+      "notes": "Syria's textile and manufacturing heartland; raw materials now arrive from Türkiye (Bab al-Hawa / Bab al-Salam), Jordan, Saudi Arabia and UAE. Constraints: war damage, high electricity cost, cautious foreign investors.",
+      "sources": [
+        "https://www.thenationalnews.com/news/mena/2025/12/26/aleppo-business-grows-post-assad-syria/",
+        "https://sana.sy/en/economic/2339895/"
+      ]
+    },
+    {
+      "id": "sy-hasya-industrial-city",
+      "name": "Hasya (Hassia) Industrial City and Free Zone",
+      "type": "industrial zone",
+      "location": {"city": "Hasya (Homs)", "lat": 34.420, "lng": 36.760},
+      "authority": "Ministry of Economy and Industry (industrial city); General Establishment of Free Zones (Hasya free zone plot)",
+      "area": "2,500 ha; ~10,000 ha of phased expansion planned; 850,000 m² free-zone plot allocated to Fidi Contracting (China)",
+      "sectors": ["petrochemicals", "renewable energy", "food", "textiles", "engineering", "chemicals"],
+      "incentives": "Customs exemptions on machinery imports, electronic payment/licensing, foreign-currency dealings (2025); free-zone status on the Fidi plot",
+      "tenants": "90 investment requests covering ~1.13m m² in the five months to May 2025; >20,000 direct and indirect jobs",
+      "status": "operational",
+      "opened": "2006",
+      "projects": "20-year Fidi Contracting (China) MoU (May 2025) for an 850,000 m² integrated export-oriented industrial zone; phased ~10,000 ha expansion focused on petrochemicals and renewables (2026); designated inland dry-port node (Homs) in the CFS–LICT rail MoU.",
+      "notes": "On the Damascus–Homs international road (M5), midway between Damascus and the coast; closest industrial city to Tartus port (~90 km) and therefore the natural hinterland zone for DP World's Tartus concession.",
+      "sources": [
+        "https://english.enabbaladi.net/archives/2025/05/90-investment-requests-in-hasya-industrial-city-in-five-months/",
+        "https://sana.sy/en/economic/2339895/",
+        "https://www.turkiyetoday.com/region/china-secures-strategic-investment-rights-in-syrias-hassia-adra-3201845"
+      ]
+    },
+    {
+      "id": "sy-latakia-free-zone",
+      "name": "Latakia Free Zone (internal zone and port zone)",
+      "type": "port-linked zone",
+      "location": {"city": "Latakia", "lat": 35.525, "lng": 35.790},
+      "authority": "General Establishment of Free Zones / GALSP",
+      "area": "n/a",
+      "sectors": ["logistics", "light industry", "commercial storage", "services"],
+      "incentives": "Free-zone tax and customs exemptions; investment plots re-tendered from 27 April 2025",
+      "tenants": "Fully occupied (September 2026), mixed industrial/commercial/service",
+      "status": "operational",
+      "opened": "n/a",
+      "projects": "Included in the April 2025 GALSP call for investors; benefits from LICT phase-2 expansion (EUR 200m).",
+      "notes": "Two components: an internal (city) zone and a port zone inside the Latakia port perimeter. Competitor-linked (CMA CGM / AD Ports terminal).",
+      "sources": [
+        "https://english.enabbaladi.net/archives/2025/04/ports-authority-launches-new-investment-opportunities-in-free-zones/",
+        "https://english.enabbaladi.net/archives/2026/09/free-zones-sign-800-contracts-expect-1000-investors-by-end-of-2026/"
+      ]
+    },
+    {
+      "id": "sy-tartus-free-zone",
+      "name": "Tartus Port Free Zone",
+      "type": "port-linked zone",
+      "location": {"city": "Tartus", "lat": 34.900, "lng": 35.870},
+      "authority": "General Establishment of Free Zones / GALSP; DP World concession covers port operations",
+      "area": "n/a",
+      "sectors": ["logistics", "warehousing", "trading"],
+      "incentives": "Free-zone tax and customs exemptions; investment plots re-tendered from 27 April 2025",
+      "tenants": "n/a",
+      "status": "operational",
+      "opened": "n/a",
+      "projects": "DP World's July 2025 agreement includes exploring free zones and inland logistics hubs around Tartus; 90% of ready-built free-zone facilities nationwide occupied (2026).",
+      "notes": "DP WORLD-adjacent asset: the port free zone is the logical location for a DP World logistics/free-zone extension of the Tartus concession.",
+      "sources": [
+        "https://english.enabbaladi.net/archives/2025/04/ports-authority-launches-new-investment-opportunities-in-free-zones/",
+        "https://www.dpworld.com/en/news/dp-world-to-develop-syrias-tartus-port-under-landmark-30-year-deal"
+      ]
+    },
+    {
+      "id": "sy-damascus-airport-free-zone",
+      "name": "Damascus International Airport Free Zone",
+      "type": "logistics zone",
+      "location": {"city": "Damascus", "lat": 33.410, "lng": 36.510},
+      "authority": "General Authority for Land and Sea Border Crossings / General Establishment of Free Zones",
+      "area": "n/a",
+      "sectors": ["air cargo", "transit logistics", "services"],
+      "incentives": "Free-zone exemptions; positioned as air-transit hub",
+      "tenants": "Damascus Free Zone reported at 100% occupancy (2026), service-focused",
+      "status": "operational",
+      "opened": "Reopened 26 October 2025 after 14-year suspension",
+      "projects": "Turkish consortium won tender (August 2025) to renovate and expand Damascus International Airport.",
+      "notes": "Aims to link air cargo with road transit to Iraq, Lebanon, Jordan and Türkiye.",
+      "sources": [
+        "https://english.enabbaladi.net/archives/2025/11/damascus-airport-free-zone-poised-to-become-a-regional-transit-hub/"
+      ]
+    },
+    {
+      "id": "sy-deir-ezzor-industrial-city",
+      "name": "Deir ez-Zor Industrial City",
+      "type": "industrial zone",
+      "location": {"city": "Deir ez-Zor", "lat": 35.330, "lng": 40.140},
+      "authority": "Ministry of Economy and Industry",
+      "area": "2,850 ha",
+      "sectors": ["food", "textiles", "engineering", "chemicals", "petrochemicals", "energy", "logistics"],
+      "incentives": "Industrial-city customs exemptions on machinery; new free-trade zone announced for Deir ez-Zor governorate (2025)",
+      "tenants": "n/a",
+      "status": "under construction",
+      "opened": "n/a",
+      "projects": "MoU with a petrochemical/energy/logistics company (2026); planned free-trade zone in Deir ez-Zor to serve Iraq trade (North Press, 2025).",
+      "notes": "Positioned on the Euphrates corridor toward Al-Bukamal/Al-Qaim; security context (ISIS remnants in the Badia) remains a constraint.",
+      "sources": [
+        "https://sana.sy/en/economic/2339895/",
+        "https://npasyria.com/en/49649/"
+      ]
+    }
+  ],
+  "corridors": [
+    {
+      "id": "sy-turkiye-jordan-gulf-road-transit",
+      "name": "Türkiye – Syria – Jordan / Gulf road transit corridor (Bab al-Hawa – Aleppo – M5 – Damascus – Nassib)",
+      "modes": ["road"],
+      "route": "Cilvegözü/Bab al-Hawa → Aleppo → Hama → Homs → Damascus (M5) → Nassib/Jaber → Amman → Saudi Arabia/Gulf",
+      "countries": ["TR", "SY", "JO", "SA"],
+      "length": "~500 km within Syria (Bab al-Hawa to Nassib)",
+      "operator": "Syrian General Authority for Land and Sea Border Crossings; Ministry of Transport; Turkish and Jordanian transport ministries (trilateral MoU 2025)",
+      "status": "operational",
+      "capacity_or_traffic": "Pre-2011 the corridor carried 100,000–115,000 transit trucks/year; Turkish trucks resumed transit to Jordan/Gulf in 2025; ~1,000 lorries/day at Nassib (Feb 2026)",
+      "projects": "June 2025 Türkiye–Syria road-transport agreement; trilateral Türkiye–Syria–Jordan MoU to harmonise customs, fees and visas with 'tangible progress' targeted before end-2026; Bab al-Hawa freight-yard and logistics-centre expansion (2026); Syria seeking grants for highway rehabilitation.",
+      "notes": "February 2026 Syrian ban on foreign lorries (truck-to-truck transloading at customs yards) and Jordan's reciprocal measures caused delays; roads need major rehabilitation; unexploded ordnance and localized security incidents. Turkey–Syria trade USD 3.75bn (2025).",
+      "sources": [
+        "https://sana.sy/en/syria/2318993/",
+        "https://gulfnews.com/business/markets/turkey-to-reopen-land-trade-corridor-to-jordan-gcc-through-syria-by-2026-1.500339710",
+        "https://www.thenationalnews.com/news/mena/2026/02/09/syria-jordan-transport-al-shara/",
+        "https://www.arabnews.com/node/2641485/amp"
+      ]
+    },
+    {
+      "id": "sy-turkiye-rail-link",
+      "name": "Syria – Türkiye rail links (Gaziantep–Meydan Ekbez–Aleppo; Karkamış–Nusaybin border line)",
+      "modes": ["rail"],
+      "route": "Gaziantep → Karkamış / Meydan Ekbez (Midan Ikbis) & Al-Rai (Çobanbey) → Aleppo; Turkish 350-km Karkamış–Nusaybin line along the border → Qamishli",
+      "countries": ["TR", "SY"],
+      "length": "~350 km (Turkish border line: 325 km Karkamış–Nusaybin + 25 km Mardin–Şenyurt); Aleppo–border sections ~60–100 km",
+      "operator": "TCDD (Türkiye) / Chemins de fer syriens (CFS)",
+      "status": "under construction",
+      "capacity_or_traffic": "n/a (no through freight since 2011–2012)",
+      "projects": "TCDD rehabilitation of Karkamış–Nusaybin line (Karkamış bridge overhaul, sleepers, ballast) targeted for reopening Q1 2026; Turkish transport minister (Aug 2025) committed to resume Gaziantep–Aleppo trains; Syrian sections via Midan Ikbis and al-Rai need reconstruction after extensive damage; Qamishli/Nusaybin rail-crossing infrastructure complete on Turkish side awaiting Syrian customs opening (Aug 2026). Syria estimates USD 5.5bn to bring its 2,800-km network (1,052 km operational) to international standard; World Bank grants of USD 65–200m sought.",
+      "notes": "Would connect Aleppo/Sheikh Najjar with the Turkish and European networks; aligns with Türkiye's Ovaköy–Nusaybin development corridor. Aleppo–Hama passenger service resumed August 2025 after 13 years.",
+      "sources": [
+        "https://www.hurriyetdailynews.com/turkiye-targets-early-2026-reopening-of-350-km-railway-along-syrian-border-216622",
+        "https://sana.sy/en/syria/2318993/",
+        "https://www.agbi.com/logistics/2025/12/syria-begins-to-rebuild-freight-rail-network/",
+        "https://english.enabbaladi.net/archives/2025/08/after-13-years-of-suspension-the-aleppo-hama-train-returns-to-service/"
+      ]
+    },
+    {
+      "id": "sy-hejaz-railway-damascus-amman",
+      "name": "Hejaz Railway rehabilitation (Damascus – Daraa – Amman) and Damascus – Aleppo CFS mainline",
+      "modes": ["rail"],
+      "route": "Aleppo → Hama → Homs → Damascus (standard gauge CFS) ; Damascus → Daraa → Jaber/Nassib → Amman (narrow-gauge Hejaz line)",
+      "countries": ["SY", "JO", "TR", "SA"],
+      "length": "Damascus–Amman ~220 km; Damascus–Aleppo ~360 km",
+      "operator": "Chemins de fer syriens (CFS) / Hejaz Railway Directorate; Jordan Hejaz Railway; trilateral Jordan–Syria–Türkiye cooperation (September 2025)",
+      "status": "planned",
+      "capacity_or_traffic": "n/a (Damascus–Amman out of service since 2011)",
+      "projects": "Trilateral agreement (Sept 2025): Türkiye supports reconstruction, Jordan provides locomotive maintenance; passenger service targeted for Q4 2026 subject to funding, freight upgrades in 3–5 years; new standard-gauge Damascus–Jordan border line with possible Saudi extension under study; Damascus–Aleppo rehabilitation under way; target freight speeds 100–120 km/h; World Bank grant of USD 65–200m sought.",
+      "notes": "Long-term vision links Istanbul–Aleppo–Damascus–Amman–Saudi Arabia/GCC; pre-2011 freight also ran Tartus–Baghdad–Umm Qasr. Financing largely unsecured as of 2026.",
+      "sources": [
+        "https://www.arabnews.com/node/2618410/business-economy",
+        "https://sana.sy/en/syria/2318993/",
+        "https://www.agbi.com/logistics/2025/12/syria-begins-to-rebuild-freight-rail-network/"
+      ]
+    },
+    {
+      "id": "sy-iraq-fuel-truck-corridor",
+      "name": "Iraq – Syria overland fuel corridor (Rabia/Yaarubiyah & al-Waleed → Baniyas)",
+      "modes": ["road"],
+      "route": "Iraqi refineries/fields → Rabia–Al-Yaarubiyah and Al-Waleed–Al-Tanf crossings → M4/M20 highways → Homs → Tartus–Baniyas highway → Baniyas terminal",
+      "countries": ["IQ", "SY"],
+      "length": "~700–900 km depending on crossing",
+      "operator": "Syrian Petroleum Company / Iraqi SOMO and Basra Oil Company; private tanker-truck fleets",
+      "status": "operational",
+      "capacity_or_traffic": "~900 tanker trucks/day unloading at Baniyas (July 2026); ~650,000 t/month fuel-oil contracts (Apr–Jun 2026); >2m t transited Jan–Aug 2026",
+      "projects": "Launched April 2026 as a Hormuz bypass; Rabia crossing reopened 20 April 2026 (first convoy 1 May); plans to add crude and naphtha; to be superseded by Kirkuk–Baniyas pipeline if rehabilitated.",
+      "notes": "Stopgap route, slower and costlier than pipeline; 30-km truck queues near Baniyas; ISIS activity in the eastern Badia and highway damage are risks. Generates transit fees and port charges for Damascus.",
+      "sources": [
+        "https://tanktransport.com/2026/07/iraq-syria-fuel-corridor/",
+        "https://www.thenationalnews.com/news/mena/2026/04/21/iraq-reopens-rabia-border-crossing-to-ease-fuel-shipments-through-syria/",
+        "https://shafaq.com/en/Economy/Energy-transit-drives-recovery-in-Syria-Iraq-trade"
+      ]
+    },
+    {
+      "id": "sy-kirkuk-baniyas-pipeline",
+      "name": "Kirkuk – Baniyas crude oil pipeline (revival)",
+      "modes": ["pipeline"],
+      "route": "Kirkuk (Iraq) → Haditha → Syrian border → Homs → Baniyas terminal",
+      "countries": ["IQ", "SY"],
+      "length": "~800 km (historic line, out of service since 2003)",
+      "operator": "Basra Oil Company (Iraq) / Syrian Petroleum Company; study consortium Chevron, UCC Holding, TI Capital",
+      "status": "planned",
+      "capacity_or_traffic": "n/a (historic design ~300,000 b/d; new capacity not yet defined)",
+      "projects": "Two MoUs signed 17–18 July 2026 (rehabilitation MoU Iraq–Syria; technical/financial studies MoU with Chevron–UCC–TI Capital), witnessed by Iraqi PM and US energy secretary; Iraqi cabinet authorised Basra Oil Co. on 25 July 2026; earlier talks in August 2025; Iraq also studying a wider Basra–Haditha–Baniyas/Fishkhabur network (press estimates ~USD 8bn).",
+      "notes": "Would make Baniyas/Tartus a strategic Gulf-to-Mediterranean export outlet, boosting liquid-bulk and service traffic in DP World's Tartus area. Route crosses Badia areas with residual ISIS presence.",
+      "sources": [
+        "https://sana.sy/en/economic/2330203/",
+        "https://english.enabbaladi.net/archives/2026/07/how-syria-could-benefit-from-reviving-the-iraq-syria-oil-pipeline/",
+        "https://www.agbi.com/logistics/2025/12/syria-begins-to-rebuild-freight-rail-network/"
+      ]
+    },
+    {
+      "id": "sy-latakia-aleppo-iraq-route",
+      "name": "Latakia / Tartus – Aleppo – Deir ez-Zor – Iraq trade route (M4 / Euphrates corridor)",
+      "modes": ["multimodal"],
+      "route": "Latakia or Tartus → Aleppo (M4) or Homs (M1/M5) → Raqqa/Deir ez-Zor → Al-Bukamal/Al-Qaim → Baghdad; rail: Latakia–Aleppo–Deir ez-Zor–Al-Bukamal line (CFS)",
+      "countries": ["SY", "IQ"],
+      "length": "~600–700 km Latakia–Al-Bukamal",
+      "operator": "Ministry of Transport / CFS; LICT (CMA CGM) for rail-container MoU; GALSP",
+      "status": "operational",
+      "capacity_or_traffic": "Syrian exports to Iraq USD 62m (2025) vs USD 2.2bn bilateral trade in 2010; Bukamal/Qaim reopened to trucks 14 June 2025",
+      "projects": "CFS–LICT MoU (2025) for container trains from Latakia to dry ports at Adra, Homs and Aleppo; Deir ez-Zor–Al-Bukamal rail rehabilitation listed as priority (Dec 2025); phosphate mines–Tartus rail upgrade; Deir ez-Zor free-trade zone planned.",
+      "notes": "Revives the pre-2011 Mediterranean–Iraq land bridge; road conditions poor east of Aleppo and security fragile in Deir ez-Zor/Badia. DP World's Tartus MoU explicitly cites transit corridors and inland hubs.",
+      "sources": [
+        "https://sana.sy/en/syria/2318993/",
+        "https://www.agbi.com/logistics/2025/12/syria-begins-to-rebuild-freight-rail-network/",
+        "https://shafaq.com/en/Economy/Energy-transit-drives-recovery-in-Syria-Iraq-trade",
+        "https://www.middleeastmonitor.com/20250614-iraq-reopens-syria-crossing-for-trade-and-passenger-traffic/"
+      ]
+    }
+  ],
+  "border_crossings": [
+    {
+      "id": "sy-bab-al-hawa",
+      "name": "Bab al-Hawa / Cilvegözü",
+      "with_country": "TR",
+      "with_country_name": "Türkiye",
+      "type": "road",
+      "location": {"city": "Sarmada (Idlib)", "lat": 36.235, "lng": 36.687},
+      "traffic": "Main Syria–Türkiye commercial gateway; Türkiye–Syria trade USD 3.75bn (2025), Turkish exports USD 1.28bn in H1 2026",
+      "status": "operational",
+      "hours": "24/7 (commercial and passenger)",
+      "projects": "Turkish-side expansion: yard 17→23 dunams, lanes 2→4 (33% complete by July 2026); Syrian GALSP freight yards and logistics centre inaugurated, completion within three months of August 2026; adjacent 51-ha Bab al-Hawa industrial city with 242,000 m² serviced plots",
+      "notes": "Formerly the sole UN cross-border aid corridor; complaints of procedural hurdles and mistreatment reported (Enab Baladi, May 2026); new Syrian customs law (May 2026). Syrian ban on foreign trucks (Feb 2026) requires transloading, though Türkiye negotiated transit for compliant Syrian trucks.",
+      "sources": [
+        "https://english.enabbaladi.net/archives/2026/08/turkey-continues-upgrading-syria-border-crossings/",
+        "https://english.enabbaladi.net/archives/2026/08/syria-turkey-trade-expands-pressuring-local-industry/",
+        "https://sana.sy/en/economic/2339895/"
+      ]
+    },
+    {
+      "id": "sy-bab-al-salam",
+      "name": "Bab al-Salam (Bab al-Salameh) / Öncüpınar",
+      "with_country": "TR",
+      "with_country_name": "Türkiye",
+      "type": "road",
+      "location": {"city": "Azaz (Aleppo)", "lat": 36.660, "lng": 37.090},
+      "traffic": "46,480 commercial trucks and ~1.1m tonnes of goods in the first eight months of 2026; 1.23m travellers",
+      "status": "operational",
+      "hours": "24/7",
+      "projects": "New service building under construction on Turkish side (2026)",
+      "notes": "Second main commercial crossing, 5 km from Azaz, serving Aleppo and Sheikh Najjar; 73,000 voluntary Syrian returns via this crossing in 2026.",
+      "sources": [
+        "https://www.dailysabah.com/business/economy/syria-turkiye-crossing-sees-12m-travelers-nearly-46500-trucks-in-8-months/amp",
+        "https://english.enabbaladi.net/archives/2026/08/turkey-continues-upgrading-syria-border-crossings/"
+      ]
+    },
+    {
+      "id": "sy-tal-abyad",
+      "name": "Tal Abyad / Akçakale",
+      "with_country": "TR",
+      "with_country_name": "Türkiye",
+      "type": "road",
+      "location": {"city": "Tal Abyad (Raqqa)", "lat": 36.700, "lng": 38.950},
+      "traffic": "~100,000 passenger movements in 2026 to August; commercial traffic limited",
+      "status": "operational",
+      "hours": "n/a",
+      "projects": "Mine clearance on 24 dunams completed; 59 dunams allocated for expansion and modernisation (2026)",
+      "notes": "Reopened 12 May 2026 after 12-year closure, after Damascus took control of the Syrian side on 22 January 2026 from the SDF; initially civilian passage with permits. Security context in the north-east remains sensitive.",
+      "sources": [
+        "https://turkishminute.com/2026/05/12/turkey-reopens-akcakale-border-crossing-with-syria-after-12-years/",
+        "https://english.enabbaladi.net/archives/2026/08/turkey-continues-upgrading-syria-border-crossings/"
+      ]
+    },
+    {
+      "id": "sy-ras-al-ain",
+      "name": "Ras al-Ain / Ceylanpınar",
+      "with_country": "TR",
+      "with_country_name": "Türkiye",
+      "type": "road",
+      "location": {"city": "Ras al-Ain (Hasakah)", "lat": 36.860, "lng": 40.070},
+      "traffic": "n/a (limited commercial and medical/emergency traffic)",
+      "status": "operational",
+      "hours": "n/a",
+      "projects": "Turkish-side upgrade completed 12 September 2024 (TRY 78m)",
+      "notes": "Secondary crossing in the SNA-held Peace Spring area; no 2026 traffic data found; verify current commercial status with GALSP before planning flows.",
+      "sources": [
+        "https://english.enabbaladi.net/archives/2024/09/after-ras-al-ain-crossing-upgrade-what-are-the-crossings-connecting-syria-to-turkey/"
+      ]
+    },
+    {
+      "id": "sy-qamishli-nusaybin",
+      "name": "Qamishli / Nusaybin",
+      "with_country": "TR",
+      "with_country_name": "Türkiye",
+      "type": "road+rail",
+      "location": {"city": "Qamishli (Hasakah)", "lat": 37.050, "lng": 41.220},
+      "traffic": "n/a",
+      "status": "planned",
+      "hours": "n/a",
+      "projects": "All Turkish-side infrastructure and superstructure completed (Aug 2026), awaiting opening of Syrian customs post in Qamishli; connects to the rehabilitated Karkamış–Nusaybin railway",
+      "notes": "Would be the only rail-capable Syria–Türkiye crossing in the north-east; timing depends on Damascus–SDF integration in Hasakah.",
+      "sources": [
+        "https://english.enabbaladi.net/archives/2026/08/turkey-continues-upgrading-syria-border-crossings/",
+        "https://www.hurriyetdailynews.com/turkiye-targets-early-2026-reopening-of-350-km-railway-along-syrian-border-216622"
+      ]
+    },
+    {
+      "id": "sy-nassib",
+      "name": "Nassib / Jaber",
+      "with_country": "JO",
+      "with_country_name": "Jordan",
+      "type": "road",
+      "location": {"city": "Nassib (Daraa)", "lat": 32.545, "lng": 36.200},
+      "traffic": "~1,000 lorries/day (Feb 2026); Syria–Jordan trade USD 432m Jan–Nov 2025 (nearly double 2024)",
+      "status": "operational",
+      "hours": "24/7 (announced 2025)",
+      "projects": "Trilateral Türkiye–Syria–Jordan customs-harmonisation MoU (2025); Jordan resumed truck-to-truck exports (2025)",
+      "notes": "Only open Syria–Jordan crossing and the sole gateway to the Gulf overland. February 2026 Syrian ban on foreign lorries (mandatory transloading) and reciprocal Jordanian measures stranded hundreds of trucks; watch for policy volatility. Nassib free zone exists on the Syrian side.",
+      "sources": [
+        "https://www.thenationalnews.com/news/mena/2026/02/09/syria-jordan-transport-al-shara/",
+        "https://jordantimes.com/news/local/jordan-resume-truck-truck-exports-syria-through-jaber-nasib-crossing-minister"
+      ]
+    },
+    {
+      "id": "sy-al-bukamal",
+      "name": "Al-Bukamal / Al-Qaim",
+      "with_country": "IQ",
+      "with_country_name": "Iraq",
+      "type": "road",
+      "location": {"city": "Al-Bukamal (Deir ez-Zor)", "lat": 34.420, "lng": 40.950},
+      "traffic": "Cargo trucks and passengers; Syrian exports to Iraq USD 62m (2025)",
+      "status": "operational",
+      "hours": "n/a",
+      "projects": "Deir ez-Zor–Al-Bukamal rail rehabilitation listed as priority (2025); planned Deir ez-Zor free-trade zone",
+      "notes": "Reopened for commercial and passenger traffic 14 June 2025 after joint security assessments; Euphrates corridor to Baghdad. Security: ISIS remnants in the Badia; former Iranian-militia transit hub.",
+      "sources": [
+        "https://www.middleeastmonitor.com/20250614-iraq-reopens-syria-crossing-for-trade-and-passenger-traffic/",
+        "https://shafaq.com/en/Economy/Energy-transit-drives-recovery-in-Syria-Iraq-trade"
+      ]
+    },
+    {
+      "id": "sy-al-yaarubiyah",
+      "name": "Al-Yaarubiyah / Rabia",
+      "with_country": "IQ",
+      "with_country_name": "Iraq",
+      "type": "road",
+      "location": {"city": "Al-Yaarubiyah (Hasakah)", "lat": 36.800, "lng": 42.060},
+      "traffic": "Primary entry for Iraqi fuel-oil tanker convoys to Baniyas (share of ~900 trucks/day nationally, 2026)",
+      "status": "operational",
+      "hours": "n/a",
+      "projects": "Iraq prepared reopening of Rabia and al-Waleed in Feb 2026; Yaarubiyah free zone plots offered by GALSP",
+      "notes": "Reopened 20 April 2026 after 10+ years (first convoy 1 May 2026) specifically to support fuel exports during the Hormuz disruption; north-east security and Damascus–SDF integration remain caveats.",
+      "sources": [
+        "https://www.thenationalnews.com/news/mena/2026/04/21/iraq-reopens-rabia-border-crossing-to-ease-fuel-shipments-through-syria/",
+        "https://tanktransport.com/2026/07/iraq-syria-fuel-corridor/",
+        "https://english.enabbaladi.net/archives/2026/02/al-waleed-and-rabia-border/"
+      ]
+    },
+    {
+      "id": "sy-al-tanf-al-waleed",
+      "name": "Al-Tanf / Al-Waleed",
+      "with_country": "IQ",
+      "with_country_name": "Iraq",
+      "type": "road",
+      "location": {"city": "Al-Tanf (Homs)", "lat": 33.490, "lng": 38.660},
+      "traffic": "Iraqi fuel convoys (2026); Baghdad–Damascus highway route",
+      "status": "operational",
+      "hours": "n/a",
+      "projects": "Iraq prepared reopening in Feb 2026",
+      "notes": "Historic Baghdad–Damascus highway crossing; area of former US/coalition base; desert route with ISIS risk.",
+      "sources": [
+        "https://english.enabbaladi.net/archives/2026/02/al-waleed-and-rabia-border/",
+        "https://tanktransport.com/2026/07/iraq-syria-fuel-corridor/",
+        "https://www.arabnews.com/node/2641485/amp"
+      ]
+    },
+    {
+      "id": "sy-jdeidet-yabous",
+      "name": "Jdeidet Yabous / Masnaa",
+      "with_country": "LB",
+      "with_country_name": "Lebanon",
+      "type": "road",
+      "location": {"city": "Jdeidet Yabous (Rif Dimashq)", "lat": 33.650, "lng": 35.980},
+      "traffic": "Only operating commercial Syria–Lebanon crossing (2026); Beirut–Damascus highway",
+      "status": "operational",
+      "hours": "24/7",
+      "projects": "Simplified procedures and accelerated inspections (2026)",
+      "notes": "Resumed operations March 2026 after closure; briefly shut 4 April 2026 after an Israeli evacuation warning targeting Masnaa (strike averted after US/Syrian intervention). High exposure to Israel–Lebanon conflict.",
+      "sources": [
+        "https://qna.org.qa/en/News-Area/News/2026-3/4/syrias-jdeidet-yabous-border-crossing-with-lebanon-resumes-operations",
+        "https://english.aawsat.com/arab-world/5259847-israeli-threats-shut-masnaa-crossing-partly-isolate-lebanon-syria",
+        "https://english.enabbaladi.net/archives/2026/07/al-dabousiyah-crossing-between-syria-and-lebanon-to-open-in-early-september/"
+      ]
+    },
+    {
+      "id": "sy-arida",
+      "name": "Al-Arida / Arida",
+      "with_country": "LB",
+      "with_country_name": "Lebanon",
+      "type": "road",
+      "location": {"city": "Arida (Tartus)", "lat": 34.630, "lng": 35.980},
+      "traffic": "Coastal route Tartus–Tripoli; mainly passenger with limited freight",
+      "status": "operational",
+      "hours": "n/a",
+      "projects": "Bridge rehabilitation agreed in September 2025 Syria–Lebanon accord",
+      "notes": "Closest Lebanese crossing to Tartus port (~30 km); bridge damaged by Israeli strikes in 2024.",
+      "sources": [
+        "https://english.enabbaladi.net/archives/2026/07/al-dabousiyah-crossing-between-syria-and-lebanon-to-open-in-early-september/"
+      ]
+    },
+    {
+      "id": "sy-dabousieh",
+      "name": "Al-Dabousieh / Abboudieh",
+      "with_country": "LB",
+      "with_country_name": "Lebanon",
+      "type": "road",
+      "location": {"city": "Dabousieh (Homs)", "lat": 34.600, "lng": 36.060},
+      "traffic": "Main overland route from Lebanon's Port of Tripoli to Homs and northern Syria",
+      "status": "under construction",
+      "hours": "n/a",
+      "projects": "Bridge rebuilt after Israeli bombardment; reopening scheduled early September 2026 using existing facilities; phase-two comprehensive expansion (~1.5 years)",
+      "notes": "Reopening intended to relieve pressure on Jdeidet Yabous; competes with Tartus for Homs-bound cargo via Tripoli.",
+      "sources": [
+        "https://english.enabbaladi.net/archives/2026/07/al-dabousiyah-crossing-between-syria-and-lebanon-to-open-in-early-september/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,558 @@
+{
+  "country": {
+    "code": "CM",
+    "name": "Cameroon",
+    "region": "Central Africa",
+    "capital": "Yaoundé",
+    "coastline": "Atlantic (Gulf of Guinea / Bight of Biafra)",
+    "summary": "Cameroon is the maritime gateway of the CEMAC hinterland: roughly 80% of Central Africa's transit traffic moves on the two rail/road corridors from Douala to N'Djamena (Chad) and Bangui (CAR), and about 79% of Chad's imports enter through Douala. National port traffic was 26.9m tonnes in 2024, split mainly between the historic river port of Douala (12.9m t, container terminal run by the state-owned RTC since Bolloré/APM Terminals' DIT concession ended in 2020) and the Chinese-built deep-sea port of Kribi (12.7m t, 16 m draft), whose second container terminal opened in May 2025 and lifted capacity to about 1m TEU under an AGL/CMA CGM/CHEC concession. Headline projects are the 4,000 ha Kribi Port Industrial Zone (EUR 795m, AGL/Arise IIP/Belmont, launched Feb 2026), the World Bank-financed Cameroon–Chad corridor programme (Douala–Yaoundé rail rehabilitation, Ngaoundéré intermodal platform), phase 2 of the Yaoundé–Douala motorway, the Kribi–Lolabé motorway and a still-unfunded Limbe deep-sea port for which MSC's TIL opened talks in July 2026. DP World has no asset in Cameroon; the market is dominated by AGL (MSC), CMA CGM, CHEC and ICTSI, with state-run RTC at Douala.",
+    "key_operators": ["Port Autonome de Douala (PAD) / RTC", "Port Autonome de Kribi (PAK)", "Africa Global Logistics (AGL, MSC group)", "CMA CGM", "China Harbour Engineering Company (CHEC)", "ICTSI", "Camrail (AGL)", "Terminal Investment Limited (TIL, MSC) – prospective"],
+    "sources": [
+      "https://www.investiraucameroun.com/gestion-publique/1311-22739-port-de-douala-12-9-millions-de-tonnes-traitees-en-2024-malgre-un-leger-recul-du-trafic-national",
+      "https://documents1.worldbank.org/curated/en/493301633812350826/txt/Concept-Project-Information-Document-Integrated-Safeguards-Data-Sheet-Cameroon-Chad-Transport-Corridor-P167798.txt",
+      "https://www.ecofinagency.com/news-infrastructures/1305-46793-cameroon-s-kribi-port-triples-capacity-with-launch-of-second-container-terminal",
+      "https://www.agenceecofin.com/actualites/2702-136202-cameroun-lancement-officiel-de-la-zone-industrielle-du-port-de-kribi",
+      "https://www.businessincameroon.com/public-management/1807-16484-cameroon-swiss-terminal-operator-explore-options-for-limbe-deep-seaport"
+    ]
+  },
+  "ports": [
+    {
+      "id": "cm-douala",
+      "name": "Port of Douala-Bonabéri",
+      "type": "multipurpose",
+      "location": {"city": "Douala", "lat": 4.050, "lng": 9.690},
+      "operator": "Port Autonome de Douala (PAD, state landlord); container terminal: Régie du Terminal à Conteneurs (RTC, PAD-owned, since 1 Jan 2020); timber yard: Bolloré/AGL group; security: Douala Port Security (DPS/PortSec SA)",
+      "concession": "Container terminal was concessioned in 2005 for 15 years to Douala International Terminal (DIT, Bolloré + APM Terminals), which invested CFA 43.4bn; the state refused renewal and evicted DIT in Dec 2020, handing operations to the in-house RTC. DIT won ICC arbitration and a Paris Court of Appeal ruling (Jan 2023) against PAD over the eviction.",
+      "capacity": "River port on the Wouri estuary; ~8 m alongside depth, max ~200 m LOA (tidal/dredging constrained); container terminal 660 m of quay, 3 berths; RTC targets 1m TEU/year capacity by 2026 after extension",
+      "throughput": "12.92m tonnes (2024, +6% vs 12.19m t in 2023); container TEU figure n/a (RTC handled ~3,000 boxes/week in 2024); transit traffic passed 500,000 t in Q1 2026",
+      "status": "operational",
+      "opened": "n/a (colonial-era port; PAD created 1999)",
+      "projects": "RTC container-terminal extension awarded Dec 2022 to Negri (CFA 47.2bn): +250 m quay, 7.9 ha backfill, 1,200 m roadways, target ≥1,000 m linear quay; 8 RTG cranes (CFA 12bn) delivered from Nov 2023; RTC invested >CFA 44bn 2020-23; Navis N4 TOS. World Bank Cameroon-Chad corridor project (approved Feb 2022) rehabilitates the Douala–Yaoundé rail link and Bessengue rail platform serving the port.",
+      "notes": "Cameroon's main gateway and the historic entry point for Chad and CAR transit; industrial land in the port is reported at 100% occupancy. Draft limits container-ship size, so Kribi increasingly relays boxes to Douala by feeder (about 30% of Kribi's transshipment flows to/from Douala). Competitor context: former Bolloré/APMT concession renationalised; no DP World presence.",
+      "sources": [
+        "https://www.businessincameroon.com/public-management/1607-14018-douala-ports-rtc-aims-for-one-million-container-handling-capacity-by-2026",
+        "https://www.investiraucameroun.com/gestion-publique/1311-22739-port-de-douala-12-9-millions-de-tonnes-traitees-en-2024-malgre-un-leger-recul-du-trafic-national",
+        "https://rtcdouala.cm/a-propos-du-terminal-a-conteneurs/",
+        "https://www.theafricareport.com/187112/cameroon-an-air-of-renationalisation-hangs-over-the-douala-port/",
+        "https://jusmundi.com/en/document/decision/en-douala-international-terminal-dit-v-port-autonome-de-douala-judgment-of-the-paris-court-of-appeal-tuesday-10th-january-2023",
+        "https://www.pad.cm/performance/performances-commerciales-operationnelles-et-economiques/",
+        "https://www.marineinsight.com/know-more/10-major-ports-and-terminals-in-cameroon/"
+      ]
+    },
+    {
+      "id": "cm-kribi",
+      "name": "Kribi Deep-Sea Port (Port Autonome de Kribi)",
+      "type": "container",
+      "location": {"city": "Kribi (Mboro/Lolabé)", "lat": 2.719, "lng": 9.864},
+      "operator": "Port Autonome de Kribi (PAK, landlord); Kribi Conteneurs Terminal (KCT: Africa Global Logistics/ex-Bolloré lead, CMA CGM, CHEC, Cameroonian investors incl. Belmont/Colin Mukete); Kribi Multipurpose Terminal (KMT: ICTSI-led consortium)",
+      "concession": "KCT container concession (Bolloré/CMA CGM/CHEC) operating since March 2018, phase-2 amendment signed 26 Sep 2022; KMT multipurpose concession (ICTSI) in commercial operation since Oct 2020; terms n/a",
+      "capacity": "Draft 16 m; terminal 1: 350 m quay, ~300,000 TEU/yr; terminal 2 (opened 9 May 2025): 715 m quay, 30-33 ha yard, 5 STS cranes (65 t), 15 yard cranes — total container capacity ~1m TEU/yr (PAK cites 1.2m TEU); breakwater extended by 675 m; can receive 400 m 'megamax' ships (MSC Turkiye, May 2025)",
+      "throughput": "12.7m tonnes (2024, vs 10.7m t in 2023); KCT ~750,000 TEU in first 12 months after terminal 2 opening (May 2025-May 2026, +82%), ~74,000 TEU in March 2025, ~70% transshipment; PAK revenue CFA 35.3bn (2024, +24%), net profit CFA 4bn (2025)",
+      "status": "operational",
+      "opened": "2018 (commercial container operations, March 2018; first ships 2014)",
+      "projects": "Phase 2 (CFA 400bn, 75% China Eximbank, built by CHEC) delivered 2025; KCT invested CFA 70bn in terminal-2 equipment (2024); KCT preparing an 8 ha yard extension to reach 1.2m TEU/yr and discussing phase 3 (quay extension); PAK plans a mineral (iron ore/bauxite) terminal from 2027 and a hydrocarbons/LNG terminal from 2028; 26,000 ha master plan to 2040 (CFA 6,500bn); standard-gauge railway from Mbalam/Nabeba iron ore mines under construction (2025)",
+      "notes": "Only deep-water port in the CEMAC zone; positioned by MSC/AGL as the Gulf of Guinea transshipment hub on the Asia–West Africa 'Africa Express' loop (80% of flows via Singapore). Competitor concession: AGL (MSC) + CMA CGM + CHEC at KCT, ICTSI at KMT. Adjacent Kome-Kribi 1 FSO is the marine outlet of the Chad–Cameroon oil pipeline (since 2003). No DP World presence.",
+      "sources": [
+        "https://www.ecofinagency.com/news-infrastructures/1305-46793-cameroon-s-kribi-port-triples-capacity-with-launch-of-second-container-terminal",
+        "https://www.investiraucameroun.com/gestion-publique/3006-22189-port-de-kribi-la-hausse-du-trafic-a-12-7-millions-de-tonnes-en-2024-genere-un-chiffre-d-affaires-de-35-3-milliards-24",
+        "https://fr.allafrica.com/stories/202605150402.html",
+        "https://www.investiraucameroun.com/travaux-publics/2410-21344-port-de-kribi-70-milliards-de-fcfa-d-investissements-pour-exploiter-le-2e-terminal-a-conteneurs",
+        "https://portsetcorridors.com/2022/la-phase-2-du-terminal-de-kribi-signe-entre-bollore-ports-et-le-port-autonome-de-kribi/",
+        "https://www.ictsi.com/our-offering/our-terminals/kribi-multipurpose-terminal",
+        "https://pak.cm/en/service/port-industrial-zone/",
+        "https://china.aiddata.org/projects/53396/",
+        "https://en.wikipedia.org/wiki/Kribi_Deepwater_Port",
+        "https://leconomie.info/article/le-benefice-net-du-port-de-kribi-progresse-de-16-a-4-milliards-de-fcfa-en-2025"
+      ]
+    },
+    {
+      "id": "cm-limbe",
+      "name": "Port of Limbe (existing port and Limbe Deep Seaport project)",
+      "type": "oil & gas",
+      "location": {"city": "Limbe", "lat": 4.015, "lng": 9.207},
+      "operator": "Port Autonome de Limbe / Limbe Port Authority (state); existing traffic dominated by SONARA refinery hydrocarbons (Limboh terminal) and an oil-services yard",
+      "concession": "n/a — government held a first working session with Terminal Investment Limited (TIL, MSC group) on 15 July 2026 to explore a PPP to develop, modernise and operate the future deep seaport; a July 2025 MoU with Turkish contractor Yenigün was announced then postponed",
+      "capacity": "Existing: ~750 m of berthing, 5 warehouses, petroleum products/timber/cement; deep-seaport project budgeted at ~CFA 400bn (~USD 667m) in government programming documents",
+      "throughput": "Limbe traffic fell 957,162 t (-23%) in 2024 (national port statistics); absolute figure n/a",
+      "status": "operational",
+      "opened": "n/a",
+      "projects": "Limbe Deep Seaport: feasibility studies 2009 (updated since), dedicated port authority created, project delayed for over a decade; TIL/MSC exploratory talks July 2026; Idenau and Tiko incorporated in the Limbe port authority's remit; MAGZI plans a 1,000 ha industrial zone at Limbe by 2035",
+      "notes": "South-West region port 15 nautical miles from Douala, oriented to Nigeria trade and oil services; existing traffic is largely SONARA-related and has been hit by the refinery's 2019 fire and Anglophone-region insecurity. Prospective competitor concession: TIL (MSC). Opportunity: no terminal operator selected yet.",
+      "sources": [
+        "https://www.businessincameroon.com/public-management/1807-16484-cameroon-swiss-terminal-operator-explore-options-for-limbe-deep-seaport",
+        "https://www.capmad.com/post/limbe-cameroon-turns-to-swiss-group-til-to-frame-its-future-deep-seaport",
+        "https://www.investiraucameroun.com/gestion-publique/1311-22739-port-de-douala-12-9-millions-de-tonnes-traitees-en-2024-malgre-un-leger-recul-du-trafic-national",
+        "https://thesunnewspaper.cm/idenau-tiko-now-officially-part-of-limbe-deep-seaport/",
+        "https://www.marineinsight.com/know-more/10-major-ports-and-terminals-in-cameroon/"
+      ]
+    },
+    {
+      "id": "cm-tiko",
+      "name": "Port of Tiko",
+      "type": "multipurpose",
+      "location": {"city": "Tiko", "lat": 4.075, "lng": 9.360},
+      "operator": "State (now placed under the Limbe port authority together with Idenau)",
+      "concession": "n/a",
+      "capacity": "Two docks totalling ~300 m; historically ~29,000 t/yr; creek port for coastal/regional vessels",
+      "throughput": "n/a",
+      "status": "operational",
+      "opened": "n/a",
+      "projects": "n/a — included in the Limbe deep-seaport perimeter",
+      "notes": "Small agro-export port (bananas, rubber, palm oil, timber, cocoa) serving CDC plantations; informal coastal trade with Nigeria (Calabar). Marginal for international operators.",
+      "sources": [
+        "https://www.marineinsight.com/know-more/10-major-ports-and-terminals-in-cameroon/",
+        "https://thesunnewspaper.cm/idenau-tiko-now-officially-part-of-limbe-deep-seaport/"
+      ]
+    },
+    {
+      "id": "cm-garoua",
+      "name": "Garoua River Port (Bénoué)",
+      "type": "river",
+      "location": {"city": "Garoua", "lat": 9.300, "lng": 13.390},
+      "operator": "Garoua Urban Community (transferred 2003); management committee set up 2 April 2026 under the Bénoué prefect",
+      "concession": "n/a",
+      "capacity": "Two 250 m docks, ~6 m depth, 12,000 m² stockyard; navigable only June–October (Bénoué high water); silting",
+      "throughput": "n/a — no regular commercial traffic, mainly artisanal pirogues (2020-24 audit noted uncollected port fees)",
+      "status": "operational",
+      "opened": "1935",
+      "projects": "Rehabilitation/modernisation estimated at CFA 16bn (financing to be found); government wants to move from studies to execution; a second dry port is also planned at Garoua",
+      "notes": "Historic river link to Nigeria via the Bénoué/Niger; relevance today is cross-border trade with Nigeria and Chad rather than sea access. Low priority for private terminal operators.",
+      "sources": [
+        "https://www.investiraucameroun.com/gestion-publique/0704-23255-port-de-garoua-un-comite-de-gestion-pour-sortir-l-infrastructure-de-l-informel-et-securiser-les-recettes",
+        "https://www.cameroon-tribune.cm/article.html/58979/fr.html/rehabilitation-du-port-de-garoua-plus-de-16-milliards-de-f",
+        "https://www.marineinsight.com/know-more/10-major-ports-and-terminals-in-cameroon/"
+      ]
+    },
+    {
+      "id": "cm-kome-kribi-oil-terminal",
+      "name": "Kome-Kribi 1 marine terminal (Chad–Cameroon pipeline FSO)",
+      "type": "oil & gas",
+      "location": {"city": "Offshore Kribi", "lat": 2.95, "lng": 9.75},
+      "operator": "COTCO (Cameroon Oil Transportation Company) – Chad–Cameroon pipeline consortium",
+      "concession": "n/a",
+      "capacity": "Offshore FSO loading tankers above 300,000 DWT",
+      "throughput": "n/a",
+      "status": "operational",
+      "opened": "2003",
+      "projects": "n/a",
+      "notes": "Export outlet of the 1,070 km Chad–Cameroon pipeline (Doba fields); other oil terminals: Limboh (SONARA, Limbe), Kole, Ebome (Perenco), Moudi.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kribi_Deepwater_Port",
+        "https://www.marineinsight.com/know-more/10-major-ports-and-terminals-in-cameroon/"
+      ]
+    }
+  ],
+  "zones": [
+    {
+      "id": "cm-kribi-port-industrial-zone",
+      "name": "Kribi Port Industrial Zone (KPIZ)",
+      "type": "special economic zone",
+      "location": {"city": "Kribi", "lat": 2.75, "lng": 9.87},
+      "authority": "Port Autonome de Kribi (PAK) with consortium Africa Global Logistics (MSC), Arise Integrated Industrial Platforms and Belmont Investments (Colin Mukete); financiers AfDB, EU Global Gateway, IFC",
+      "area": "4,000 ha (MAGZI separately projects 5,000 ha of industrial land at Kribi by 2035)",
+      "sectors": ["agro-industry", "textiles", "metallurgy", "timber processing", "construction materials", "fisheries", "consumer goods", "logistics"],
+      "incentives": "Cameroon economic-zone / industrial free-zone regime (details n/a); phased sectoral clusters (heavy/medium industry, food processing, R&D)",
+      "tenants": "~CFA 400bn already invested 2018-2025 by industrial operators in cocoa processing, cement, flour milling and logistics",
+      "status": "under construction",
+      "opened": "2026 (official launch 26 Feb 2026; originally planned July 2025)",
+      "projects": "Total EUR 795m (~CFA 521bn); first phase EUR 400m; Tanger Med Special Agency withdrew from the consortium before launch",
+      "notes": "Flagship port-linked SEZ of Central Africa; developer consortium led by MSC's AGL and Arise IIP (Gabon GSEZ model) — a direct competitor platform to DP World's economic-zone offering.",
+      "sources": [
+        "https://www.agenceecofin.com/actualites/2702-136202-cameroun-lancement-officiel-de-la-zone-industrielle-du-port-de-kribi",
+        "https://www.investiraucameroun.com/gestion-publique/2002-23123-port-de-kribi-agl-arise-iip-et-belmont-s-allient-au-pak-pour-une-zone-industrielle-de-521-milliards-fcfa-sur-15-000-ha",
+        "https://www.investiraucameroun.com/gestion-publique/1806-23506-zones-industrielles-la-magzi-projette-plus-de-9-000-hectares-de-nouveaux-sites-a-l-horizon-2035"
+      ]
+    },
+    {
+      "id": "cm-kribi-port-logistics-zone",
+      "name": "Kribi port logistics and industrial zone (PAK port domain)",
+      "type": "port-linked zone",
+      "location": {"city": "Kribi (Mboro)", "lat": 2.73, "lng": 9.88},
+      "authority": "Port Autonome de Kribi (PAK)",
+      "area": "1,200 ha under phased development to 2027; +30 ha storage yard added in phase II",
+      "sectors": ["logistics", "container/multipurpose terminals", "aluminium & bauxite", "hydrocarbons & LNG"],
+      "incentives": "n/a",
+      "tenants": "KCT (AGL/CMA CGM/CHEC), KMT (ICTSI) one-stop service centre, logistics operators",
+      "status": "operational",
+      "opened": "2018",
+      "projects": "Specialised aluminium, bauxite, hydrocarbon and LNG terminals planned; mineral terminal construction from 2027, hydrocarbons terminal 2028",
+      "notes": "Inside the 26,000 ha Kribi port complex master plan; feeds the wider KPIZ.",
+      "sources": [
+        "https://pak.cm/en/service/port-industrial-zone/",
+        "https://www.ecofinagency.com/news-infrastructures/1305-46793-cameroon-s-kribi-port-triples-capacity-with-launch-of-second-container-terminal"
+      ]
+    },
+    {
+      "id": "cm-douala-bassa-industrial-zone",
+      "name": "Douala-Bassa Industrial Zone (MAGZI)",
+      "type": "industrial zone",
+      "location": {"city": "Douala", "lat": 4.03, "lng": 9.75},
+      "authority": "MAGZI (Mission d'Aménagement et de Gestion des Zones Industrielles, state)",
+      "area": "192 ha",
+      "sectors": ["milling", "brewing", "soap/consumer goods", "metallurgy", "packaging", "petroleum products", "agri-business"],
+      "incentives": "Serviced industrial land leased by MAGZI; general Cameroon investment-incentive law (2013) applies",
+      "tenants": "89 industrial units (about 25% of Douala's industrial output); Douala's two MAGZI zones host ~160 firms",
+      "status": "operational",
+      "opened": "n/a (1970s MAGZI zone)",
+      "projects": "MAGZI plans 300 ha at Yassa (Douala east) and 500 ha at Dibombari by 2035",
+      "notes": "Saturated legacy zone next to the port and Camrail's Bassa workshops; land disputes and expulsions of non-compliant tenants reported. MAGZI's 11 zones total 1,293 ha with 405 firms nationally.",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Zone_industrielle_de_Douala-Bassa",
+        "https://magzicameroun.com/produit/zone-industrielle-douala-bassa/",
+        "https://www.investiraucameroun.com/gestion-publique/1806-23506-zones-industrielles-la-magzi-projette-plus-de-9-000-hectares-de-nouveaux-sites-a-l-horizon-2035"
+      ]
+    },
+    {
+      "id": "cm-douala-bonaberi-industrial-zone",
+      "name": "Douala-Bonabéri Industrial Zone (MAGZI)",
+      "type": "industrial zone",
+      "location": {"city": "Douala (Bonabéri)", "lat": 4.08, "lng": 9.66},
+      "authority": "MAGZI",
+      "area": "n/a",
+      "sectors": ["agri-business", "chemicals", "metal", "logistics"],
+      "incentives": "MAGZI serviced land lease; national investment-incentive regime",
+      "tenants": "n/a (part of ~160 firms across Douala's two MAGZI zones)",
+      "status": "operational",
+      "opened": "n/a",
+      "projects": "n/a",
+      "notes": "West-bank zone adjacent to the Bonabéri port sector and the Wouri bridge; road access to the North-West/West regions.",
+      "sources": [
+        "https://magzicameroun.com/produit/zone-industrielle-douala-bonaberi/",
+        "https://www.investiraucameroun.com/gestion-publique/1806-23506-zones-industrielles-la-magzi-projette-plus-de-9-000-hectares-de-nouveaux-sites-a-l-horizon-2035"
+      ]
+    },
+    {
+      "id": "cm-ngaoundere-dry-port",
+      "name": "Ngaoundéré rail/road platform and dry port",
+      "type": "logistics zone",
+      "location": {"city": "Ngaoundéré", "lat": 7.32, "lng": 13.58},
+      "authority": "Camrail terminal operated by SMN (Société de Manutention de Ngaoundéré); dry-port project led by Ministry of Transport",
+      "area": "Dry port: ~200 ha allocated at Beka Matari; existing Camrail container terminal capacity 1,350 TEU",
+      "sectors": ["transit logistics (Chad, northern Cameroon)", "container handling", "rail–road transfer"],
+      "incentives": "n/a",
+      "tenants": "SMN, Chadian forwarders/transporters",
+      "status": "planned",
+      "opened": "n/a (rail terminal operational since railway completion in 1974)",
+      "projects": "Dry-port project (announced 2022, budget ~CFA 1.4bn, studies and tender) still without a firm start date; rehabilitation of the Ngaoundéré rail/road platform is a component of the World Bank Cameroon-Chad corridor project (2026 work plan)",
+      "notes": "Rail-head of the Douala–N'Djamena corridor where rail freight (roughly 39% modal share Douala–Ngaoundéré, 90% for fuel) shifts to trucks for Chad; a Chad-owned dry port on 10 ha downstream of Douala port (GPM/Genesis) has also been mooted.",
+      "sources": [
+        "https://www.investiraucameroun.com/economie/0404-17734-un-port-sec-d-environ-1-4-milliard-de-fcfa-en-gestation-a-ngaoundere-dans-la-partie-septentrionale-du-cameroun",
+        "https://camrail.cm/en/logistics-platforms/",
+        "https://ecomatin.net/cameroun-toujours-pas-de-visibilite-sur-le-demarrage-du-projet-de-port-sec-de-ngaoundere-annonce-depuis-50-ans",
+        "https://logistafrica.com/en/highlights/transport-and-transit-in-central-africa-the-douala-ndjamena-corridor-shifts-into-high-gear/"
+      ]
+    },
+    {
+      "id": "cm-edea-industrial-zone",
+      "name": "Edéa industrial zone",
+      "type": "industrial zone",
+      "location": {"city": "Edéa", "lat": 3.80, "lng": 10.13},
+      "authority": "MAGZI (planned extension); existing industry anchored by Alucam smelter and the Edéa hydropower plant",
+      "area": "300 ha planned by 2035",
+      "sectors": ["aluminium", "energy-intensive industry", "agri-business"],
+      "incentives": "n/a",
+      "tenants": "Alucam aluminium smelter and related industries (existing, outside MAGZI perimeter)",
+      "status": "planned",
+      "opened": "n/a",
+      "projects": "Part of MAGZI's 9,101 ha programme to 2035; Edéa sits at the junction of the Douala–Yaoundé motorway phase 2 (Edéa Est–Edéa Ouest section) and the Edéa–Kribi motorway",
+      "notes": "Strategic node between Douala, Yaoundé and Kribi; financing of MAGZI zones is the main constraint (only CFA 20bn mobilised in ~50 years).",
+      "sources": [
+        "https://www.investiraucameroun.com/gestion-publique/1806-23506-zones-industrielles-la-magzi-projette-plus-de-9-000-hectares-de-nouveaux-sites-a-l-horizon-2035",
+        "https://www.agenceecofin.com/transports/1210-122386-cameroun-la-phase-2-de-l-autoroute-yaounde-douala-est-en-cours"
+      ]
+    },
+    {
+      "id": "cm-garoua-boulai-logistics-hub",
+      "name": "Garoua-Boulaï truck logistics hub (CNCC)",
+      "type": "logistics zone",
+      "location": {"city": "Garoua-Boulaï", "lat": 5.883, "lng": 14.55},
+      "authority": "Conseil National des Chargeurs du Cameroun (CNCC)",
+      "area": "2+ ha; parking for 200 trucks, accommodation, restaurant, admin block, borehole and generator",
+      "sectors": ["transit trucking (Douala/Kribi–Bangui corridor)"],
+      "incentives": "n/a",
+      "tenants": "Cross-border truckers",
+      "status": "operational",
+      "opened": "2025 (inaugurated 5 Sep 2025 after two-year delay)",
+      "projects": "Fourth CNCC logistics base under construction at Kousséri (Chad border); earlier bases at Dibamba (Douala) and Ngoulentang",
+      "notes": "Secures the border staging area for CAR-bound convoys; customs values goods transiting this route at ~CFA 55bn/year.",
+      "sources": [
+        "https://www.businessincameroon.com/public-management/0809-14977-douala-bangui-corridor-cameroon-opens-garoua-boulai-logistics-hub-to-boost-security-and-trade"
+      ]
+    },
+    {
+      "id": "cm-ombe-industrial-zone",
+      "name": "Ombé industrial zone (Limbe/Tiko) and planned Limbe 1,000 ha zone",
+      "type": "industrial zone",
+      "location": {"city": "Ombé (Limbe–Tiko)", "lat": 4.05, "lng": 9.28},
+      "authority": "MAGZI",
+      "area": "n/a (existing Ombé zone); 1,000 ha new zone at Limbe planned by 2035",
+      "sectors": ["agro-processing", "petroleum services", "construction materials"],
+      "incentives": "n/a",
+      "tenants": "n/a",
+      "status": "operational",
+      "opened": "n/a",
+      "projects": "1,000 ha Limbe industrial zone tied to the Limbe deep-seaport project",
+      "notes": "Only MAGZI zone in the South-West region; activity constrained by the Anglophone crisis since 2017.",
+      "sources": [
+        "https://www.investiraucameroun.com/gestion-publique/1806-23506-zones-industrielles-la-magzi-projette-plus-de-9-000-hectares-de-nouveaux-sites-a-l-horizon-2035"
+      ]
+    }
+  ],
+  "corridors": [
+    {
+      "id": "cm-douala-ndjamena-corridor",
+      "name": "Douala – Yaoundé – Ngaoundéré – Kousséri – N'Djamena corridor (Cameroon–Chad)",
+      "modes": ["rail", "road", "multimodal"],
+      "route": "Port of Douala → Yaoundé → Bélabo → Ngaoundéré (rail, ~900 km) → Garoua → Maroua → Kousséri/Nguéli bridge → N'Djamena (road); road-only variant via Ngaoundéré–Garoua–Kousséri",
+      "countries": ["CM", "TD"],
+      "length": "~1,800 km Douala–N'Djamena (rail ~885 km to Ngaoundéré + ~900 km road)",
+      "operator": "Camrail (AGL) for rail; road trucking mainly by Chadian/Cameroonian hauliers; CNCC/BGFT corridor management",
+      "status": "operational",
+      "capacity_or_traffic": "~79% of Chad's imports transit via Douala; ~CFA 340-350bn of Chadian goods per year; Camrail carried 1.8m t of freight in 2014 (>2/3 of Chad's imports by rail then); rail modal share Douala–Ngaoundéré ~39% (90% for petroleum)",
+      "projects": "World Bank Cameroon-Chad Transport Corridor project (P167798, approved 15 Feb 2022, ~USD 495-816m incl. IDA USD 345m; effective June 2024): Douala–Yaoundé rail rehabilitation and signalling (USD 368m), Ngaoundéré rail/road platform, N'Djamena–Moundou road, trade facilitation; 2026 rail budget CFA 11.12bn. EU/EIB Global Gateway: rehabilitation of 229 km of the 596 km N'Djamena–Koutéré–Moundou road (works from Q2 2024). Yagoua–Bongor Logone bridge (CFA 74bn, AfDB + EU EUR 40m) opened 28 Apr 2025. AfDB Transport Facilitation Programme (2007, UA 454m) built Garoua-Boulaï–Ngaoundéré and Kousséri sections.",
+      "notes": "Backbone of Central African transit (with Douala–Bangui, ~80% of the sub-region's transit traffic); insecurity in the Far North (Boko Haram) and truck convoys add time/cost; Kribi increasingly competes for Chad-bound containers via Douala feeders and road. Camrail concession (AGL) is the key competitor asset on the rail leg.",
+      "sources": [
+        "https://documents1.worldbank.org/curated/en/493301633812350826/txt/Concept-Project-Information-Document-Integrated-Safeguards-Data-Sheet-Cameroon-Chad-Transport-Corridor-P167798.txt",
+        "https://documents1.worldbank.org/curated/en/099052125064036902/pdf/P167798-545747b6-126c-4af9-9075-7258430d9bac.pdf",
+        "https://logistafrica.com/en/highlights/transport-and-transit-in-central-africa-the-douala-ndjamena-corridor-shifts-into-high-gear/",
+        "https://international-partnerships.ec.europa.eu/policies/global-gateway/modernisation-ndjamena-douala-corridor-and-construction-bridge-chad_en",
+        "https://www.businessincameroon.com/construction/2404-14617-cameroon-and-chad-to-inaugurate-cfa74bn-cross-border-bridge-on-april-28",
+        "https://www.afdb.org/en/documents/document/cameroon-car-chad-transport-facilitation-program-on-the-douala-bangui-and-douala-ndjamena-corridors-esia-summary-12859",
+        "https://map.au-pida.org/projects/show/9800001"
+      ]
+    },
+    {
+      "id": "cm-douala-bangui-corridor",
+      "name": "Douala – Yaoundé – Bertoua – Garoua-Boulaï/Béloko – Bangui corridor (Cameroon–CAR)",
+      "modes": ["road", "rail", "multimodal"],
+      "route": "Port of Douala (or Kribi) → Yaoundé → Bertoua (or rail to Bélabo) → Garoua-Boulaï → Béloko (CAR) → Bouar → Bangui",
+      "countries": ["CM", "CF"],
+      "length": "~1,300-1,450 km (Béloko is 578 km from Bangui)",
+      "operator": "Road hauliers under CNCC/BGFT corridor management; Camrail to Bélabo timber terminal (SOMAC)",
+      "status": "operational",
+      "capacity_or_traffic": "~80% of CAR's imports; Cameroon customs values transit on the route at ~CFA 55bn/year; transit delays of several weeks reported",
+      "projects": "CAR moved its transit customs window from Douala to the Béloko dry port (finalised 6 Apr 2026); CNCC Garoua-Boulaï truck hub opened Sep 2025; AfDB Transport Facilitation Programme (2007) asphalted Garoua-Boulaï–Bouar (154 km) and Ngaoundéré–Garoua-Boulaï (260 km) and financed joint border checkpoints",
+      "notes": "Security-driven: convoys escorted by MINUSCA/FACA inside CAR; the Kribi–Bangui variant is promoted by PAK. Kentzou–Gamboula is the secondary crossing.",
+      "sources": [
+        "https://ecomatin.net/corridor-cameroun-centrafrique-bangui-delocalise-son-guichet-de-transit-de-douala-a-beloko",
+        "https://www.businessincameroon.com/public-management/0809-14977-douala-bangui-corridor-cameroon-opens-garoua-boulai-logistics-hub-to-boost-security-and-trade",
+        "https://www.afdb.org/en/documents/document/cameroon-car-chad-transport-facilitation-program-on-the-douala-bangui-and-douala-ndjamena-corridors-esia-summary-12859",
+        "https://lca.logcluster.org/23-central-african-republic-reseau-routier"
+      ]
+    },
+    {
+      "id": "cm-camrail-douala-ngaoundere",
+      "name": "Camrail Douala – Yaoundé – Bélabo – Ngaoundéré railway (Transcamerounais)",
+      "modes": ["rail"],
+      "route": "Douala (Bessengue/port) → Eséka → Yaoundé → Bélabo → Ngaoundéré; branches Douala–Nkongsamba and Mbanga–Kumba",
+      "countries": ["CM"],
+      "length": "~1,000 km network (Douala–Yaoundé 265 km; Yaoundé–Bélabo 293 km; Bélabo–Ngaoundéré 329 km); metre gauge",
+      "operator": "Camrail (concession signed 19 Jan 1999, operations from 1 Apr 1999; reference shareholder Africa Global Logistics/ex-Bolloré; State minority)",
+      "status": "operational",
+      "capacity_or_traffic": "1.8m t freight and 1.7m passengers (2014); recent tonnage n/a; Ngaoundéré terminal 1,350 TEU capacity",
+      "projects": "World Bank-financed rehabilitation and signalling of the Douala–Yaoundé line (USD 368m component; preliminary design studies delayed, bidding expected 2025); Ngaoundéré platform rehabilitation; PIDA-listed Douala–Ngaoundéré–N'Djamena rail extension to Chad (studies)",
+      "notes": "Competitor asset: AGL (MSC group) controls Camrail as well as KCT and the Douala timber yard, giving MSC an integrated port-rail chain to Chad. Eséka derailment (2016) and ageing track constrain speed/capacity.",
+      "sources": [
+        "https://camrail.cm/en/about-us/",
+        "https://camrail.cm/en/logistics-platforms/",
+        "https://documents1.worldbank.org/curated/en/099052125064036902/pdf/P167798-545747b6-126c-4af9-9075-7258430d9bac.pdf",
+        "https://map.au-pida.org/projects/show/9800001"
+      ]
+    },
+    {
+      "id": "cm-yaounde-douala-motorway",
+      "name": "Yaoundé – Douala motorway (phases 1 and 2)",
+      "modes": ["road"],
+      "route": "Yaoundé (Nkolbisson) → Bibodi → Bodmon → Edéa → Pitti → Douala (Massoumbou)",
+      "countries": ["CM"],
+      "length": "Phase 1: 60 km (Yaoundé–Bibodi); phase 2: 141.1 km in 5 sections (Bibodi–Bodmon 39.5 km, Bodmon–Edéa Est 34 km, Edéa Est–Ouest 30 km, Edéa Ouest–Pitti 18 km, Pitti–Massoumbou 19.5 km)",
+      "operator": "Ministry of Public Works; contractor China First Highway Engineering Corporation (CFHEC)",
+      "status": "under construction",
+      "capacity_or_traffic": "n/a (parallels the congested N3 that carries most Douala port hinterland traffic)",
+      "projects": "Phase 1 (~CFA 350bn, works 2014-2022) open; phase 2 (~CFA 880bn / ~USD 1.5bn, Chinese financing sought at FOCAC 2024) launched Oct 2024 with 36-month schedule, government target 2028",
+      "notes": "Critical for Douala–Yaoundé truck flows to Chad/CAR corridors; phase 2 also links to the Edéa–Kribi motorway at Edéa.",
+      "sources": [
+        "https://www.agenceecofin.com/transports/1210-122386-cameroun-la-phase-2-de-l-autoroute-yaounde-douala-est-en-cours",
+        "https://fr.allafrica.com/stories/202504160355.html",
+        "https://caa.cm/en/projet-de-la-2nde-phase-de-lautoroute-yaounde-douala/"
+      ]
+    },
+    {
+      "id": "cm-kribi-lolabe-edea-motorway",
+      "name": "Kribi – Lolabé motorway and Edéa – Kribi motorway",
+      "modes": ["road"],
+      "route": "Kribi port (Mboro/Lolabé) → Kribi → Edéa (junction with Douala–Yaoundé motorway)",
+      "countries": ["CM"],
+      "length": "Kribi–Lolabé 38.5 km (+4 km port access), open since 2022; Edéa–Kribi ~92 km planned (total 108 km, 2x3 lanes, 110 km/h)",
+      "operator": "Ministry of Public Works; contractor China Harbour Engineering Company (CHEC); PPP with Chinese partner for operation/tolling",
+      "status": "under construction",
+      "capacity_or_traffic": "n/a",
+      "projects": "Edéa–Kribi section costed at CFA 512.3bn (CFA 482.6bn works), Chinese-financed, with 4 interchanges and 5 major bridges (Nyong 225 m, Lokoudjé 200 m); Kribi–Lolabé section built 2015-2022 with China Eximbank financing",
+      "notes": "Without the Edéa link, Kribi port traffic to Douala/Yaoundé still uses the two-lane N7 — a major constraint on Kribi's hinterland reach and a driver of feeder traffic to Douala.",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Autoroute_Ed%C3%A9a_-_Kribi",
+        "https://edea.cm/autoroute-edea-kribi/",
+        "https://caa.cm/en/autoroute-lolabe-kribi/"
+      ]
+    },
+    {
+      "id": "cm-bamenda-enugu-corridor",
+      "name": "Bamenda – Mamfe – Ekok/Mfum – Abakaliki – Enugu corridor (Cameroon–Nigeria)",
+      "modes": ["road"],
+      "route": "Bamenda → Batibo → Mamfe → Ekok (CM) → Mfum (NG) → Ikom → Abakaliki → Enugu; feeder Kumba–Bachuo Akagbe (150 km)",
+      "countries": ["CM", "NG"],
+      "length": "402 km Bamenda–Enugu (+150 km Kumba–Bachuo Akagbe)",
+      "operator": "Ministries of Public Works (CM) and Works (NG); AfDB-financed",
+      "status": "operational",
+      "capacity_or_traffic": "n/a",
+      "projects": "AfDB Transport Facilitation Programme (ADF loan UA 90.4m approved 25 Nov 2008; EU grant EUR 25.5m): road upgrade, 402 m Cross River bridge at Ekok–Mfum (68% complete Apr 2020, since opened) and joint border post; Mfum–Ekok Border Modernisation Initiative launched 10 Sep 2026 (OSBP assessment, data exchange) with AfDB, ECOWAS, ECCAS, Afreximbank, AfCFTA Secretariat",
+      "notes": "Main formal road link between CEMAC and Nigeria; traffic depressed by the Anglophone crisis in Cameroon's North-West/South-West regions since 2017.",
+      "sources": [
+        "https://www.afdb.org/sites/default/files/documents/projects-and-operations/multinational_-_transport_facilitation_program_for_the_bamenda-mamfe-ekokmfum-abakalikienugu_corridor.pdf",
+        "https://nairametrics.com/2026/09/10/nigeria-cameroon-launch-border-modernisation-project-to-ease-trade-barriers/"
+      ]
+    },
+    {
+      "id": "cm-mbalam-kribi-iron-ore-railway",
+      "name": "Mbalam/Nabeba – Kribi iron-ore railway",
+      "modes": ["rail"],
+      "route": "Mbalam (CM) / Nabeba (Congo) iron-ore mines → Kribi mineral terminal",
+      "countries": ["CM", "CG"],
+      "length": "~510 km planned (standard gauge)",
+      "operator": "n/a (mine developers; Sundance Resources' earlier concession terminated)",
+      "status": "under construction",
+      "capacity_or_traffic": "n/a",
+      "projects": "Standard-gauge line reported under construction in 2025; PAK plans the associated mineral terminal from 2027",
+      "notes": "Would make Kribi a bulk-export port; progress historically slow and dependent on iron-ore financing.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kribi_Deepwater_Port",
+        "https://www.ecofinagency.com/news-infrastructures/1305-46793-cameroon-s-kribi-port-triples-capacity-with-launch-of-second-container-terminal"
+      ]
+    }
+  ],
+  "border_crossings": [
+    {
+      "id": "cm-kousseri-ngueli",
+      "name": "Kousséri – Nguéli bridge (N'Djamena)",
+      "with_country": "TD",
+      "with_country_name": "Chad",
+      "type": "road",
+      "location": {"city": "Kousséri", "lat": 12.08, "lng": 15.03},
+      "traffic": "Main gateway for Chad's imports on the Douala–N'Djamena corridor (~79% of Chad's imports transit Cameroon); truck counts n/a",
+      "status": "operational",
+      "hours": "n/a",
+      "projects": "CNCC truck logistics base under construction at Kousséri (2025); AfDB programme financed the Kousséri by-pass, Walia–Nguéli dual carriageway (6 km, Chad side) and joint checkpoints with axle-load scales",
+      "notes": "Single Logone bridge into the Chadian capital, congested; security context of the Lake Chad basin (Boko Haram) adds escort requirements.",
+      "sources": [
+        "https://www.afdb.org/en/documents/document/cameroon-car-chad-transport-facilitation-program-on-the-douala-bangui-and-douala-ndjamena-corridors-esia-summary-12859",
+        "https://www.businessincameroon.com/public-management/0809-14977-douala-bangui-corridor-cameroon-opens-garoua-boulai-logistics-hub-to-boost-security-and-trade",
+        "https://www.businessincameroon.com/construction/2404-14617-cameroon-and-chad-to-inaugurate-cfa74bn-cross-border-bridge-on-april-28"
+      ]
+    },
+    {
+      "id": "cm-yagoua-bongor",
+      "name": "Yagoua – Bongor Logone bridge",
+      "with_country": "TD",
+      "with_country_name": "Chad",
+      "type": "road",
+      "location": {"city": "Yagoua", "lat": 10.34, "lng": 15.24},
+      "traffic": "New second road link Cameroon–Chad; crossing time cut from ~45-60 min (ferry) to minutes; volumes n/a",
+      "status": "operational",
+      "hours": "n/a",
+      "projects": "620 m bridge (CFA 74bn; total programme ~CFA 92bn with 14.2 km access roads, customs posts) financed by AfDB loan + EUR 40m EU grant, built by Razel/Sotcocog, works from Feb 2020, inaugurated 28 Apr 2025",
+      "notes": "Opens a southern alternative to Kousséri for the Douala–N'Djamena corridor via Maroua/Yagoua–Bongor–N'Djamena.",
+      "sources": [
+        "https://www.businessincameroon.com/construction/2404-14617-cameroon-and-chad-to-inaugurate-cfa74bn-cross-border-bridge-on-april-28",
+        "https://www.afdb.org/en/success-stories/bridge-over-logone-river-great-leap-forward-millions-people-central-africa-79156"
+      ]
+    },
+    {
+      "id": "cm-garoua-boulai-beloko",
+      "name": "Garoua-Boulaï – Béloko",
+      "with_country": "CF",
+      "with_country_name": "Central African Republic",
+      "type": "road",
+      "location": {"city": "Garoua-Boulaï", "lat": 5.883, "lng": 14.55},
+      "traffic": "Main gateway for CAR (~80% of CAR imports); goods valued ~CFA 55bn/year by Cameroon customs",
+      "status": "operational",
+      "hours": "n/a",
+      "projects": "CNCC 200-truck logistics hub opened 5 Sep 2025; CAR transit customs window relocated from Douala to Béloko dry port (Apr 2026); AfDB-financed joint checkpoint and asphalting of Garoua-Boulaï–Bouar",
+      "notes": "Convoys escorted inside CAR; periodic closures during CAR crises (2014); refugee pressure in the East region.",
+      "sources": [
+        "https://www.businessincameroon.com/public-management/0809-14977-douala-bangui-corridor-cameroon-opens-garoua-boulai-logistics-hub-to-boost-security-and-trade",
+        "https://ecomatin.net/corridor-cameroun-centrafrique-bangui-delocalise-son-guichet-de-transit-de-douala-a-beloko",
+        "https://en.wikipedia.org/wiki/Garoua-Boula%C3%AF"
+      ]
+    },
+    {
+      "id": "cm-kye-ossi",
+      "name": "Kye-Ossi (tri-border with Gabon and Equatorial Guinea)",
+      "with_country": "GA",
+      "with_country_name": "Gabon (Bitam) and Equatorial Guinea (Ebibeyin)",
+      "type": "road",
+      "location": {"city": "Kye-Ossi", "lat": 2.175, "lng": 11.341},
+      "traffic": "Largest CEMAC land-trade hub for food exports to Gabon/Equatorial Guinea; heavily informal; three customs crossing points connected to CAMCIS",
+      "status": "operational",
+      "hours": "n/a",
+      "projects": "MAGZI plans a 150 ha industrial zone at Kyé-Ossi by 2035",
+      "notes": "UNECA survey (Mar 2026): high clearance costs, unreceipted charges (83% of traders), delays (78%), informal payments (56%); Equatorial Guinea periodically closes its side; border closed Aug-Sep 2016 during Gabon's election.",
+      "sources": [
+        "https://www.businessincameroon.com/public-management/1203-15887-corruption-and-customs-fees-weigh-on-informal-trade-at-central-africa-s-three-border-hub",
+        "https://en.wikipedia.org/wiki/Ky%C3%A9-Ossi",
+        "https://www.investiraucameroun.com/gestion-publique/1806-23506-zones-industrielles-la-magzi-projette-plus-de-9-000-hectares-de-nouveaux-sites-a-l-horizon-2035"
+      ]
+    },
+    {
+      "id": "cm-abang-minkoo-eboro",
+      "name": "Abang Minko'o – Eboro",
+      "with_country": "GA",
+      "with_country_name": "Gabon",
+      "type": "road",
+      "location": {"city": "Abang Minko'o (Ambam)", "lat": 2.16, "lng": 11.22},
+      "traffic": "Cross-border market whose main customers are Gabonese; road link Ambam–Bitam–Oyem–Libreville",
+      "status": "operational",
+      "hours": "n/a",
+      "projects": "n/a",
+      "notes": "Multiple checkpoints/informal levies reported on the approach; closed with Kye-Ossi during Gabon's Aug-Sep 2016 election.",
+      "sources": [
+        "https://www.stopblablacam.com/economy-and-politics/2609-62-border-between-gabon-and-cameroon-to-be-closed",
+        "https://www.cameroon-tribune.cm/article.html/45006/fr.html/postes-frontieres-la-vigilance-de-mise"
+      ]
+    },
+    {
+      "id": "cm-ekok-mfum",
+      "name": "Ekok – Mfum (Cross River bridge)",
+      "with_country": "NG",
+      "with_country_name": "Nigeria (Cross River State)",
+      "type": "OSBP (one-stop border post)",
+      "location": {"city": "Ekok", "lat": 5.80, "lng": 8.83},
+      "traffic": "Main formal road gateway between Cameroon and Nigeria; volumes n/a; officials acknowledge flows 'less efficient than expected'",
+      "status": "operational",
+      "hours": "n/a",
+      "projects": "402 m two-lane bridge and joint border post (Nigerian side) financed by AfDB/EU under the Bamenda–Enugu programme; Mfum–Ekok Border Modernisation Initiative launched 10 Sep 2026 (joint OSBP operations, real-time data exchange, joint risk management) backed by AfDB, ECOWAS, ECCAS, Afreximbank and AfCFTA Secretariat",
+      "notes": "Access road from Mamfe/Bamenda affected by the Anglophone conflict; joint border post built but unified operations still being negotiated.",
+      "sources": [
+        "https://www.afdb.org/sites/default/files/documents/projects-and-operations/multinational_-_transport_facilitation_program_for_the_bamenda-mamfe-ekokmfum-abakalikienugu_corridor.pdf",
+        "https://nairametrics.com/2026/09/10/nigeria-cameroon-launch-border-modernisation-project-to-ease-trade-barriers/",
+        "https://gazettengr.com/nigeria-cameroon-move-to-reduce-delays-at-mfum-ekok-border/"
+      ]
+    },
+    {
+      "id": "cm-kentzou-gamboula",
+      "name": "Kentzou – Gamboula",
+      "with_country": "CF",
+      "with_country_name": "Central African Republic",
+      "type": "road",
+      "location": {"city": "Kentzou", "lat": 4.45, "lng": 15.40},
+      "traffic": "Secondary CAR entry point (Berbérati axis); mainly regional/informal trade",
+      "status": "operational",
+      "hours": "n/a",
+      "projects": "n/a",
+      "notes": "Was inaccessible in 2014 due to anti-Balaka activity; used as a fallback when Garoua-Boulaï is disrupted.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Garoua-Boula%C3%AF",
+        "https://www.cameroon-tribune.cm/article.html/45006/fr.html/postes-frontieres-la-vigilance-de-mise"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,672 @@
+{
+  "country": {
+    "code": "EG",
+    "name": "Egypt",
+    "region": "North Africa",
+    "capital": "Cairo",
+    "coastline": "Mediterranean and Red Sea (linked by the Suez Canal)",
+    "summary": "Egypt sits astride the Suez Canal, the main Asia–Europe sea lane, and is the region's largest transhipment and gateway market: Port Said East (APM Terminals' SCCT, 7m TEU after the 2025 expansion), the new Damietta Alliance terminal (Hapag-Lloyd/Eurogate/Contship, up to 3.3m TEU, opened Feb 2026), Alexandria/El Dekheila (Hutchison, MSC/TIL) on the Mediterranean, and Ain Sokhna (DP World since 2008; Hutchison/CMA/COSCO semi-automated terminal opened Jan 2026) on the Red Sea. The Suez Canal Economic Zone (c.461 km2, six ports, four industrial zones) has attracted about USD 15bn of investment, 70% foreign, and hosts DP World's Sokhna logistics park and AD Ports' KEZAD East Port Said. Headline projects are the Siemens-built 660 km Ain Sokhna–Alamein–Matrouh high-speed/freight line (trial operations from September 2026), the Sokhna–6th of October dry port–Alexandria rail link, Abu Qir's new Hutchison container terminal, AD Ports' Safaga multipurpose terminal and the planned USD 4bn King Salman bridge to Saudi Arabia. Red Sea/Houthi disruption cut Suez Canal revenue by an estimated USD 7bn from late 2023, but traffic and revenue were recovering strongly through Q4 2025 and 2026.",
+    "key_operators": ["DP World", "APM Terminals (Maersk)", "Hutchison Ports", "AD Ports Group", "Hapag-Lloyd / Eurogate / Contship Italia (Damietta Alliance)", "CMA CGM / CMA Terminals", "COSCO Shipping Ports", "MSC / Terminal Investment Ltd", "Suez Canal Authority", "Suez Canal Economic Zone (SCZONE)"],
+    "sources": [
+      "https://www.dailynewsegypt.com/2026/02/24/sczone-attracts-15bn-in-investments-70-foreign-chairperson/",
+      "https://www.hellenicshippingnews.com/suez-canal-revenue-climbs-24-5-vessel-traffic-rises-9-in-q4-2025/",
+      "https://sczone.eg/",
+      "https://www.mts.gov.eg/en/"
+    ]
+  },
+  "ports": [
+    {
+      "id": "eg-port-said-east-scct",
+      "name": "Port Said East – Suez Canal Container Terminal (SCCT)",
+      "type": "container",
+      "location": {"city": "Port Said (East)", "lat": 31.23, "lng": 32.33},
+      "operator": "APM Terminals (SCCT S.A.E., a joint venture with COSCO Shipping Ports, Suez Canal Authority and Egyptian partners); Container Terminal 2 concession also with APM Terminals/SCCT",
+      "concession": "SCCT concession from Suez Canal Economic Zone Authority; expansion/Container Terminal 2 concession celebrated Aug 2023 (term not stated in sources)",
+      "capacity": "7m TEU/year after the 2025 expansion (2.2m TEU added: 955 m new quay, 510,000 m2 yard, 12 STS cranes, 30 electric RTGs)",
+      "throughput": "n/a (ranked 3rd most efficient container port globally in the World Bank/S&P CPPI 2024)",
+      "status": "operational",
+      "opened": "2004",
+      "projects": "USD 500m expansion inaugurated 16 Nov 2025 by President El-Sisi; IFC-backed SCCT Phase 3; 100% renewable-energy power agreement signed 2026",
+      "notes": "Competitor concession (APM Terminals/Maersk hub, one of eight APMT East–West hub terminals also serving Hapag-Lloyd). Pure transhipment hub at the Mediterranean mouth of the Suez Canal; AD Ports Group also signed agreements for East Port Said (KEZAD zone, 2025).",
+      "sources": [
+        "https://www.apmterminals.com/en/news/news-releases/2025/251117-SCCT-celebrates-expansion",
+        "https://www.apmterminals.com/en/news/news-releases/2023/230831-suez-canal-economic-zone-celebrates-concession-for-container-terminal-2",
+        "https://gcaptain.com/egypts-suez-canal-container-terminal-completes-500-million-expansion/",
+        "https://disclosures.ifc.org/project-detail/SII/47505/scct-phase-3"
+      ]
+    },
+    {
+      "id": "eg-port-said-west",
+      "name": "Port Said (West) Port",
+      "type": "multipurpose",
+      "location": {"city": "Port Said", "lat": 31.26, "lng": 32.30},
+      "operator": "Port Said Port Authority (state); container quay operated by Port Said Container & Cargo Handling Co.; Suez Canal Authority provides pilotage and runs the Port Said shipyard",
+      "concession": "n/a (state-run; AD Ports Group signed agreements covering West Port Said in 2023)",
+      "capacity": "3 km2 port area; 19 berths incl. 5 multipurpose/container berths (606 m, 13.2 m depth); 800,000 TEU/year and 4.7m t containerised cargo; approach channel 18.29 m (East verge)",
+      "throughput": "n/a",
+      "status": "operational",
+      "opened": "1869",
+      "projects": "Shipyard developing new-build capability; part of SCZONE port network",
+      "notes": "Older general-cargo/container port on the west bank of the canal entrance; overshadowed by SCCT. AD Ports Group holds cooperation agreements for West Port Said (2023).",
+      "sources": [
+        "https://www.mts.gov.eg/en/port/%D9%85%D9%8A%D9%86%D8%A7%D8%A1-%D8%A8%D9%88%D8%B1%D8%B3%D8%B9%D9%8A%D8%AF/",
+        "https://sczone.eg/",
+        "https://www.porttechnology.org/news/ad-ports-inks-30-year-concession-for-safaga-port-development/"
+      ]
+    },
+    {
+      "id": "eg-damietta",
+      "name": "Damietta Port (incl. Damietta Alliance / Tahya Misr 1 terminal)",
+      "type": "container",
+      "location": {"city": "Damietta", "lat": 31.47, "lng": 31.76},
+      "operator": "Damietta Port Authority; Damietta Alliance Container Terminals (Hapag-Lloyd Damietta GmbH 39%, Eurogate 29.956%, Contship Italia 29.956%, Ship & C.R.E.W. Egypt 1%, MELCG 0.07%); legacy terminal by Damietta Container & Cargo Handling Co.",
+      "concession": "Damietta Alliance: build-operate concession for Tahya Misr 1 (Terminal 2) signed 2022 with Damietta Port Authority; term not stated in sources",
+      "capacity": "Existing port: 19 berths, 14.5 m container-berth depth, 1.2m TEU and 19.75m t/year; DACT: 1,670 m quay, 18 m depth, up to 3.3m TEU/year at full build",
+      "throughput": "n/a",
+      "status": "operational",
+      "opened": "1986",
+      "projects": "DACT (>USD 600m, IFC-financed 'Damietta Port II') started commercial operations 14 Feb 2026 as a Hapag-Lloyd transhipment hub; 10 new cranes delivered 2025; superstructure works began Mar 2025",
+      "notes": "Competitor concession (Hapag-Lloyd/Eurogate/Contship). Positions Damietta as a Mediterranean transhipment hub competing with SCCT; rail link to national network.",
+      "sources": [
+        "https://www.hapag-lloyd.com/en/company/press/releases/2026/02/new-damietta-alliance-container-terminals--dact--launches-commer.html",
+        "https://www.mts.gov.eg/en/port/%D9%85%D9%8A%D9%86%D8%A7%D8%A1-%D8%AF%D9%85%D9%8A%D8%A7%D8%B7/",
+        "https://disclosures.ifc.org/project-detail/SII/45868/damietta-port-ii",
+        "https://container-mag.com/2025/03/11/damietta-alliance-commences-superstructure-works-at-tahya-misr-1-container-terminal/"
+      ]
+    },
+    {
+      "id": "eg-alexandria-dekheila",
+      "name": "Alexandria & El Dekheila Ports (incl. Tahya Misr 2 / Berth 100)",
+      "type": "multipurpose",
+      "location": {"city": "Alexandria", "lat": 31.17, "lng": 29.84},
+      "operator": "Alexandria Port Authority; Hutchison Ports Alexandria (AICT, container terminals at Alexandria and El Dekheila); Alexandria Container & Cargo Handling Co.; new Tahya Misr 2 (Berth 100, Dekheila) contracted to a Hutchison Ports–MSC/TIL consortium",
+      "concession": "Hutchison–TIL consortium: build, manage, operate, maintain and hand over Tahya Misr 2 terminal (signed 2023; term not stated). Hutchison has operated AICT since the 2000s.",
+      "capacity": "Tahya Misr 2: 1.5m TEU/year, 1,200 m of a 1,680 m quay, 18 m draft, c.840,000 m2 yard, 24,000-TEU vessel capable",
+      "throughput": "n/a",
+      "status": "operational",
+      "opened": "1870s (modern port); Tahya Misr 2 99.5% complete Jan 2025",
+      "projects": "Tahya Misr 2 terminal (Berth 100, Dekheila) – part of Hutchison's USD 700m Sokhna+Alexandria package; Tahya Misr multipurpose station at Dekheila; rail shuttle to 6th of October dry port (1–3 trains/week rising to 3–5/day)",
+      "notes": "Competitor concession (Hutchison Ports/MSC). Egypt's historical main import gateway (Alexandria + Dekheila). Rail-linked to DP World's 6th of October dry port and, via the national network, to Sokhna – the 'Suez–Alexandria integrated logistics hub'.",
+      "sources": [
+        "https://www.dailynewsegypt.com/2025/01/22/transport-ministry-completes-99-of-tahya-misr-2-terminal-project-at-alexandria-port/",
+        "https://www.seatrade-maritime.com/ports-logistics/hutchison-ports-inks-egyptian-ports-concession-agreement",
+        "https://www.aict.com.eg/introduction/",
+        "https://www.mts.gov.eg/en/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84-%D8%A5%D9%86%D8%B4%D8%A7%D8%A1-%D9%85%D8%AD%D8%B7%D8%A9-%D8%AA%D8%AD%D9%8A%D8%A7-%D9%85%D8%B5%D8%B1-2-%D9%85%D8%AA%D8%B9%D8%AF%D8%AF%D8%A9-%D8%A7%D9%84%D8%A3%D8%BA/"
+      ]
+    },
+    {
+      "id": "eg-ain-sokhna",
+      "name": "Ain Sokhna Port (DP World Sokhna + Red Sea Container Terminal)",
+      "type": "container",
+      "location": {"city": "Ain Sokhna", "lat": 29.63, "lng": 32.35},
+      "operator": "DP World Sokhna (multipurpose and container terminals, since 2008); Red Sea Container Terminal – Hutchison Ports / CMA Terminals / COSCO Shipping Ports consortium (from Dec 2025–Jan 2026); Suez Canal Economic Zone Authority is landlord",
+      "concession": "DP World: majority owner/operator of Sokhna Port Development Co. since 2008 (>USD 1.3bn invested); Hutchison-led consortium: new semi-automated terminal under SCZONE concession signed 2023 (term not stated)",
+      "capacity": "Hutchison/CMA/COSCO terminal: 1.7m TEU/year (semi-automated); DP World terminals: n/a",
+      "throughput": "DP World Sokhna: c.1m containers (2025); record 285,000 TEU in Q1 2025",
+      "status": "operational",
+      "opened": "2003 (DP World from 2008)",
+      "projects": "DP World USD 85m Sokhna Logistics Park (300,000 m2, bonded/non-bonded warehousing, phase 1 due end-2025); Hutchison-led USD 700m (Sokhna+Alexandria) Red Sea Container Terminal – trial ops Dec 2025, opened Jan 2026; rail integration to 6th of October dry port and Alexandria",
+      "notes": "DP WORLD ASSET (flagship). Direct competitor terminal now operating in the same port (Hutchison/CMA CGM/COSCO, 1.7m TEU) – raises overcapacity/competition risk on the Red Sea gateway. Sokhna is the main Red Sea gateway for Cairo and the SCZONE Sokhna industrial zone; strong reefer/citrus export growth.",
+      "sources": [
+        "https://container-news.com/dp-worlds-port-of-sokhna-handles-one-million-containers-in-2025/",
+        "https://www.mediaoffice.ae/en/news/2025/april/30-04/dp-world-sokhna",
+        "https://www.zawya.com/en/projects/construction/dp-worlds-85mln-sokhna-logistics-park-phase-1-set-for-year-end-launch-qm6ovcw9",
+        "https://container-mag.com/2026/01/16/egypt-ain-sokhna-container-terminal/",
+        "https://www.dailynewsegypt.com/2025/12/15/egypt-begins-trial-operations-at-red-sea-container-terminal-as-first-vessel-docks-at-sokhna-port/",
+        "https://www.dpworld.com/egypt"
+      ]
+    },
+    {
+      "id": "eg-adabiya",
+      "name": "Adabiya Port (Suez)",
+      "type": "multipurpose",
+      "location": {"city": "Suez", "lat": 29.87, "lng": 32.48},
+      "operator": "Red Sea Ports Authority / Suez Canal Economic Zone (listed among SCZONE's six ports)",
+      "concession": "n/a",
+      "capacity": "9 berths, c.1,805 m quay, depths 27–42 ft (8–13 m); 7.93m t/year (5.13m t general cargo, 2.8m t dry bulk)",
+      "throughput": "n/a",
+      "status": "operational",
+      "opened": "n/a",
+      "projects": "n/a",
+      "notes": "General cargo/bulk port 17 km south-west of Suez city at the southern canal entrance; complements Sokhna for bulk and project cargo.",
+      "sources": [
+        "https://www.mts.gov.eg/en/port/%D9%85%D9%8A%D9%86%D8%A7%D8%A1-%D8%A7%D9%84%D8%A3%D8%AF%D8%A8%D9%8A%D8%A9/",
+        "https://sczone.eg/"
+      ]
+    },
+    {
+      "id": "eg-safaga",
+      "name": "Safaga Port (AD Ports multipurpose terminal)",
+      "type": "multipurpose",
+      "location": {"city": "Safaga", "lat": 26.74, "lng": 33.94},
+      "operator": "Red Sea Ports Authority; AD Ports Group (new multipurpose terminal)",
+      "concession": "AD Ports Group: 30-year concession with Red Sea Ports Authority to develop and operate a multipurpose terminal (HoT Mar 2023, definitive agreement Dec 2023)",
+      "capacity": "AD Ports terminal: c.810,000 m2, up to 1,000 m quay; 450,000 TEU, 50,000 CEU ro-ro, 5m t dry bulk/general cargo, 1m t liquid bulk per year",
+      "throughput": "n/a",
+      "status": "under construction",
+      "opened": "n/a (AD Ports terminal targeted 2025; Panamax cranes being received Mar 2025)",
+      "projects": "Up to USD 200m AD Ports investment over three years; AD Ports also holds cruise-terminal concessions at Safaga, Hurghada and Sharm El Sheikh (2023); ferry link to Duba (Saudi Arabia)",
+      "notes": "Competitor concession (AD Ports Group). Serves Upper Egypt/Golden Triangle (phosphates, aluminium) and the Safaga–Duba ferry corridor; planned HSR Line 3 terminus (Safaga–Luxor).",
+      "sources": [
+        "https://www.adportsgroup.com/en/news-and-media/2023/12/27/adpg-and-rspa-sign-agreement-to-develop-and-operate-multipurpose-terminal-in-safaga-port",
+        "https://www.porttechnology.org/news/ad-ports-inks-30-year-concession-for-safaga-port-development/",
+        "https://www.adportsgroup.com/en/news-and-media/2025/03/04/ad-ports-group-prepares-to-receive-state-of-the-art-panamax-class-cranes-in-safaga"
+      ]
+    },
+    {
+      "id": "eg-abu-qir",
+      "name": "Abu Qir Port (new container terminal)",
+      "type": "container",
+      "location": {"city": "Abu Qir, Alexandria", "lat": 31.32, "lng": 30.07},
+      "operator": "Egyptian Navy / Abu Qir port authority; container terminal to be operated by Hutchison Ports",
+      "concession": "Hutchison Ports: 38-year agreement with the Egyptian Navy to develop and operate the container terminal (announced 2021)",
+      "capacity": "Container terminal: 1,200 m berth, 18 m draft, 1.6m TEU rising to 2m TEU/year; port total 7.67 km2 incl. 10 dry-bulk berths; four further berths to 22 m depth under construction",
+      "throughput": "n/a",
+      "status": "under construction",
+      "opened": "n/a (first phase originally targeted 2022; onshore works by Chinese contractor began 2022)",
+      "projects": "USD 730m Hutchison–Navy container terminal with driverless trucks and 24,000-TEU-capable cranes; new dual three-lane highway to Alexandria and Cairo",
+      "notes": "Competitor concession (Hutchison Ports). Adds a third Hutchison box terminal in the Alexandria area (with AICT and Tahya Misr 2), raising Mediterranean gateway capacity substantially.",
+      "sources": [
+        "https://container-news.com/hutchison-ports-and-egyptian-navy-to-build-new-box-terminal/",
+        "https://www.mts.gov.eg/en/port/%D9%85%D9%8A%D9%86%D8%A7%D8%A1-%D8%A3%D8%A8%D9%88-%D9%82%D9%8A%D8%B1/",
+        "https://en.ndrc.gov.cn/netcoo/goingout/202204/t20220413_1322449.html"
+      ]
+    },
+    {
+      "id": "eg-gargoub",
+      "name": "Gargoub Port (Marsa Matrouh)",
+      "type": "multipurpose",
+      "location": {"city": "Gargoub, Matrouh", "lat": 31.55, "lng": 25.35},
+      "operator": "Ministry of Transport / Maritime Transport Sector; dry-bulk terminal and logistics/industrial area under a build-operate agreement (2025)",
+      "concession": "Agreement signed 2025 for the build, operate, maintain and re-delivery of the dry-bulk terminal and logistics/industrial area (counterparty details in source)",
+      "capacity": "n/a",
+      "throughput": "n/a",
+      "status": "under construction",
+      "opened": "n/a",
+      "projects": "New deep-water port on the north-west coast serving Marsa Matrouh, El Alamein and the Gargoub Special Economic Zone (presidential decree 2025, c.402,000 feddans); terminus of HSR Line 1 (Ain Sokhna–Matrouh)",
+      "notes": "Greenfield opportunity; intended as an export/bulk gateway for the Western Desert and as a land bridge with Libya. Details sparse – verify with Maritime Transport Sector.",
+      "sources": [
+        "https://7enews.net/en/economy-en/egypt-signs-an-agreement-to-build-and-develop-the-infrastructure-for-the-operation-maintenance-and-re-delivery-of-the-dry-bulk-terminal-and-the-logistic-and-industrial-area-of-gargoub-port-in-matruh/",
+        "https://www.big5constructegypt.com/gargoub-special-economic-zone-established-to-boost-development-in-northwestern-egypt/",
+        "https://www.sis.gov.eg/Story/212641/President-El-Sisi-Reviews-Developments-in-Construction,-Modernization,-Operation-of-Ports?lang=en-us"
+      ]
+    },
+    {
+      "id": "eg-arish",
+      "name": "El Arish Port",
+      "type": "multipurpose",
+      "location": {"city": "El Arish, North Sinai", "lat": 31.15, "lng": 33.82},
+      "operator": "Port Said Port Authority / SCZONE (listed among SCZONE's six ports); AD Ports Group signed a development agreement (2023)",
+      "concession": "n/a (AD Ports Group agreement for Al Arish, 2023)",
+      "capacity": "230,000 m2 total; entrance channel 9–11 m; 1.2m t/year general cargo",
+      "throughput": "n/a",
+      "status": "operational",
+      "opened": "1987 (modernised from a 1982 fishing berth)",
+      "projects": "Expansion under SCZONE to serve Sinai development and Gaza reconstruction logistics; AD Ports cooperation",
+      "notes": "Small Mediterranean port 40 km from the Rafah crossing; used as a staging point for Gaza humanitarian cargo (2023–2026).",
+      "sources": [
+        "https://www.mts.gov.eg/en/port/%D9%85%D9%8A%D9%86%D8%A7%D8%A1-%D8%A7%D9%84%D8%B9%D8%B1%D9%8A%D8%B4/",
+        "https://sczone.eg/",
+        "https://www.porttechnology.org/news/ad-ports-inks-30-year-concession-for-safaga-port-development/"
+      ]
+    }
+  ],
+  "zones": [
+    {
+      "id": "eg-sczone-ain-sokhna",
+      "name": "SCZONE – Ain Sokhna Industrial Zone (incl. TEDA Suez and DP World Sokhna Logistics Park)",
+      "type": "special economic zone",
+      "location": {"city": "Ain Sokhna", "lat": 29.65, "lng": 32.30},
+      "authority": "Suez Canal Economic Zone Authority (SCZONE, Law 83/2002 as amended; est. by Decree 330/2015)",
+      "area": "n/a (SCZONE total c.461 km2 across four industrial zones and six ports)",
+      "sectors": ["petrochemicals", "building materials", "textiles", "automotive", "green hydrogen/ammonia", "logistics", "pharmaceuticals"],
+      "incentives": "Special-economic-zone regime: single-window company set-up in 48 hours, customs-free import of inputs for export production, Investment Law 71/2017 guarantees, access to FTA markets of c.2bn consumers",
+      "tenants": "SCZONE overall: c.USD 15bn investment attracted from 28 countries (70% foreign) as of Feb 2026; Sokhna hosts DP World's port and USD 85m logistics park, the Hutchison/CMA/COSCO terminal and green-hydrogen projects",
+      "status": "operational",
+      "opened": "2015 (SCZONE)",
+      "projects": "DP World Sokhna Logistics Park phase 1 (300,000 m2, end-2025); green hydrogen/ammonia plants; HSR Line 1 station",
+      "notes": "DP WORLD ASSET (logistics park adjacent to DP World Sokhna port). Largest of the SCZONE industrial zones by investment.",
+      "sources": [
+        "https://www.dailynewsegypt.com/2026/02/24/sczone-attracts-15bn-in-investments-70-foreign-chairperson/",
+        "https://sczone.eg/",
+        "https://www.zawya.com/en/projects/construction/dp-worlds-85mln-sokhna-logistics-park-phase-1-set-for-year-end-launch-qm6ovcw9"
+      ]
+    },
+    {
+      "id": "eg-sczone-east-port-said",
+      "name": "SCZONE – East Port Said Industrial Zone (incl. KEZAD East Port Said)",
+      "type": "special economic zone",
+      "location": {"city": "East Port Said", "lat": 31.20, "lng": 32.40},
+      "authority": "Suez Canal Economic Zone Authority; KEZAD East Port Said developed by AD Ports Group (KEZAD Group) with Hassan Allam Holding",
+      "area": "KEZAD East Port Said: 20 km2 (phase 1: 2.8 km2)",
+      "sectors": ["logistics", "light manufacturing", "textiles", "automotive components", "food processing"],
+      "incentives": "SCZONE special-economic-zone regime (customs-free export production, 48-hour incorporation, Investment Law 71/2017)",
+      "tenants": "n/a",
+      "status": "under construction",
+      "opened": "n/a (SCZONE zone operational since 2015; KEZAD phase 1 construction from end-2025)",
+      "projects": "KEZAD East Port Said: 50-year usufruct signed 4 May 2025, USD 120m over three years for studies and phase 1",
+      "notes": "Competitor (AD Ports Group/KEZAD) industrial-logistics park directly behind APM Terminals' SCCT; served by the Port Said road tunnels under the canal.",
+      "sources": [
+        "https://www.adportsgroup.com/en/news-and-media/2025/05/04/ad-ports-group-and-egypts-suez-canal-economic-zone-sign-agreement",
+        "https://sczone.eg/"
+      ]
+    },
+    {
+      "id": "eg-sczone-qantara-west",
+      "name": "SCZONE – Qantara West Industrial Zone",
+      "type": "special economic zone",
+      "location": {"city": "Qantara West, Ismailia", "lat": 30.85, "lng": 32.28},
+      "authority": "Suez Canal Economic Zone Authority",
+      "area": "n/a",
+      "sectors": ["textiles and garments", "ready-made clothing", "light industry"],
+      "incentives": "SCZONE special-economic-zone regime",
+      "tenants": "Cluster of textile/garment factories (Chinese and Turkish investors) announced 2023–2025",
+      "status": "operational",
+      "opened": "n/a",
+      "projects": "Nine factories and two service centres announced Mar 2025 across SCZONE zones",
+      "notes": "Positioned as SCZONE's textiles hub on the west bank of the canal between Ismailia and Port Said.",
+      "sources": [
+        "https://sczone.eg/",
+        "https://en.wikipedia.org/wiki/Suez_Canal_Economic_Zone",
+        "https://www.dailynewsegypt.com/2026/02/24/sczone-attracts-15bn-in-investments-70-foreign-chairperson/"
+      ]
+    },
+    {
+      "id": "eg-sczone-east-ismailia",
+      "name": "SCZONE – East Ismailia Industrial/Technology Zone",
+      "type": "special economic zone",
+      "location": {"city": "East Ismailia", "lat": 30.60, "lng": 32.35},
+      "authority": "Suez Canal Economic Zone Authority",
+      "area": "n/a",
+      "sectors": ["technology", "pharmaceuticals", "light manufacturing", "agribusiness"],
+      "incentives": "SCZONE special-economic-zone regime",
+      "tenants": "n/a",
+      "status": "under construction",
+      "opened": "n/a",
+      "projects": "Part of SCZONE's four-zone plan; targeted for tech and pharma clusters",
+      "notes": "Least developed of the four SCZONE zones; east of the canal near the Ahmed Hamdi/Ismailia tunnels.",
+      "sources": [
+        "https://sczone.eg/",
+        "https://www.dailynewsegypt.com/2026/02/24/sczone-attracts-15bn-in-investments-70-foreign-chairperson/"
+      ]
+    },
+    {
+      "id": "eg-alexandria-public-free-zone",
+      "name": "Alexandria Public Free Zone (Amreya)",
+      "type": "free zone",
+      "location": {"city": "Alexandria (Amreya)", "lat": 31.10, "lng": 29.80},
+      "authority": "General Authority for Investment and Free Zones (GAFI)",
+      "area": "n/a",
+      "sectors": ["petrochemicals", "textiles", "food processing", "logistics"],
+      "incentives": "Public free-zone regime under Investment Law 71/2017: exemption from customs duties and sales tax on imports/exports, 1–2% levy on value of goods in lieu of taxes, no import licences",
+      "tenants": "n/a",
+      "status": "operational",
+      "opened": "n/a",
+      "projects": "n/a",
+      "notes": "One of GAFI's nine public free zones; hinterland of Alexandria/Dekheila ports. GAFI zone pages were not reachable during research – verify current figures.",
+      "sources": [
+        "https://www.gafi.gov.eg/English/StartaBusiness/InvestmentZones/Pages/default.aspx"
+      ]
+    },
+    {
+      "id": "eg-damietta-public-free-zone",
+      "name": "Damietta Public Free Zone",
+      "type": "port-linked zone",
+      "location": {"city": "Damietta", "lat": 31.45, "lng": 31.78},
+      "authority": "General Authority for Investment and Free Zones (GAFI)",
+      "area": "n/a",
+      "sectors": ["furniture", "food processing", "logistics", "packaging"],
+      "incentives": "GAFI public free-zone regime (customs and tax exemptions, levy on goods value)",
+      "tenants": "n/a",
+      "status": "operational",
+      "opened": "n/a",
+      "projects": "Damietta Furniture City and logistics areas adjacent to the port; benefits from DACT hub opening (2026)",
+      "notes": "Located next to Damietta Port; GAFI detail pages unreachable during research.",
+      "sources": [
+        "https://www.gafi.gov.eg/English/StartaBusiness/InvestmentZones/Pages/default.aspx",
+        "https://www.mts.gov.eg/en/port/%D9%85%D9%8A%D9%86%D8%A7%D8%A1-%D8%AF%D9%85%D9%8A%D8%A7%D8%B7/"
+      ]
+    },
+    {
+      "id": "eg-nasr-city-free-zone",
+      "name": "Nasr City Public Free Zone (Cairo)",
+      "type": "free zone",
+      "location": {"city": "Cairo (Nasr City)", "lat": 30.06, "lng": 31.35},
+      "authority": "General Authority for Investment and Free Zones (GAFI)",
+      "area": "n/a",
+      "sectors": ["textiles and garments", "electronics", "pharmaceuticals", "services"],
+      "incentives": "GAFI public free-zone regime (customs and tax exemptions, levy on goods value)",
+      "tenants": "n/a",
+      "status": "operational",
+      "opened": "n/a",
+      "projects": "n/a",
+      "notes": "Egypt's oldest inland public free zone, near Cairo airport; export-oriented garment cluster.",
+      "sources": [
+        "https://www.gafi.gov.eg/English/StartaBusiness/InvestmentZones/Pages/default.aspx"
+      ]
+    },
+    {
+      "id": "eg-6th-october-industrial-city",
+      "name": "6th of October Industrial City (incl. 6th of October Dry Port)",
+      "type": "industrial zone",
+      "location": {"city": "6th of October City, Giza", "lat": 29.93, "lng": 30.90},
+      "authority": "New Urban Communities Authority / Industrial Development Authority; dry port by DP World-led PPP",
+      "area": "n/a",
+      "sectors": ["automotive", "pharmaceuticals", "food and beverage", "building materials", "logistics"],
+      "incentives": "Inland investment regime (Investment Law 71/2017); dry port allows bonded customs clearance inland",
+      "tenants": "Largest industrial city in Greater Cairo (thousands of factories); October Dry Port operated by DP World",
+      "status": "operational",
+      "opened": "1979 (city); dry port 2023",
+      "projects": "Rail shuttle between October Dry Port and Alexandria's Tahya Misr station launched 2024–2025 (1–3 trains/week rising to 3–5/day); HSR Line 2 (6th October–Abu Simbel) origin",
+      "notes": "DP WORLD ASSET (6th of October Dry Port – Egypt's first inland port, DP World-led consortium; capacity figure not verified in this research). Key inland node linking Sokhna and Alexandria by rail.",
+      "sources": [
+        "https://www.dailynewsegypt.com/2025/01/22/transport-ministry-completes-99-of-tahya-misr-2-terminal-project-at-alexandria-port/",
+        "https://www.dpworld.com/egypt"
+      ]
+    },
+    {
+      "id": "eg-10th-ramadan-robbiki",
+      "name": "10th of Ramadan Industrial City & Robbiki Leather City",
+      "type": "industrial zone",
+      "location": {"city": "10th of Ramadan / Badr, Sharqia–Cairo", "lat": 30.30, "lng": 31.75},
+      "authority": "New Urban Communities Authority / Industrial Development Authority; Robbiki managed by the Ministry of Trade & Industry",
+      "area": "n/a",
+      "sectors": ["textiles", "leather and tanning", "food processing", "engineering", "pharmaceuticals"],
+      "incentives": "Inland investment regime (Investment Law 71/2017); Robbiki tanneries relocated from Cairo with subsidised plots",
+      "tenants": "n/a",
+      "status": "operational",
+      "opened": "1977 (10th of Ramadan); Robbiki phase 1 2016",
+      "projects": "Served by the Cairo–Ismailia–Suez road/rail axis and the Suez–Alexandria rail freight corridor",
+      "notes": "Egypt's largest industrial city by number of plants; hinterland for Sokhna and Port Said. Figures not verified in this research pass.",
+      "sources": [
+        "https://www.gafi.gov.eg/English/StartaBusiness/InvestmentZones/Pages/default.aspx"
+      ]
+    },
+    {
+      "id": "eg-golden-triangle",
+      "name": "Golden Triangle Economic Zone (Qena–Safaga–Quseir)",
+      "type": "special economic zone",
+      "location": {"city": "Qena / Safaga / Quseir", "lat": 26.2, "lng": 33.0},
+      "authority": "Golden Triangle Economic Zone Authority (special economic zone under Law 83/2002)",
+      "area": "n/a",
+      "sectors": ["mining (phosphates, gold)", "building materials", "tourism", "logistics"],
+      "incentives": "Special-economic-zone regime (Law 83/2002)",
+      "tenants": "n/a",
+      "status": "planned",
+      "opened": "n/a",
+      "projects": "Linked to AD Ports' Safaga terminal and the planned HSR Line 3 (Safaga–Luxor via Hurghada/Qena)",
+      "notes": "Mineral-export zone in Upper Egypt; development slow. Limited primary sources found in this research.",
+      "sources": [
+        "https://www.porttechnology.org/news/ad-ports-inks-30-year-concession-for-safaga-port-development/",
+        "https://en.wikipedia.org/wiki/High-speed_rail_in_Egypt"
+      ]
+    },
+    {
+      "id": "eg-gargoub-sez",
+      "name": "Gargoub Special Economic Zone",
+      "type": "special economic zone",
+      "location": {"city": "Gargoub, Matrouh", "lat": 31.5, "lng": 25.4},
+      "authority": "Special economic zone by presidential decree (2025) under the Special Economic Zones Law; industrial land allocated to the Industrial Development Authority",
+      "area": "c.402,000 feddans in four blocks (80,600 / 295,000 / 2,818 / 23,000 feddans)",
+      "sectors": ["manufacturing", "logistics", "mining", "agri-industry"],
+      "incentives": "Special-economic-zone regime (Law 83/2002)",
+      "tenants": "n/a",
+      "status": "planned",
+      "opened": "n/a",
+      "projects": "Port of Gargoub dry-bulk terminal and logistics/industrial area; HSR Line 1 terminus",
+      "notes": "Greenfield; intended to develop the north-west coast and Libya trade.",
+      "sources": [
+        "https://www.big5constructegypt.com/gargoub-special-economic-zone-established-to-boost-development-in-northwestern-egypt/"
+      ]
+    }
+  ],
+  "corridors": [
+    {
+      "id": "eg-suez-canal",
+      "name": "Suez Canal",
+      "modes": ["inland waterway"],
+      "route": "Port Said / East Port Said (Mediterranean) → Ismailia → Suez / Adabiya / Ain Sokhna (Red Sea)",
+      "countries": ["EG"],
+      "length": "193 km",
+      "operator": "Suez Canal Authority",
+      "status": "operational",
+      "capacity_or_traffic": "Revenue up 24.5%, transits up 9% and tonnage up 24.2% in Q4 2025 vs Q4 2024; revenue +18.5% in H1 FY2025/26; estimated USD 7bn revenue lost to Red Sea diversions since Oct 2023",
+      "projects": "New Suez Canal parallel channel (2015); southern-section widening/deepening; SCA fee incentives and service expansion to win back diverted traffic (2025–2026)",
+      "notes": "Backbone of Egypt's logistics proposition; Houthi/Red Sea security remains the key risk to Sokhna and SCCT volumes.",
+      "sources": [
+        "https://www.hellenicshippingnews.com/suez-canal-revenue-climbs-24-5-vessel-traffic-rises-9-in-q4-2025/",
+        "https://www.egypttoday.com/Article/3/144622/18-5-raise-in-Suez-Canal-s-revenues-during-H1",
+        "https://www.ecofinagency.com/news-infrastructures/1012-51288-suez-canal-expands-services-as-traffic-recovers-and-revenue-rebounds"
+      ]
+    },
+    {
+      "id": "eg-sokhna-october-alexandria-rail",
+      "name": "Sokhna – 6th of October Dry Port – Alexandria/Dekheila rail freight corridor",
+      "modes": ["rail", "road", "multimodal"],
+      "route": "Ain Sokhna port → Cairo ring / 6th of October Dry Port → Tahya Misr station, Alexandria/Dekheila",
+      "countries": ["EG"],
+      "length": "c.400 km",
+      "operator": "Egyptian National Railways (track); DP World (Sokhna port, October Dry Port); Hutchison/MSC (Tahya Misr 2)",
+      "status": "operational",
+      "capacity_or_traffic": "Dry port–Alexandria shuttle: 600 m trains of c.50 TEU, 1–3 trains/week at launch, target 3–5 trains/day (2025)",
+      "projects": "Ministry of Transport 'Suez–Alexandria integrated logistics hub' linking Red Sea and Mediterranean ports by rail; DP World rail integration at Sokhna (2025)",
+      "notes": "DP WORLD ASSET (Sokhna port + 6th of October Dry Port). The rail land bridge is DP World's main hinterland lever against Hutchison/AD Ports.",
+      "sources": [
+        "https://www.dailynewsegypt.com/2025/01/22/transport-ministry-completes-99-of-tahya-misr-2-terminal-project-at-alexandria-port/",
+        "https://container-news.com/dp-worlds-port-of-sokhna-handles-one-million-containers-in-2025/"
+      ]
+    },
+    {
+      "id": "eg-hsr-line1-sokhna-alamein-matrouh",
+      "name": "High-speed rail Line 1: Ain Sokhna – New Capital – Cairo/6th October – Alexandria – El Alamein – Marsa Matrouh",
+      "modes": ["rail"],
+      "route": "Ain Sokhna → New Administrative Capital → Greater Cairo (Hadayek October) → Wadi El Natrun → Nubaria → Alexandria → El Alamein → Marsa Matrouh/Gargoub",
+      "countries": ["EG"],
+      "length": "660 km (21 stations); national HSR network c.2,000 km over three lines",
+      "operator": "National Authority for Tunnels (owner); Siemens Mobility + Orascom Construction + Arab Contractors (build); Deutsche Bahn / Elsewedy Electric (operations)",
+      "status": "under construction",
+      "capacity_or_traffic": "Line 1 fleet plan: 15 Velaro high-speed trains, 34 Desiro regional trains, 14 Vectron freight locomotives; network total 41 Velaro, 94 Desiro, 41 freight locos",
+      "projects": "EUR 8.1bn Siemens-led contract (May 2022) within a c.USD 23bn three-line programme; trial operations from mid-Sept 2026 (Hadayek October first, extending to Alexandria) with six-month trial before public launch",
+      "notes": "Electrified mixed passenger/freight line creating a Red Sea–Mediterranean 'Suez Canal on rails'; freight potential for Sokhna–Alexandria/Alamein containers.",
+      "sources": [
+        "https://www.egyptindependent.com/high-speed-train-from-ain-sokhna-to-marsa-matrouh-to-begin-operating-mid-september/",
+        "https://press.siemens.com/global/en/pressrelease/siemens-unveils-velaro-high-speed-train-transmea-2025-cairo",
+        "https://en.wikipedia.org/wiki/High-speed_rail_in_Egypt"
+      ]
+    },
+    {
+      "id": "eg-hsr-line2-october-abu-simbel",
+      "name": "High-speed rail Line 2: 6th of October – Upper Egypt – Aswan – Abu Simbel (Toshka corridor)",
+      "modes": ["rail"],
+      "route": "6th of October City → Minya → Assiut → Luxor → Aswan → Abu Simbel (with proposed extension to Wadi Halfa, Sudan)",
+      "countries": ["EG"],
+      "length": "c.1,100 km",
+      "operator": "National Authority for Tunnels; Siemens Mobility consortium",
+      "status": "under construction",
+      "capacity_or_traffic": "n/a",
+      "projects": "Second line of the three-line Siemens programme; construction started, completion originally targeted 2029; Line 3 Safaga–Luxor via Hurghada/Qena in planning",
+      "notes": "Would link Toshka agricultural projects and Upper Egypt to Cairo ports and, if extended, to Sudan.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/High-speed_rail_in_Egypt"
+      ]
+    },
+    {
+      "id": "eg-king-salman-bridge",
+      "name": "King Salman (Egypt–Saudi Arabia) Red Sea bridge / causeway",
+      "modes": ["road", "rail"],
+      "route": "Sharm El-Sheikh / Ras Nasrani (Sinai) → Tiran Island → Ras Alsheikh Hamid (Tabuk, Saudi Arabia)",
+      "countries": ["EG", "SA"],
+      "length": "n/a (crosses the Strait of Tiran)",
+      "operator": "Egyptian Ministry of Transport / Saudi Ministry of Transport (to be financed by Saudi Arabia)",
+      "status": "planned",
+      "capacity_or_traffic": "n/a",
+      "projects": "Estimated USD 4bn; announced 2016; Egypt's Transport Minister stated in June 2025 that planning is complete and Egypt is 'ready to implement at any time'; concept includes a high-speed cargo railway",
+      "notes": "Would create a fixed Africa–Asia land link bypassing the Nuweiba–Aqaba and Safaga–Duba ferries; no construction start announced as of 2026.",
+      "sources": [
+        "https://www.dezeen.com/2025/06/05/egypt-saudi-arabia-red-sea-bridge/",
+        "https://www.meed.com/saudi-arabia-and-egypt-revive-causeway-plans/"
+      ]
+    },
+    {
+      "id": "eg-cairo-aswan-sudan-road",
+      "name": "Cairo – Aswan – Argeen/Qustul road corridor to Sudan",
+      "modes": ["road"],
+      "route": "Cairo → Upper Egypt (Assiut–Qena–Aswan) → Wadi Karkar / Abu Simbel logistics areas → Argeen or Qustul crossings → Dongola / Wadi Halfa (Sudan)",
+      "countries": ["EG", "SD"],
+      "length": "c.1,200 km Cairo–Argeen",
+      "operator": "General Authority for Roads, Bridges and Land Transport",
+      "status": "operational",
+      "capacity_or_traffic": "Chronic truck backlogs at the Sudanese side (2023); Egypt opened two logistics/service areas at Wadi Karkar and Abu Simbel in Sept 2023",
+      "projects": "Truck service areas (2023); proposed HSR Line 2 extension to Wadi Halfa",
+      "notes": "Main overland trade route to Sudan; volumes disrupted by the Sudanese civil war since April 2023 with crossings acting as humanitarian corridors.",
+      "sources": [
+        "https://www.aa.com.tr/en/africa/egypt-establishes-2-logistics-zones-along-sudanese-border/2986223",
+        "https://english.news.cn/20230908/584a8c7efa9548788bae26c1ec45096e/c.html"
+      ]
+    }
+  ],
+  "border_crossings": [
+    {
+      "id": "eg-rafah",
+      "name": "Rafah Crossing",
+      "with_country": "PS",
+      "with_country_name": "Palestine (Gaza Strip)",
+      "type": "road",
+      "location": {"city": "Rafah, North Sinai", "lat": 31.2486, "lng": 34.2592},
+      "traffic": "Pre-war main aid gateway to Gaza; since 2024 goods are largely rerouted via Kerem Shalom/Nitzana; >7,000 passengers incl. 1,274 medical patients crossed Feb–Jun 2026",
+      "status": "operational",
+      "hours": "n/a (restricted, intermittent)",
+      "projects": "EUBAM Rafah EU monitoring mission redeployed Feb 2026",
+      "notes": "Closed after Israel took the Gaza side in May 2024; partial reopening Jan 2025 and Oct 2025; formal two-way pedestrian reopening 2 Feb 2026 under Israel–Egypt consent with EU oversight; closed again briefly during the March 2026 Iran conflict. Israel states humanitarian aid does not pass through Rafah – cargo uses Kerem Shalom. Highly volatile.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Rafah_Border_Crossing",
+        "https://www.timesofisrael.com/israel-says-preparing-to-open-rafah-crossing-with-date-to-be-announced-later/",
+        "https://www.arabnews.com/node/2619525/middle-east"
+      ]
+    },
+    {
+      "id": "eg-kerem-shalom",
+      "name": "Kerem Shalom (Karm Abu Salem) – Egypt/Israel/Gaza tri-point cargo crossing",
+      "with_country": "IL",
+      "with_country_name": "Israel (to Gaza)",
+      "type": "road",
+      "location": {"city": "Kerem Shalom", "lat": 31.222, "lng": 34.278},
+      "traffic": "Main cargo/aid entry to Gaza; Egyptian aid trucks routed here since May 2024; up to c.300+ trucks/day at peaks (e.g. 323 trucks in one day, 2025)",
+      "status": "operational",
+      "hours": "n/a (Israeli-controlled schedule)",
+      "projects": "n/a",
+      "notes": "Israeli-controlled goods crossing adjacent to Egyptian territory; Egyptian trucks from Arish/Rafah are inspected here. Subject to closures during hostilities.",
+      "sources": [
+        "https://gulfnews.com/amp/story/world%2Fmena%2Faid-trucks-from-egypt-enter-gaza-via-kerem-shalom-crossing-1.1716708438762",
+        "https://english.aawsat.com/arab-world/5262503-first-time-two-months-323-trucks-enter-gaza-one-day",
+        "https://www.un.org/unispal/document/karem-shalom-crossing-re-opens-for-aid-fuel-amid-stepped-up-regional-tensions/"
+      ]
+    },
+    {
+      "id": "eg-taba",
+      "name": "Taba – Menachem Begin (Eilat) crossing",
+      "with_country": "IL",
+      "with_country_name": "Israel",
+      "type": "road",
+      "location": {"city": "Taba, South Sinai", "lat": 29.491, "lng": 34.903},
+      "traffic": "Mainly passengers and private vehicles (2,147 pedestrians and 74 vehicles/day in 2005; record 1.04m tourists in 1999); containers permitted",
+      "status": "operational",
+      "hours": "24/7 except Eid al-Adha and Yom Kippur",
+      "projects": "n/a",
+      "notes": "Opened 26 Apr 1982. Became the main exit route from Israel when flights halted during the June 2025 Iran conflict. Negligible freight relevance.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Taba_Border_Crossing",
+        "https://www.iaa.gov.il/en/land-border-crossings/menachem-begin/",
+        "https://www.thenationalnews.com/news/mena/2025/06/16/only-way-home-trepidation-at-egypts-border-with-israel-as-iran-conflict-stops-flights/"
+      ]
+    },
+    {
+      "id": "eg-argeen",
+      "name": "Argeen (Arqin) crossing",
+      "with_country": "SD",
+      "with_country_name": "Sudan",
+      "type": "road",
+      "location": {"city": "Argeen, Aswan governorate", "lat": 22.502, "lng": 31.428},
+      "traffic": "Main commercial truck route Egypt–Sudan (Aswan–Dongola highway); c.1,900–2,100 people/day with 12–48 h waits; severe truck backlogs 2023",
+      "status": "operational",
+      "hours": "24/7 on Egyptian side (Sudanese side reportedly 4–5 h/day, 2023)",
+      "projects": "Egyptian truck service/logistics areas at Wadi Karkar and Abu Simbel (Sept 2023)",
+      "notes": "Opened 2014 west of Lake Nasser. Since April 2023 functions largely as a humanitarian corridor for people fleeing Sudan's war; bureaucratic and slow.",
+      "sources": [
+        "https://bordercrossinghub.com/argeen-arqin-border-crossing/",
+        "https://www.aa.com.tr/en/africa/egypt-establishes-2-logistics-zones-along-sudanese-border/2986223",
+        "https://www.lca.logcluster.org/233-sudan-border-crossing-argeen"
+      ]
+    },
+    {
+      "id": "eg-qustul-ashkeet",
+      "name": "Qustul – Ashkeet crossing",
+      "with_country": "SD",
+      "with_country_name": "Sudan",
+      "type": "road",
+      "location": {"city": "Qustul, Aswan governorate", "lat": 22.2, "lng": 31.45},
+      "traffic": "Secondary Egypt–Sudan truck route east of Lake Nasser toward Wadi Halfa; shared the 2023 truck-congestion crisis",
+      "status": "operational",
+      "hours": "n/a",
+      "projects": "Abu Simbel logistics/service area (2023)",
+      "notes": "Opened 2014 together with Argeen. Traffic disrupted by the Sudan conflict; Egypt–Sudan talks on easing congestion 2023.",
+      "sources": [
+        "https://lca.logcluster.org/234-egypt-land-border-crossing-qustul",
+        "https://www.sis.gov.eg/Story/185746/Egypt,-Sudan-discuss-settling-truck-congestions-on-Egyptian-Sudanese-borders",
+        "https://bordercrossinghub.com/ashkeit-qustul-border-crossing/"
+      ]
+    },
+    {
+      "id": "eg-salloum",
+      "name": "Salloum – Emsaed (Musaid) crossing",
+      "with_country": "LY",
+      "with_country_name": "Libya",
+      "type": "road",
+      "location": {"city": "Salloum, Matrouh", "lat": 31.57, "lng": 25.15},
+      "traffic": "Only Egypt–Libya land trade gateway; Egyptian trucks and workers to eastern Libya (Benghazi/Tobruk)",
+      "status": "operational",
+      "hours": "n/a",
+      "projects": "Egyptian development of the Salloum crossing completed; planned logistics area on the border; May 2025 Egypt–Libya (Benghazi chamber) agreement on streamlined customs, advance cargo lists and driver conditions; Libya proposed an additional trade crossing",
+      "notes": "Customs delays are the main complaint; corridor will gain from Gargoub port and HSR extension proposals to Benghazi.",
+      "sources": [
+        "https://libyareview.com/55593/libya-egypt-agree-on-new-measures-to-boost-border-trade/",
+        "https://libyaobserver.ly/inbrief/cairo-finishes-development-salloum-land-crossing-libya",
+        "https://lca.logcluster.org/235-egypt-land-border-crossing-el-salloum"
+      ]
+    },
+    {
+      "id": "eg-nuweiba-aqaba-ferry",
+      "name": "Nuweiba – Aqaba ferry",
+      "with_country": "JO",
+      "with_country_name": "Jordan",
+      "type": "ferry",
+      "location": {"city": "Nuweiba, South Sinai", "lat": 29.03, "lng": 34.67},
+      "traffic": "Over 200,000 passengers and more than 60,000 trucks (2024)",
+      "status": "operational",
+      "hours": "Daily sailings (schedule varies)",
+      "projects": "Arab Bridge Maritime Co. fleet expansion toward 10 vessels; new cargo vessel added early 2025",
+      "notes": "Operated by Arab Bridge Maritime Co. (Jordan–Egypt–Iraq JV). Key ro-ro truck route for Egypt–Jordan/Iraq/Levant trade avoiding Israel.",
+      "sources": [
+        "https://jordantimes.com/news/local/abmc-transports-over-200000-passengers-60000-trucks-aqaba-nuweiba-route",
+        "https://www.abmaritime.com.jo/?lang=en"
+      ]
+    },
+    {
+      "id": "eg-safaga-duba-ferry",
+      "name": "Safaga – Duba ferry",
+      "with_country": "SA",
+      "with_country_name": "Saudi Arabia",
+      "type": "ferry",
+      "location": {"city": "Safaga, Red Sea governorate", "lat": 26.74, "lng": 33.94},
+      "traffic": "n/a (passenger, pilgrim and ro-ro truck traffic to Saudi Arabia)",
+      "status": "operational",
+      "hours": "n/a",
+      "projects": "AD Ports Group's Safaga multipurpose terminal (ro-ro capacity 50,000 CEU) and cruise concessions (2023–2025)",
+      "notes": "Main sea link for Egyptian trucks and Hajj/Umrah traffic to Saudi Arabia; would be superseded by the King Salman bridge if built. Traffic figures not found in this research.",
+      "sources": [
+        "https://en.m.wikivoyage.org/wiki/Ferries_in_the_Red_Sea",
+        "https://www.porttechnology.org/news/ad-ports-inks-30-year-concession-for-safaga-port-development/"
+      ]
+    }
+  ]
+}

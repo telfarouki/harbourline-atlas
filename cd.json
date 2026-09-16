@@ -1,0 +1,556 @@
+{
+  "country": {
+    "code": "CD",
+    "name": "Democratic Republic of the Congo",
+    "region": "Central Africa",
+    "capital": "Kinshasa",
+    "coastline": "Atlantic (c. 37 km at the Congo River mouth)",
+    "summary": "The DRC is Africa's largest copper and cobalt producer but has only a sliver of Atlantic coastline, so most of its trade moves through neighbouring countries: Katanga/Lualaba minerals exit via Kasumbalesa to Durban, Beira, Dar es Salaam and Walvis Bay, and increasingly via the Lobito corridor to Angola. The west of the country is served by the shallow-draft Congo River ports of Matadi (state SCTP terminals plus ICTSI's Matadi Gateway Terminal) and Boma, linked to Kinshasa by the 366 km SCTP railway and the N1 road. DP World holds the concession for the country's first deep-sea port at Banana (phase 1: 600 m quay, 450,000 TEU/yr, targeted for 2027), built with Mota-Engil and co-financed by British International Investment. Headline projects also include Mota-Engil's 30-year, USD 1.8bn concession for the 1,037 km Dilolo–Kolwezi–Lubumbashi–Sakania railway (signed August 2026), the USD 70m Kalemie industrial port on Lake Tanganyika, a USD 600m dry port at Kasumbalesa and the Kinshasa–Brazzaville road-rail bridge PPP.",
+    "key_operators": ["DP World", "ICTSI (Matadi Gateway Terminal)", "SCTP (state)", "SNCC (state rail)", "Mota-Engil / Lobito Atlantic Railway (Trafigura, Vecturis)", "AZES (special economic zones agency)"],
+    "sources": [
+      "https://www.dpworld.com/en/news/dp-worlds-deep-water-port-project-in-the-democratic-republic-of-congo-moves-forward",
+      "https://lca.logcluster.org/democratic-republic-congo-21-democratic-republic-congo-port-assessment",
+      "https://logistafrica.com/en/logistic/drc-mota-engil-secures-a-30-year-concession-to-modernize-the-lobito-corridor-railway/",
+      "https://www.ictsi.com/press-releases/ictsi-more-double-container-capacity-dr-congo"
+    ]
+  },
+  "ports": [
+    {
+      "id": "cd-banana",
+      "name": "Banana Deep-Sea Port",
+      "type": "container",
+      "location": {"city": "Banana, Kongo Central", "lat": -6.01, "lng": 12.40},
+      "operator": "DP World (developer and future operator); construction by Mota-Engil",
+      "concession": "DP World concession with the DRC government (collaboration agreement 2018, concession finalised 2021); British International Investment (BII) took a stake in the project in 2022. Term not disclosed in sources consulted.",
+      "capacity": "Phase 1: 600 m quay, 18 m draft, 30 ha storage yard, 450,000 TEU/yr; phase 2 quay extension to over 2 km",
+      "throughput": "n/a (not yet operational)",
+      "status": "under construction",
+      "opened": "n/a (phase 1 targeted early 2027)",
+      "projects": "Mota-Engil selected as EPC contractor March 2025; first dredging phase completed and access road nearly done by July 2025; phase 1 completion targeted for early 2027. Logistics Cluster cites a USD 1.2bn overall project value.",
+      "notes": "DP World asset. Intended to become the DRC's single deep-water maritime gateway for containerised cargo with a single-window customs system; will relieve draft-constrained Matadi (8 m). Competes with ICTSI's Matadi Gateway Terminal and Pointe-Noire (Congo-Brazzaville) for Kinshasa-bound cargo.",
+      "sources": [
+        "https://www.dpworld.com/en/news/dp-worlds-deep-water-port-project-in-the-democratic-republic-of-congo-moves-forward",
+        "https://maritimafrica.com/en/dp-worlds-banana-port-project-in-the-drc-on-track-for-2027/",
+        "https://www.africanews.com/2025/03/21/dp-world-selects-mota-engil-to-build-drcs-first-deep-water-port/",
+        "https://lca.logcluster.org/democratic-republic-congo-21-democratic-republic-congo-port-assessment"
+      ]
+    },
+    {
+      "id": "cd-matadi",
+      "name": "Port of Matadi (SCTP public port)",
+      "type": "multipurpose",
+      "location": {"city": "Matadi, Kongo Central", "lat": -5.82, "lng": 13.46},
+      "operator": "SCTP (Société Commerciale des Transports et des Ports, state-owned)",
+      "concession": "State-operated; ARMP launched a tender for an integrated concession of the ports of Boma, Matadi and Kinshasa plus the Matadi–Kinshasa railway (SCTP workers protested the Matadi concession contract in May 2024)",
+      "capacity": "Approach draft c. 8 m limits vessels to Panamax/max c. 4,000 TEU; Wikipedia (FR) cites total capacity of 2.5m tonnes/yr for the public port",
+      "throughput": "n/a",
+      "status": "operational",
+      "opened": "n/a (colonial-era, 19th/20th century)",
+      "projects": "Integrated PPP concession (ports of Boma, Matadi, Kinshasa and the CFMK railway) under procurement by ARMP; Congo River dredging PPP to 10 m then 12.5 m planned with MGT/SCTP (2019 announcement)",
+      "notes": "Historic main sea gateway to Kinshasa, 148 km (92 miles) up the Congo River. Rail (366 km SCTP line) and N1 road to Kinshasa. Competitor context: ICTSI operates the adjacent Matadi Gateway Terminal in which SCTP is a shareholder.",
+      "sources": [
+        "https://lca.logcluster.org/democratic-republic-congo-211-democratic-republic-congo-port-matadi",
+        "https://www.armp-rdc.org/index.php/fr/19-ami-prestations-intellectuelles/1876-mise-en-concession-integree-des-ports-de-boma-de-matadi-de-kinshasa-et-du-chemin-de-fer-matadi-kinshasa",
+        "https://ecomine.cd/actualite/2024/05/21/manifestations-des-travailleurs-de-la-sctp-matadi-appel-lannulation-du-contrat",
+        "https://fr.wikipedia.org/wiki/Port_de_Kinshasa"
+      ]
+    },
+    {
+      "id": "cd-matadi-gateway-terminal",
+      "name": "Matadi Gateway Terminal (MGT)",
+      "type": "container",
+      "location": {"city": "Matadi, Kongo Central", "lat": -5.83, "lng": 13.44},
+      "operator": "ICTSI (International Container Terminal Services Inc.) with local partners; SCTP is a shareholder",
+      "concession": "ICTSI-led joint venture; terminal opened 2016. Term not stated in sources consulted.",
+      "capacity": "Phase 2 expansion to lift capacity to 400,000 TEU/yr (more than double the original capacity), announced December 2019",
+      "throughput": "n/a (ICTSI reports 'consistently growing cargo volumes', 2025)",
+      "status": "operational",
+      "opened": "2016",
+      "projects": "c. USD 100m phase 2 (2019) incl. yard expansion and Congo River dredging PPP to 10 m then 12.5 m; 2.65 km Matadi–Kinkanda port access road (phase 1 done June 2024, phase 2 from Feb 2025); extended parking, pedestrian walkway and storage-yard expansion (2025)",
+      "notes": "Competitor concession (ICTSI). Main private container gateway for Kinshasa today; will face direct competition from DP World's Banana port from 2027.",
+      "sources": [
+        "https://www.ictsi.com/press-releases/ictsi-more-double-container-capacity-dr-congo",
+        "https://www.ictsi.com/press-releases/matadi-gateway-terminal-enhances-infrastructure-capacity",
+        "https://mgt.cd/en"
+      ]
+    },
+    {
+      "id": "cd-boma",
+      "name": "Port of Boma",
+      "type": "multipurpose",
+      "location": {"city": "Boma, Kongo Central", "lat": -5.85, "lng": 13.05},
+      "operator": "SCTP (state-owned)",
+      "concession": "State-operated; included in ARMP's integrated concession tender (Boma, Matadi, Kinshasa ports + Matadi–Kinshasa railway)",
+      "capacity": "n/a",
+      "throughput": "6 vessels called May–Aug 2023 (mainly used-vehicle imports), 4 of them operated by Lignes Maritimes Congolaises (2023)",
+      "status": "operational",
+      "opened": "n/a (19th century)",
+      "projects": "Provincial promotion of Boma as a used-vehicle import hub with 15% lower import tariffs and 50% lower depot fees than other ports (2023); ARMP integrated concession",
+      "notes": "Secondary river port downstream of Matadi; low activity, described locally as neglected. Also hosts SCTP shipyard.",
+      "sources": [
+        "https://acp.cd/province/kongo-central-six-navires-ont-accoste-au-port-de-boma-depuis-mai-dernier/",
+        "https://www.armp-rdc.org/index.php/fr/19-ami-prestations-intellectuelles/1876-mise-en-concession-integree-des-ports-de-boma-de-matadi-de-kinshasa-et-du-chemin-de-fer-matadi-kinshasa",
+        "https://lca.logcluster.org/democratic-republic-congo-21-democratic-republic-congo-port-assessment"
+      ]
+    },
+    {
+      "id": "cd-kinshasa",
+      "name": "Port of Kinshasa (river port)",
+      "type": "river",
+      "location": {"city": "Kinshasa", "lat": -4.30, "lng": 15.31},
+      "operator": "SCTP (state-owned); numerous private river ports compete along the Kinshasa waterfront",
+      "concession": "State-operated; part of ARMP integrated concession tender with Boma, Matadi and the CFMK railway",
+      "capacity": "1,560 m of quay (incl. 240 m mooring structures); rated capacity 1.5m tonnes/yr; container terminal 25,032 m2; 62,788 m2 warehouses; 108,000 m2 yards; one 45 t container gantry and one 35 t quay crane",
+      "throughput": "n/a",
+      "status": "operational",
+      "opened": "n/a (early 20th century)",
+      "projects": "Technical cooperation agreement with the Port of Brussels for modernisation and training; ARMP integrated concession",
+      "notes": "Hub of the Congo River network (Kinshasa–Mbandaka–Kisangani, Kasai to Ilebo). Terminus of the Matadi–Kinshasa railway (Gare de l'Est). Beach Ngobila ferry terminal to Brazzaville lies just upstream.",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Port_de_Kinshasa",
+        "https://lca.logcluster.org/democratic-republic-congo-21-democratic-republic-congo-port-assessment",
+        "https://www.armp-rdc.org/index.php/fr/19-ami-prestations-intellectuelles/1876-mise-en-concession-integree-des-ports-de-boma-de-matadi-de-kinshasa-et-du-chemin-de-fer-matadi-kinshasa"
+      ]
+    },
+    {
+      "id": "cd-kalemie",
+      "name": "Port of Kalemie (existing SNCC lake port and new industrial port at Mutowa)",
+      "type": "multipurpose",
+      "location": {"city": "Kalemie, Tanganyika", "lat": -5.94, "lng": 29.19},
+      "operator": "Existing port: SNCC (state rail/lake operator); new industrial port: Jintai Mining Pte Ltd / Tembo Majengo Company SARL consortium",
+      "concession": "PPP concession (finance, design, build, operate, maintain) for the new Kalemie industrial port signed 1 April 2025 in Kinshasa; USD 70m initial investment",
+      "capacity": "New port designed for 2m tonnes/yr of freight (LePoint.cd, 2025)",
+      "throughput": "n/a",
+      "status": "under construction",
+      "opened": "n/a (existing lake port historic; new port targeted end 2026)",
+      "projects": "USD 70m industrial port at Mutowa, preliminary works launched 2025, target end 2026; 468 km Kalemie–Nyunzu–Manono road; Tanzania–DRC programme (CCTTFA) incl. Kigoma port upgrades, 5,000 t slipway, new lake vessels and 60 ha of dry-port land",
+      "notes": "DRC end of the Central Corridor across Lake Tanganyika from Kigoma (Tanzania). Rail link to Lubumbashi via SNCC cape-gauge line (poor condition). Growing relevance for Manono lithium and Zijin's Tanzania-routed mineral exports.",
+      "sources": [
+        "https://www.financialafrik.com/2025/04/03/rdc-un-contrat-de-70-millions-usd-pour-moderniser-le-port-de-kalemie-et-desenclaver-le-tanganyika/",
+        "https://lepoint.cd/dici-fin-2026-kalemie-accueillera-un-port-capable-de-traiter-2-millions-de-tonnes-de-fret-grace-a-un-investissement-initial-de-70-millions-usd/",
+        "https://centralcorridor-ttfa.org/tanzania-and-drc-strengthen-bilateral-ties-with-transport-infrastructure-development-program/",
+        "https://bankable.africa/fr/actualites/2108-1581-port-industriel-de-kalemie-lancement-des-travaux-preliminaires-a-mutowa"
+      ]
+    },
+    {
+      "id": "cd-kisangani",
+      "name": "Port of Kisangani",
+      "type": "river",
+      "location": {"city": "Kisangani, Tshopo", "lat": 0.52, "lng": 25.20},
+      "operator": "SCTP (left-bank port); SNCC (right-bank rail port, largely abandoned)",
+      "concession": "n/a",
+      "capacity": "SCTP: one c. 300 m conventional berth, draft 2.5 m (dry season) to 5–6 m (wet season), 5 Titan cranes (3–5 t) and 1 Derrick (8–10 t, several non-functional), c. 11,000 m2 warehousing; SNCC: 220 m rail-served quay",
+      "throughput": "n/a",
+      "status": "operational",
+      "opened": "n/a",
+      "projects": "n/a",
+      "notes": "Head of navigation on the Congo River from Kinshasa (c. 1,700 km); SNCC Kisangani–Ubundu rail bypasses the Stanley Falls. Equipment degraded; partially operational.",
+      "sources": [
+        "https://lca.logcluster.org/democratic-republic-congo-218-democratic-republic-congo-port-kisangani"
+      ]
+    }
+  ],
+  "zones": [
+    {
+      "id": "cd-maluku-sez",
+      "name": "Maluku Special Economic Zone (ZES pilote de Maluku)",
+      "type": "special economic zone",
+      "location": {"city": "Maluku, Kinshasa", "lat": -4.08, "lng": 15.55},
+      "authority": "AZES (Agence des Zones Economiques Spéciales); infrastructure financed under AfDB's USD 140m Covid-19 response programme",
+      "area": "n/a (8 km fenced perimeter; 40 ha reserved by operators as of 2025)",
+      "sectors": ["ceramics / building materials", "beverages", "manufacturing"],
+      "incentives": "SEZ regime under the 2014 SEZ law administered by AZES: customs and tax exemptions and a one-stop shop on site",
+      "tenants": "Saphir Ceramics (tiles) and Varun Beverages/Pepsi (USD 129m plant, 5,000+ direct and indirect jobs); nearly 20,000 jobs anticipated",
+      "status": "operational",
+      "opened": "n/a (first factories operating by 2023)",
+      "projects": "4.5 km of internal roads to be completed (2025); 75 MVA power connection, water and drainage delivered with AfDB support",
+      "notes": "Pilot SEZ for the country. Located next to the planned DRC landing of the Kinshasa–Brazzaville road-rail bridge (Maluku–Maloukou Tréchot).",
+      "sources": [
+        "https://www.afdb.org/en/success-stories/democratic-republic-congo-health-response-economic-recovery-maluku-pilot-zone-paving-way-resilient-economy-88314",
+        "https://acp.cd/anglais/the-drc-currently-has-seven-special-economic-zones-under-development-ministry-of-industry-and-sme-development/",
+        "https://deskeco.com/index.php/2025/04/28/rdc-dix-ans-dexistence-lagence-des-zones-economiques-speciales-se-felicite-davoir-implante-plusieurs"
+      ]
+    },
+    {
+      "id": "cd-kin-malebo-sez",
+      "name": "Kin-Malebo Special Economic Zone",
+      "type": "special economic zone",
+      "location": {"city": "N'Sele, Kinshasa", "lat": -4.35, "lng": 15.55},
+      "authority": "AZES",
+      "area": "530+ ha, of which 180 ha reserved for the first industrial phase",
+      "sectors": ["manufacturing", "agro-processing", "logistics"],
+      "incentives": "SEZ regime (AZES)",
+      "tenants": "n/a",
+      "status": "under construction",
+      "opened": "n/a",
+      "projects": "Operationalisation in progress (Ministry of Industry, April 2025)",
+      "notes": "Second Kinshasa SEZ, east of the city along the N1/river.",
+      "sources": [
+        "https://deskeco.com/index.php/2025/04/28/rdc-dix-ans-dexistence-lagence-des-zones-economiques-speciales-se-felicite-davoir-implante-plusieurs",
+        "https://acp.cd/anglais/the-drc-currently-has-seven-special-economic-zones-under-development-ministry-of-industry-and-sme-development/"
+      ]
+    },
+    {
+      "id": "cd-musompo-sez",
+      "name": "Musompo Special Economic Zone (battery / EV zone)",
+      "type": "special economic zone",
+      "location": {"city": "Kolwezi, Lualaba", "lat": -10.72, "lng": 25.47},
+      "authority": "DRC government / AZES with UN ECA and Afreximbank; Arise IIP technical consultant",
+      "area": "900+ ha",
+      "sectors": ["battery precursors", "battery manufacturing", "EV assembly", "mineral processing"],
+      "incentives": "SEZ regime (AZES); framed by the DRC–Zambia battery value-chain agreement (March 2023)",
+      "tenants": "n/a",
+      "status": "under construction",
+      "opened": "n/a",
+      "projects": "Works launched 26 March 2025; USD 200m+ zone development, target c. USD 2bn private investment, 25,000 direct jobs; power constraint (Lualaba 847 MW in 2024)",
+      "notes": "Sits in the copper-cobalt belt on the Lobito corridor railway. Cross-border twin zone planned in Zambia.",
+      "sources": [
+        "https://bankable.africa/en/business-climate/0104-982-dr-congo-development-of-musompo-special-economic-zone-begins",
+        "https://acp.cd/economie/lualaba-lancement-des-travaux-de-construction-de-la-zone-economique-speciale/"
+      ]
+    },
+    {
+      "id": "cd-kiswishi-sez",
+      "name": "Kiswishi City Special Economic Zone / Industrial Park",
+      "type": "industrial zone",
+      "location": {"city": "Lubumbashi, Haut-Katanga", "lat": -11.55, "lng": 27.45},
+      "authority": "Rendeavour (private developer); AZES regulator",
+      "area": "n/a",
+      "sectors": ["beverages", "light manufacturing", "logistics"],
+      "incentives": "Tax and regulatory benefits under the SEZ framework",
+      "tenants": "Varun Beverages (Pepsi) USD 50m plant as anchor tenant",
+      "status": "under construction",
+      "opened": "n/a",
+      "projects": "Internal roads and utilities under development; listed among SEZs in operationalisation (April 2025)",
+      "notes": "DRC's first privately developed SEZ; access to N1/N5 and Luano airport, on the Kasumbalesa road.",
+      "sources": [
+        "https://www.kiswishi.com/industrial-park/",
+        "https://acp.cd/anglais/the-drc-currently-has-seven-special-economic-zones-under-development-ministry-of-industry-and-sme-development/"
+      ]
+    },
+    {
+      "id": "cd-musienene-sez",
+      "name": "Musienene Special Economic Zone",
+      "type": "special economic zone",
+      "location": {"city": "Musienene (Butembo area), North Kivu", "lat": 0.25, "lng": 29.30},
+      "authority": "AZES",
+      "area": "n/a",
+      "sectors": ["agro-processing", "manufacturing"],
+      "incentives": "SEZ regime (AZES)",
+      "tenants": "n/a",
+      "status": "planned",
+      "opened": "n/a",
+      "projects": "Operationalisation in progress per Ministry of Industry (April 2025)",
+      "notes": "Located on the Kasindi–Beni–Butembo road (Uganda-funded) in a conflict-affected area; progress uncertain.",
+      "sources": [
+        "https://acp.cd/anglais/the-drc-currently-has-seven-special-economic-zones-under-development-ministry-of-industry-and-sme-development/",
+        "https://deskeco.com/index.php/2025/04/28/rdc-dix-ans-dexistence-lagence-des-zones-economiques-speciales-se-felicite-davoir-implante-plusieurs"
+      ]
+    },
+    {
+      "id": "cd-kasumbalesa-dry-port",
+      "name": "Kasumbalesa Dry Port and Logistics Hub",
+      "type": "logistics zone",
+      "location": {"city": "Kasumbalesa, Haut-Katanga", "lat": -12.23, "lng": 27.80},
+      "authority": "OGEFREM (Office de Gestion du Fret Multimodal) with Yellowstone Consortium (South Africa)",
+      "area": "c. 60 ha",
+      "sectors": ["logistics", "customs/transit", "trucking"],
+      "incentives": "n/a",
+      "tenants": "n/a",
+      "status": "planned",
+      "opened": "n/a",
+      "projects": "USD 600m, 23-year build-operate-transfer concession signed 1 December 2025; construction to start January 2027; capacity 1,250+ trucks and up to 11m tonnes/yr; c. 800 permanent jobs",
+      "notes": "Aims to decongest the Kasumbalesa border, the DRC's busiest trade gateway.",
+      "sources": [
+        "https://www.xtrafrica.com/news/drc-600-million-kasumbalesa-dry-port-cross-border-trade"
+      ]
+    }
+  ],
+  "corridors": [
+    {
+      "id": "cd-lobito-corridor",
+      "name": "Lobito Corridor – DRC leg (Dilolo–Kolwezi–Lubumbashi–Sakania railway)",
+      "modes": ["rail", "road", "multimodal"],
+      "route": "Lobito (Angola) → Luau/Dilolo border → Kolwezi → Tenke → Likasi → Lubumbashi → Sakania (Zambia border)",
+      "countries": ["AO", "CD", "ZM"],
+      "length": "c. 1,037 km in the DRC (Dilolo–Sakania); c. 1,300 km Angolan section operated by Lobito Atlantic Railway",
+      "operator": "SNCC (current); Mota-Engil Africa 30-year concession (signed 26 Aug 2026); Lobito Atlantic Railway (Mota-Engil, Trafigura, Vecturis) in Angola",
+      "status": "operational",
+      "capacity_or_traffic": "Dilolo–Kolwezi section operating at 10–15 km/h and <5% of capacity (IPIS); Kamoa-Kakula copper shipments started 2023, up to 240,000 t/yr from 2025; target 13.7m t/yr after modernisation; first-year forecast 1m t exports / 0.5m t imports",
+      "projects": "USD 1.8bn Mota-Engil PPP (cabinet approval July 2026, concession signed Aug 2026), most works in first 7 years; financing lines: US DFC up to USD 1bn (LoI Dec 2025), EIB EUR 500m, World Bank USD 500m for Dilolo–Kolwezi; AFC USD 150m Kolwezi–Kamoa-Kakula extension; DRC export quotas of 50% copper, 30% cobalt, 90% zinc via Lobito over five years",
+      "notes": "Transit to Lobito 5–8 days vs c. 25 days to Durban. Strategic US/EU Global Gateway project. Trafigura is a partner in the Angolan concession.",
+      "sources": [
+        "https://logistafrica.com/en/logistic/drc-mota-engil-secures-a-30-year-concession-to-modernize-the-lobito-corridor-railway/",
+        "https://www.ecofinagency.com/news-infrastructures/1112-51308-mota-engil-poised-for-drc-rail-concession-as-us-and-kinshasa-cement-lobito-strategy",
+        "https://ipisresearch.be/weekly-briefing/infrastructure-extraction-and-accountability-around-the-lobito-corridor-in-southern-drc/",
+        "https://www.railwaysafrica.com/news/drc-cabinet-approves-mota-engil-ppp-for-dilolo-kolwezi-lubumbashi-sakania-railway-line"
+      ]
+    },
+    {
+      "id": "cd-matadi-kinshasa",
+      "name": "Matadi – Kinshasa road and rail corridor",
+      "modes": ["rail", "road", "inland waterway"],
+      "route": "Banana/Boma → Matadi → Mbanza-Ngungu → Kinshasa (Gare de l'Est / river port)",
+      "countries": ["CD"],
+      "length": "366 km rail (CFMK); c. 350 km N1 road",
+      "operator": "SCTP (railway and public ports); road: Office des Routes",
+      "status": "operational",
+      "capacity_or_traffic": "Rail: only 2 trains, c. 250 wagons and 4 locomotives in service, several departures per week (Logistics Cluster); most container traffic moves by truck",
+      "projects": "ARMP integrated concession of Boma/Matadi/Kinshasa ports plus the railway; MGT-funded 2.65 km port access road at Matadi (2024–25); DP World's Banana port (2027) will add a deep-water origin to the corridor",
+      "notes": "Sole domestic link from the sea to the capital. Track rehabilitated but rolling stock degraded.",
+      "sources": [
+        "https://lca.logcluster.org/democratic-republic-congo-24-democratic-republic-congo-railway-assessment",
+        "https://www.armp-rdc.org/index.php/fr/19-ami-prestations-intellectuelles/1876-mise-en-concession-integree-des-ports-de-boma-de-matadi-de-kinshasa-et-du-chemin-de-fer-matadi-kinshasa",
+        "https://www.ictsi.com/press-releases/matadi-gateway-terminal-enhances-infrastructure-capacity"
+      ]
+    },
+    {
+      "id": "cd-north-south-corridor",
+      "name": "North-South Corridor (Durban / Beira – Zambia – Kasumbalesa – Lubumbashi/Kolwezi)",
+      "modes": ["road", "rail", "multimodal"],
+      "route": "Durban or Beira → Zimbabwe/Mozambique → Lusaka → Ndola/Kitwe → Kasumbalesa (or Sakania/Mokambo) → Lubumbashi → Likasi → Kolwezi",
+      "countries": ["ZA", "MZ", "ZW", "ZM", "CD"],
+      "length": "c. 2,500 km Durban–Lubumbashi by road",
+      "operator": "Road hauliers; SADC/COMESA corridor coordination",
+      "status": "operational",
+      "capacity_or_traffic": "Main outlet for DRC copper/cobalt and inbound fuel, sulphur and consumer goods; Kasumbalesa vehicle trade c. USD 10m/day (ECDPM, 2026); truck queues of 25 km and up to c. 5 days (2025–26)",
+      "projects": "SADC inter-ministerial task force on Kasumbalesa (Feb/Apr 2025); Zambia diversion of traffic to Sakania and Mokambo (SI 36 of 2022); USD 600m Kasumbalesa dry port (2027 start)",
+      "notes": "Transit to Durban c. 25 days vs 5–8 days to Lobito; chronic congestion drives interest in Lobito, Walvis Bay and Dar es Salaam alternatives.",
+      "sources": [
+        "https://www.sadc.int/latest-news/sadc-member-states-meet-harare-find-lasting-solution-persistent-problems-kasumbalesa",
+        "https://ecdpm.org/work/notes-kasumbalesa-where-25km-trucks-meet-bikes-lobito-corridor",
+        "https://www.zra.org.zm/government-formalises-sakania-border-for-export-and-transit-exit/"
+      ]
+    },
+    {
+      "id": "cd-walvis-bay-ndola-lubumbashi",
+      "name": "Walvis Bay – Ndola – Lubumbashi Development Road (ex Trans-Caprivi)",
+      "modes": ["road"],
+      "route": "Walvis Bay → Katima Mulilo (Namibia/Zambia bridge) → Lusaka → Ndola → Kasumbalesa → Lubumbashi",
+      "countries": ["NA", "ZM", "CD"],
+      "length": "c. 2,700 km",
+      "operator": "Walvis Bay Corridor Group (WBCG)",
+      "status": "operational",
+      "capacity_or_traffic": "Growing copper volumes via Walvis Bay; DRC produces nearly 3m t copper/yr (2025)",
+      "projects": "New 'North-Western' route Kolwezi → Solwezi → Mongu → Katima Mulilo → Walvis Bay, c. 235 km shorter with a new DRC–Zambia border crossing; concession signed and construction under way (2025)",
+      "notes": "Atlantic alternative to Durban for Katanga exports; competes with Lobito.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Walvis_Bay-Ndola-Lubumbashi_Development_Road",
+        "https://www.observer24.com.na/new-corridor-cuts-time-for-drc-copper/"
+      ]
+    },
+    {
+      "id": "cd-central-corridor",
+      "name": "Central Corridor (Dar es Salaam – Kigoma – Lake Tanganyika – Kalemie/Uvira)",
+      "modes": ["rail", "road", "inland waterway", "multimodal"],
+      "route": "Dar es Salaam → Dodoma → Tabora → Kigoma (rail/road) → Lake Tanganyika → Kalemie / Uvira (DRC) → Lubumbashi by SNCC rail or road",
+      "countries": ["TZ", "CD", "BI"],
+      "length": "c. 1,400 km Dar es Salaam–Kigoma plus lake crossing",
+      "operator": "Central Corridor Transit Transport Facilitation Agency (CCTTFA); Tanzania Ports Authority (Kigoma); SNCC (Kalemie); private lake shipping (e.g. Zijin vessels, 2026)",
+      "status": "operational",
+      "capacity_or_traffic": "n/a (lake-borne; growing mineral flows incl. Zijin's four ships serving DRC mines inaugurated 2026)",
+      "projects": "Tanzania–DRC infrastructure programme (2022–): Kigoma port upgrade and 5,000 t slipway, new lake vessels, 60 ha dry-port land in each country, USD 70m Kalemie industrial port (2026), Tanzania SGR to Kigoma; Kalemie–Nyunzu–Manono road (468 km)",
+      "notes": "Shortest sea route for eastern DRC and Manono lithium; TPA has a country office in Lubumbashi.",
+      "sources": [
+        "https://centralcorridor-ttfa.org/tanzania-and-drc-strengthen-bilateral-ties-with-transport-infrastructure-development-program/",
+        "https://thechanzo.com/2026/07/21/zijin-mining-inaugurates-four-ships-serving-dr-congo-mines-as-china-reinforces-eastern-southern-africa-critical-mineral-supply-route-through-tanzania/",
+        "https://www.ttcanc.org/northern-corridor-transport-network"
+      ]
+    },
+    {
+      "id": "cd-northern-corridor",
+      "name": "Northern Corridor (Mombasa – Kampala – Kasindi/Beni – Goma)",
+      "modes": ["road", "rail", "multimodal"],
+      "route": "Mombasa → Nairobi → Kampala → Mbarara → Kasese → Mpondwe/Kasindi → Beni → Butembo (branch: Kabale → Bunagana/Goma; Kigali → Gisenyi/Goma)",
+      "countries": ["KE", "UG", "RW", "CD"],
+      "length": "c. 1,700 km Mombasa–Kasindi",
+      "operator": "Northern Corridor Transit and Transport Coordination Authority (NCTTCA); road hauliers",
+      "status": "operational",
+      "capacity_or_traffic": "Main import route for North Kivu and Ituri consumer goods and fuel; volumes disrupted by M23 conflict (2025–26)",
+      "projects": "Uganda-funded 223 km Kasindi–Beni–Butembo road (DOTT Services): Kasindi–Beni 80 km at 61% (March 2026), Beni–Butembo 54 km at 5%; Mpondwe/Kasindi bridge substantially complete",
+      "notes": "Security (ADF, M23) and border closures are the key risks; Uganda reopened Bunagana in July 2025 into M23-held territory.",
+      "sources": [
+        "https://www.newvision.co.ug/category/news/kasindi-beni-cross-border-road-project-at-61-NV_229203_082026",
+        "https://www.ttcanc.org/northern-corridor-transport-network",
+        "https://www.africanews.com/2025/07/12/uganda-reopens-border-with-m23-held-eastern-drc/"
+      ]
+    },
+    {
+      "id": "cd-congo-river",
+      "name": "Congo River inland waterway (Kinshasa – Mbandaka – Kisangani; Kasai to Ilebo)",
+      "modes": ["inland waterway"],
+      "route": "Kinshasa → Mbandaka → Bumba → Kisangani (c. 1,700 km); Kwa/Kasai branch Kinshasa → Ilebo",
+      "countries": ["CD", "CG", "CF"],
+      "length": "c. 1,700 km Kinshasa–Kisangani",
+      "operator": "SCTP (state); many private barge operators; CICOS regulates the shared basin",
+      "status": "operational",
+      "capacity_or_traffic": "n/a (seasonal drafts 2.5–6 m at Kisangani)",
+      "projects": "Kinshasa–Brazzaville road-rail bridge PPP (1,575–1,757 m, c. USD 700m phase 1, call for concession proposals launched May 2026); Port of Kinshasa modernisation with Port of Brussels",
+      "notes": "Backbone of domestic logistics for the north and centre; poor navigation aids, dredging deficit.",
+      "sources": [
+        "https://lca.logcluster.org/democratic-republic-congo-218-democratic-republic-congo-port-kisangani",
+        "https://fr.wikipedia.org/wiki/Port_de_Kinshasa",
+        "https://www.ecofinagency.com/news-infrastructures/0106-56046-congo-river-bridge-project-advances-as-kinshasa-and-brazzaville-launch-concession-search"
+      ]
+    }
+  ],
+  "border_crossings": [
+    {
+      "id": "cd-kasumbalesa",
+      "name": "Kasumbalesa",
+      "with_country": "ZM",
+      "with_country_name": "Zambia",
+      "type": "road",
+      "location": {"city": "Kasumbalesa, Haut-Katanga", "lat": -12.25, "lng": 27.80},
+      "traffic": "Busiest DRC land border: vehicle-based trade c. USD 10m/day plus c. USD 2.5m/day pedestrian/bicycle trade (ECDPM, Feb 2026); queues up to 25 km and c. 5 days",
+      "status": "operational",
+      "hours": "Extended opening hours introduced 2025 (Zambian side listed 24h)",
+      "projects": "USD 600m, 60 ha dry port (Yellowstone/OGEFREM, BOT concession Dec 2025, works from Jan 2027); SADC task-force action matrix (2025); electronic seal clearance system rolled out 2025",
+      "notes": "Recurrent congestion and closures; traffic diverted to Sakania and Mokambo. Gateway for copper/cobalt exports and fuel/sulphur imports.",
+      "sources": [
+        "https://ecdpm.org/work/notes-kasumbalesa-where-25km-trucks-meet-bikes-lobito-corridor",
+        "https://www.sadc.int/latest-news/sadc-member-states-meet-harare-find-lasting-solution-persistent-problems-kasumbalesa",
+        "https://www.xtrafrica.com/news/drc-600-million-kasumbalesa-dry-port-cross-border-trade",
+        "https://tracks4africa.co.za/listings/item/w149026/kasumbalesa-border-post-zamdrc-06h00-18h00/"
+      ]
+    },
+    {
+      "id": "cd-sakania",
+      "name": "Sakania",
+      "with_country": "ZM",
+      "with_country_name": "Zambia",
+      "type": "road+rail",
+      "location": {"city": "Sakania, Haut-Katanga", "lat": -12.75, "lng": 28.55},
+      "traffic": "Overflow route for northbound trucks (c. 130 km SE of Kasumbalesa); rail crossing point of the SNCC–Zambia Railways network",
+      "status": "operational",
+      "hours": "n/a",
+      "projects": "Zambia formalised Sakania as an export/transit exit (SI 36 of 2022) and is upgrading access roads; terminus of the Mota-Engil Dilolo–Sakania rail concession (2026)",
+      "notes": "Hauliers report USD 150 fees (2022) and poor roads; rail link mostly dormant pending Lobito corridor rehabilitation.",
+      "sources": [
+        "https://www.zra.org.zm/government-formalises-sakania-border-for-export-and-transit-exit/",
+        "https://www.freightnews.co.za/article/drc-zambia-cross-border-freight-is-a-costly-business",
+        "https://lca.logcluster.org/2320-zambia-border-crossing-sakanya"
+      ]
+    },
+    {
+      "id": "cd-mokambo",
+      "name": "Mokambo",
+      "with_country": "ZM",
+      "with_country_name": "Zambia",
+      "type": "road",
+      "location": {"city": "Mokambo, Haut-Katanga", "lat": -12.40, "lng": 28.35},
+      "traffic": "Alternative southbound crossing used to relieve Kasumbalesa",
+      "status": "operational",
+      "hours": "n/a",
+      "projects": "Included in Zambia's three-crossing decongestion plan (2022)",
+      "notes": "Hauliers cite USD 100 crossing fees and poor road access (2022).",
+      "sources": [
+        "https://www.freightnews.co.za/article/drc-zambia-cross-border-freight-is-a-costly-business",
+        "https://www.zra.org.zm/government-formalises-sakania-border-for-export-and-transit-exit/"
+      ]
+    },
+    {
+      "id": "cd-dilolo",
+      "name": "Dilolo / Luau",
+      "with_country": "AO",
+      "with_country_name": "Angola",
+      "type": "road+rail",
+      "location": {"city": "Dilolo, Lualaba", "lat": -10.68, "lng": 22.35},
+      "traffic": "Rail gateway of the Lobito corridor; Kamoa-Kakula copper trains since 2023 (up to 240,000 t/yr from 2025)",
+      "status": "operational",
+      "hours": "n/a",
+      "projects": "Mota-Engil 30-year, USD 1.8bn Dilolo–Sakania rail concession (Aug 2026); World Bank USD 500m Dilolo–Kolwezi rehabilitation request (Oct 2025)",
+      "notes": "Rail line on the DRC side degraded (10–15 km/h). Volumes expected to scale with export quotas directing 50% of copper via Lobito.",
+      "sources": [
+        "https://ipisresearch.be/weekly-briefing/infrastructure-extraction-and-accountability-around-the-lobito-corridor-in-southern-drc/",
+        "https://logistafrica.com/en/logistic/drc-mota-engil-secures-a-30-year-concession-to-modernize-the-lobito-corridor-railway/"
+      ]
+    },
+    {
+      "id": "cd-kasindi",
+      "name": "Kasindi / Mpondwe",
+      "with_country": "UG",
+      "with_country_name": "Uganda",
+      "type": "road",
+      "location": {"city": "Kasindi, North Kivu", "lat": 0.05, "lng": 29.72},
+      "traffic": "Main formal trade gateway between Uganda and eastern DRC (Beni–Butembo market)",
+      "status": "operational",
+      "hours": "n/a",
+      "projects": "Uganda-funded Mpondwe/Kasindi bridge (substantially complete, 2026) and 80 km Kasindi–Beni road (61% complete, March 2026) by DOTT Services",
+      "notes": "ADF insecurity, weather and land-acquisition delays; part of Uganda's 223 km cross-border road programme launched June 2021.",
+      "sources": [
+        "https://www.newvision.co.ug/category/news/kasindi-beni-cross-border-road-project-at-61-NV_229203_082026",
+        "https://www.monitor.co.ug/uganda/news/national/mpondwe-beni-roadworks-security-boosting-business-4458264"
+      ]
+    },
+    {
+      "id": "cd-goma-grande-barriere",
+      "name": "Goma – Gisenyi (Grande Barrière)",
+      "with_country": "RW",
+      "with_country_name": "Rwanda",
+      "type": "road",
+      "location": {"city": "Goma, North Kivu", "lat": -1.68, "lng": 29.24},
+      "traffic": "Busiest Rwanda–DRC crossing (trade and humanitarian traffic into Goma)",
+      "status": "operational",
+      "hours": "06:00–24:00 (as reopened 19 September 2025)",
+      "projects": "n/a",
+      "notes": "Goma under M23/AFC control since January 2025; crossing reopened by the M23-aligned administration on 19 Sep 2025. Formal customs revenue to Kinshasa suspended; high political and sanctions risk.",
+      "sources": [
+        "https://nilepost.co.ug/index.php/news/288280/m23-reopens-goma-rwanda-border-post",
+        "https://www.aljazeera.com/features/2026/1/29/banks-shut-futures-uncertain-one-year-after-m23-rebels-seized-drcs-goma"
+      ]
+    },
+    {
+      "id": "cd-bunagana",
+      "name": "Bunagana",
+      "with_country": "UG",
+      "with_country_name": "Uganda",
+      "type": "road",
+      "location": {"city": "Bunagana, North Kivu", "lat": -1.29, "lng": 29.60},
+      "traffic": "Secondary Uganda–DRC crossing (Kisoro–Rutshuru–Goma); trade stalled despite reopening (Feb 2026 reports)",
+      "status": "operational",
+      "hours": "n/a",
+      "projects": "n/a",
+      "notes": "Held by M23 since 2022; Uganda reopened Bunagana and Ishasha in July 2025 after six months' closure following the Washington peace agreement. Customs collected by M23 administration, not Kinshasa.",
+      "sources": [
+        "https://www.africanews.com/2025/07/12/uganda-reopens-border-with-m23-held-eastern-drc/",
+        "https://www.monitor.co.ug/uganda/news/national/uganda-drc-border-trade-remains-stalled-despite-bunagana-reopening-5142662"
+      ]
+    },
+    {
+      "id": "cd-kavimvira",
+      "name": "Kavimvira (Uvira) – Gatumba",
+      "with_country": "BI",
+      "with_country_name": "Burundi",
+      "type": "road",
+      "location": {"city": "Uvira, South Kivu", "lat": -3.32, "lng": 29.24},
+      "traffic": "Main DRC–Burundi crossing; links Uvira to Bujumbura port on Lake Tanganyika",
+      "status": "operational",
+      "hours": "n/a",
+      "projects": "n/a",
+      "notes": "Closed c. two months after the AFC/M23 takeover of Uvira; reopened 23 February 2026. Informal cross-border trade dominates.",
+      "sources": [
+        "https://www.africanews.com/2026/02/23/trade-and-hope-return-to-uvira-after-drc-burundi-border-reopens/",
+        "https://www.france24.com/en/africa/20260223-dr-congo-border-crossing-with-burundi-reopens-after-afc-m23-offensive"
+      ]
+    },
+    {
+      "id": "cd-beach-ngobila",
+      "name": "Beach Ngobila (Kinshasa – Brazzaville ferry)",
+      "with_country": "CG",
+      "with_country_name": "Republic of the Congo",
+      "type": "ferry",
+      "location": {"city": "Kinshasa", "lat": -4.30, "lng": 15.30},
+      "traffic": "Passenger and small-cargo ferries between the two capitals across the Congo River (Pool Malebo)",
+      "status": "operational",
+      "hours": "n/a",
+      "projects": "Kinshasa–Brazzaville road-rail bridge (1,575–1,757 m, c. USD 700m phase 1, Maluku–Maloukou Tréchot) with AfDB and Africa50; concession call for proposals launched May 2026, c. 5-year build; planned capacity 5m passengers and c. 3m t cargo/yr",
+      "notes": "Only fixed-link alternative is the future bridge; ferry crossing is slow and informal-trade heavy.",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Port_de_Kinshasa",
+        "https://www.ecofinagency.com/news-infrastructures/0106-56046-congo-river-bridge-project-advances-as-kinshasa-and-brazzaville-launch-concession-search",
+        "https://en.wikipedia.org/wiki/Brazzaville%E2%80%93Kinshasa_Bridge"
+      ]
+    }
+  ]
+}

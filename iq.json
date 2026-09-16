@@ -1,0 +1,558 @@
+{
+  "country": {
+    "code": "IQ",
+    "name": "Iraq",
+    "region": "Gulf",
+    "capital": "Baghdad",
+    "coastline": "Persian Gulf (c. 58 km, Khor Abdullah / Shatt al-Arab / Al Faw peninsula)",
+    "summary": "Iraq is a near-landlocked Gulf economy whose seaborne trade funnels through a short coastline at the head of the Gulf: Umm Qasr (Iraq's only deep-water port, with ICTSI's Basra Gateway Terminal and Gulftainer's Iraq Container Terminal), the bulk/petrochemical port of Khor Al Zubair, and the crude export terminals off Al Faw (ABOT and SPMs, c. 3.5m b/d capacity). The state-owned General Company for Ports of Iraq (GCPI, Ministry of Transport) is building the Daewoo E&C-constructed Al Faw Grand Port (first five container berths opened November 2024; commercial operations targeted 2026; AD Ports Group preliminary JV agreement 2024) as the anchor of the USD 17-20bn Iraq-Türkiye 'Development Road' rail and motorway corridor to the Turkish border, on which construction was formally launched in July 2026. The 2026 Strait of Hormuz disruption has sharply raised the strategic value of Iraq's overland routes (TIR trucking via Türkiye, Kirkuk-Ceyhan pipeline, Syria/Baniyas), and DP World is in talks with Baghdad on a permanent Europe-Iraq-UAE overland/sea corridor.",
+    "key_operators": ["General Company for Ports of Iraq (GCPI)", "ICTSI (Basra Gateway Terminal)", "Gulftainer (Iraq Container Terminal)", "AD Ports Group (Al Faw JV, preliminary)", "Daewoo E&C (Al Faw contractor)", "Basra Oil Company / SOMO", "Iraqi Republic Railways"],
+    "sources": [
+      "https://en.alfawport.gov.iq/",
+      "https://www.ictsi.com/our-offering/our-terminals/basra-gateway-terminal",
+      "https://www.gulftainer.com/ports-terminals/iraq-container-terminals/",
+      "https://www.agbi.com/infrastructure/2026/07/iraq-and-turkey-kick-off-long-delayed-development-road/",
+      "https://www.ttnews.com/articles/dp-world-hormuz-trucking",
+      "https://www.spglobal.com/energy/en/news-research/latest-news/crude-oil/072524-iraq-increases-crude-export-capacity-at-southern-gulf-terminals-with-new-pumping-units"
+    ]
+  },
+  "ports": [
+    {
+      "id": "iq-umm-qasr",
+      "name": "Umm Qasr Port (North & South ports)",
+      "type": "multipurpose",
+      "location": {"city": "Umm Qasr, Basra Governorate", "lat": 30.053, "lng": 47.938},
+      "operator": "General Company for Ports of Iraq (GCPI, Ministry of Transport); private terminals: ICTSI Basra Gateway Terminal (North Port), Gulftainer Iraq Container Terminal, plus GCPI-run general cargo berths",
+      "concession": "Landlord model under GCPI; terminal concessions to ICTSI (BGT, operating since 2014) and Gulftainer (ICT, commissioned 2010); Umm Qasr II project financed with IFC support",
+      "capacity": "Iraq's only deep-water port; BGT berths 25-27 dredged to 14 m design depth, able to receive 14,000 TEU vessels (2019); Gulftainer ICT 2 berths / 375 m quay / c. 400,000-520,000 TEU/yr",
+      "throughput": "n/a (port-wide figure not found; BGT passed 4m cumulative TEU in May 2023 after nine years of operation)",
+      "status": "operational",
+      "opened": "1967",
+      "projects": "Ongoing ICTSI berth/equipment programme (see BGT record); planned road/tunnel link to Al Faw Grand Port; 2025 TIR pilot corridor Mersin (Türkiye) - Umm Qasr",
+      "notes": "Iraq's primary trade gateway; rail-connected to Basra and Baghdad via Iraqi Republic Railways. Separated from Kuwait only by the Khor Abdullah inlet. Competitor concessions: ICTSI and Gulftainer (no DP World presence). Expected to be progressively complemented/superseded by Al Faw Grand Port for containers.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Umm_Qasr_Port",
+        "https://www.ictsi.com/press-releases/ictsi-builds-umm-qasr-deep-water-capacity",
+        "https://www.gulftainer.com/ports-terminals/iraq-container-terminals/",
+        "https://disclosures.ifc.org/project-detail/ESRS/50216/umm-qasr-ii"
+      ]
+    },
+    {
+      "id": "iq-basra-gateway-terminal",
+      "name": "Basra Gateway Terminal (BGT), Umm Qasr North Port",
+      "type": "container",
+      "location": {"city": "Umm Qasr", "lat": 30.055, "lng": 47.945},
+      "operator": "ICTSI (International Container Terminal Services Inc., Philippines)",
+      "concession": "ICTSI concession with GCPI since 2014 (term length not published in sources consulted); ICTSI has invested over USD 300m (2023)",
+      "capacity": "6 berths (3 new berths 25-27, 3 rehabilitated); 600 m continuous new quay, 14 m design depth; 3 post-Panamax STS cranes (56 m outreach, 21 rows) + 10 RTGs (2019); handles up to 14,000 TEU vessels; container, project cargo, ro-ro, general cargo",
+      "throughput": "4m TEU cumulative since 2014 (milestone May 2023); annual figure n/a",
+      "status": "operational",
+      "opened": "2014",
+      "projects": "USD 250m berth 25-27 programme completed October 2019; further capacity build-up reported by ICTSI; largest vessel call record set at Umm Qasr",
+      "notes": "Competitor concession (ICTSI). Only Umm Qasr terminal with Navis N4 TOS and post-Panamax cranes per ICTSI; specialised in oil & gas project cargo (pipes, rigs).",
+      "sources": [
+        "https://www.ictsi.com/our-offering/our-terminals/basra-gateway-terminal",
+        "https://www.ictsi.com/press-releases/ictsi-builds-umm-qasr-deep-water-capacity",
+        "https://www.porttechnology.org/ictsis-basra-gateway-achieves-4-million-teu-record/"
+      ]
+    },
+    {
+      "id": "iq-iraq-container-terminal-gulftainer",
+      "name": "Iraq Container Terminal (Gulftainer), Umm Qasr",
+      "type": "container",
+      "location": {"city": "Umm Qasr", "lat": 30.045, "lng": 47.93},
+      "operator": "Gulftainer (UAE)",
+      "concession": "Gulftainer terminal concession with GCPI; commissioned 2010 (term not published in sources consulted)",
+      "capacity": "2 berths, 375 m quay, 35 ha; c. 400,000-520,000 TEU/yr (Gulftainer figures); 2 Panamax gantry cranes + 2 mobile harbour cranes; on-site X-ray",
+      "throughput": "n/a",
+      "status": "operational",
+      "opened": "2010",
+      "projects": "Umm Qasr Logistics Centre (bonded logistics facility adjacent to terminal) opened 2014",
+      "notes": "Competitor concession (Gulftainer). Smaller cranes than BGT; positioned as full-service (stuffing/stripping, customs clearance).",
+      "sources": [
+        "https://www.gulftainer.com/ports-terminals/iraq-container-terminals/"
+      ]
+    },
+    {
+      "id": "iq-al-faw-grand-port",
+      "name": "Al Faw Grand Port",
+      "type": "container",
+      "location": {"city": "Al Faw, Basra Governorate", "lat": 29.9148, "lng": 48.4411},
+      "operator": "General Company for Ports of Iraq (owner); operator selection under way (11 shortlisted firms, Nov 2024); AD Ports Group preliminary JV agreement (April 2024) to develop, finance, manage and operate port and economic zone",
+      "concession": "Not yet awarded (as of sources consulted): AD Ports Group-GCPI preliminary JV agreement signed 3 April 2024 (following 2021 MoU and Aug 2023 addendum); GCPI shortlisted 11 shipping/terminal firms for the operating contract in November 2024",
+      "capacity": "Phase 1: 5 container berths, 1,750 m quay, initial 2m TEU/yr rising to 3.5-4m TEU/yr by 2028; vessels up to 23,000 TEU; 14.5 km breakwater (Guinness world's longest); Phase 2: 30 berths (draft 19.8 m) by ~2030-33; ultimate 100 berths / 7.5m TEU/yr",
+      "throughput": "Trial vessel operations only (first vessels received; Jan 2026 statement)",
+      "status": "under construction",
+      "opened": "2024 (first five berths inaugurated November 2024; full commercial operation targeted 2026)",
+      "projects": "Daewoo E&C USD 2.7bn phase-1 contract (Dec 2020); immersed tunnel under Khor Al Zubair to Umm Qasr 80% complete and container yard 97% complete (Dec 2025); 54 km2 free/economic zone, 'smart city' and 15 industrial cities announced July 2025; anchor of the Development Road rail/motorway",
+      "notes": "Largest greenfield port opportunity in Iraq; AD Ports Group (competitor to DP World) holds the preliminary development JV. Draft limited to c. 11 m in phase 1 per Wikipedia; phase-2 dredging to 19.8 m planned. Timelines have repeatedly slipped (phase-1 originally 2025).",
+      "sources": [
+        "https://en.alfawport.gov.iq/5130/",
+        "https://www.adportsgroup.com/en/news-and-media/2024/04/03/ad-ports-group-and-the-general-company-for-ports-of-iraq-sign-preliminary-agreement",
+        "https://www.iraqinews.com/iraq/iraq-to-select-firms-to-operate-al-faw-grand-port/",
+        "https://www.themaritimestandard.com/al-faw-deal-signed-by-ad-ports/",
+        "https://en.wikipedia.org/wiki/Grand_Faw_Port",
+        "https://thenewregion.com/posts/4026"
+      ]
+    },
+    {
+      "id": "iq-khor-al-zubair",
+      "name": "Khor Al Zubair Port",
+      "type": "bulk",
+      "location": {"city": "Khor Al Zubair, Basra Governorate", "lat": 30.19, "lng": 47.89},
+      "operator": "General Company for Ports of Iraq",
+      "concession": "n/a (state-operated; adjacent Khor Al Zubair Free Zone under the Free Zones Authority)",
+      "capacity": "n/a (industrial/bulk port serving petrochemical and fertiliser plants; also loads c. 30,000 b/d Qayara heavy crude, 2024)",
+      "throughput": "n/a",
+      "status": "operational",
+      "opened": "n/a",
+      "projects": "Port rehabilitation project 97% complete (Jan 2024), completion expected mid-2025 per Ministry of Planning",
+      "notes": "Sits on the Khor Al Zubair channel between Umm Qasr and Al Faw; the Al Faw-Umm Qasr immersed tunnel crosses this waterway. Hosts Basra Oil & Gas International Hub (BIOGH) free zone development.",
+      "sources": [
+        "https://www.zawya.com/en/projects/construction/iraqs-khor-al-zubair-port-rehabilitation-project-expected-to-be-completed-by-mid-2025-f6jwjpw4",
+        "https://www.spglobal.com/energy/en/news-research/latest-news/crude-oil/072524-iraq-increases-crude-export-capacity-at-southern-gulf-terminals-with-new-pumping-units",
+        "https://en.wikipedia.org/wiki/Khor_Al_Zubair"
+      ]
+    },
+    {
+      "id": "iq-al-basrah-oil-terminal",
+      "name": "Al Basrah Oil Terminal (ABOT) and Basra SPMs",
+      "type": "oil & gas",
+      "location": {"city": "Offshore Al Faw, Persian Gulf", "lat": 29.68, "lng": 48.81},
+      "operator": "Basra Oil Company (Ministry of Oil); marketing by SOMO",
+      "concession": "n/a (state-owned)",
+      "capacity": "ABOT c. 1.25m b/d; single point moorings (SPMs) c. 2.25m b/d; total southern export capacity c. 3.5m b/d (2024)",
+      "throughput": "Exports capped around 3.3m b/d under OPEC+ compliance (2024-25)",
+      "status": "operational",
+      "opened": "n/a",
+      "projects": "Two new turbine pumping units at Zubair-2 depot added 300,000 b/d loading capacity (July 2024); ABOT throughput constrained by degraded Fao-ABOT pipelines awaiting financing",
+      "notes": "Iraq's dominant export asset (>90% of crude exports); highly exposed to Strait of Hormuz disruption (2026). Khor Al Amaya (KAAOT) sister terminal largely idle/damaged.",
+      "sources": [
+        "https://www.spglobal.com/energy/en/news-research/latest-news/crude-oil/072524-iraq-increases-crude-export-capacity-at-southern-gulf-terminals-with-new-pumping-units",
+        "https://en.wikipedia.org/wiki/Al_Ba%C5%9Frah_Oil_Terminal"
+      ]
+    },
+    {
+      "id": "iq-abu-flus",
+      "name": "Abu Flus Port",
+      "type": "river",
+      "location": {"city": "Abu Al-Khaseeb, Basra", "lat": 30.4576, "lng": 48.0227},
+      "operator": "General Company for Ports of Iraq",
+      "concession": "n/a",
+      "capacity": "n/a (small river port on the western bank of the Shatt al-Arab)",
+      "throughput": "n/a",
+      "status": "operational",
+      "opened": "n/a",
+      "projects": "n/a",
+      "notes": "Shatt al-Arab river port; draft-limited and dependent on channel dredging; mainly regional/Iranian small-vessel trade.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Abu_Flous_Port"
+      ]
+    },
+    {
+      "id": "iq-al-maqal",
+      "name": "Al Maqal Port (Port of Basra)",
+      "type": "river",
+      "location": {"city": "Basra", "lat": 30.367, "lng": 47.80},
+      "operator": "General Company for Ports of Iraq; NAWAH Port Management operates a container terminal at Berth 14",
+      "concession": "NAWAH Port Management container terminal at Berth 14 (opened 2013)",
+      "capacity": "15 berths (11 operational), 2,000 m combined wharf; 20,000 m2 laydown yard; general, project, containerised and reefer cargo",
+      "throughput": "n/a",
+      "status": "operational",
+      "opened": "1919",
+      "projects": "n/a",
+      "notes": "Historic British-built port c. 135 km upstream on the Shatt al-Arab; not fully operational from 1980 (Iran-Iraq war), closed 2003, later reopened. Draft-constrained river port.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Port_of_Basra"
+      ]
+    }
+  ],
+  "zones": [
+    {
+      "id": "iq-al-faw-economic-zone",
+      "name": "Al Faw Grand Port Economic / Free Zone",
+      "type": "port-linked zone",
+      "location": {"city": "Al Faw, Basra Governorate", "lat": 29.95, "lng": 48.45},
+      "authority": "General Company for Ports of Iraq / Ministry of Transport; AD Ports Group preliminary JV (2024) covers port and economic zone",
+      "area": "54 km2 free trade area (Wikipedia); 'smart city' and industrial cities announced July 2025",
+      "sectors": ["logistics", "petrochemicals", "manufacturing", "port services"],
+      "incentives": "Expected to operate under Iraq's free-zone regime (Free Zones Law) - details not yet published",
+      "tenants": "n/a (not yet operational)",
+      "status": "planned",
+      "opened": "n/a",
+      "projects": "Part of Development Road phase 1 (2028); 15 industrial cities planned along the corridor",
+      "notes": "AD Ports Group (competitor) holds the preliminary development agreement for port and zone.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Grand_Faw_Port",
+        "https://www.adportsgroup.com/en/news-and-media/2024/04/03/ad-ports-group-and-the-general-company-for-ports-of-iraq-sign-preliminary-agreement",
+        "https://en.wikipedia.org/wiki/Iraq%E2%80%93Europe_Development_Road"
+      ]
+    },
+    {
+      "id": "iq-khor-al-zubair-free-zone",
+      "name": "Khor Al Zubair Free Zone (KAZFZ)",
+      "type": "free zone",
+      "location": {"city": "Khor Al Zubair, Basra", "lat": 30.19, "lng": 47.89},
+      "authority": "General Commission for Free Zones (Ministry of Finance)",
+      "area": "c. 1 million m2 (100 ha)",
+      "sectors": ["oil & gas services", "logistics", "warehousing", "light industry"],
+      "incentives": "Free-zone exemptions from customs duties and taxes under Iraq's free zones law (MEED)",
+      "tenants": "n/a",
+      "status": "operational",
+      "opened": "2004",
+      "projects": "Basra International Oil & Gas Hub (BIOGH) free zone development targeted 2025",
+      "notes": "Iraq's main operational free zone, adjacent to Khor Al Zubair port and Umm Qasr.",
+      "sources": [
+        "https://www.meed.com/economic-zones-in-iraq/"
+      ]
+    },
+    {
+      "id": "iq-basra-logistics-city",
+      "name": "Basra Logistics City (BLC)",
+      "type": "logistics zone",
+      "location": {"city": "Umm Qasr (former Camp Bucca), Basra", "lat": 30.08, "lng": 47.83},
+      "authority": "Kufan Group with Northern Gulf Partners (private)",
+      "area": "300 ha (3 million m2)",
+      "sectors": ["logistics", "oil & gas services", "warehousing", "offices"],
+      "incentives": "n/a (private secured logistics estate; not a statutory free zone)",
+      "tenants": "n/a",
+      "status": "operational",
+      "opened": "2011",
+      "projects": "Phase 1 development USD 245m announced 2011; Zone B opening 2014 (MEED)",
+      "notes": "2 km from Umm Qasr port, 20 km from Safwan (Kuwait) crossing; c. USD 100m of inherited military infrastructure.",
+      "sources": [
+        "https://www.prnewswire.co.uk/news-releases/kufan-group-and-northern-gulf-partners-launch-transformative-logistics-and-business-investment-in-iraq-156254475.html",
+        "https://www.meed.com/economic-zones-in-iraq/"
+      ]
+    },
+    {
+      "id": "iq-flaifil-free-zone-nineveh",
+      "name": "Flaifil (Nineveh) Free Zone",
+      "type": "free zone",
+      "location": {"city": "Nineveh Governorate (Mosul area)", "lat": 36.34, "lng": 43.13},
+      "authority": "General Commission for Free Zones (Ministry of Finance)",
+      "area": "c. 400,000 m2",
+      "sectors": ["trade", "warehousing", "light industry"],
+      "incentives": "Free-zone customs and tax exemptions",
+      "tenants": "n/a",
+      "status": "operational",
+      "opened": "2010",
+      "projects": "n/a",
+      "notes": "Road and rail links toward Türkiye, Syria and Jordan; lies on the Development Road alignment (Mosul-Rabia-Fishkhabur). Activity disrupted 2014-17 by ISIS occupation of Mosul.",
+      "sources": [
+        "https://www.meed.com/economic-zones-in-iraq/"
+      ]
+    },
+    {
+      "id": "iq-al-qaim-free-zone",
+      "name": "Al-Qaim Free Zone",
+      "type": "free zone",
+      "location": {"city": "Al-Qaim, Anbar Governorate", "lat": 34.37, "lng": 41.09},
+      "authority": "General Commission for Free Zones (Ministry of Finance)",
+      "area": "Phase 1 70,000 m2; phase 2 planned 200,000 m2",
+      "sectors": ["trade", "services"],
+      "incentives": "Free-zone customs and tax exemptions (commercial and service activities only)",
+      "tenants": "n/a",
+      "status": "operational",
+      "opened": "n/a",
+      "projects": "Phase 2 (200,000 m2) planned",
+      "notes": "Development slowed by Syrian conflict; relevance rising with June 2025 reopening of the Al-Qaim-Albu Kamal crossing.",
+      "sources": [
+        "https://www.meed.com/economic-zones-in-iraq/",
+        "https://www.agbi.com/trade/2025/06/iraq-and-syria-reopen-vital-border-crossing/"
+      ]
+    },
+    {
+      "id": "iq-jordan-iraq-economic-city",
+      "name": "Iraqi-Jordanian Joint Economic City (Trebil / Karameh)",
+      "type": "special economic zone",
+      "location": {"city": "Trebil, Rutba District, Anbar", "lat": 32.75, "lng": 39.05},
+      "authority": "Iraqi Jordanian Company for Industry (joint government JV)",
+      "area": "2,200 ha (22 million m2) straddling the border",
+      "sectors": ["manufacturing", "logistics", "trade"],
+      "incentives": "n/a (to be defined by developer tender)",
+      "tenants": "n/a",
+      "status": "planned",
+      "opened": "n/a",
+      "projects": "Developer tender launched May-June 2023; ministers agreed May 2025 to accelerate developer selection",
+      "notes": "Would anchor the Baghdad-Amman-Aqaba corridor at the Trebil/Karameh crossing.",
+      "sources": [
+        "https://www.iraq-businessnews.com/2023/04/18/details-of-new-economic-city-between-jordan-and-iraq/",
+        "https://jordantimes.com/news/local/jordan-iraq-discuss-accelerating-joint-economic-city-construction"
+      ]
+    },
+    {
+      "id": "iq-umm-qasr-logistics-centre",
+      "name": "Umm Qasr Logistics Centre (Gulftainer)",
+      "type": "logistics zone",
+      "location": {"city": "Umm Qasr", "lat": 30.045, "lng": 47.93},
+      "authority": "Gulftainer (UAE)",
+      "area": "n/a",
+      "sectors": ["logistics", "bonded warehousing", "project cargo"],
+      "incentives": "Bonded facility",
+      "tenants": "n/a",
+      "status": "operational",
+      "opened": "2014",
+      "projects": "n/a",
+      "notes": "Competitor (Gulftainer) asset adjacent to Iraq Container Terminal.",
+      "sources": [
+        "https://www.gulftainer.com/ports-terminals/iraq-container-terminals/"
+      ]
+    }
+  ],
+  "corridors": [
+    {
+      "id": "iq-development-road",
+      "name": "Iraq-Türkiye Development Road (Al Faw - Baghdad - Mosul - Turkish border rail + motorway)",
+      "modes": ["rail", "road", "multimodal"],
+      "route": "Al Faw Grand Port → Basra → Nasiriyah → Diwaniyah → Najaf → Karbala → Baghdad → Samarra → Baiji → Mosul → Rabia → Fishkhabur (Turkish border) → Türkiye (Şırnak) → Mersin / Europe",
+      "countries": ["IQ", "TR"],
+      "length": "c. 1,200 km (rail 1,179 km in 6 lots) plus parallel motorway",
+      "operator": "Ministry of Transport / Iraqi Republic Railways (to be defined; quadrilateral Iraq-Türkiye-Qatar-UAE MoU April 2024)",
+      "status": "under construction",
+      "capacity_or_traffic": "Design: freight 150 km/h, passenger up to 300 km/h; phase 1 3.5m containers / 22m t per year, rising to 7.5m containers / 33m t (phase 3)",
+      "projects": "USD 17-20bn; phases 2028 / 2033 / 2050; designs completed Sept 2024; rail works reported 87% and highway 73% complete by Ministry of Transport (Dec 2025); ground-breaking with Türkiye announced July 2026 after a brief cancellation on cost grounds; World Bank USD 930m Railways Extension and Modernization Project approved June 2025; Türk Telekom telecom contract June 2025",
+      "notes": "Partners UAE and Qatar; c. 20 industrial/economic zones planned along route. Competes with IMEC. Turkey expects USD 55bn economic gain over a decade. Completion percentages quoted by the ministry refer to existing-line works and should be read cautiously.",
+      "sources": [
+        "https://www.agbi.com/infrastructure/2026/07/iraq-and-turkey-kick-off-long-delayed-development-road/",
+        "https://en.wikipedia.org/wiki/Iraq%E2%80%93Europe_Development_Road",
+        "https://thenewregion.com/posts/4026",
+        "https://www.railjournal.com/regions/middle-east/iraq-turkey-development-road-designs-complete/"
+      ]
+    },
+    {
+      "id": "iq-basra-baghdad-mosul-rail",
+      "name": "Basra/Umm Qasr - Baghdad - Mosul existing rail line (Iraqi Republic Railways)",
+      "modes": ["rail"],
+      "route": "Umm Qasr → Basra → Nasiriyah → Samawah → Diwaniyah → Baghdad → Baiji → Mosul → Rabia",
+      "countries": ["IQ"],
+      "length": "n/a (standard gauge 1,435 mm network)",
+      "operator": "Iraqi Republic Railways (Ministry of Transport)",
+      "status": "operational",
+      "capacity_or_traffic": "n/a (low-speed legacy line; Basra-Baghdad high-speed upgrade targeted 2031)",
+      "projects": "World Bank Iraq Railways Extension and Modernization Project USD 930m (approved 25 June 2025); Basra-Baghdad high-speed plan announced Sept 2025; to be superseded/parallelled by the Development Road",
+      "notes": "Provides rail access from Umm Qasr container terminals to Baghdad; utilisation historically low, most containers move by truck.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Iraq%E2%80%93Europe_Development_Road",
+        "https://en.wikipedia.org/wiki/Umm_Qasr_Port"
+      ]
+    },
+    {
+      "id": "iq-basra-shalamcheh-rail",
+      "name": "Basra - Shalamcheh rail link (Iraq-Iran)",
+      "modes": ["rail"],
+      "route": "Basra → Shalamcheh (Iran) → Khorramshahr / Iranian network",
+      "countries": ["IQ", "IR"],
+      "length": "c. 32-36 km, incl. c. 900 m movable bridge over the Shatt al-Arab (Iranian scope)",
+      "operator": "Iraqi Republic Railways / RAI (Iran); Iraqi section contractor Imathia Construcción (Spain)",
+      "status": "under construction",
+      "capacity_or_traffic": "Primarily passenger/pilgrim traffic (Arbaeen); freight potential to Iran and beyond",
+      "projects": "Agreement 2014, relaunched Sept 2023; Iraqi construction start end-2025 with 7 km first section; reported 70% complete (Sept 2026); Iran targets connection within 2026",
+      "notes": "Would give Iran rail access to Basra/Umm Qasr; sensitive geopolitically (US sanctions context); repeatedly delayed.",
+      "sources": [
+        "https://shafaq.com/en/Economy/Iraq-to-launch-36-km-Basra-Shalamcheh-railway-linking-Iran",
+        "https://en.hathalyoum.net/articles/294147",
+        "https://amwaj.media/en/article/deep-dive-will-iran-iraq-rail-ambitions-turn-into-reality",
+        "https://en.wikipedia.org/wiki/Basra%E2%80%93Shalamcheh_rail_line"
+      ]
+    },
+    {
+      "id": "iq-kirkuk-ceyhan-pipeline",
+      "name": "Kirkuk - Ceyhan (Iraq-Türkiye) crude oil pipeline",
+      "modes": ["pipeline"],
+      "route": "Kirkuk / Kurdistan fields → Fishkhabur → Ceyhan (Türkiye, Mediterranean)",
+      "countries": ["IQ", "TR"],
+      "length": "c. 960-970 km",
+      "operator": "Iraq: North Oil Company / SOMO; KRG section; Türkiye: BOTAŞ",
+      "status": "operational",
+      "capacity_or_traffic": "Nameplate c. 1.4m b/d; flows 150,000-160,000 b/d after 27 Sept 2025 restart; SOMO target 400,000-500,000 b/d in 2026; federal Kirkuk exports restarted at 250,000 b/d capacity via Saralo pumping station",
+      "projects": "Restart 27 Sept 2025 after 2.5-year shutdown (March 2023 arbitration ruling); further capacity revival after 2026 Hormuz disruption",
+      "notes": "Iraq's only non-Gulf crude outlet; key alternative during Strait of Hormuz closure (2026). Kirkuk-Baniyas (Syria) pipeline rehabilitation study MoU signed July 2026.",
+      "sources": [
+        "https://www.iraq-businessnews.com/2025/09/26/kurdistan-oil-exports-resume-after-multi-party-agreement/",
+        "https://www.pgjonline.com/news/2025/october/iraq-plans-to-double-oil-exports-through-reopened-kirkuk-ceyhan-pipeline",
+        "https://www.gem.wiki/Kirkuk-Ceyhan_Oil_Pipeline",
+        "https://www.trtworld.com/article/2a59d74606f1"
+      ]
+    },
+    {
+      "id": "iq-turkey-iraq-gulf-tir-road-corridor",
+      "name": "Türkiye - Iraq - Gulf TIR road transit corridor (incl. DP World Europe-Iraq-UAE service)",
+      "modes": ["road", "multimodal"],
+      "route": "Europe / Mersin → Ibrahim Khalil (Türkiye border) → Mosul → Baghdad → Basra → Safwan (Kuwait) or Umm Qasr; branches via Trebil (Jordan) and Arar (Saudi) to GCC",
+      "countries": ["TR", "IQ", "KW", "JO", "SA", "AE"],
+      "length": "c. 1,200-1,500 km within Iraq depending on branch",
+      "operator": "Iraqi Border Ports Authority / General Customs; IRU TIR; private carriers (DP World trucking fleet, Milton Group and others)",
+      "status": "operational",
+      "capacity_or_traffic": "TIR fully operational 1 April 2025; 7 new international transit routes and 1,000+ TIR operations by June 2026; DP World Europe-Gulf road service up to 50 trucks/week (Sept 2026), fleet growing from 700 to 1,000 trucks",
+      "projects": "Iraq joined TIR Convention March 2023; pilot Mersin-Umm Qasr runs 2025; Milton Group Poland-Iraq round trip cut transit from 24 to 10 days (June 2025); DP World in talks with Baghdad for a permanent Europe-Iraq-UAE corridor (2026)",
+      "notes": "DP World interest: overland Europe-Iraq then sea across the Gulf to UAE, developed as a Hormuz bypass. Land transport costs 3-4x sea freight per DP World.",
+      "sources": [
+        "https://www.ttnews.com/articles/dp-world-hormuz-trucking",
+        "https://www.iraqinews.com/iraq/iraq-turkey-truck-transit-tir-system/",
+        "https://en.wikipedia.org/wiki/Iraq%E2%80%93Europe_Development_Road",
+        "https://centralasiacaucasusinstitute.substack.com/p/with-the-strait-of-hormuz-blocked"
+      ]
+    },
+    {
+      "id": "iq-syria-baniyas-fuel-corridor",
+      "name": "Iraq - Syria (Al-Qaim / Rabia) road corridor and Baniyas fuel export route",
+      "modes": ["road", "pipeline"],
+      "route": "Baghdad → Al-Qaim / Albu Kamal → Deir ez-Zor → Damascus / Homs → Baniyas (Mediterranean); northern branch Mosul → Rabia → Al-Yarubiyah → Hasakah",
+      "countries": ["IQ", "SY"],
+      "length": "Al-Qaim c. 340 km from Baghdad, 450 km from Damascus",
+      "operator": "Iraqi Border Ports Authority; Syrian General Authority for Land and Maritime Border Crossings",
+      "status": "operational",
+      "capacity_or_traffic": "Al-Qaim crossing handled over USD 1bn of goods in 2024; >2m t of Iraqi petroleum products moved via Baniyas since early 2026",
+      "projects": "Al-Qaim reopened 14 June 2025; Rabia reopened April 2026; Al-Waleed (Tanf) reopening ordered Feb 2026; MoU July 2026 to study rehabilitating Kirkuk-Baniyas oil pipeline",
+      "notes": "Post-Assad normalisation and Hormuz disruption have revived Syria as Iraq's western outlet; security and banking channels remain weak.",
+      "sources": [
+        "https://www.agbi.com/trade/2025/06/iraq-and-syria-reopen-vital-border-crossing/",
+        "https://en.hathalyoum.net/articles/294347",
+        "https://english.enabbaladi.net/archives/2026/02/al-waleed-and-rabia-border/"
+      ]
+    }
+  ],
+  "border_crossings": [
+    {
+      "id": "iq-ibrahim-khalil",
+      "name": "Ibrahim Khalil / Habur",
+      "with_country": "TR",
+      "with_country_name": "Türkiye",
+      "type": "road",
+      "location": {"city": "Zakho, Duhok (KRI)", "lat": 37.1447, "lng": 42.5656},
+      "traffic": "Iraq's main land trade gateway with Türkiye (bilateral trade c. USD 15bn in 2024); cargo, civilian and military vehicles daily",
+      "status": "operational",
+      "hours": "24/7 (per Iraqi practice; not confirmed in sources)",
+      "projects": "TIR-enabled since 2025; Development Road/Fishkhabur alignment and Syria-routed convoys (May 2026) may divert traffic away from this KRG-run crossing",
+      "notes": "Managed by the Kurdistan Regional Government; major KRG revenue source. Congestion and federal-KRG customs disputes are recurring issues.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ibrahim_Khalil_border_crossing",
+        "https://www.iraqinews.com/iraq/iraq-turkey-truck-transit-tir-system/",
+        "https://www.meforum.org/mef-observer/new-turkey-iraq-trade-route-sidelines-iraqi-kurdistan"
+      ]
+    },
+    {
+      "id": "iq-fishkhabur",
+      "name": "Fishkhabur (Faysh Khabur) / Development Road border point",
+      "with_country": "TR",
+      "with_country_name": "Türkiye (and Syria tri-border)",
+      "type": "road+rail",
+      "location": {"city": "Faysh Khabur, Duhok", "lat": 37.08, "lng": 42.36},
+      "traffic": "Crude oil pipeline transit point (Kirkuk-Ceyhan); planned rail/road terminus of the Development Road",
+      "status": "planned",
+      "hours": "n/a",
+      "projects": "Mosul-Rabia-Fishkhabur rail lot (152 km) of the Development Road; new federal-controlled crossing intended to bypass the KRG-run Ibrahim Khalil",
+      "notes": "Politically contested between Baghdad and Erbil; also the ITP pipeline metering point.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Iraq%E2%80%93Europe_Development_Road",
+        "https://www.iraq-businessnews.com/2025/09/26/kurdistan-oil-exports-resume-after-multi-party-agreement/"
+      ]
+    },
+    {
+      "id": "iq-trebil-karameh",
+      "name": "Trebil / Al-Karameh",
+      "with_country": "JO",
+      "with_country_name": "Jordan",
+      "type": "road",
+      "location": {"city": "Trebil, Rutba District, Anbar", "lat": 32.747, "lng": 39.02},
+      "traffic": "Primary Iraq-Jordan crossing; main route for Aqaba-Baghdad cargo and TIR transit toward Jordan/Saudi",
+      "status": "operational",
+      "hours": "n/a",
+      "projects": "2,200 ha Iraqi-Jordanian Joint Economic City planned at the crossing (developer tender 2023, acceleration agreed May 2025)",
+      "notes": "Long desert highway through Anbar; security escorts historically required.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Trebil",
+        "https://www.iraq-businessnews.com/2023/04/18/details-of-new-economic-city-between-jordan-and-iraq/",
+        "https://www.iraqinews.com/iraq/iraq-turkey-truck-transit-tir-system/"
+      ]
+    },
+    {
+      "id": "iq-arar",
+      "name": "Arar (Jadidat Arar)",
+      "with_country": "SA",
+      "with_country_name": "Saudi Arabia",
+      "type": "road",
+      "location": {"city": "Arar / Nukhaib area, Anbar", "lat": 31.0, "lng": 41.0},
+      "traffic": "Reopened to trade November 2020 after c. 30 years; growing Saudi-Iraq commercial and pilgrim traffic; TIR route to Saudi",
+      "status": "operational",
+      "hours": "n/a",
+      "projects": "Iraq voted 24 Sept 2025 to open two further Saudi crossings (Jumaymah in Muthanna, Awayqilah); Jumaymah needs c. IQD 400bn to complete (Dec 2025)",
+      "notes": "Opening of Jumaymah has faced opposition from Iran-aligned groups.",
+      "sources": [
+        "https://www.aljazeera.com/news/2020/11/18/iraq-saudi-reopen-arar-border-crossing-after-30-years",
+        "https://www.kurdistan24.net/en/story/881173/iraq-moves-to-open-two-new-crossings-with-saudi-arabia"
+      ]
+    },
+    {
+      "id": "iq-al-qaim",
+      "name": "Al-Qaim / Albu Kamal",
+      "with_country": "SY",
+      "with_country_name": "Syria",
+      "type": "road",
+      "location": {"city": "Al-Qaim, Anbar", "lat": 34.42, "lng": 40.96},
+      "traffic": "Over USD 1bn of goods handled in 2024; passenger and freight both directions",
+      "status": "operational",
+      "hours": "n/a",
+      "projects": "Reopened 14 June 2025 after six-month closure during the fall of the Assad government; adjacent Al-Qaim Free Zone phase 2 planned",
+      "notes": "Closed 2011-2019 and again Dec 2024-Jun 2025; security context (militias, border strikes) remains a risk factor.",
+      "sources": [
+        "https://www.agbi.com/trade/2025/06/iraq-and-syria-reopen-vital-border-crossing/",
+        "https://www.meed.com/economic-zones-in-iraq/"
+      ]
+    },
+    {
+      "id": "iq-rabia",
+      "name": "Rabia / Al-Yarubiyah",
+      "with_country": "SY",
+      "with_country_name": "Syria",
+      "type": "road",
+      "location": {"city": "Rabia, Nineveh", "lat": 36.80, "lng": 42.10},
+      "traffic": "Reopened to commercial traffic April 2026 after c. 13 years (humanitarian-only since 2013)",
+      "status": "operational",
+      "hours": "n/a",
+      "projects": "On the Mosul-Rabia-Fishkhabur Development Road rail lot; came under Damascus control after the Jan 2026 SDF-government agreement",
+      "notes": "Historic rail crossing point of the Baghdad Railway toward Syria/Türkiye.",
+      "sources": [
+        "https://en.hathalyoum.net/articles/294347",
+        "https://english.enabbaladi.net/archives/2026/02/al-waleed-and-rabia-border/"
+      ]
+    },
+    {
+      "id": "iq-shalamcheh",
+      "name": "Shalamcheh",
+      "with_country": "IR",
+      "with_country_name": "Iran",
+      "type": "road",
+      "location": {"city": "Basra (east of Basra city)", "lat": 30.50, "lng": 48.067},
+      "traffic": "One of the two busiest Iran-Iraq crossings (with Chazabeh); c. 2 million Arbaeen pilgrims via Shalamcheh and Chazabeh (Sept 2022); major import route for Iranian goods to southern Iraq",
+      "status": "operational",
+      "hours": "n/a",
+      "projects": "Basra-Shalamcheh railway under construction (70% reported Sept 2026), plus planned free-trade zone and industrial centre at the crossing",
+      "notes": "Will become Iraq's first rail crossing with Iran; US sanctions exposure for operators.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Shalamcheh",
+        "https://en.hathalyoum.net/articles/294147",
+        "https://amwaj.media/en/article/deep-dive-will-iran-iraq-rail-ambitions-turn-into-reality"
+      ]
+    },
+    {
+      "id": "iq-safwan-abdali",
+      "name": "Safwan / Abdali",
+      "with_country": "KW",
+      "with_country_name": "Kuwait",
+      "type": "road",
+      "location": {"city": "Safwan, Basra", "lat": 30.117, "lng": 47.717},
+      "traffic": "Main Iraq-Kuwait land crossing; TIR transit exit toward Kuwait and GCC; 20 km from Basra Logistics City",
+      "status": "operational",
+      "hours": "n/a",
+      "projects": "Named as a TIR corridor node in 2025 Türkiye-Iraq-Gulf transit scheme",
+      "notes": "Close to Umm Qasr; Iraq-Kuwait tensions over Khor Abdullah navigation agreement (2023 Iraqi court ruling) affect port and border climate.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Safwan,_Iraq",
+        "https://www.iraqinews.com/iraq/iraq-turkey-truck-transit-tir-system/",
+        "https://www.prnewswire.co.uk/news-releases/kufan-group-and-northern-gulf-partners-launch-transformative-logistics-and-business-investment-in-iraq-156254475.html"
+      ]
+    }
+  ]
+}

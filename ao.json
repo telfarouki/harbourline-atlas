@@ -1,0 +1,513 @@
+{
+  "country": {
+    "code": "AO",
+    "name": "Angola",
+    "region": "Southern Africa",
+    "capital": "Luanda",
+    "coastline": "Atlantic (approx. 1,600 km, including the Cabinda exclave)",
+    "summary": "Angola is Sub-Saharan Africa's second-largest oil producer and is repositioning itself as the Atlantic gateway for the DRC and Zambian Copperbelt via the Lobito Corridor. Luanda handles the bulk of national imports (about 12.5–12.7 million tonnes in Jan–Sep of both 2024 and 2025, roughly 340,000 containers in Jan–Sep 2024) through three main terminals run by Sogester (APM Terminals/Maersk), DP World and an AD Ports Group–Unicargas–Multiparques joint venture. Lobito is the growth story: the Benguela railway is now operated by the Trafigura–Mota-Engil–Vecturis Lobito Atlantic Railway concession (2023, 30 years, USD 753m DFC/DBSA financing closed Dec 2025), AGL/MSC operates the container terminal and a greenfield Zambia–Lobito rail line (about 830 km, USD 5bn) is being structured by AFC with AfDB, DFC, EU and Italian backing. Other headline projects are the Japanese-financed Namibe/Sacomar port expansion completed in Oct 2025, the USD 831m Caio deep-water port in Cabinda (about 79% complete, Sept 2026) and the USD 900m private Barra do Dande port and free zone north of Luanda (2026).",
+    "key_operators": ["DP World", "AD Ports Group (Noatum)", "APM Terminals / Maersk (Sogester)", "AGL / MSC", "Lobito Atlantic Railway (Trafigura, Mota-Engil, Vecturis)", "Unicargas", "Multiparques", "CITIC / Shandong Port Group", "Porto de Luanda EP", "Porto do Lobito EP"],
+    "sources": [
+      "https://www.portoluanda.co.ao/porto-de-luanda-cresce-23-no-trafego-de-navios-e-reforca-movimentacao-de-cargas-ate-setembro-de-2025/",
+      "https://www.dpworld.com/news/releases/dp-world-signs-20-year-concession-agreement-with-angola/",
+      "https://www.trafigura.com/news-and-insights/press-releases/2023/concession-for-railway-services-transferred-to-lobito-atlantic-railway-in-angola/",
+      "https://www.railway.supply/lobito-atlantic-railway-upgrade-financing-closes-at-753m/",
+      "https://furtherafrica.com/2026/04/30/lobito-rail-corridor-gets-afc-afdb-backing/",
+      "https://www.toa-const.co.jp/eng/corp_overview/release/2025/251014.html",
+      "https://allafrica.com/stories/202609090719.html",
+      "https://furtherafrica.com/2026/07/22/angola-secures-900m-barra-do-dande-port-and-free-zone-investment/"
+    ]
+  },
+  "ports": [
+    {
+      "id": "ao-luanda",
+      "name": "Port of Luanda",
+      "type": "multipurpose",
+      "location": {"city": "Luanda", "lat": -8.795, "lng": 13.235},
+      "operator": "Porto de Luanda EP (port authority); terminals: Sogester (APM Terminals 51% / Gestor de Fundos Angola) container terminal; DP World Luanda multipurpose terminal; AD Ports Group–Unicargas–Multiparques multipurpose terminal (operated by Noatum); Angola LNG and PetroAngola liquid terminals",
+      "concession": "DP World: 20-year concession for the Multipurpose Terminal signed 25 Jan 2021 (USD 190m investment commitment). AD Ports Group: 20-year concession (+10-year option) for the second multipurpose terminal signed 23 Apr 2024, 81% JV with Unicargas and Multiparques, operations started Jan 2025. Sogester container terminal: APM Terminals-led JV (concession since 2005).",
+      "capacity": "12+ principal berths; drafts 12.5 m (containers), 13.5 m (bulk), 19.3 m (tanker berth). DP World MPT: 610 m quay, 12.5 m depth, 23 ha, target c. 700,000 TEU/yr. Sogester terminal: c. 800,000 TEU/yr. AD Ports terminal: 192,000 m2, draft to be deepened 9.5 to 16 m, capacity to rise from 25,000 to 350,000 TEU plus 40,000 vehicles by Q3 2026.",
+      "throughput": "12.7 million tonnes and 293,949 containers in Jan–Sep 2025 (vs 12.5 million tonnes and 341,886 containers in Jan–Sep 2024; containers -14%); 4,059 vessel calls Jan–Sep 2025 (+23%). Full-year 2023: c. 625,000 TEU.",
+      "status": "operational",
+      "opened": "1576 (modern port developed from 1940s)",
+      "projects": "AD Ports Group USD 251m (2024–2026, up to USD 379m over the concession) redevelopment of the ex-Unicargas/Multiparques multipurpose terminal, completion targeted Q3 2026; DP World USD 190m rehabilitation and equipment programme under its 2021 concession (new tractor fleet, terminal operating system live 2022); Sogester Luanda quay and yard upgrades (2020–2022).",
+      "notes": "DP WORLD ASSET: DP World Luanda MPT (first DP World seaport on Africa's south-west coast). Direct competitors on the same port: AD Ports Group (Abu Dhabi) since 2024/25 and APM Terminals/Maersk (Sogester). Container volumes fell in 2025 partly because AD Ports' terminal is under reconstruction with boxes diverted to Viana ICD. Rail link via CFL to Malanje; road congestion on the Luanda ring is a known constraint.",
+      "sources": [
+        "https://www.portoluanda.co.ao/porto-de-luanda-cresce-23-no-trafego-de-navios-e-reforca-movimentacao-de-cargas-ate-setembro-de-2025/",
+        "https://www.dpworld.com/news/releases/dp-world-signs-20-year-concession-agreement-with-angola/",
+        "https://www.adportsgroup.com/en/news-and-media/2024/04/23/ad-ports-group-agreement-to-operate-and-upgrade-the-multipurpose-port-terminal-in-angola",
+        "https://www.adportsgroup.com/en/news-and-media/2025/01/30/ad-ports-group-starts-port-and-logistics-operations-in-luanda-angola",
+        "https://www.apmterminals.com/en/news/news-releases/2022/220215-luanda",
+        "https://africaports.co.za/luanda/"
+      ]
+    },
+    {
+      "id": "ao-lobito",
+      "name": "Port of Lobito",
+      "type": "multipurpose",
+      "location": {"city": "Lobito", "lat": -12.345, "lng": 13.545},
+      "operator": "Porto do Lobito EP (port authority); AGL (Africa Global Logistics, MSC group) container and multipurpose terminal; mineral/bulk terminal linked to Lobito Atlantic Railway",
+      "concession": "AGL: concession for the container and multipurpose terminal signed 11 Dec 2023 after international tender (bids also from CITIC/Shandong Port Group consortium and ICTSI), investment of nearly EUR 100m, operations from Q1 2024. Term not disclosed in sources.",
+      "capacity": "Container/multipurpose terminal: 1,200 m quay, 14 m depth, 12,000 TEU storage. Tender documentation (2022) targeted 2.78 million t/yr and 100,000 TEU/yr for the terminal.",
+      "throughput": "Lobito Corridor rail traffic c. 125,000 t in 2024 (40,000 t copper); c. 200,000 t international plus 65,000 t domestic rail cargo in 2025. Port-level annual tonnage n/a.",
+      "status": "operational",
+      "opened": "1928 (rail-port terminus of the Benguela railway)",
+      "projects": "AGL EUR 100m terminal upgrade (2024–); first low-carbon refined copper cargo from Kamoa (DRC) shipped via Lobito in Feb 2026 (Trafigura/Aurubis); mineral terminal and rail yard upgrades tied to the USD 753m LAR financing (Dec 2025); Lobito refinery (200,000 bpd, Sonangol, targeted 2027) will add liquid-bulk flows.",
+      "notes": "Competitor concession: AGL/MSC. Atlantic outlet of the Lobito Corridor for DRC/Zambian copper and cobalt; deep-water, congestion-free alternative to Durban/Dar es Salaam for the Copperbelt. Dry port and free-zone development announced by the port authority.",
+      "sources": [
+        "https://maritimafrica.com/en/agl-signs-concession-contract-for-multipurpose-and-container-terminal-at-port-of-lobito-angola/",
+        "https://macaonews.org/news/lusofonia/citic-and-shandong-port-group-to-manage-cargo-terminal-at-angolas-lobito-port/",
+        "https://www.lobitoatlantic.com/about-the-project/",
+        "https://www.trafigura.com/news-and-insights/press-releases/2026/trafigura-aurubis-and-kamoa-copper-complete-first-sale-of-low-carbon-refined-copper-via-the-lobito-atlantic-railway/",
+        "https://africadosul.mirex.gov.ao/web/noticias/mais-de-125-mil-toneladas-transportadas-atraves-do-corredor-do-lobito-em-2024"
+      ]
+    },
+    {
+      "id": "ao-namibe",
+      "name": "Port of Namibe (Moçâmedes)",
+      "type": "container",
+      "location": {"city": "Moçâmedes (Namibe)", "lat": -15.19, "lng": 12.15},
+      "operator": "Empresa Portuária do Namibe EP (port authority); container terminal operated by Sogester (APM Terminals/Maersk JV)",
+      "concession": "Sogester operates the Namibe container terminal alongside Luanda (upgrades 2020–2022). Term n/a.",
+      "capacity": "After the 2022–2025 expansion the container terminal can receive vessels up to 50,000 DWT / 3,000 TEU (previously restricted by shallow quay depth).",
+      "throughput": "n/a",
+      "status": "operational",
+      "opened": "1840s (colonial port); container terminal expanded 2025",
+      "projects": "Namibe Bay Comprehensive Development Project (Toyota Tsusho / TOA Corporation, contract Jan 2019, works Sept 2022 – completed 10 Oct 2025): container-terminal expansion and dredging at Namibe plus rehabilitation of Sacomar; total c. USD 600m financed by JBIC/SMBC export credit with NEXI cover and USD 100m from DBSA.",
+      "notes": "Competitor presence: APM Terminals/Maersk (Sogester). Southern gateway intended to reduce reliance on Walvis Bay (Namibia) and to serve the Moçâmedes railway hinterland (Lubango, Menongue).",
+      "sources": [
+        "https://www.toa-const.co.jp/eng/corp_overview/release/2025/251014.html",
+        "https://www.toyota-tsusho.com/english/press/detail/251014_006705.html",
+        "https://www.dbsa.org/projects/port-namibe-project",
+        "https://www.apmterminals.com/en/news/news-releases/2020/200205-sogester-luanda-and-namibe-infrastructure-upgrades-continue"
+      ]
+    },
+    {
+      "id": "ao-sacomar",
+      "name": "Sacomar mineral terminal (Namibe Bay)",
+      "type": "bulk",
+      "location": {"city": "Moçâmedes (Namibe)", "lat": -15.21, "lng": 12.13},
+      "operator": "Empresa Portuária do Namibe EP; iron-ore export terminal for the Cassinga (Jamba) mines",
+      "concession": "n/a",
+      "capacity": "New jetty of approximately 520 m total length for iron-ore export (completed 2025).",
+      "throughput": "n/a (no exports recorded before rehabilitation)",
+      "status": "operational",
+      "opened": "1967 (rebuilt 2022–2025)",
+      "projects": "Rehabilitated 2022–2025 under the Toyota Tsusho/TOA Namibe Bay project (JBIC/NEXI/DBSA financing); designed to restart iron-ore exports from Cassinga via the Moçâmedes railway.",
+      "notes": "Dedicated mineral terminal; commercial viability depends on relaunch of Cassinga iron-ore mining.",
+      "sources": [
+        "https://www.toa-const.co.jp/eng/corp_overview/release/2025/251014.html",
+        "https://www.nexi.go.jp/en/topics/newsrelease/2019032901.html"
+      ]
+    },
+    {
+      "id": "ao-cabinda-caio",
+      "name": "Port of Cabinda / Caio deep-water terminal",
+      "type": "multipurpose",
+      "location": {"city": "Cabinda (Caio, Liambo)", "lat": -5.35, "lng": 12.17},
+      "operator": "Porto de Cabinda EP (port authority); Caio project company Caioporto SA",
+      "concession": "Caioporto SA (public-private project company) develops the Caio terminal; existing Cabinda port is a lighterage/offshore-supply facility. Terms n/a.",
+      "capacity": "Caio design capacity: 200,000 containers/yr, 6,000 vehicles, 800,000 t phosphate rock, 366,000 t urea and 60,000 t timber per year; 500 m access bridge; intelligent gate system rated 60 containers/hour.",
+      "throughput": "n/a",
+      "status": "under construction",
+      "opened": "n/a (Caio inauguration expected late 2026)",
+      "projects": "Caio deep-water port: project value over USD 831m, financed with a USD 758.7m China Eximbank buyer's credit; 79.08% physical completion in Sept 2026 (quay 96.6% complete); adjoining Caio free zone at 41.6%.",
+      "notes": "Cabinda exclave currently depends on lighterage and on road imports via Pointe-Noire (Congo); Caio will be the first deep-water berth in the province and is paired with a free zone. Fertiliser (phosphate/urea) exports from the planned Cabinda phosphate project are a design driver.",
+      "sources": [
+        "https://allafrica.com/stories/202609090719.html",
+        "https://china.aiddata.org/projects/68708/",
+        "https://cabinda.gov.ao/web/noticias/cabinda-porto-de-caio-zona-franca-vai-impulsionar-comercio-e-investimentos-criando-oportunidades-de-emprego"
+      ]
+    },
+    {
+      "id": "ao-soyo",
+      "name": "Port of Soyo (Kwanda base and Angola LNG terminal)",
+      "type": "oil & gas",
+      "location": {"city": "Soyo", "lat": -6.13, "lng": 12.37},
+      "operator": "Porto do Soyo EP (port authority); Kwanda Lda (Kwanda Island logistics base concessionaire, c. 50 companies); Angola LNG (Chevron-led) export terminal; Quinfuquena crude terminal",
+      "concession": "Kwanda Island base under concession to Kwanda Lda (established 1983); 2017 concession for a 19,100 m2 facility with a 200 m quay; Angola LNG terminal separated from the port by presidential decree in 2012.",
+      "capacity": "200 m operational quay (2017 concession); Angola LNG plant 5.2 mtpa; river/cabotage terminals on the Congo estuary.",
+      "throughput": "n/a",
+      "status": "operational",
+      "opened": "1979 (port entity); Kwanda base 1983; Angola LNG 2013",
+      "projects": "Oil & gas logistics expansion linked to the 2025 licensing round and Kwanda base upgrades; Soyo industrial zone.",
+      "notes": "Primarily an offshore-oil supply and LNG export hub for the Congo Basin blocks; not a commercial container gateway.",
+      "sources": [
+        "https://www.portodosoyo.co.ao/portodoSoyo.html",
+        "https://www.angolalng.com/operations/plant",
+        "https://energycapitalandpower.africa-newsroom.com/press/angolas-infrastructure-supports-new-concessions-ahead-of-2025-bid-round?lang=en"
+      ]
+    },
+    {
+      "id": "ao-porto-amboim",
+      "name": "Porto Amboim",
+      "type": "multipurpose",
+      "location": {"city": "Porto Amboim", "lat": -10.72, "lng": 13.76},
+      "operator": "Porto Amboim EP (port company); PAENAL offshore fabrication yard (Sonangol/SBM/DSME) adjacent",
+      "concession": "2017 project for a commercial port on 80 ha plus 30 ha dry port by Sonangol Holding and Sogester (70%) with private capital (30%); not implemented.",
+      "capacity": "Two 115 m quays (1927 and 1956); PAENAL yard with heavy-lift quay for FPSO integration.",
+      "throughput": "n/a (no commercial port activity as of 2022–2023)",
+      "status": "operational",
+      "opened": "1927",
+      "projects": "Dredging of the docks (2023 priority) to restart cabotage; government plans for a shipyard with PAENAL/Sonangol; 2017 commercial-port plan (2 to 7 berths) remains unfunded.",
+      "notes": "Mainly relevant as an oil & gas fabrication site (PAENAL) and potential cabotage node for Cuanza Sul; minimal commercial cargo.",
+      "sources": [
+        "https://furtherafrica.com/2022/12/30/angolas-amboim-port-boost-commercial-domestic-activities/",
+        "https://sheetpiling.arcelormittal.com/download-center/porto-amboim-angola-paenal-fabrication-yard"
+      ]
+    },
+    {
+      "id": "ao-barra-do-dande",
+      "name": "Barra do Dande port and ocean fuel terminal",
+      "type": "bulk",
+      "location": {"city": "Barra do Dande (Bengo)", "lat": -8.47, "lng": 13.37},
+      "operator": "Sociedade de Desenvolvimento da Barra do Dande (SDBD); Barra do Dande Ocean Terminal (PTOBD, fuel storage); commercial port sub-concession to Huatong Angola Industry and Berkshire Waterhouse Infrastructure Development",
+      "concession": "25-year renewable sub-concession (July 2026) for construction and operation of the commercial port terminal by Huatong Angola / Berkshire Waterhouse: USD 450m for the terminal plus USD 450m supporting infrastructure.",
+      "capacity": "Fuel terminal phase 1: 16 tanks, 580,000 m3 (petrol, diesel, LPG), 1,700 m jetty; phase 2 to 728,500 m3. Commercial port designed for vessels up to 80,000 t, bulk and containers.",
+      "throughput": "n/a",
+      "status": "under construction",
+      "opened": "2025 (fuel terminal phase 1, inaugurated 10 Feb 2025)",
+      "projects": "Commercial deep-water port: three phases, first operations c. 24 months after start, full operation 2029–2030 (USD 900m private investment, 2026). Fuel terminal phase 2. Earlier international tender for the new port launched by the Ministry of Transport.",
+      "notes": "Intended to decongest Luanda (40 km south) as a bulk and strategic-reserve gateway; Chinese-led investment. Watch for competing container capacity with Luanda terminals including DP World.",
+      "sources": [
+        "https://furtherafrica.com/2026/07/22/angola-secures-900m-barra-do-dande-port-and-free-zone-investment/",
+        "https://theenergyyear.com/news/first-phase-of-barra-do-dande-terminal-inaugurated-in-angola/",
+        "https://dandefreezone.co.ao/~dandefreezone/index.php?lang=en",
+        "https://www.emb-baciadocongo.org/en/new-port-of-barra-do-dande-angola-focus-of-international-public-tender/"
+      ]
+    }
+  ],
+  "zones": [
+    {
+      "id": "ao-luanda-bengo-zee",
+      "name": "Luanda-Bengo Special Economic Zone (ZEE)",
+      "type": "special economic zone",
+      "location": {"city": "Viana (Luanda)", "lat": -8.93, "lng": 13.40},
+      "authority": "ZEE Luanda-Bengo EP (state company under the Ministry of Industry and Commerce); restructured by Presidential Decree 81/21 (April 2021)",
+      "area": "4,718 ha core (Viana reserve) within a wider 8,300 ha designated area across Luanda and Bengo provinces",
+      "sectors": ["agro-processing", "manufacturing", "building materials", "pharmaceuticals", "logistics", "renewables"],
+      "incentives": "Reduced corporate income tax (reported 15%, lower for exporters), duty-free import of equipment and raw materials, one-stop investor office, 100% foreign ownership and profit repatriation under the Private Investment Law.",
+      "tenants": "Over 200 companies; 166 industrial and commercial projects in the Viana reserve (2025)",
+      "status": "operational",
+      "opened": "2009",
+      "projects": "Ongoing privatisation of state-built factories in the zone (PROPRIV); new plots and logistics platforms under the 2021 restructuring.",
+      "notes": "Largest industrial hub in Angola, c. 30 km from the Port of Luanda and adjacent to the Viana inland container depot used by Luanda terminal operators.",
+      "sources": [
+        "https://investhere.ipim.gov.mo/en/port/angola/angola_keycities/luanda/luandaindustrialandeconomic/",
+        "https://www.angolaexpert.com/en/angola-the-luanda-bengo-special-economic-zone-zee/",
+        "https://luanda.gov.ao/web/noticias/zona-econ%C3%B3mica-especial-zee-luanda-bengo"
+      ]
+    },
+    {
+      "id": "ao-viana-industrial",
+      "name": "Viana Industrial Development Hub (PDIV)",
+      "type": "industrial zone",
+      "location": {"city": "Viana (Luanda)", "lat": -8.90, "lng": 13.37},
+      "authority": "Luanda Provincial Government / Ministry of Industry (created by Resolutions 1/98 and 4/98, March 1998)",
+      "area": "2,350 ha in three zones (A, B, C), 846 lots",
+      "sectors": ["manufacturing", "logistics", "commerce", "services"],
+      "incentives": "Tax incentives and subsidies for companies installing on serviced industrial land.",
+      "tenants": "Over 500 companies",
+      "status": "operational",
+      "opened": "1998",
+      "projects": "Viana inland container depot (ICD) used by AD Ports Group/Noatum during the Luanda terminal rebuild (2024–2026); rail link via CFL Viana station.",
+      "notes": "Zone C is designated for commercial, service and residential projects; the hub is the main dry-port and warehousing cluster serving the Port of Luanda.",
+      "sources": [
+        "https://investhere.ipim.gov.mo/en/port/angola/angola_keycities/luanda/luandaindustrialandeconomic/",
+        "https://www.adportsgroup.com/en/news-and-media/2024/04/23/ad-ports-group-agreement-to-operate-and-upgrade-the-multipurpose-port-terminal-in-angola"
+      ]
+    },
+    {
+      "id": "ao-barra-do-dande-free-zone",
+      "name": "Barra do Dande Free Zone / Integrated Development Platform (DIP Angola)",
+      "type": "free zone",
+      "location": {"city": "Barra do Dande (Bengo)", "lat": -8.50, "lng": 13.40},
+      "authority": "Sociedade de Desenvolvimento da Barra do Dande (SDBD), under the Ministry of Transport",
+      "area": "n/a",
+      "sectors": ["fuel and strategic reserves", "aluminium", "manufacturing", "food storage", "logistics"],
+      "incentives": "Free-zone regime under Angola's Free Zones Law (Law 35/20); details per SDBD investment guide.",
+      "tenants": "Aluminium industrial park (operational, c. 2,000 jobs), Sino-Ord integrated industrial park (10+ plants), edible-oil refinery (target mid-2028); nine contracts for 34 plots signed May 2026",
+      "status": "under construction",
+      "opened": "2025 (first industrial units)",
+      "projects": "USD 900m Huatong Angola / Berkshire Waterhouse port and infrastructure package (July 2026); first-phase target of 21,000 jobs; full port operations 2029–2030.",
+      "notes": "Port-linked zone built around the PTOBD fuel terminal and the planned deep-water commercial port; Chinese-led industrial anchor tenants.",
+      "sources": [
+        "https://dandefreezone.co.ao/~dandefreezone/index.php?lang=en",
+        "https://furtherafrica.com/2026/07/22/angola-secures-900m-barra-do-dande-port-and-free-zone-investment/",
+        "https://www.verangola.net/va/en/052026/Construction/48941/DIP-Angola-moves-forward-nine-contracts-signed-to-install-industries-residences-and-businesses-on-34-plots-in-Barra-do-Dande.htm",
+        "https://conselhoconsultivomintrans.ao/docs/CC_15/Painel2/Adilson_Catala_DANDE_FREE_ZONE_Proposta_07062024.pdf"
+      ]
+    },
+    {
+      "id": "ao-lobito-free-zone",
+      "name": "Lobito port and corridor free zone / dry port",
+      "type": "port-linked zone",
+      "location": {"city": "Lobito", "lat": -12.37, "lng": 13.55},
+      "authority": "Porto do Lobito EP with the Ministry of Transport; Lobito Corridor Transit Facilitation Agency (Angola, DRC, Zambia)",
+      "area": "n/a",
+      "sectors": ["logistics", "mineral handling", "refining", "manufacturing"],
+      "incentives": "Free-zone regime under Law 35/20 being applied to corridor logistics platforms; transit facilitation under the tri-national corridor agreement.",
+      "tenants": "n/a",
+      "status": "planned",
+      "opened": "n/a",
+      "projects": "Dry port and logistics platform tied to the AGL terminal and LAR rail yard; Lobito refinery (200,000 bpd, Sonangol) nearby; EU Global Gateway and US DFC trade-facilitation programmes along the corridor.",
+      "notes": "Zone status remains at planning/announcement stage; Lobito Corridor Transit Facilitation Agency headquartered in Lobito.",
+      "sources": [
+        "https://international-partnerships.ec.europa.eu/policies/global-gateway/connecting-democratic-republic-congo-zambia-and-angola-global-markets-through-lobito-corridor_en",
+        "https://conselhoconsultivomintrans.ao/media/attachments/2025/09/12/tema-3_ottoniel_manuel.pdf",
+        "https://lobitorefinery.com/project/project-overview/"
+      ]
+    },
+    {
+      "id": "ao-cabinda-caio-free-zone",
+      "name": "Caio Free Zone (Cabinda)",
+      "type": "port-linked zone",
+      "location": {"city": "Cabinda (Caio)", "lat": -5.35, "lng": 12.17},
+      "authority": "Porto de Cabinda EP / Caioporto SA with the Cabinda Provincial Government",
+      "area": "n/a",
+      "sectors": ["logistics", "fertilisers", "timber", "oil & gas services", "commerce"],
+      "incentives": "Free-zone regime under Law 35/20; presented to the provincial government in April 2025.",
+      "tenants": "n/a",
+      "status": "under construction",
+      "opened": "n/a",
+      "projects": "Headland complex and free-zone works 41.6% complete (Sept 2026) as part of the USD 831m Caio port project.",
+      "notes": "Only free zone in the exclave; commercial success hinges on the Caio port opening (expected late 2026) and on cross-border trade with the two Congos.",
+      "sources": [
+        "https://cabinda.gov.ao/web/noticias/cabinda-porto-de-caio-zona-franca-vai-impulsionar-comercio-e-investimentos-criando-oportunidades-de-emprego",
+        "https://allafrica.com/stories/202609090719.html"
+      ]
+    }
+  ],
+  "corridors": [
+    {
+      "id": "ao-lobito-corridor",
+      "name": "Lobito Corridor (Benguela railway: Lobito – Huambo – Luau – Dilolo – Kolwezi)",
+      "modes": ["rail", "multimodal"],
+      "route": "Port of Lobito → Benguela → Huambo → Cuito → Luena → Luau/Dilolo (DRC border) → Kolwezi (DRC Copperbelt)",
+      "countries": ["AO", "CD", "ZM"],
+      "length": "c. 1,289–1,300 km in Angola plus c. 400 km in DRC to Kolwezi",
+      "operator": "Lobito Atlantic Railway (Trafigura, Mota-Engil, Vecturis) under a 30-year concession from 4 July 2023",
+      "status": "operational",
+      "capacity_or_traffic": "c. 125,000 t in 2024 (40,000 t copper); c. 200,000 t international plus 65,000 t domestic in 2025; planned 1,555 wagons and 35 locomotives; upgrade targets 4.6 million t/yr (tenfold increase).",
+      "projects": "USD 753m financing signed 24 Dec 2025 (US DFC USD 553m, DBSA USD 200m) for track, signalling and rolling stock; initial LAR commitment USD 455m in Angola plus up to USD 100m in DRC (2023); Mota-Engil USD 1.26bn DRC-segment (Kolwezi–Dilolo) concession; EU Global Gateway MoU (Oct 2023) with US, Italy, AfDB, AFC.",
+      "notes": "Flagship US/EU-backed critical-minerals corridor; cuts Copperbelt-to-port time versus Durban/Dar es Salaam. Angolan section formerly the CFB state railway.",
+      "sources": [
+        "https://www.trafigura.com/news-and-insights/press-releases/2023/concession-for-railway-services-transferred-to-lobito-atlantic-railway-in-angola/",
+        "https://www.railway.supply/lobito-atlantic-railway-upgrade-financing-closes-at-753m/",
+        "https://www.lobitoatlantic.com/about-the-project/",
+        "https://africadosul.mirex.gov.ao/web/noticias/mais-de-125-mil-toneladas-transportadas-atraves-do-corredor-do-lobito-em-2024",
+        "https://www.railwaysafrica.com/news/mota-engil-announces-the-signing-of-a-concession-agreement-in-the-democratic-republic-of-the-congo"
+      ]
+    },
+    {
+      "id": "ao-zambia-lobito-rail",
+      "name": "Zambia–Lobito greenfield railway (Luacano – Jimbe – Chingola)",
+      "modes": ["rail"],
+      "route": "Luacano (Moxico, on the Benguela line) → Jimbe (Zambia border) → North-Western Province → Chingola (Zambian Copperbelt)",
+      "countries": ["AO", "ZM"],
+      "length": "c. 830 km (including c. 260 km in Angola)",
+      "operator": "Africa Finance Corporation (lead developer) with Angola and Zambia governments",
+      "status": "planned",
+      "capacity_or_traffic": "Initial offtake commitments c. 1 million t/yr; up to 5 million t/yr projected by 2030.",
+      "projects": "Total project cost c. USD 5bn; commitments above USD 4bn including AFC USD 500m, AfDB USD 200m, Italy/CDP EUR 300m, plus US DFC and EU; financial close expected Q1 2027, groundbreaking late 2026/early 2027, initial completion 2027–2028.",
+      "notes": "Extends the Lobito Corridor directly into Zambia, bypassing the DRC; feasibility and design studies funded by AFC/DFC/EU since 2023.",
+      "sources": [
+        "https://furtherafrica.com/2026/04/30/lobito-rail-corridor-gets-afc-afdb-backing/",
+        "https://www.africafc.org/news-and-insights/news/africa-finance-corporation-to-lead-us-backed-development-of-the-lobito-corridor-and-zambia-lobito-rail-line",
+        "https://international-partnerships.ec.europa.eu/policies/global-gateway/connecting-democratic-republic-congo-zambia-and-angola-global-markets-through-lobito-corridor_en"
+      ]
+    },
+    {
+      "id": "ao-luanda-railway-cfl",
+      "name": "Luanda railway corridor (CFL: Luanda – Viana – N'Dalatando – Malanje)",
+      "modes": ["rail", "road"],
+      "route": "Port of Luanda → Viana (ZEE/ICD) → Dondo/Baia branch → N'Dalatando → Malanje",
+      "countries": ["AO"],
+      "length": "c. 424 km main line (Luanda–Malanje)",
+      "operator": "Caminho de Ferro de Luanda EP (CFL, state company)",
+      "status": "operational",
+      "capacity_or_traffic": "Mixed passenger and general freight (fuel, cement, containers to Viana); volumes n/a.",
+      "projects": "Track (rail) replacement programme starting 2025; activation of an 8 km spur for fuel transport; government studies for extending the line towards the DRC border (Malanje–Cuango).",
+      "notes": "Rehabilitated 2005–2010 with Chinese financing; serves the Luanda-Bengo SEZ and Viana dry port. Passenger-heavy; freight share small.",
+      "sources": [
+        "https://cflep.co.ao/",
+        "https://www.angop.ao/noticias/transporte/cfl-comeca-substituicao-de-carris-no-primeiro-semestre-deste-ano/",
+        "https://www.sapo.pt/noticias/economia/caminho-de-ferro-de-luanda-vai-ativar-oito_5c671dbb4404a905d374a8a6",
+        "http://www.embaixadadeangola.pt/caminho-de-ferro-de-luanda-tera-ligacao-com-rdc/"
+      ]
+    },
+    {
+      "id": "ao-mocamedes-railway-cfm",
+      "name": "Moçâmedes railway corridor (CFM: Namibe – Lubango – Menongue)",
+      "modes": ["rail", "road"],
+      "route": "Port of Namibe/Sacomar → Lubango → Matala → Cuvango → Menongue (branch to Cassinga/Jamba iron-ore mines)",
+      "countries": ["AO"],
+      "length": "c. 860 km line (1,003 km track)",
+      "operator": "Caminho de Ferro de Moçâmedes EP (CFM, state company)",
+      "status": "operational",
+      "capacity_or_traffic": "Designed for Cassinga iron-ore exports through Sacomar; current freight volumes n/a.",
+      "projects": "Rebuilt 2006–2015 by China Hyway Group (Cape gauge); Sacomar and Namibe port upgrades completed Oct 2025 create export capacity; long-term proposals to extend towards Namibia (Trans-Cunene) and Zambia.",
+      "notes": "Southern corridor competing with Walvis Bay (Namibia) for the Huíla/Cunene hinterland.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mo%C3%A7%C3%A2medes_Railway",
+        "https://www.toa-const.co.jp/eng/corp_overview/release/2025/251014.html"
+      ]
+    },
+    {
+      "id": "ao-luanda-dande-corridor",
+      "name": "Luanda – Barra do Dande – Caxito road/pipeline corridor",
+      "modes": ["road", "pipeline"],
+      "route": "Port of Luanda / Cacuaco refinery → EN-100 coastal road → Barra do Dande fuel terminal and free zone → Caxito",
+      "countries": ["AO"],
+      "length": "c. 50 km",
+      "operator": "Instituto Nacional de Estradas de Angola (INEA); PTOBD/SDBD for terminal pipelines",
+      "status": "under construction",
+      "capacity_or_traffic": "Fuel terminal 580,000 m3 phase 1 (2025); commercial port for 80,000 t vessels planned 2029–2030.",
+      "projects": "USD 450m supporting infrastructure (roads, utilities) under the July 2026 Huatong/Berkshire package; earlier USD 642m PTOBD terminal (2025).",
+      "notes": "Positions Barra do Dande as Luanda's overflow and strategic-reserve hub; road capacity on EN-100 north of Luanda is a bottleneck.",
+      "sources": [
+        "https://furtherafrica.com/2026/07/22/angola-secures-900m-barra-do-dande-port-and-free-zone-investment/",
+        "https://theenergyyear.com/news/first-phase-of-barra-do-dande-terminal-inaugurated-in-angola/"
+      ]
+    },
+    {
+      "id": "ao-cabinda-corridor",
+      "name": "Cabinda – Pointe-Noire / Cabinda – DRC road corridor",
+      "modes": ["road"],
+      "route": "Cabinda city / Caio port → Massabi (Congo border) → Pointe-Noire; Cabinda → Yema (DRC border) → Muanda/Boma",
+      "countries": ["AO", "CG", "CD"],
+      "length": "c. 90 km Cabinda–Massabi; c. 60 km Cabinda–Yema",
+      "operator": "INEA (roads); Angolan customs (AGT)",
+      "status": "operational",
+      "capacity_or_traffic": "Informal and small-scale formal trade; Cabinda imports consumer goods via Pointe-Noire. Volumes n/a.",
+      "projects": "Caio deep-water port and free zone (2026) intended to reverse dependence on Pointe-Noire.",
+      "notes": "Exclave logistics rely on road links through two foreign countries; customs friction reported at Massabi (2022).",
+      "sources": [
+        "https://www.africanews.com/2022/10/21/residents-of-angola-congo-border-complain-of-custom-duties/",
+        "https://allafrica.com/stories/202609090719.html"
+      ]
+    }
+  ],
+  "border_crossings": [
+    {
+      "id": "ao-luau-dilolo",
+      "name": "Luau / Dilolo",
+      "with_country": "CD",
+      "with_country_name": "Democratic Republic of the Congo",
+      "type": "road+rail",
+      "location": {"city": "Luau (Moxico Leste)", "lat": -10.70, "lng": 22.23},
+      "traffic": "Rail gateway of the Lobito Corridor: c. 125,000 t (2024) and c. 200,000 t international cargo (2025) on the LAR line; road freight limited.",
+      "status": "operational",
+      "hours": "n/a",
+      "projects": "Rail border procedures being streamlined under the Lobito Corridor Transit Facilitation Agency; DRC-side Dilolo–Kolwezi rehabilitation (Mota-Engil, USD 1.26bn).",
+      "notes": "Key chokepoint for copper/cobalt exports; customs interoperability between Angola and DRC is a stated corridor priority.",
+      "sources": [
+        "https://www.lobitoatlantic.com/about-the-project/",
+        "https://africadosul.mirex.gov.ao/web/noticias/mais-de-125-mil-toneladas-transportadas-atraves-do-corredor-do-lobito-em-2024",
+        "https://www.railwaysafrica.com/news/mota-engil-announces-the-signing-of-a-concession-agreement-in-the-democratic-republic-of-the-congo"
+      ]
+    },
+    {
+      "id": "ao-santa-clara-oshikango",
+      "name": "Santa Clara / Oshikango",
+      "with_country": "NA",
+      "with_country_name": "Namibia",
+      "type": "road",
+      "location": {"city": "Santa Clara (Cunene)", "lat": -17.38, "lng": 15.84},
+      "traffic": "Main Angola–Namibia trade gateway (fuel, consumer goods, Walvis Bay transit cargo); volumes n/a.",
+      "status": "operational",
+      "hours": "24/7 since 13 June 2024",
+      "projects": "24-hour operations launched jointly by Namibia and Angola (June 2024); Trans-Cunene corridor road upgrades.",
+      "notes": "Heavy informal trade and fuel arbitrage; Namibian side (Oshikango) has bonded warehouses serving southern Angola.",
+      "sources": [
+        "https://www.namibian.com.na/oshikango-santa-clara-border-post-launches-24-hour-operations/",
+        "https://nbcnews.na/node/105959"
+      ]
+    },
+    {
+      "id": "ao-luvo-lufu",
+      "name": "Luvo / Lufu",
+      "with_country": "CD",
+      "with_country_name": "Democratic Republic of the Congo",
+      "type": "OSBP (one-stop border post)",
+      "location": {"city": "Luvo (Zaire province)", "lat": -5.84, "lng": 14.45},
+      "traffic": "c. 50 cargo trucks/day (2026); busiest formal road crossing towards Kinshasa/Matadi.",
+      "status": "operational",
+      "hours": "n/a",
+      "projects": "New integrated border complex (38 buildings housing customs, police, immigration and phytosanitary services) opened March 2026 at a cost of AOA 583bn (c. USD 636m); planned logistics/light-processing hub.",
+      "notes": "Government has sought since 2021 to formalise large informal cross-border trade at Luvo.",
+      "sources": [
+        "https://www.ecofinagency.com/news-infrastructures/0103-53352-angola-opens-635-million-border-complex-to-facilitate-trade-with-drc",
+        "https://allafrica.com/stories/202104280798.html"
+      ]
+    },
+    {
+      "id": "ao-noqui-matadi",
+      "name": "Noqui / Matadi",
+      "with_country": "CD",
+      "with_country_name": "Democratic Republic of the Congo",
+      "type": "road",
+      "location": {"city": "Noqui (Zaire province)", "lat": -5.85, "lng": 13.43},
+      "traffic": "Secondary crossing opposite the DRC port of Matadi on the Congo River; mainly local and river-linked trade. Volumes n/a.",
+      "status": "operational",
+      "hours": "n/a",
+      "projects": "n/a",
+      "notes": "Gives northern Angola road access to Matadi port and the Matadi–Kinshasa corridor.",
+      "sources": [
+        "https://lca.logcluster.org/233-angola-noqui-border-crossing",
+        "https://bordercrossinghub.com/border-crossings-between-angola-and-democratic-republic-of-the-congo/"
+      ]
+    },
+    {
+      "id": "ao-massabi",
+      "name": "Massabi (Cabinda – Republic of the Congo)",
+      "with_country": "CG",
+      "with_country_name": "Republic of the Congo",
+      "type": "road",
+      "location": {"city": "Massabi (Cabinda)", "lat": -5.03, "lng": 12.10},
+      "traffic": "Main supply route for the Cabinda exclave from Pointe-Noire; daily small-trader traffic. Volumes n/a.",
+      "status": "operational",
+      "hours": "n/a",
+      "projects": "n/a",
+      "notes": "Residents within 10 km enjoy differentiated (duty-free non-commercial) treatment; complaints about high tariffs (2022).",
+      "sources": [
+        "https://www.africanews.com/2022/10/21/residents-of-angola-congo-border-complain-of-custom-duties/",
+        "https://ioverlander.com/places/31407-congo-cabinda-border-police-inmigration-and-customs"
+      ]
+    },
+    {
+      "id": "ao-yema",
+      "name": "Yema (Cabinda – DRC)",
+      "with_country": "CD",
+      "with_country_name": "Democratic Republic of the Congo",
+      "type": "road",
+      "location": {"city": "Yema (Cabinda)", "lat": -5.74, "lng": 12.36},
+      "traffic": "Links Cabinda to Muanda/Boma in the DRC's Kongo Central; local trade. Volumes n/a.",
+      "status": "operational",
+      "hours": "n/a",
+      "projects": "n/a",
+      "notes": "Southern land exit of the exclave; road onward to Soyo requires a Congo River crossing.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Angola%E2%80%93Democratic_Republic_of_the_Congo_border",
+        "https://bordercrossinghub.com/border-crossings-between-angola-and-democratic-republic-of-the-congo/"
+      ]
+    },
+    {
+      "id": "ao-katwitwi",
+      "name": "Katwitwi (Katuitui)",
+      "with_country": "NA",
+      "with_country_name": "Namibia",
+      "type": "road",
+      "location": {"city": "Katwitwi (Cuando Cubango)", "lat": -17.40, "lng": 18.41},
+      "traffic": "Minor crossing on the Okavango River serving Cuando Cubango province; light traffic.",
+      "status": "operational",
+      "hours": "08:00–18:00",
+      "projects": "n/a",
+      "notes": "Alternative to Santa Clara for south-eastern Angola; unpaved approaches on the Angolan side.",
+      "sources": [
+        "https://mha.gov.na/katwitwi",
+        "https://tracks4africa.co.za/listings/item/w188992/katwitwi-border-post-angolanam-08h00-18h00/"
+      ]
+    }
+  ]
+}
