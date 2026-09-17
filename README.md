@@ -7,11 +7,12 @@ Built for business-development work at a global port operator. Wave 1 (Sept 2026
 ## Layout
 
 ```
-<iso2>.json     one JSON file per country (ma.json, eg.json, …), see SCHEMA.md
-template.html   the application (HTML/CSS/JS, no dependencies)
-SCHEMA.md       data schema and research rules
-build.py        merges the country JSON files into template.html → index.html
-index.html      the built, self-contained application (this is what gets hosted)
+index.html      the application: access-request form, 6-digit e-mail code sign-in, atlas (data loaded from Supabase)
+admin.html      administration: approve/reject requests, revoke users, import country JSON files, visit log
+config.js       Supabase project URL + publishable key (public by design)
+<iso2>.json     one JSON file per country (ma.json, eg.json, …), see SCHEMA.md — imported into Supabase via admin.html
+supabase/schema.sql   database tables, functions and row-level-security policies
+template.html + build.py   legacy single-file build (access-code gate, data inlined) — kept for reference
 ```
 
 ## Build
