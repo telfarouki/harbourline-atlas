@@ -156,7 +156,7 @@
     <div class="authtabs"><button id="tabSignin" class="active">Sign in</button><button id="tabRequest">Request access</button></div>
 
     <form id="signinForm">
-      <p>Enter your registered e-mail. You will receive a 6-digit code.</p>
+      <p>Enter your registered e-mail. You will receive a sign-in code by e-mail.</p>
       <label for="email">E-mail</label>
       <input id="email" type="email" autocomplete="email" required placeholder="you@company.com">
       <button class="btn" type="submit" id="sendBtn">Send code</button>
@@ -165,8 +165,8 @@
 
     <form id="codeForm" hidden>
       <p>Code sent to <strong id="codeEmail"></strong>. It is valid for a few minutes.</p>
-      <label for="otp">6-digit code</label>
-      <input id="otp" class="code" inputmode="numeric" pattern="[0-9]{6}" maxlength="6" autocomplete="one-time-code" required>
+      <label for="otp">Sign-in code</label>
+      <input id="otp" class="code" inputmode="numeric" pattern="[0-9]{6,8}" maxlength="8" autocomplete="one-time-code" required>
       <button class="btn" type="submit">Open the atlas</button>
       <button class="btn ghost" type="button" id="backBtn">Use another e-mail</button>
       <div class="msg" id="codeMsg"></div>
@@ -183,7 +183,7 @@
     </form>
 
     <div id="pendingBox" hidden>
-      <p><strong>Your access is not active yet.</strong> The administrator has to approve your request before you can open the atlas. You will be able to sign in as soon as it is approved.</p>
+      <p><strong>Your access is not active yet.</strong> The administrator has to approve your request first. You will receive an e-mail with a sign-in code as soon as it is approved.</p>
       <button class="btn ghost" type="button" id="pendingBack">Back</button>
     </div>
   </div>
@@ -282,7 +282,7 @@
     const row = { full_name: $('#rName').value.trim(), organisation: $('#rOrg').value.trim(), email: $('#rEmail').value.trim().toLowerCase(), reason: $('#rReason').value.trim() };
     const { error } = await sb.from('access_requests').insert(row);
     if(error){ m.className='msg err'; m.textContent = error.message; return; }
-    m.className='msg ok'; m.textContent='Request sent. You will hear back by e-mail.'; $('#requestForm').reset();
+    m.className='msg ok'; m.textContent='Request sent. Once approved, you will receive an e-mail with your sign-in code.'; $('#requestForm').reset();
   });
 
   $('#signout').onclick = async () => { await sb.auth.signOut(); location.reload(); };
