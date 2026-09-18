@@ -290,9 +290,15 @@
   async function onSession(session){
     if(!session){ show('#auth', true); return; }
     const email = session.user.email;
+    // Re-check authorisation on every load: a revoked user is signed out immediately.
+    const { data: approved } = await sb.rpc('is_approved');
+    if(!approved){
+      await sb.auth.signOut();
+      show('#auth', true); authTab('signin'); show('#signinForm', false); show('#pendingBox', true);
+      return;
+    }
     const { data: list, error } = await sb.from('atlas_country_list').select('*');
     if(error || !list || !list.length){
-      // signed in but not approved (RLS returns nothing) — or no data yet
       show('#auth', true); authTab('signin'); show('#signinForm', false); show('#pendingBox', true);
       if(error) console.warn(error);
       return;
@@ -426,6 +432,7 @@
 
 
   // ---- boot ----
+  setInterval(async () => { const { data:{ session } } = await sb.auth.getSession(); if(!session) return; const { data: ok } = await sb.rpc('is_approved'); if(!ok){ await sb.auth.signOut(); location.reload(); } }, 5*60*1000);
   sb.auth.getSession().then(({data}) => onSession(data.session));
   sb.auth.onAuthStateChange((event, session) => { if(event==='SIGNED_IN') onSession(session); });
 })();
