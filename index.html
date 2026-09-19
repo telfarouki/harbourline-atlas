@@ -319,7 +319,7 @@
     sb.from('access_log').insert({ email, user_agent: navigator.userAgent.slice(0,200) }).then(()=>{});
     show('#auth', false);
     buildSidebar();
-    let first = LIST.map(c=>c.code).sort()[0];
+    let first = LIST.slice().sort((a,b)=>a.name.localeCompare(b.name,'en',{sensitivity:'base'}))[0].code;
     try{ const s = localStorage.getItem('hl-atlas-country'); if(s && LIST.some(c=>c.code===s)) first = s; }catch(e){}
     selectCountry(first);
   }
@@ -329,15 +329,10 @@
     const byRegion = {};
     LIST.forEach(c => { (byRegion[c.region] = byRegion[c.region]||[]).push(c); });
     let html = ''; let opts = ''; let total = 0;
-    REGION_ORDER.forEach(r => {
-      const have = (byRegion[r]||[]).sort((a,b)=>a.name.localeCompare(b.name));
-      if(!have.length) return;
-      html += `<h3>${esc(r)}</h3>`;
-      have.forEach(c => {
-        const n = c.ports + c.zones + c.corridors + c.border_crossings; total += n;
-        html += `<button class="cbtn" data-code="${c.code}"><span>${esc(c.name)}</span><span class="n">${n}</span></button>`;
-        opts += `<option value="${c.code}">${esc(c.name)}</option>`;
-      });
+    LIST.slice().sort((a,b)=>a.name.localeCompare(b.name,'en',{sensitivity:'base'})).forEach(c => {
+      const n = c.ports + c.zones + c.corridors + c.border_crossings; total += n;
+      html += `<button class="cbtn" data-code="${c.code}" title="${esc(c.region)}"><span>${esc(c.name)}</span><span class="n">${n}</span></button>`;
+      opts += `<option value="${c.code}">${esc(c.name)}</option>`;
     });
     const soonAll = REGION_ORDER.flatMap(r => (SOON[r]||[]).filter(n => !(byRegion[r]||[]).some(c=>c.name===n)));
     if(soonAll.length) html += `<h3>Coming in later waves · ${soonAll.length}</h3><div class="soonlist">${soonAll.map(n=>`<span class="chip">${esc(n)}</span>`).join('')}</div>`;
