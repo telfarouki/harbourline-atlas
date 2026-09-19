@@ -239,7 +239,7 @@
     {key:'border_crossings', label:'Border crossings'}
   ];
   const REGION_ORDER = ['North Africa','West Africa','Central Africa','East Africa','Southern Africa','Gulf','Levant'];
-  const SOON = {"Southern Africa":["Lesotho","Comoros","Seychelles"],"Gulf":["Bahrain","Yemen","Iran"],"Levant":["Israel","Palestine","Türkiye"]};
+  const SOON = {};
 
   const $ = s => document.querySelector(s);
   const esc = s => String(s==null?'':s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -340,7 +340,7 @@
       });
     });
     const soonAll = REGION_ORDER.flatMap(r => (SOON[r]||[]).filter(n => !(byRegion[r]||[]).some(c=>c.name===n)));
-    html += `<h3>Coming in later waves · ${soonAll.length}</h3><div class="soonlist">${soonAll.map(n=>`<span class="chip">${esc(n)}</span>`).join('')}</div>`;
+    if(soonAll.length) html += `<h3>Coming in later waves · ${soonAll.length}</h3><div class="soonlist">${soonAll.map(n=>`<span class="chip">${esc(n)}</span>`).join('')}</div>`;
     $('#clist').innerHTML = html;
     $('#msel').innerHTML = opts;
     $('#meta').textContent = `${LIST.length} countries · ${total} infrastructures`;
